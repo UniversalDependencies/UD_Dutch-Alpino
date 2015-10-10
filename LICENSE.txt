@@ -1,0 +1,2 @@
+GNU GENERAL PUBLIC LICENSE
+http://www.gnu.org/licenses/gpl.html
