@@ -7,6 +7,9 @@
   <size>
     <total><sentences>13735</sentences><tokens>200654</tokens><words>200654</words><fused>0</fused></total>
   </size>
+  <lemmas unique="21227" /><!-- de, ., ,, van, het, ben, een, in, en, ?, dat, heb, ", word, te -->
+  <forms unique="27879" /><!-- de, ., ,, van, het, een, in, en, ?, is, dat, ", te, op, zijn -->
+  <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
     <tag name="ADJ">12854</tag><!-- groot, goed, eerste, nieuw, Nederlands, lang, tweede, belangrijk, klein, vorig -->
