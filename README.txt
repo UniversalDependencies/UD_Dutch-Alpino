@@ -26,7 +26,7 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
 
 === Machine-readable metadata =================================================
 Documentation status: stub
-Data source: automatic conversion
+Data source: automatic
 Data available since: UD v1.2
 License: GPL
 ===============================================================================
