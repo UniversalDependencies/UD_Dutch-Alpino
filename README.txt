@@ -30,4 +30,5 @@ Data source: automatic
 Data available since: UD v1.2
 License: GPL
 Genre: news
+Contributors: Zeman, Daniel; Žabokrtský, Zdeněk
 ===============================================================================
