@@ -99,7 +99,7 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="31">
-    <dep name="acl">3916</dep>
+    <dep name="acl">3915</dep>
     <dep name="advcl">2009</dep>
     <dep name="advmod">13634</dep>
     <dep name="amod">7387</dep>
@@ -107,26 +107,26 @@
     <dep name="aux">10135</dep>
     <dep name="case">20981</dep>
     <dep name="cc">4260</dep>
-    <dep name="ccomp">98</dep>
+    <dep name="ccomp">156</dep>
     <dep name="compound">3868</dep>
     <dep name="compound:prt">1933</dep>
     <dep name="conj">4837</dep>
-    <dep name="cop">3869</dep>
+    <dep name="cop">3811</dep>
     <dep name="csubj">602</dep>
     <dep name="dep">1584</dep>
     <dep name="det">21263</dep>
     <dep name="det:nummod">410</dep>
-    <dep name="dobj">11493</dep>
+    <dep name="dobj">11490</dep>
     <dep name="expl">460</dep>
-    <dep name="iobj">29</dep>
-    <dep name="mark">10288</dep>
+    <dep name="iobj">32</dep>
+    <dep name="mark">10289</dep>
     <dep name="mwe">90</dep>
     <dep name="name">4517</dep>
     <dep name="neg">1122</dep>
     <dep name="nmod">23986</dep>
-    <dep name="nsubj">14909</dep>
+    <dep name="nsubj">14908</dep>
     <dep name="nummod">1967</dep>
-    <dep name="parataxis">1206</dep>
+    <dep name="parataxis">1207</dep>
     <dep name="punct">22338</dep>
     <dep name="root">13735</dep>
     <dep name="xcomp">137</dep>

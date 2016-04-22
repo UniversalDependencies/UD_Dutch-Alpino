@@ -2601,13 +2601,13 @@
 # orig_file_sentence 002#45
 1	Een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	3	det	_	_
 2	dragende	draag	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	3	acl	_	_
-3	factor	factor	NOUN	N|soort|ev|neut	Number=Sing	9	nsubj	_	_
+3	factor	factor	NOUN	N|soort|ev|neut	Number=Sing	7	nsubj	_	_
 4	in	in	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
 6	JGZ	JGZ	NOUN	N|soort|ev|neut	Number=Sing	3	nmod	_	_
-7	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	9	cop	_	_
+7	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 8	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	9	nmod	_	_
-9	basistakenpakket	basis_takenpakket	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	basistakenpakket	basis_takenpakket	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	9	punct	_	_
 11	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	13	mark	_	_
 12	wezenlijk	wezenlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
@@ -2621,7 +2621,7 @@
 20	van	van	ADP	Prep|voor	AdpType=Prep	22	case	_	_
 21	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	22	det	_	_
 22	JGZ	JGZ	NOUN	N|soort|ev|neut	Number=Sing	19	nmod	_	_
-23	.	.	PUNCT	Punc|punt	PunctType=Peri	9	punct	_	_
+23	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id nl-s46
 # orig_file_sentence 002#46
