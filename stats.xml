@@ -15,7 +15,7 @@
     <tag name="ADJ">12878</tag><!-- groot, goed, eerste, nieuw, Nederlands, lang, tweede, belangrijk, klein, vorig -->
     <tag name="ADP">23678</tag><!-- van, in, te, op, voor, met, aan, door, bij, naar -->
     <tag name="ADV">14034</tag><!-- niet, er, ook, hoe, nog, wel, zo, waar, al, nu -->
-    <tag name="AUX">15876</tag><!-- ben, word, heb, kom, ga, kan, moet, zal, neem, maak -->
+    <tag name="AUX">11430</tag><!-- ben, word, heb, blijf, heet, kom, neem, blijk, houd, lijk -->
     <tag name="CONJ">4321</tag><!-- en, maar, of, want, zowel, als, doch, noch, alsmede, o -->
     <tag name="DET">21850</tag><!-- de, een, het, veel, meer, der, weinig, meest, minder, zoveel -->
     <tag name="INTJ">93</tag><!-- nee, ja, Cryptogram, hoor, uh, hè, kijk, nietwaar, och, welnu -->
@@ -26,7 +26,7 @@
     <tag name="PUNCT">22385</tag><!-- ., ,, ?, ", (, ), :, ', !, ; -->
     <tag name="SCONJ">4080</tag><!-- dat, als, om, dan, omdat, toen, of, wanneer, zoals, terwijl -->
     <tag name="SYM">345</tag><!-- -, =, /, x -->
-    <tag name="VERB">15666</tag><!-- heb, zal, kan, kom, moet, ga, wil, zeg, sta, noem -->
+    <tag name="VERB">20112</tag><!-- zal, heb, kan, kom, moet, ga, wil, zeg, maak, doe -->
     <tag name="X">4635</tag><!-- van, het, op, flo, voor, met, ten, aan, een, onder -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -94,41 +94,41 @@
     <feat name="VerbForm" value="Fin" upos="AUX,VERB,X">19182</feat><!-- is, heeft, was, zijn, werd, wordt, hebben, zal, kan, zou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB,X">5947</feat><!-- worden, zijn, kunnen, gaan, komen, hebben, maken, moeten, zien, doen -->
     <feat name="VerbForm" value="Part" upos="AUX,PUNCT,VERB,X">6605</feat><!-- geweest, gemaakt, gehouden, genoemd, genomen, gedaan, afgelopen, gezien, gegeven, gekomen -->
-    <feat name="VerbType" value="Aux,Cop" upos="AUX,X">5746</feat><!-- is, was, werd, zijn, wordt, worden, waren, werden, ben, heet -->
-    <feat name="VerbType" value="Mod" upos="VERB,X">3925</feat><!-- heeft, zal, hebben, kan, zou, moet, had, heb, wil, kunnen -->
+    <feat name="VerbType" value="Aux,Cop" upos="AUX,X">6811</feat><!-- is, was, zijn, worden, werd, wordt, waren, werden, ben, heet -->
+    <feat name="VerbType" value="Mod" upos="VERB,X">3730</feat><!-- zal, zou, kan, kunnen, moet, heeft, wil, moeten, zullen, willen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="31">
-    <dep name="acl">3915</dep>
-    <dep name="advcl">2009</dep>
-    <dep name="advmod">13634</dep>
-    <dep name="amod">7387</dep>
-    <dep name="appos">2348</dep>
-    <dep name="aux">10135</dep>
-    <dep name="case">20981</dep>
-    <dep name="cc">4260</dep>
-    <dep name="ccomp">156</dep>
+    <dep name="acl">3432</dep>
+    <dep name="advcl">1721</dep>
+    <dep name="advmod">13919</dep>
+    <dep name="amod">7385</dep>
+    <dep name="appos">2345</dep>
+    <dep name="aux">4633</dep>
+    <dep name="case">20878</dep>
+    <dep name="cc">4259</dep>
+    <dep name="ccomp">1429</dep>
     <dep name="compound">3868</dep>
     <dep name="compound:prt">1933</dep>
     <dep name="conj">4837</dep>
-    <dep name="cop">3811</dep>
-    <dep name="csubj">602</dep>
+    <dep name="cop">3816</dep>
+    <dep name="csubj">552</dep>
     <dep name="dep">1584</dep>
     <dep name="det">21263</dep>
     <dep name="det:nummod">410</dep>
-    <dep name="dobj">11490</dep>
+    <dep name="dobj">13727</dep>
     <dep name="expl">460</dep>
-    <dep name="iobj">32</dep>
-    <dep name="mark">10289</dep>
+    <dep name="iobj">574</dep>
+    <dep name="mark">7853</dep>
     <dep name="mwe">90</dep>
     <dep name="name">4517</dep>
-    <dep name="neg">1122</dep>
-    <dep name="nmod">23986</dep>
-    <dep name="nsubj">14908</dep>
+    <dep name="neg">1123</dep>
+    <dep name="nmod">24015</dep>
+    <dep name="nsubj">14958</dep>
     <dep name="nummod">1967</dep>
-    <dep name="parataxis">1207</dep>
+    <dep name="parataxis">1216</dep>
     <dep name="punct">22338</dep>
     <dep name="root">13735</dep>
-    <dep name="xcomp">137</dep>
+    <dep name="xcomp">4574</dep>
   </deps>
 </treebank>

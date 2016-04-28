@@ -18,7 +18,7 @@
 9	lokale	lokaal	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	10	amod	_	_
 10	gezondheidsbeleid	gezondheid_beleid	NOUN	N|soort|ev|neut	Number=Sing	12	dobj	_	_
 11	kunnen	kan	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	3	advcl	_	_
-12	toespitsen	spits_toe	AUX	V|refl|inf	Reflex=Yes|VerbForm=Inf	11	aux	_	_
+12	toespitsen	spits_toe	VERB	V|refl|inf	Reflex=Yes|VerbForm=Inf	11	xcomp	_	_
 13	op	op	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 14	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	16	det	_	_
 15	specifieke	specifiek	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	16	amod	_	_
@@ -39,9 +39,9 @@
 # orig_file_sentence 001#3
 1	Ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	5	advmod	_	_
 2	kunnen	kan	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
-3	gemeenten	gemeente	NOUN	N|soort|mv|neut	Number=Plur	5	nsubj	_	_
+3	gemeenten	gemeente	NOUN	N|soort|mv|neut	Number=Plur	2	nsubj	_	_
 4	rekening	rekening	NOUN	N|soort|ev|neut	Number=Sing	5	dobj	_	_
-5	houden	houd	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	aux	_	_
+5	houden	houd	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	xcomp	_	_
 6	met	met	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	8	det	_	_
 8	aanbod	aanbod	NOUN	N|soort|ev|neut	Number=Sing	5	dobj	_	_
@@ -70,14 +70,14 @@
 10	goede	goed	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	amod	_	_
 11	afstemming	afstemming	NOUN	N|soort|ev|neut	Number=Sing	8	dobj	_	_
 12	en	en	CONJ	Conj|neven	_	8	cc	_	_
-13	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	17	mark	_	_
+13	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	17	iobj	_	_
 14	overlap	overlap	NOUN	N|soort|ev|neut	Number=Sing	17	nsubj	_	_
 15	en	en	CONJ	Conj|neven	_	14	cc	_	_
 16	hiaten	hiaat	NOUN	N|soort|mv|neut	Number=Plur	14	conj	_	_
 17	worden	word	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	8	conj	_	_
-18	opgelost	los_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	_
+18	opgelost	los_op	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	17	ccomp	_	_
 19	of	of	CONJ	Conj|neven	_	18	cc	_	_
-20	voorkomen	voorkom	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	18	conj	_	_
+20	voorkomen	voorkom	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	18	conj	_	_
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id nl-s5
@@ -120,10 +120,10 @@
 11	om	om	SCONJ	Conj|onder|metinf	_	14	advmod	_	_
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	13	det	_	_
 13	tafel	tafel	NOUN	N|soort|ev|neut	Number=Sing	11	dobj	_	_
-14	zitten	zit	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	4	aux	_	_
+14	zitten	zit	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	4	xcomp	_	_
 15	en	en	CONJ	Conj|neven	_	14	cc	_	_
 16	maatregelen	maatregel	NOUN	N|soort|mv|neut	Number=Plur	17	dobj	_	_
-17	nemen	neem	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	14	conj	_	_
+17	nemen	neem	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	14	conj	_	_
 18	,	,	PUNCT	Punc|komma	PunctType=Comm	4	punct	_	_
 19	bijvoorbeeld	bijvoorbeeld	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	4	dep	_	_
 20	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	21	det	_	_
@@ -171,7 +171,7 @@
 14	op	op	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 15	dezelfde	dezelfde	PRON	Pron|aanw|neut|attr	PronType=Dem	16	nmod	_	_
 16	wijze	wijze	NOUN	N|soort|ev|neut	Number=Sing	18	nmod	_	_
-17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	7	aux	_	_
+17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	7	xcomp	_	_
 18	aangeboden	bied_aan	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	_
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
@@ -186,7 +186,7 @@
 7	komen	kom	AUX	V|intrans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Intr|Tense=Pres|VerbForm=Fin	2	aux	_	_
 8	voor	voor	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 9	kinderen	kind	NOUN	N|soort|mv|neut	Number=Plur	6	nmod	_	_
-10	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	14	mark	_	_
+10	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	14	dobj	_	_
 11	tot	tot	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 12	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
 13	risicogroep	risico_groep	NOUN	N|soort|ev|neut	Number=Sing	14	dobj	_	_
@@ -236,7 +236,7 @@
 18	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	20	det	_	_
 19	bepaalde	bepaald	PRON	Pron|onbep|neut|attr	PronType=Ind	20	nmod	_	_
 20	zorgbehoefte	zorg_behoefte	NOUN	N|soort|ev|neut	Number=Sing	21	dobj	_	_
-21	heeft	heb	AUX	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	10	aux	_	_
+21	heeft	heb	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
 22	en	en	CONJ	Conj|neven	_	21	cc	_	_
 23	of	of	CONJ	Conj|neven	_	35	mark	_	_
 24	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	25	det	_	_
@@ -250,7 +250,7 @@
 32	en	en	CONJ	Conj|neven	_	31	cc	_	_
 33	andere	ander	PRON	Pron|onbep|neut|attr	PronType=Ind	34	nmod	_	_
 34	maatregelen	maatregel	NOUN	N|soort|mv|neut	Number=Plur	31	conj	_	_
-35	vraagt	vraag	AUX	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	21	conj	_	_
+35	vraagt	vraag	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	21	conj	_	_
 36	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
 
 # sent_id nl-s12
@@ -280,13 +280,13 @@
 5	JGZ	JGZ	PROPN	N|eigen|ev|neut	Number=Sing	2	nmod	_	_
 6	zullen	zal	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 7	concreet	concreet	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	advmod	_	_
-8	gaan	ga	AUX	V|hulp|inf	VerbForm=Inf	6	aux	_	_
-9	ervaren	ervaar	AUX	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	6	aux	_	_
+8	gaan	ga	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	6	xcomp	_	_
+9	ervaren	ervaar	AUX	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	8	aux	_	_
 10	dat	dat	SCONJ	Conj|onder|metfin	_	14	mark	_	_
 11	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	12	det	_	_
 12	gemeente	gemeente	NOUN	N|soort|ev|neut	Number=Sing	14	nsubj	_	_
 13	invloed	invloed	NOUN	N|soort|ev|neut	Number=Sing	14	dobj	_	_
-14	heeft	heb	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+14	heeft	heb	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	9	ccomp	_	_
 15	op	op	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 16	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	17	det	_	_
 17	maatwerkdeel	maatwerk_deel	NOUN	N|soort|ev|neut	Number=Sing	13	nmod	_	_
@@ -311,8 +311,8 @@
 11	dit	dit	PRON	Pron|aanw|neut|zelfst	PronType=Dem	14	nsubj	_	_
 12	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
 13	duidelijke	duidelijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	14	amod	_	_
-14	verandering	verandering	NOUN	N|soort|ev|neut	Number=Sing	10	aux	_	_
-15	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	14	cop	_	_
+14	verandering	verandering	NOUN	N|soort|ev|neut	Number=Sing	10	xcomp	_	_
+15	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	14	cop	_	_
 16	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
 
 # sent_id nl-s16
@@ -321,10 +321,10 @@
 2	gemeente	gemeente	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
 3	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 4	beleid	beleid	NOUN	N|soort|ev|neut	Number=Sing	5	dobj	_	_
-5	vaststellen	stel_vast	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	3	aux	_	_
+5	vaststellen	stel_vast	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	3	xcomp	_	_
 6	en	en	CONJ	Conj|neven	_	5	cc	_	_
 7	maatregelen	maatregel	NOUN	N|soort|mv|neut	Number=Plur	8	dobj	_	_
-8	nemen	neem	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	5	conj	_	_
+8	nemen	neem	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	5	conj	_	_
 9	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id nl-s17
@@ -332,12 +332,12 @@
 1	Vanzelfsprekend	vanzelfsprekend	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	advmod	_	_
 2	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
-4	gemeente	gemeente	NOUN	N|soort|ev|neut	Number=Sing	9	nsubj	_	_
+4	gemeente	gemeente	NOUN	N|soort|ev|neut	Number=Sing	2	nsubj	_	_
 5	daarbij	daarbij	ADV	Adv|pron|aanw	PronType=Dem	9	advmod	_	_
 6	zo	zo	ADV	Adv|gew|aanw	PronType=Dem	7	advmod	_	_
 7	veel	veel	PRON	Num	Degree=Pos|NumType=Card|PronType=Ind	9	advmod	_	_
 8	mogelijk	mogelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
-9	samenwerken	werk_samen	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	2	aux	_	_
+9	samenwerken	werk_samen	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	2	xcomp	_	_
 10	met	met	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 11	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	12	det	_	_
 12	uitvoerders	uitvoerder	NOUN	N|soort|mv|neut	Number=Plur	9	dobj	_	_
@@ -360,18 +360,18 @@
 1	Bovendien	bovendien	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
 2	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
-4	gemeente	gemeente	NOUN	N|soort|ev|neut	Number=Sing	10	nsubj	_	_
+4	gemeente	gemeente	NOUN	N|soort|ev|neut	Number=Sing	2	nsubj	_	_
 5	alleen	alleen	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
 6	samen	samen	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	2	advmod	_	_
 7	met	met	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	9	det	_	_
 9	veld	veld	NOUN	N|soort|ev|neut	Number=Sing	6	nmod	_	_
-10	bepalen	bepaal	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	aux	_	_
+10	bepalen	bepaal	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	xcomp	_	_
 11	welke	welk	PRON	Pron|vrag|neut|zelfst	PronType=Int	10	nmod	_	_
 12	maatregelen	maatregel	NOUN	N|soort|mv|neut	Number=Plur	11	mark	_	_
-13	moeten	moet	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	11	aux	_	_
-14	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	11	aux	_	_
-15	genomen	neem	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	aux	_	_
+13	moeten	moet	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	11	ccomp	_	_
+14	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	13	xcomp	_	_
+15	genomen	neem	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	13	aux	_	_
 16	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s19
@@ -383,7 +383,7 @@
 5	van	van	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 6	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	7	det	_	_
 7	Basistakenpakket	Basistakenpakket	PROPN	N|eigen|ev|neut	Number=Sing	4	nmod	_	_
-8	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	28	mark	_	_
+8	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	28	dobj	_	_
 9	zorgverleners	zorgverleners	NOUN	N|soort|mv|neut	Number=Plur	28	nsubj	_	_
 10	in	in	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 11	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	12	det	_	_
@@ -403,13 +403,13 @@
 25	samenwerking	samenwerking	NOUN	N|soort|ev|neut	Number=Sing	21	dobj	_	_
 26	en	en	CONJ	Conj|neven	_	25	cc	_	_
 27	overleg	overleg	NOUN	N|soort|ev|neut	Number=Sing	25	conj	_	_
-28	moeten	moet	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	aux	_	_
-29	ontwikkelen	ontwikkel	AUX	V|refl|inf	Reflex=Yes|VerbForm=Inf	2	aux	_	_
+28	moeten	moet	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	ccomp	_	_
+29	ontwikkelen	ontwikkel	VERB	V|refl|inf	Reflex=Yes|VerbForm=Inf	28	xcomp	_	_
 30	en	en	CONJ	Conj|neven	_	28	cc	_	_
 31	zich	zich	PRON	Pron|ref|3|evofmv	Number=Plur,Sing|Person=3|PronType=Prs|Reflex=Yes	34	dobj	_	_
 32	verder	ver	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	34	advmod	_	_
-33	moeten	moet	AUX	V|hulp|inf	VerbForm=Inf	28	conj	_	_
-34	professionaliseren	professionaliseer	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	28	aux	_	_
+33	moeten	moet	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	28	conj	_	_
+34	professionaliseren	professionaliseer	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	33	xcomp	_	_
 35	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s20
@@ -425,7 +425,7 @@
 9	nu	nu	ADV	Adv|gew|aanw	PronType=Dem	4	advmod	_	_
 10	toe	toe	ADP	Prep|comb	AdpType=Circ	8	mwe	_	_
 11	gaan	ga	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	aux	_	_
-12	samenwerken	werk_samen	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	2	aux	_	_
+12	samenwerken	werk_samen	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	11	xcomp	_	_
 13	met	met	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 14	andere	ander	PRON	Pron|onbep|neut|attr	PronType=Ind	15	nmod	_	_
 15	partijen	partij	NOUN	N|soort|mv|neut	Number=Plur	12	dobj	_	_
@@ -438,18 +438,18 @@
 3	dan	dan	ADV	Adv|gew|aanw	PronType=Dem	6	advmod	_	_
 4	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
 5	precies	precies	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
-6	aangeven	geef_aan	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	aux	_	_
-7	wat	wat	PRON	Pron|vrag|neut|attr	PronType=Int	10	mark	_	_
+6	aangeven	geef_aan	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	xcomp	_	_
+7	wat	wat	PRON	Pron|vrag|neut|attr	PronType=Int	10	dobj	_	_
 8	hun	hun	PRON	Pron|bez|3|mv|neut|attr	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod	_	_
 9	deskundigheid	deskundigheid	NOUN	N|soort|ev|neut	Number=Sing	10	nsubj	_	_
-10	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+10	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	6	ccomp	_	_
 11	en	en	CONJ	Conj|neven	_	6	cc	_	_
 12	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
 13	heldere	helder	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	16	amod	_	_
 14	,	,	PUNCT	Punc|komma	PunctType=Comm	16	punct	_	_
 15	professionele	professioneel	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	16	amod	_	_
 16	inbreng	inbreng	NOUN	N|soort|ev|neut	Number=Sing	17	dobj	_	_
-17	hebben	heb	AUX	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	6	conj	_	_
+17	hebben	heb	VERB	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	6	conj	_	_
 18	in	in	ADP	Prep|voor	AdpType=Prep	21	case	_	_
 19	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	21	det	_	_
 20	diverse	divers	PRON	Pron|onbep|neut|attr	PronType=Ind	21	nmod	_	_
@@ -526,14 +526,14 @@
 8	van	van	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
 10	jeugdgezondheidszorg	jeugd_gezondheidszorg	NOUN	N|soort|ev|neut	Number=Sing	7	nmod	_	_
-11	bewaken	bewaak	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	3	aux	_	_
+11	bewaken	bewaak	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	3	xcomp	_	_
 12	en	en	CONJ	Conj|neven	_	11	cc	_	_
 13	periodiek	periodiek	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	18	advmod	_	_
 14	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	15	det	_	_
 15	Basistakenpakket	Basitakenpakket	PROPN	N|eigen|ev|neut	Number=Sing	18	dobj	_	_
 16	op	op	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 17	activiteitenniveau	activiteiten_niveau	NOUN	N|soort|ev|neut	Number=Sing	18	nmod	_	_
-18	actualiseren	actualiseer	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	11	conj	_	_
+18	actualiseren	actualiseer	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	11	conj	_	_
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id nl-s28
@@ -591,8 +591,8 @@
 # orig_file_sentence 001#30
 1	Zo	zo	ADV	Adv|gew|aanw	PronType=Dem	4	advmod	_	_
 2	kunnen	kan	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
-3	zorgverleners	zorgverleners	NOUN	N|soort|mv|neut	Number=Plur	4	nsubj	_	_
-4	vastleggen	leg_vast	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	aux	_	_
+3	zorgverleners	zorgverleners	NOUN	N|soort|mv|neut	Number=Plur	2	nsubj	_	_
+4	vastleggen	leg_vast	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	xcomp	_	_
 5	dat	dat	SCONJ	Conj|onder|metfin	_	12	mark	_	_
 6	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 7	activiteit	activiteit	NOUN	N|soort|ev|neut	Number=Sing	12	nsubj	_	_
@@ -600,8 +600,8 @@
 9	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	11	det	_	_
 10	individuele	individueel	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	amod	_	_
 11	kind	kind	NOUN	N|soort|ev|neut	Number=Sing	13	nmod	_	_
-12	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
-13	uitgevoerd	voer_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
+12	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	4	ccomp	_	_
+13	uitgevoerd	voer_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	_
 14	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s31
@@ -627,7 +627,7 @@
 13	regie	regie	NOUN	N|soort|ev|neut	Number=Sing	9	nmod	_	_
 14	zullen	zal	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 15	uiteindelijk	uiteindelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	16	advmod	_	_
-16	leiden	leid	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	14	aux	_	_
+16	leiden	leid	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	14	xcomp	_	_
 17	tot	tot	ADP	Prep|voor	AdpType=Prep	20	case	_	_
 18	één	één	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	20	acl	_	_
 19	integraal	integraal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	20	amod	_	_
@@ -650,9 +650,9 @@
 # orig_file_sentence 001#33
 1	Hoe	hoe	ADV	Adv|gew|betr	PronType=Rel	4	mark	_	_
 2	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	3	det	_	_
-3	proces	proces	NOUN	N|soort|ev|neut	Number=Sing	5	nsubj	_	_
-4	zal	zal	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	verlopen	verloop	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	7	aux	_	_
+3	proces	proces	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
+4	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	13	ccomp	_	_
+5	verlopen	verloop	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	4	xcomp	_	_
 6	,	,	PUNCT	Punc|komma	PunctType=Comm	7	punct	_	_
 7	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 8	nu	nu	ADV	Adv|gew|aanw	PronType=Dem	13	advmod	_	_
@@ -660,7 +660,7 @@
 10	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	13	neg	_	_
 11	precies	precies	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
 12	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	13	mark	_	_
-13	zeggen	zeg	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	7	aux	_	_
+13	zeggen	zeg	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	7	xcomp	_	_
 14	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id nl-s34
@@ -675,7 +675,7 @@
 3	geval	geval	NOUN	N|soort|ev|neut	Number=Sing	4	nmod	_	_
 4	zullen	zal	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
-6	thuiszorgorganisaties	thuiszorg_organisatie	NOUN	N|soort|mv|neut	Number=Plur	29	nsubj	_	_
+6	thuiszorgorganisaties	thuiszorg_organisatie	NOUN	N|soort|mv|neut	Number=Plur	28	nsubj	_	_
 7	en	en	CONJ	Conj|neven	_	6	cc	_	_
 8	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 9	GGD-en	GGD-en	NOUN	N|soort|mv|neut	Number=Plur	6	conj	_	_
@@ -697,14 +697,14 @@
 25	jongeren	jongere	ADJ	Adj|zelfst|vergr|vervneut	Case=Nom|Degree=Cmp	23	conj	_	_
 26	steeds	steeds	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	27	advmod	_	_
 27	nauwer	nauw	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	29	advmod	_	_
-28	gaan	ga	AUX	V|hulp|inf	VerbForm=Inf	4	aux	_	_
-29	samenwerken	werk_samen	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	4	aux	_	_
+28	gaan	ga	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	4	xcomp	_	_
+29	samenwerken	werk_samen	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	28	xcomp	_	_
 30	en	en	CONJ	Conj|neven	_	28	cc	_	_
 31	mogelijk	mogelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	35	advmod	_	_
 32	één	één	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	33	acl	_	_
 33	geheel	geheel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	35	dobj	_	_
-34	gaan	ga	AUX	V|hulp|inf	VerbForm=Inf	28	conj	_	_
-35	vormen	vorm	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	28	aux	_	_
+34	gaan	ga	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	28	conj	_	_
+35	vormen	vorm	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	34	xcomp	_	_
 36	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id nl-s36
@@ -813,7 +813,7 @@
 19	11	11	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	13	conj	_	_
 20	in	in	ADP	Prep|voor	AdpType=Prep	22	case	_	_
 21	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	22	det	_	_
-22	maatwerkdeel	maatwerk_deel	NOUN	N|soort|ev|neut	Number=Sing	19	aux	_	_
+22	maatwerkdeel	maatwerk_deel	NOUN	N|soort|ev|neut	Number=Sing	19	dobj	_	_
 23	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id nl-s41
@@ -900,7 +900,7 @@
 3	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
 4	factoren	factor	NOUN	N|soort|mv|neut	Number=Plur	5	dobj	_	_
 5	gemeten	meet	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
-6	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	9	mark	_	_
+6	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	9	dobj	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	8	det	_	_
 8	gezondheid	gezondheid	NOUN	N|soort|ev|neut	Number=Sing	9	dobj	_	_
 9	bevorderen	bevorder	VERB	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	4	acl	_	_
@@ -955,7 +955,7 @@
 27	daarvan	daarvan	X	X	Number=Sing|PronType=Dem	25	compound	_	_
 28	gezondheidsbeleid	gezondheid_beleid	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	31	ccomp	_	_
 29	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	23	advcl	_	_
-30	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	29	aux	_	_
+30	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	29	xcomp	_	_
 31	ontwikkeld	ontwikkel	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	29	aux	_	_
 32	.	.	PUNCT	Punc|punt	PunctType=Peri	1	punct	_	_
 
@@ -1039,9 +1039,9 @@
 7	Tessa's	Tessa's	PROPN	N|eigen|ev|gen	Case=Gen|Number=Sing	8	nmod	_	_
 8	wijk	wijk	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
 9	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	10	det	_	_
-10	geval	geval	NOUN	N|soort|ev|neut	Number=Sing	2	aux	_	_
+10	geval	geval	NOUN	N|soort|ev|neut	Number=Sing	2	xcomp	_	_
 11	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	10	mark	_	_
-12	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	10	cop	_	_
+12	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	10	cop	_	_
 13	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s57
@@ -1055,7 +1055,7 @@
 7	deze	deze	PRON	Pron|aanw|neut|attr	PronType=Dem	8	nmod	_	_
 8	achterstand	achterstand	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
 9	gevonden	vind	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
-10	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	2	aux	_	_
+10	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	2	xcomp	_	_
 11	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s58
@@ -1101,15 +1101,15 @@
 6	zorgbehoefte	zorg_behoefte	NOUN	N|soort|ev|neut	Number=Sing	3	nmod	_	_
 7	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 8	onderzocht	onderzoek	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	_
-9	in	in	ADP	Prep|voor	AdpType=Prep	11	case	_	_
+9	in	in	ADP	Prep|voor	AdpType=Prep	11	mark	_	_
 10	welke	welk	PRON	Pron|vrag|neut|zelfst	PronType=Int	11	nmod	_	_
-11	mate	mate	NOUN	N|soort|ev|neut	Number=Sing	7	aux	_	_
+11	mate	mate	NOUN	N|soort|ev|neut	Number=Sing	8	dobj	_	_
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	13	det	_	_
 13	ouders/verzorgers	ouders_verzorger	NOUN	N|soort|mv|neut	Number=Plur	18	dobj	_	_
 14	en	en	CONJ	Conj|neven	_	13	cc	_	_
 15	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	16	det	_	_
 16	kind	kind	NOUN	N|soort|ev|neut	Number=Sing	13	conj	_	_
-17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	11	acl	_	_
+17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	18	mark	_	_
 18	belast	belast	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	aux	_	_
 19	en	en	CONJ	Conj|neven	_	11	cc	_	_
 20	of	of	SCONJ	Conj|onder|metfin	_	30	mark	_	_
@@ -1122,7 +1122,7 @@
 27	van	van	ADP	Prep|voor	AdpType=Prep	29	case	_	_
 28	hun	hun	PRON	Pron|bez|3|mv|neut|attr	Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	nmod	_	_
 29	kind	kind	NOUN	N|soort|ev|neut	Number=Sing	24	nmod	_	_
-30	aankunnen	kan_aan	AUX	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	11	conj	_	_
+30	aankunnen	kan_aan	VERB	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	11	conj	_	_
 31	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id nl-s61
@@ -1131,7 +1131,7 @@
 2	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	dan	dan	ADV	Adv|gew|aanw	PronType=Dem	5	advmod	_	_
 4	bijvoorbeeld	bijvoorbeeld	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	5	advmod	_	_
-5	gaan	ga	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	2	aux	_	_
+5	gaan	ga	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	2	xcomp	_	_
 6	over	over	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 7	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
 8	moeilijk	moeilijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	9	amod	_	_
@@ -1159,15 +1159,15 @@
 1	Ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	3	advmod	_	_
 2	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 3	ingeschat	schat_in	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
-4	in	in	ADP	Prep|voor	AdpType=Prep	6	case	_	_
+4	in	in	ADP	Prep|voor	AdpType=Prep	6	mark	_	_
 5	welke	welk	PRON	Pron|vrag|neut|zelfst	PronType=Int	6	nmod	_	_
-6	mate	mate	NOUN	N|soort|ev|neut	Number=Sing	2	aux	_	_
-7	jongeren	jongere	ADJ	Adj|zelfst|vergr|vervneut	Case=Nom|Degree=Cmp	12	nsubj	_	_
+6	mate	mate	NOUN	N|soort|ev|neut	Number=Sing	3	dobj	_	_
+7	jongeren	jongere	ADJ	Adj|zelfst|vergr|vervneut	Case=Nom|Degree=Cmp	6	nsubj	_	_
 8	en	en	CONJ	Conj|neven	_	7	cc	_	_
 9	ouders/verzorgers	ouders_verzorger	NOUN	N|soort|mv|neut	Number=Plur	7	conj	_	_
 10	*	*	ADP	Prep|voor	AdpType=Prep	2	dep	_	_
-11	behoefte	behoefte	NOUN	N|soort|ev|neut	Number=Sing	12	dobj	_	_
-12	hebben	heb	VERB	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	6	acl	_	_
+11	behoefte	behoefte	NOUN	N|soort|ev|neut	Number=Sing	7	dobj	_	_
+12	hebben	heb	VERB	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	7	case	_	_
 13	aan	aan	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 14	voorlichting	voorlichting	NOUN	N|soort|ev|neut	Number=Sing	11	nmod	_	_
 15	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
@@ -1225,19 +1225,19 @@
 2	ouders	ouder	NOUN	N|soort|mv|neut	Number=Plur	3	nsubj	_	_
 3	vertellen	vertel	VERB	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	5	det	_	_
-5	JGZ-verpleegkundige	JGZ-verpleegkundige	PROPN	N|eigen|ev|neut	Number=Sing	3	dobj	_	_
+5	JGZ-verpleegkundige	JGZ-verpleegkundige	PROPN	N|eigen|ev|neut	Number=Sing	3	iobj	_	_
 6	dat	dat	SCONJ	Conj|onder|metfin	_	9	mark	_	_
 7	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	9	nsubj	_	_
 8	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	9	dobj	_	_
-9	moeilijk	moeilijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	aux	_	_
-10	vinden	vind	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	9	cop	_	_
-11	om	om	SCONJ	Conj|onder|metinf	_	17	mark	_	_
+9	moeilijk	moeilijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	xcomp	_	_
+10	vinden	vind	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	9	cop	_	_
+11	om	om	SCONJ	Conj|onder|metinf	_	9	dobj	_	_
 12	goed	goed	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	17	advmod	_	_
 13	met	met	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 14	Mark	Mark	PROPN	N|eigen|ev|neut	Number=Sing	17	dobj	_	_
 15	om	om	SCONJ	Conj|onder|metinf	_	17	compound:prt	_	_
 16	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	17	mark	_	_
-17	gaan	ga_om	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	9	aux	_	_
+17	gaan	ga_om	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	11	xcomp	_	_
 18	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id nl-s69
@@ -1259,7 +1259,7 @@
 6	helder	helder	ADJ	Adj|attr|stell|onverv	Degree=Pos	7	amod	_	_
 7	beeld	beeld	NOUN	N|soort|ev|neut	Number=Sing	9	dobj	_	_
 8	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	9	mark	_	_
-9	krijgen	krijg	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	3	aux	_	_
+9	krijgen	krijg	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	3	xcomp	_	_
 10	van	van	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 11	Marks	Marks	PROPN	N|eigen|ev|gen	Case=Gen|Number=Sing	12	nmod	_	_
 12	gedrag	gedrag	NOUN	N|soort|ev|neut	Number=Sing	7	nmod	_	_
@@ -1308,9 +1308,9 @@
 5	ouders	ouder	NOUN	N|soort|mv|neut	Number=Plur	2	nmod	_	_
 6	onderzoekt	onderzoek	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ze	ze	PRON	Pron|per|3|evofmv|datofacc	Case=Acc,Dat|Number=Plur,Sing|Person=3|PronType=Prs	6	nsubj	_	_
-8	door	door	ADV	Adv|deelv	PartType=Vbp	10	mark	_	_
+8	door	door	ADV	Adv|deelv	PartType=Vbp	6	advmod	_	_
 9	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	10	mark	_	_
-10	vragen	vraag	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	6	advcl	_	_
+10	vragen	vraag	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	8	xcomp	_	_
 11	hoe	hoe	ADV	Adv|gew|betr	PronType=Rel	20	mark	_	_
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	13	det	_	_
 13	ouders	ouder	NOUN	N|soort|mv|neut	Number=Plur	20	nsubj	_	_
@@ -1320,12 +1320,12 @@
 17	van	van	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 18	hun	hun	PRON	Pron|bez|3|mv|neut|attr	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	_
 19	zoon	zoon	NOUN	N|soort|ev|neut	Number=Sing	16	nmod	_	_
-20	omgaan	ga_om	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	10	aux	_	_
-21	en	en	CONJ	Conj|neven	_	10	cc	_	_
-22	door	door	ADP	Prep|voor	AdpType=Prep	33	mark	_	_
+20	omgaan	ga_om	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	10	xcomp	_	_
+21	en	en	CONJ	Conj|neven	_	8	cc	_	_
+22	door	door	ADP	Prep|voor	AdpType=Prep	8	conj	_	_
 23	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	24	det	_	_
 24	effecten	effect	NOUN	N|soort|mv|neut	Number=Plur	33	dobj	_	_
-25	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	31	mark	_	_
+25	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	31	dobj	_	_
 26	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	27	det	_	_
 27	problemen	probleem	NOUN	N|soort|mv|neut	Number=Plur	31	nsubj	_	_
 28	op	op	ADP	Prep|voor	AdpType=Prep	30	case	_	_
@@ -1333,7 +1333,7 @@
 30	ouders	ouder	NOUN	N|soort|mv|neut	Number=Plur	31	nmod	_	_
 31	hebben	heb	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	24	acl	_	_
 32	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	33	mark	_	_
-33	inventariseren	inventariseer	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	10	conj	_	_
+33	inventariseren	inventariseer	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	22	xcomp	_	_
 34	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
 # sent_id nl-s74
@@ -1523,7 +1523,7 @@
 5	geen	geen	PRON	Pron|onbep|neut|attr	PronType=Ind	6	nmod	_	_
 6	sprake	sprake	NOUN	N|soort|ev|neut	Number=Sing	8	nsubj	_	_
 7	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	8	mark	_	_
-8	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	3	aux	_	_
+8	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	3	xcomp	_	_
 9	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id nl-s89
@@ -1536,12 +1536,12 @@
 6	,	,	PUNCT	Punc|komma	PunctType=Comm	5	punct	_	_
 7	dan	dan	ADV	Adv|gew|aanw	PronType=Dem	14	advmod	_	_
 8	had	heb	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	5	parataxis	_	_
-9	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	14	nsubj	_	_
+9	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	13	nsubj	_	_
 10	bijtijds	bijtijds	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	14	advmod	_	_
 11	adequate	adekwaat	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	12	amod	_	_
 12	therapie	therapie	NOUN	N|soort|ev|neut	Number=Sing	14	dobj	_	_
 13	kunnen	kan	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	aux	_	_
-14	krijgen	krijg	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	8	aux	_	_
+14	krijgen	krijg	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	13	xcomp	_	_
 15	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id nl-s90
@@ -1620,7 +1620,7 @@
 1	Pubers	puber	NOUN	N|soort|mv|neut	Number=Plur	2	nsubj	_	_
 2	kunnen	kan	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	voorlichting	voorlichting	NOUN	N|soort|ev|neut	Number=Sing	4	dobj	_	_
-4	krijgen	krijg	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	aux	_	_
+4	krijgen	krijg	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	xcomp	_	_
 5	over	over	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 6	onderwerpen	onderwerp	NOUN	N|soort|mv|neut	Number=Plur	3	nmod	_	_
 7	als	als	SCONJ	Conj|onder|metfin	_	6	nmod	_	_
@@ -1677,7 +1677,7 @@
 18	afbeeldingen	afbeelding	NOUN	N|soort|mv|neut	Number=Plur	15	dobj	_	_
 19	en	en	CONJ	Conj|neven	_	18	cc	_	_
 20	attributen	attribuut	NOUN	N|soort|mv|neut	Number=Plur	18	conj	_	_
-21	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	26	mark	_	_
+21	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	26	dobj	_	_
 22	met	met	ADP	Prep|voor	AdpType=Prep	23	case	_	_
 23	gevechtssport	gevecht_sport	NOUN	N|soort|ev|neut	Number=Sing	26	dobj	_	_
 24	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	25	mark	_	_
@@ -1713,13 +1713,13 @@
 12	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	15	neg	_	_
 13	goed	goed	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	advmod	_	_
 14	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	15	mark	_	_
-15	weten	weet	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	10	aux	_	_
+15	weten	weet	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	10	xcomp	_	_
 16	hoe	hoe	ADV	Adv|gew|betr	PronType=Rel	20	mark	_	_
-17	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	21	nsubj	_	_
+17	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	20	nsubj	_	_
 18	met	met	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 19	kinderen	kind	NOUN	N|soort|mv|neut	Number=Plur	21	dobj	_	_
-20	moet	moet	AUX	V|hulp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
-21	omgaan	ga_om	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	10	aux	_	_
+20	moet	moet	VERB	V|hulp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod	15	ccomp	_	_
+21	omgaan	ga_om	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	20	xcomp	_	_
 22	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id nl-s100
@@ -1748,18 +1748,18 @@
 6	paar	paar	NOUN	N|soort|ev|neut	Number=Sing	7	nmod	_	_
 7	gesprekken	gesprek	NOUN	N|soort|mv|neut	Number=Plur	3	nmod	_	_
 8	hoe	hoe	ADV	Adv|gew|betr	PronType=Rel	14	mark	_	_
-9	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	15	nsubj	_	_
+9	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	14	nsubj	_	_
 10	gewenst	gewenst	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	acl	_	_
 11	gedrag	gedrag	NOUN	N|soort|ev|neut	Number=Sing	15	dobj	_	_
 12	van	van	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 13	Yen	Yen	PROPN	N|eigen|ev|neut	Number=Sing	11	nmod	_	_
-14	kan	kan	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
-15	belonen	beloon	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	3	aux	_	_
+14	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	3	ccomp	_	_
+15	belonen	beloon	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	14	xcomp	_	_
 16	en	en	CONJ	Conj|neven	_	14	cc	_	_
 17	ongewenst	ongewenst	ADJ	Adj|attr|stell|onverv	Degree=Pos	18	amod	_	_
 18	gedrag	gedrag	NOUN	N|soort|ev|neut	Number=Sing	20	dobj	_	_
-19	kan	kan	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj	_	_
-20	bijsturen	stuur_bij	AUX	V|intrans|inf|subst	Subcat=Intr|VerbForm=Inf	14	aux	_	_
+19	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	14	conj	_	_
+20	bijsturen	stuur_bij	VERB	V|intrans|inf|subst	Subcat=Intr|VerbForm=Inf	19	xcomp	_	_
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id nl-s2
@@ -1779,13 +1779,13 @@
 13	andere	ander	PRON	Pron|onbep|neut|attr	PronType=Ind	14	nmod	_	_
 14	moeders	moeder	NOUN	N|soort|mv|neut	Number=Plur	17	dobj	_	_
 15	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	advcl	_	_
-16	leren	leer	AUX	V|hulp|inf	VerbForm=Inf	15	aux	_	_
-17	kennen	ken	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	15	aux	_	_
+16	leren	leer	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	15	xcomp	_	_
+17	kennen	ken	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	16	xcomp	_	_
 18	en	en	CONJ	Conj|neven	_	15	cc	_	_
 19	met	met	ADP	Prep|voor	AdpType=Prep	20	case	_	_
 20	hen	hen	PRON	Pron|per|3|mv|datofacc	Case=Acc,Dat|Number=Plur|Person=3|PronType=Prs	22	nmod	_	_
 21	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	15	conj	_	_
-22	praten	praat	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	21	aux	_	_
+22	praten	praat	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	21	xcomp	_	_
 23	over	over	ADP	Prep|voor	AdpType=Prep	25	case	_	_
 24	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	25	det	_	_
 25	opvoeding	opvoeding	NOUN	N|soort|ev|neut	Number=Sing	22	dobj	_	_
@@ -1806,14 +1806,14 @@
 # orig_file_sentence 002#4
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
 2	omgevingsfactoren	omgeving_factor	NOUN	N|soort|mv|neut	Number=Plur	11	nsubj	_	_
-3	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	9	mark	_	_
+3	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	9	iobj	_	_
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	5	det	_	_
 5	gezondheid	gezondheid	NOUN	N|soort|ev|neut	Number=Sing	10	dobj	_	_
 6	van	van	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	8	det	_	_
 8	kind	kind	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
 9	kunnen	kan	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	acl	_	_
-10	bedreigen	bedreig	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	9	aux	_	_
+10	bedreigen	bedreig	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	9	xcomp	_	_
 11	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	0	root	_	_
 12	onderzocht	onderzoek	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	aux	_	_
 13	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
@@ -1825,16 +1825,16 @@
 3	bijvoorbeeld	bijvoorbeeld	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
 4	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
 5	slechte	slecht	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	6	amod	_	_
-6	huisvesting	huisvesting	NOUN	N|soort|ev|neut	Number=Sing	2	aux	_	_
-7	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	6	cop	_	_
+6	huisvesting	huisvesting	NOUN	N|soort|ev|neut	Number=Sing	2	xcomp	_	_
+7	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	6	cop	_	_
 8	maar	maar	CONJ	Conj|neven	_	2	cc	_	_
 9	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	10	nsubj	_	_
 10	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	conj	_	_
 11	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	12	advmod	_	_
-12	gaan	ga	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	10	aux	_	_
+12	gaan	ga	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	10	xcomp	_	_
 13	om	om	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 14	ouders	ouder	NOUN	N|soort|mv|neut	Number=Plur	12	dobj	_	_
-15	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	17	mark	_	_
+15	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	17	dobj	_	_
 16	moeite	moeite	NOUN	N|soort|ev|neut	Number=Sing	17	iobj	_	_
 17	hebben	heb	VERB	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	14	acl	_	_
 18	met	met	ADP	Prep|voor	AdpType=Prep	19	mark	_	_
@@ -1876,19 +1876,19 @@
 
 # sent_id nl-s7
 # orig_file_sentence 002#7
-1	Om	om	SCONJ	Conj|onder|metinf	_	8	mark	_	_
+1	Om	om	SCONJ	Conj|onder|metinf	_	13	advmod	_	_
 2	problemen	probleem	NOUN	N|soort|mv|neut	Number=Plur	8	dobj	_	_
 3	op	op	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 4	dit	dit	PRON	Pron|aanw|neut|attr	PronType=Dem	5	nmod	_	_
 5	terrein	terrein	NOUN	N|soort|ev|neut	Number=Sing	2	nmod	_	_
 6	aan	aan	ADV	Adv|deelv	PartType=Vbp	8	compound:prt	_	_
 7	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	8	mark	_	_
-8	pakken	pak_aan	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	13	advcl	_	_
+8	pakken	pak_aan	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	1	xcomp	_	_
 9	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 10	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
-11	JGZ	JGZ	PROPN	N|eigen|ev|neut	Number=Sing	13	nsubj	_	_
+11	JGZ	JGZ	PROPN	N|eigen|ev|neut	Number=Sing	9	nsubj	_	_
 12	nauw	nauw	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
-13	samenwerken	werk_samen	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	9	aux	_	_
+13	samenwerken	werk_samen	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	9	xcomp	_	_
 14	met	met	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 15	bijvoorbeeld	bijvoorbeeld	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	17	advmod	_	_
 16	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	17	det	_	_
@@ -2026,8 +2026,8 @@
 22	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	17	advcl	_	_
 23	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	25	punct	_	_
 24	wel	wel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	25	advmod	_	_
-25	begrepen	begrepen	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	10	aux	_	_
-26	krijgt	krijg	AUX	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	begrepen	begrepen	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	10	ccomp	_	_
+26	krijgt	krijg	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	25	cop	_	_
 27	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s15
@@ -2053,7 +2053,7 @@
 6	om	om	SCONJ	Conj|onder|metinf	_	4	dobj	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	8	det	_	_
 8	partijen	partij	NOUN	N|soort|mv|neut	Number=Plur	6	dobj	_	_
-9	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	16	mark	_	_
+9	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	16	dobj	_	_
 10	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
 11	zorg-	zorg	NOUN	N|soort|ev|neut	Number=Sing	16	dobj	_	_
 12	en	en	CONJ	Conj|neven	_	11	cc	_	_
@@ -2164,7 +2164,7 @@
 12	integrale	integraal	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	13	amod	_	_
 13	jeugdgezondheidszorg	jeugd_gezondheidszorg	NOUN	N|soort|ev|neut	Number=Sing	7	nmod	_	_
 14	,	,	PUNCT	Punc|komma	PunctType=Comm	13	punct	_	_
-15	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	23	mark	_	_
+15	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	23	iobj	_	_
 16	per	per	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 17	1	1	NUM	Num_N_Num	NumForm=Digit|NumType=Card	25	advmod	_	MWE=1_januari_2003|MWEPOS=NUM
 18	januari	januari	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	17	compound	_	_
@@ -2173,7 +2173,7 @@
 21	gemeentelijke	gemeentelijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	22	amod	_	_
 22	regie	regie	NOUN	N|soort|ev|neut	Number=Sing	25	nmod	_	_
 23	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	13	acl	_	_
-24	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	23	aux	_	_
+24	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	23	xcomp	_	_
 25	uitgevoerd	voer_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	23	aux	_	_
 26	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
@@ -2196,7 +2196,7 @@
 15	,	,	PUNCT	Punc|komma	PunctType=Comm	14	punct	_	_
 16	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
 17	team	team	NOUN	N|soort|ev|neut	Number=Sing	14	appos	_	_
-18	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	26	mark	_	_
+18	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	26	iobj	_	_
 19	vroegtijdige	vroegtijdig	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	20	amod	_	_
 20	problemen	probleem	NOUN	N|soort|mv|neut	Number=Plur	29	dobj	_	_
 21	in	in	ADP	Prep|voor	AdpType=Prep	23	case	_	_
@@ -2207,7 +2207,7 @@
 26	probeert	probeer	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	17	acl	_	_
 27	op	op	ADV	Adv|deelv	PartType=Vbp	29	compound:prt	_	_
 28	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	29	mark	_	_
-29	sporen	spoor_op	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	26	aux	_	_
+29	sporen	spoor_op	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	26	xcomp	_	_
 30	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
 # sent_id nl-s25
@@ -2269,17 +2269,17 @@
 10	van	van	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 11	Harm	Harm	PROPN	N|eigen|ev|neut	Number=Sing	9	nmod	_	_
 12	hoe	hoe	ADV	Adv|gew|betr	PronType=Rel	15	mark	_	_
-13	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	16	nsubj	_	_
+13	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	15	nsubj	_	_
 14	Harm	Harm	PROPN	N|eigen|ev|neut	Number=Sing	16	dobj	_	_
-15	kunnen	kan	AUX	V|hulp|inf	VerbForm=Inf	7	aux	_	_
-16	begeleiden	begeleid	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	7	aux	_	_
+15	kunnen	kan	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	7	xcomp	_	_
+16	begeleiden	begeleid	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	15	xcomp	_	_
 17	en	en	CONJ	Conj|neven	_	15	cc	_	_
 18	waarvoor	waarvoor	ADV	Adv|pron|vrag	PronType=Int	22	mark	_	_
-19	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	23	nsubj	_	_
+19	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	22	nsubj	_	_
 20	diverse	divers	PRON	Pron|onbep|neut|attr	PronType=Ind	21	nmod	_	_
 21	hulpverleners	hulpverlener	NOUN	N|soort|mv|neut	Number=Plur	23	dobj	_	_
-22	kunnen	kan	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	conj	_	_
-23	inschakelen	schakel_in	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	15	aux	_	_
+22	kunnen	kan	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	15	conj	_	_
+23	inschakelen	schakel_in	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	22	xcomp	_	_
 24	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id nl-s28
@@ -2339,7 +2339,7 @@
 20	longitudinaal	longitudinaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	21	advmod	_	_
 21	gevolgd	volg	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	22	aux	_	_
 22	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	3	advcl	_	_
-23	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	22	aux	_	_
+23	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	22	xcomp	_	_
 24	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id nl-s33
@@ -2434,9 +2434,9 @@
 5	aangegeven	geef_aan	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	_
 6	c.q.	cq	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	4	cc	_	_
 7	zou	zal	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	4	conj	_	_
-8	moeten	moet	AUX	V|hulp|inf	VerbForm=Inf	7	aux	_	_
-9	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	7	aux	_	_
-10	aangegeven	geef_aan	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	_
+8	moeten	moet	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	7	xcomp	_	_
+9	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	8	xcomp	_	_
+10	aangegeven	geef_aan	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	_
 11	welke	welk	PRON	Pron|vrag|neut|zelfst	PronType=Int	10	nmod	_	_
 12	gegevens	gegeven	NOUN	N|soort|mv|neut	Number=Plur	11	mark	_	_
 13	over	over	ADP	Prep|voor	AdpType=Prep	14	case	_	_
@@ -2448,7 +2448,7 @@
 19	voorgeschiedenis	voorgeschiedenis	NOUN	N|soort|ev|neut	Number=Sing	14	conj	_	_
 20	geregistreerd	registreer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	21	aux	_	_
 21	moeten	moet	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	11	ccomp	_	_
-22	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	21	aux	_	_
+22	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	21	xcomp	_	_
 23	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id nl-s38
@@ -2459,13 +2459,13 @@
 4	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
 5	duidelijk	duidelijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	6	amod	_	_
 6	onderscheid	onderscheid	NOUN	N|soort|ev|neut	Number=Sing	7	dobj	_	_
-7	gemaakt	maak	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	_
+7	gemaakt	maak	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	_
 8	moeten	moet	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	aux	_	_
-9	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	3	aux	_	_
+9	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	8	xcomp	_	_
 10	in	in	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 11	onveranderlijke	onveranderlijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	12	amod	_	_
 12	gegevens	gegeven	NOUN	N|soort|mv|neut	Number=Plur	7	nmod	_	_
-13	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	mark	_	_
+13	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	iobj	_	_
 14	eenmalig	eenmalig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	19	advmod	_	_
 15	bij	bij	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 16	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	18	det	_	_
@@ -2473,20 +2473,20 @@
 18	contact	contact	NOUN	N|soort|ev|neut	Number=Sing	19	nmod	_	_
 19	geregistreerd	registreer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	20	aux	_	_
 20	moeten	moet	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	12	acl	_	_
-21	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	20	aux	_	_
+21	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	20	xcomp	_	_
 22	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	12	punct	_	_
 23	bijvoorbeeld	bijvoorbeeld	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	24	advmod	_	_
 24	zwangerschapsduur	zwangerschap_duur	NOUN	N|soort|ev|neut	Number=Sing	12	nmod	_	_
 25	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	12	punct	_	_
 26	en	en	CONJ	Conj|neven	_	12	cc	_	_
 27	gegevens	gegeven	NOUN	N|soort|mv|neut	Number=Plur	12	conj	_	_
-28	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	33	mark	_	_
+28	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	33	iobj	_	_
 29	per	per	ADP	Prep|voor	AdpType=Prep	31	case	_	_
 30	voorliggende	lig_voor	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	31	acl	_	_
 31	periode	periode	NOUN	N|soort|ev|neut	Number=Sing	32	dobj	_	_
-32	verschillend	verschil	VERB	V|intrans|tegdw|onverv	Subcat=Intr|Tense=Pres|VerbForm=Part	33	aux	_	_
+32	verschillend	verschil	VERB	V|intrans|tegdw|onverv	Subcat=Intr|Tense=Pres|VerbForm=Part	33	xcomp	_	_
 33	kunnen	kan	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	27	acl	_	_
-34	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	32	cop	_	_
+34	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	32	cop	_	_
 35	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	27	punct	_	_
 36	bijvoorbeeld	bijvoorbeeld	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	37	advmod	_	_
 37	ziekenhuisopname	ziekenhuis_opname	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	27	amod	_	_
@@ -2543,16 +2543,16 @@
 6	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	7	punct	_	_
 7	omvat	omvat	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	alles	alles	PRON	Pron|onbep|neut|zelfst	PronType=Ind	7	dobj	_	_
-9	wat	wat	PRON	Pron|betr|neut|zelfst	PronType=Rel	15	mark	_	_
+9	wat	wat	PRON	Pron|betr|neut|zelfst	PronType=Rel	15	iobj	_	_
 10	klassiek	classiek	NOUN	N|soort|ev|neut	Number=Sing	18	nmod	_	_
 11	onder	onder	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 12	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	13	punct	_	_
 13	inspectie	inspectie	NOUN	N|soort|ev|neut	Number=Sing	18	nmod	_	_
 14	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	15	punct	_	_
 15	zou	zal	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	8	acl	_	_
-16	kunnen	kan	AUX	V|hulp|inf	VerbForm=Inf	15	aux	_	_
-17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	15	aux	_	_
-18	samengevat	vat_samen	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	15	aux	_	_
+16	kunnen	kan	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	15	xcomp	_	_
+17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	16	xcomp	_	_
+18	samengevat	vat_samen	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	aux	_	_
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id nl-s43
@@ -2593,7 +2593,7 @@
 23	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	conj	_	_
 24	als	als	SCONJ	Conj|onder|metfin	_	25	case	_	_
 25	zodanig	zodanig	PRON	Pron|aanw|neut|zelfst	PronType=Dem	26	aux	_	_
-26	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	23	aux	_	_
+26	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	23	xcomp	_	_
 27	opgevat	vat_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	25	cop	_	_
 28	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
@@ -2609,7 +2609,7 @@
 8	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	9	nmod	_	_
 9	basistakenpakket	basis_takenpakket	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	9	punct	_	_
-11	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	13	mark	_	_
+11	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	13	dobj	_	_
 12	wezenlijk	wezenlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
 13	bijdraagt	draag_bij	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	9	advcl	_	_
 14	aan	aan	ADP	Prep|voor	AdpType=Prep	16	case	_	_
@@ -2630,11 +2630,11 @@
 3	wel	wel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	2	advmod	_	_
 4	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
 5	handboek	handboek	NOUN	N|soort|ev|neut	Number=Sing	2	nsubj	_	_
-6	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	9	mark	_	_
+6	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	9	iobj	_	_
 7	als	als	SCONJ	Conj|onder|metfin	_	8	case	_	_
 8	leidraad	leidraad	NOUN	N|soort|ev|neut	Number=Sing	10	dobj	_	_
 9	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	5	acl	_	_
-10	dienen	dien	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	9	aux	_	_
+10	dienen	dien	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	9	xcomp	_	_
 11	,	,	PUNCT	Punc|komma	PunctType=Comm	2	punct	_	_
 12	maar	maar	CONJ	Conj|neven	_	2	cc	_	_
 13	dit	dit	PRON	Pron|aanw|neut|attr	PronType=Dem	14	nmod	_	_
@@ -2759,7 +2759,7 @@
 4	landelijke	landelijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	5	amod	_	_
 5	standaard	standaard	NOUN	N|soort|ev|neut	Number=Sing	2	nsubj	_	_
 6	,	,	PUNCT	Punc|komma	PunctType=Comm	5	punct	_	_
-7	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	10	mark	_	_
+7	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	10	dobj	_	_
 8	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 9	frequentie	frequentie	NOUN	N|soort|ev|neut	Number=Sing	10	dobj	_	_
 10	aangeeft	geef_aan	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	5	acl	_	_
@@ -2768,7 +2768,7 @@
 13	metingen	meting	NOUN	N|soort|mv|neut	Number=Plur	14	dobj	_	_
 14	verricht	verricht	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	15	aux	_	_
 15	moeten	moet	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	9	acl	_	_
-16	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	15	aux	_	_
+16	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	15	xcomp	_	_
 17	2	2	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	dep	_	_
 18	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
@@ -2870,7 +2870,7 @@
 15	als	als	SCONJ	Conj|onder|metfin	_	17	case	_	_
 16	landelijke	landelijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	17	amod	_	_
 17	standaard	standaard	NOUN	N|soort|ev|neut	Number=Sing	10	dobj	_	_
-18	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	22	mark	_	_
+18	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	22	dobj	_	_
 19	op	op	ADP	Prep|voor	AdpType=Prep	21	case	_	_
 20	alle	alle	PRON	Pron|onbep|neut|attr	PronType=Ind	21	nmod	_	_
 21	consultatiebureaus	consultatiebureau	NOUN	N|soort|mv|neut	Number=Plur	23	nmod	_	_
@@ -2926,7 +2926,7 @@
 23	waardoor	waardoor	ADV	Adv|pron|vrag	PronType=Int	25	mark	_	_
 24	vooralsnog	vooralsnog	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	27	advmod	_	_
 25	moet	moet	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	21	advcl	_	_
-26	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	25	aux	_	_
+26	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	25	xcomp	_	_
 27	teruggevallen	val_terug	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	25	aux	_	_
 28	op	op	ADP	Prep|voor	AdpType=Prep	30	case	_	_
 29	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	30	det	_	_
@@ -3058,9 +3058,9 @@
 4	die	die	PRON	Pron|aanw|neut|attr	PronType=Dem	5	nmod	_	_
 5	consensus	consensus	NOUN	N|soort|ev|neut	Number=Sing	8	nsubj	_	_
 6	wel	wel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	7	advmod	_	_
-7	bereikt	bereik	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	1	aux	_	_
-8	kan	kan	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	_
-9	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	1	aux	_	_
+7	bereikt	bereik	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	_
+8	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	1	ccomp	_	_
+9	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	8	xcomp	_	_
 10	op	op	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 11	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	12	det	_	_
 12	moment	moment	NOUN	N|soort|ev|neut	Number=Sing	7	nmod	_	_
@@ -3158,9 +3158,9 @@
 15	reeks	reeks	NOUN	N|soort|ev|neut	Number=Sing	18	nmod	_	_
 16	van	van	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 17	jaren	jaar	NOUN	N|soort|mv|neut	Number=Plur	15	nmod	_	_
-18	ongewijzigd	ongewijzigd	ADJ	Adj|attr|stell|onverv	Degree=Pos	19	aux	_	_
-19	zal	zal	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-20	blijven	blijf	AUX	V|hulpofkopp|inf	VerbForm=Inf	18	cop	_	_
+18	ongewijzigd	ongewijzigd	ADJ	Adj|attr|stell|onverv	Degree=Pos	19	xcomp	_	_
+19	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	6	ccomp	_	_
+20	blijven	blijf	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	18	cop	_	_
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
 # sent_id nl-s73
@@ -3174,8 +3174,8 @@
 3	term	term	NOUN	N|soort|ev|neut	Number=Sing	20	nmod	_	_
 4	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	_
 5	functies	functie	NOUN	N|soort|mv|neut	Number=Plur	3	appos	_	_
-6	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	7	punct	_	_
-7	heeft	heb	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
+6	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	20	punct	_	_
+7	heeft	heb	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 8	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 9	Werkgroep	Werkgroep	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	20	nsubj	_	MWE=Werkgroep_Jeugdgezondheidszorg|MWEPOS=X
 10	Jeugdgezondheidszorg	Jeugdgezondheidszorg	PROPN	PROPN	_	9	name	_	_
@@ -3188,9 +3188,9 @@
 17	van	van	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 18	verschillende	verschil	PRON	Pron|onbep|neut|attr	PronType=Ind	19	nmod	_	_
 19	orde	orde	NOUN	N|soort|ev|neut	Number=Sing	16	nmod	_	_
-20	samengebracht	breng_samen	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	_
+20	samengebracht	breng_samen	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 21	,	,	PUNCT	Punc|komma	PunctType=Comm	20	punct	_	_
-22	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	34	mark	_	_
+22	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	34	iobj	_	_
 23	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	31	nmod	_	_
 24	lichamelijk	lichamelijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	31	advmod	_	_
 25	,	,	PUNCT	Punc|komma	PunctType=Comm	24	punct	_	_
@@ -3203,7 +3203,7 @@
 32	in	in	ADP	Prep_N|voor_soort|ev|neut	AdpType=Prep	34	compound:prt	_	MWE=in_kaart|MWEPOS=X
 33	kaart	kaart	X	X	Number=Sing	32	compound	_	_
 34	brengen	breng	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	16	acl	_	_
-35	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
+35	.	.	PUNCT	Punc|punt	PunctType=Peri	20	punct	_	_
 
 # sent_id nl-s75
 # orig_file_sentence 002#75
@@ -3218,12 +3218,12 @@
 9	derhalve	derhalve	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	_
 10	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	neg	_	_
 11	geschikt	geschikt	ADJ	Adj|attr|stell|onverv	Degree=Pos	7	conj	_	_
-12	om	om	SCONJ	Conj|onder|metinf	_	17	mark	_	_
+12	om	om	SCONJ	Conj|onder|metinf	_	11	dobj	_	_
 13	als	als	SCONJ	Conj|onder|metfin	_	14	case	_	_
 14	activiteiten	activiteit	NOUN	N|soort|mv|neut	Number=Plur	17	aux	_	_
 15	wettelijk	wettelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	advmod	_	_
 16	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	17	mark	_	_
-17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	11	aux	_	_
+17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	12	xcomp	_	_
 18	vastgelegd	leg_vast	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	14	cop	_	_
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
@@ -3240,7 +3240,7 @@
 9	activiteit	activiteit	NOUN	N|soort|ev|neut	Number=Sing	12	nmod	_	_
 10	onder	onder	ADV	Adv|deelv	PartType=Vbp	12	compound:prt	_	_
 11	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	12	mark	_	_
-12	brengen	breng_onder	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	4	aux	_	_
+12	brengen	breng_onder	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	4	xcomp	_	_
 13	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id nl-s77
@@ -3248,9 +3248,9 @@
 1	Bij	bij	ADP	Prep|voor	AdpType=Prep	2	case	_	_
 2	functies	functie	NOUN	N|soort|mv|neut	Number=Plur	6	nmod	_	_
 3	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
-4	men	men	PRON	Pron|onbep|neut|zelfst	PronType=Ind	6	nsubj	_	_
+4	men	men	PRON	Pron|onbep|neut|zelfst	PronType=Ind	3	nsubj	_	_
 5	ondermeer	ondermeer	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
-6	denken	denk	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	3	aux	_	_
+6	denken	denk	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	3	xcomp	_	_
 7	aan	aan	ADV	Adv|deelv	PartType=Vbp	6	dobj	_	_
 8	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	3	punct	_	_
 
@@ -3364,12 +3364,12 @@
 4	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
 5	verpleegkundig	verpleegkundig	ADJ	Adj|attr|stell|onverv	Degree=Pos	6	amod	_	_
 6	handboek	handboek	NOUN	N|soort|ev|neut	Number=Sing	2	nsubj	_	_
-7	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	11	mark	_	_
+7	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	11	iobj	_	_
 8	hierbij	hierbij	ADV	Adv|pron|aanw	PronType=Dem	10	advmod	_	_
 9	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
-10	leidraad	leidraad	NOUN	N|soort|ev|neut	Number=Sing	11	aux	_	_
+10	leidraad	leidraad	NOUN	N|soort|ev|neut	Number=Sing	11	xcomp	_	_
 11	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	6	acl	_	_
-12	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	10	cop	_	_
+12	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	10	cop	_	_
 13	4	4	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	dep	_	_
 14	en	en	CONJ	Conj|neven	_	2	cc	_	_
 15	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	16	advmod	_	_
@@ -3382,7 +3382,7 @@
 22	als	als	SCONJ	Conj|onder|metfin	_	24	case	_	_
 23	landelijke	landelijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	24	amod	_	_
 24	standaard	standaard	NOUN	N|soort|ev|neut	Number=Sing	25	aux	_	_
-25	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	17	aux	_	_
+25	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	17	xcomp	_	_
 26	opgevat	vat_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	24	cop	_	_
 27	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
@@ -3405,7 +3405,7 @@
 15	van	van	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 16	JGZ-activiteiten	JGZ-activiteiten	PROPN	N|eigen|ev|neut	Number=Sing	12	nmod	_	_
 17	zullen	zal	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
-18	leiden	leid	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	17	aux	_	_
+18	leiden	leid	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	17	xcomp	_	_
 19	tot	tot	ADP	Prep|voor	AdpType=Prep	22	case	_	_
 20	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	22	det	_	_
 21	periodieke	periodiek	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	22	amod	_	_
@@ -3509,7 +3509,7 @@
 16	van	van	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 17	landelijke	landelijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	18	amod	_	_
 18	groeistudies	groei_studie	NOUN	N|soort|mv|neut	Number=Plur	15	nmod	_	_
-19	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	24	mark	_	_
+19	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	24	dobj	_	_
 20	sinds	sinds	ADP	Prep|voor	AdpType=Prep	21	case	_	_
 21	1955	1955	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	25	advmod	_	_
 22	vier	vier	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	23	nummod	_	_
@@ -3568,7 +3568,7 @@
 15	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	16	det	_	_
 16	groeidiagrammen	groei_diagram	NOUN	N|soort|mv|neut	Number=Plur	29	dobj	_	_
 17	,	,	PUNCT	Punc|komma	PunctType=Comm	16	punct	_	_
-18	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	mark	_	_
+18	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	dobj	_	_
 19	opgenomen	neem_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	aux	_	_
 20	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	16	acl	_	_
 21	in	in	ADP	Prep|voor	AdpType=Prep	23	case	_	_
@@ -3643,8 +3643,8 @@
 16	Landelijke	Landelijke	ADJ	ADJ	_	15	amod	_	_
 17	Groeistudie	Groeistudie	ADJ	ADJ	_	15	amod	_	_
 18	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	19	det	_	_
-19	blauwdruk	blauwdruk	NOUN	N|soort|ev|neut	Number=Sing	10	aux	_	_
-20	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	19	cop	_	_
+19	blauwdruk	blauwdruk	NOUN	N|soort|ev|neut	Number=Sing	10	xcomp	_	_
+20	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	19	cop	_	_
 21	voor	voor	ADP	Prep|voor	AdpType=Prep	23	case	_	_
 22	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	23	det	_	_
 23	vijfde	vijfde	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	19	amod	_	_
@@ -3803,11 +3803,11 @@
 16	niveau	niveau	NOUN	N|soort|ev|neut	Number=Sing	9	nmod	_	_
 17	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	18	cop	_	_
 18	noodzakelijk	noodzakelijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	0	root	_	_
-19	om	om	SCONJ	Conj|onder|metinf	_	22	mark	_	_
+19	om	om	SCONJ	Conj|onder|metinf	_	18	dobj	_	_
 20	beleid	beleid	NOUN	N|soort|ev|neut	Number=Sing	23	dobj	_	_
 21	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	22	mark	_	_
-22	kunnen	kan	AUX	V|hulp|inf	VerbForm=Inf	18	aux	_	_
-23	voeren	voer	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	18	aux	_	_
+22	kunnen	kan	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	19	xcomp	_	_
+23	voeren	voer	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	22	xcomp	_	_
 24	en	en	CONJ	Conj|neven	_	18	cc	_	_
 25	rechtvaardigt	rechtvaardig	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	18	conj	_	_
 26	opneming	opneming	NOUN	N|soort|ev|neut	Number=Sing	25	dobj	_	_
@@ -3848,7 +3848,7 @@
 23	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
 24	efficiënte	efficiënt	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	25	amod	_	_
 25	wijze	wijze	NOUN	N|soort|ev|neut	Number=Sing	27	nmod	_	_
-26	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	13	aux	_	_
+26	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	13	xcomp	_	_
 27	uitgevoerd	voer_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	13	aux	_	_
 28	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
 
@@ -3882,7 +3882,7 @@
 11	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	21	punct	_	_
 12	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	21	cop	_	_
 13	informatie	informatie	NOUN	N|soort|ev|neut	Number=Sing	21	nsubj	_	_
-14	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	mark	_	_
+14	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	dobj	_	_
 15	monitoring	monitoring	NOUN	N|soort|ev|neut	Number=Sing	20	nsubj	_	_
 16	van	van	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 17	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	18	punct	_	_
@@ -3966,7 +3966,7 @@
 17	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
 18	efficiënte	efficiënt	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	19	amod	_	_
 19	wijze	wijze	NOUN	N|soort|ev|neut	Number=Sing	21	nmod	_	_
-20	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	13	aux	_	_
+20	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	13	xcomp	_	_
 21	uitgevoerd	voer_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	13	aux	_	_
 22	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
 
@@ -4077,7 +4077,7 @@
 17	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
 18	efficiënte	efficiënt	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	19	amod	_	_
 19	wijze	wijze	NOUN	N|soort|ev|neut	Number=Sing	21	nmod	_	_
-20	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	13	aux	_	_
+20	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	13	xcomp	_	_
 21	uitgevoerd	voer_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	13	aux	_	_
 22	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
 
@@ -4099,9 +4099,9 @@
 # sent_id nl-s26
 # orig_file_sentence 003#26
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	Werkgroep	Werkgroep	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	4	nsubj	_	MWE=Werkgroep_Jeugdgezondheidszorg|MWEPOS=X
+2	Werkgroep	Werkgroep	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	21	nsubj	_	MWE=Werkgroep_Jeugdgezondheidszorg|MWEPOS=X
 3	Jeugdgezondheidszorg	Jeugdgezondheidszorg	PROPN	PROPN	_	2	name	_	_
-4	heeft	heb	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
+4	heeft	heb	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
 5	in	in	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 6	haar	haar	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	_
 7	advies	advies	NOUN	N|soort|ev|neut	Number=Sing	21	nmod	_	_
@@ -4118,8 +4118,8 @@
 18	bij	bij	ADP	Prep|voor	AdpType=Prep	20	case	_	_
 19	dit	dit	PRON	Pron|aanw|neut|attr	PronType=Dem	20	nmod	_	_
 20	product	product	NOUN	N|soort|ev|neut	Number=Sing	21	nmod	_	_
-21	opgenomen	neem_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	_
-22	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+21	opgenomen	neem_op	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
+22	.	.	PUNCT	Punc|punt	PunctType=Peri	21	punct	_	_
 
 # sent_id nl-s27
 # orig_file_sentence 003#27
@@ -4145,7 +4145,7 @@
 # sent_id nl-s28
 # orig_file_sentence 003#28
 1	Te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	2	mark	_	_
-2	denken	denk	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	3	aux	_	_
+2	denken	denk	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	3	xcomp	_	_
 3	valt	val	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	onder	onder	X	Prep_Num	Degree=Cmp|PronType=Ind	2	advmod	_	MWE=onder_meer|MWEPOS=X
 5	meer	meer	X	X	Degree=Cmp|PronType=Ind	4	compound	_	_
@@ -4264,7 +4264,7 @@
 13	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	14	det	_	_
 14	zorg	zorg	NOUN	N|soort|ev|neut	Number=Sing	15	dobj	_	_
 15	krijgen	krijg	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	9	advcl	_	_
-16	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	18	mark	_	_
+16	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	18	dobj	_	_
 17	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	18	nsubj	_	_
 18	nodig	nodig	ADJ	Adj|attr|stell|onverv	Degree=Pos	14	acl	_	_
 19	hebben	heb	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	18	cop	_	_
@@ -4291,7 +4291,7 @@
 17	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
 18	efficiënte	efficiënt	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	19	amod	_	_
 19	wijze	wijze	NOUN	N|soort|ev|neut	Number=Sing	21	nmod	_	_
-20	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	13	aux	_	_
+20	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	13	xcomp	_	_
 21	uitgevoerd	voer_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	13	aux	_	_
 22	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
 
@@ -4335,11 +4335,11 @@
 26	zonder	zonder	SCONJ	Conj|onder|metinf	_	27	mark	_	_
 27	welk	welk	PRON	Pron|vrag|neut|zelfst	PronType=Int	18	dobj	_	_
 28	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	29	det	_	_
-29	jeugdgezondheidszorg	jeugd_gezondheidszorg	NOUN	N|soort|ev|neut	Number=Sing	33	nsubj	_	_
+29	jeugdgezondheidszorg	jeugd_gezondheidszorg	NOUN	N|soort|ev|neut	Number=Sing	32	nsubj	_	_
 30	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	33	neg	_	_
 31	goed	goed	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	33	advmod	_	_
 32	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	27	acl	_	_
-33	functioneren	functioneer	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	32	aux	_	_
+33	functioneren	functioneer	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	32	xcomp	_	_
 34	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s42
@@ -4374,7 +4374,7 @@
 15	netwerk	netwerk	NOUN	N|soort|ev|neut	Number=Sing	12	nmod	_	_
 16	van	van	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 17	voorzieningen	voorziening	NOUN	N|soort|mv|neut	Number=Plur	15	nmod	_	_
-18	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	21	mark	_	_
+18	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	21	dobj	_	_
 19	jeugd	jeugd	NOUN	N|soort|ev|neut	Number=Sing	21	dobj	_	_
 20	als	als	SCONJ	Conj|onder|metfin	_	21	case	_	_
 21	doelgroep	doelgroep	NOUN	N|soort|ev|neut	Number=Sing	17	acl	_	_
@@ -4391,7 +4391,7 @@
 6	grote	groot	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	7	amod	_	_
 7	verschillen	verschil	NOUN	N|soort|mv|neut	Number=Plur	9	dobj	_	_
 8	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	11	advcl	_	_
-9	vertonen	vertoon	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	8	aux	_	_
+9	vertonen	vertoon	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	8	xcomp	_	_
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	11	punct	_	_
 11	behoort	behoor	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	13	det	_	_
@@ -4595,7 +4595,7 @@
 9	deel	deel	NOUN	N|soort|ev|neut	Number=Sing	12	compound:prt	_	_
 10	uit	uit	ADV	Adv|deelv	PartType=Vbp	12	compound:prt	_	_
 11	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	12	mark	_	_
-12	maken	maak_uit	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	6	aux	_	_
+12	maken	maak_uit	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	6	xcomp	_	_
 13	van	van	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 14	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	16	det	_	_
 15	uniform	uniform	NOUN	N|soort|ev|neut	Number=Sing	16	nmod	_	_
@@ -4666,9 +4666,9 @@
 18	bepalen	bepaal	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	13	csubj	_	_
 19	welke	welk	PRON	Pron|vrag|neut|zelfst	PronType=Int	18	nmod	_	_
 20	zorg	zorg	NOUN	N|soort|ev|neut	Number=Sing	19	mark	_	_
-21	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+21	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	19	ccomp	_	_
 22	of	of	CONJ	Conj|neven	_	21	cc	_	_
-23	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+23	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	21	conj	_	_
 24	ontvangen	ontvang	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	19	aux	_	_
 25	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
 
@@ -4694,7 +4694,7 @@
 18	mantelzorg	mantel_zorg	NOUN	N|soort|ev|neut	Number=Sing	10	conj	_	_
 19	in	in	ADP	Prep_N|voor_soort|ev|neut	AdpType=Prep	22	compound:prt	_	MWE=in_ogenschouw|MWEPOS=X
 20	ogenschouw	ogenschouw	X	X	Number=Sing	19	compound	_	_
-21	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	2	aux	_	_
+21	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	2	xcomp	_	_
 22	genomen	neem	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
 23	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
@@ -4796,7 +4796,7 @@
 14	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	16	cop	_	_
 15	van	van	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 16	belang	belang	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
-17	om	om	SCONJ	Conj|onder|metinf	_	25	mark	_	_
+17	om	om	SCONJ	Conj|onder|metinf	_	16	advmod	_	_
 18	op	op	X	Prep_N_Prep|voor_soort|ev|neut_voor	Number=Sing	25	advmod	_	MWE=op_basis_van|MWEPOS=X
 19	basis	basis	X	X	Number=Sing	18	compound	_	_
 20	van	van	X	X	Number=Sing	18	compound	_	_
@@ -4804,7 +4804,7 @@
 22	risicofactoren	risicofactor	NOUN	N|soort|mv|neut	Number=Plur	18	dobj	_	_
 23	risicogroepen	risico_groep	VERB	V|intrans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Intr|Tense=Pres|VerbForm=Fin	25	ccomp	_	_
 24	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	25	mark	_	_
-25	onderscheiden	onderscheid	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	16	advcl	_	_
+25	onderscheiden	onderscheid	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	17	xcomp	_	_
 26	.	.	PUNCT	Punc|punt	PunctType=Peri	16	punct	_	_
 
 # sent_id nl-s66
@@ -4820,7 +4820,7 @@
 9	tot	tot	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 10	ongewenste	ongewenst	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	amod	_	_
 11	gezondheidsrisico's	gezondheid_risico	NOUN	N|soort|mv|neut	Number=Plur	12	nmod	_	_
-12	leiden	leid	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	8	aux	_	_
+12	leiden	leid	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	8	xcomp	_	_
 13	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id nl-s67
@@ -4844,14 +4844,14 @@
 17	landelijke	landelijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	18	amod	_	_
 18	consensus	consensus	NOUN	N|soort|ev|neut	Number=Sing	29	nsubj	_	_
 19	over	over	ADP	Prep|voor	AdpType=Prep	23	mark	_	_
-20	wat	wat	PRON	Pron|betr|neut|zelfst	PronType=Rel	23	mark	_	_
+20	wat	wat	PRON	Pron|betr|neut|zelfst	PronType=Rel	23	iobj	_	_
 21	minimaal	minimaal	ADJ	Adj|attr|stell|onverv	Degree=Pos	22	advmod	_	_
-22	nodig	nodig	ADJ	Adj|attr|stell|onverv	Degree=Pos	23	aux	_	_
+22	nodig	nodig	ADJ	Adj|attr|stell|onverv	Degree=Pos	23	xcomp	_	_
 23	zou	zal	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	18	acl	_	_
-24	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	22	cop	_	_
-25	om	om	SCONJ	Conj|onder|metinf	_	27	mark	_	_
+24	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	22	cop	_	_
+25	om	om	SCONJ	Conj|onder|metinf	_	22	dobj	_	_
 26	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	27	mark	_	_
-27	sturen	stuur	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	22	aux	_	_
+27	sturen	stuur	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	25	xcomp	_	_
 28	,	,	PUNCT	Punc|komma	PunctType=Comm	29	punct	_	_
 29	ontbreekt	ontbreek	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	13	conj	_	_
 30	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	29	punct	_	_
@@ -4878,7 +4878,7 @@
 15	ernstig	ernstig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	16	advmod	_	_
 16	getwijfeld	twijfel	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	17	aux	_	_
 17	moet	moet	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	12	advcl	_	_
-18	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	17	aux	_	_
+18	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	17	xcomp	_	_
 19	aan	aan	ADP	Prep|voor	AdpType=Prep	21	case	_	_
 20	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	21	det	_	_
 21	geschiktheid	geschiktheid	NOUN	N|soort|ev|neut	Number=Sing	16	dobj	_	_
@@ -4893,10 +4893,10 @@
 30	name	name	X	X	Case=Dat|Number=Sing	29	compound	_	_
 31	als	als	SCONJ	Conj|onder|metfin	_	29	mark	_	_
 32	risicogroepen	risico_groep	NOUN	N|soort|mv|neut	Number=Plur	34	nsubj	_	_
-33	geïdentificeerd	identificeer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	34	aux	_	_
+33	geïdentificeerd	identificeer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	35	aux	_	_
 34	zouden	zal	VERB	V|hulp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Mod	29	acl	_	_
-35	moeten	moet	AUX	V|hulp|inf	VerbForm=Inf	34	aux	_	_
-36	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	34	aux	_	_
+35	moeten	moet	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	34	xcomp	_	_
+36	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	35	xcomp	_	_
 37	op	op	X	Prep_N_Prep|voor_soort|ev|neut_voor	Number=Sing	33	advmod	_	MWE=op_basis_van|MWEPOS=X
 38	basis	basis	X	X	Number=Sing	37	compound	_	_
 39	van	van	X	X	Number=Sing	37	compound	_	_
@@ -4916,9 +4916,9 @@
 3	in	in	ADP	Prep_N_Adv|voor_soort|ev|neut_pron|aanw	AdpType=Prep	6	advmod	_	MWE=in_plaats_daarvan|MWEPOS=X
 4	plaats	plaats	X	X	Number=Sing|PronType=Dem	3	compound	_	_
 5	daarvan	daarvan	X	X	Number=Sing|PronType=Dem	3	compound	_	_
-6	gedefinieerd	definieer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
+6	gedefinieerd	definieer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	_
 7	kunnen	kan	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	aux	_	_
-8	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	2	aux	_	_
+8	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	7	xcomp	_	_
 9	op	op	X	Prep_N_Prep|voor_soort|ev|neut_voor	Number=Sing	6	advmod	_	MWE=op_basis_van|MWEPOS=X
 10	basis	basis	X	X	Number=Sing	9	compound	_	_
 11	van	van	X	X	Number=Sing	9	compound	_	_
@@ -4972,7 +4972,7 @@
 17	tot	tot	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 18	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
 19	risicogroep	risico_groep	NOUN	N|soort|ev|neut	Number=Sing	20	dobj	_	_
-20	behoort	behoor	AUX	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	5	aux	_	_
+20	behoort	behoor	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id nl-s73
@@ -4990,7 +4990,7 @@
 # orig_file_sentence 003#74
 1	Dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	2	nsubj	_	_
 2	wil	wil	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
-3	zeggen	zeg	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	aux	_	_
+3	zeggen	zeg	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	xcomp	_	_
 4	dat	dat	SCONJ	Conj|onder|metfin	_	11	mark	_	_
 5	men	men	PRON	Pron|onbep|neut|zelfst	PronType=Ind	11	nsubj	_	_
 6	tot	tot	ADP	Prep|voor	AdpType=Prep	10	case	_	_
@@ -4998,11 +4998,11 @@
 8	bepaalde	bepaald	PRON	Pron|onbep|neut|attr	PronType=Ind	10	nmod	_	_
 9	maatschappelijke	maatschappelijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	10	amod	_	_
 10	groepering	groepering	NOUN	N|soort|ev|neut	Number=Sing	11	dobj	_	_
-11	behoort	behoor	AUX	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	2	aux	_	_
+11	behoort	behoor	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 12	waarvan	waarvan	ADV	Adv|pron|vrag	PronType=Int	13	mark	_	_
 13	bekend	bekend	ADJ	Adj|attr|stell|onverv	Degree=Pos	10	acl	_	_
 14	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	13	cop	_	_
-15	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	20	mark	_	_
+15	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	20	dobj	_	_
 16	daarin	daarin	ADV	Adv|pron|aanw	PronType=Dem	17	advmod	_	_
 17	bepaalde	bepaald	PRON	Pron|onbep|neut|attr	PronType=Ind	18	nmod	_	_
 18	problemen	probleem	NOUN	N|soort|mv|neut	Number=Plur	20	nsubj	_	_
@@ -5413,7 +5413,7 @@
 26	termijn	termijn	NOUN	N|soort|ev|neut	Number=Sing	30	nmod	_	_
 27	landelijk	landelijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	30	advmod	_	_
 28	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	17	csubj	_	_
-29	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	28	aux	_	_
+29	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	28	xcomp	_	_
 30	geïmplementeerd	implementeer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	28	aux	_	_
 31	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
@@ -5423,7 +5423,7 @@
 2	moet	moet	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	dus	dus	ADV	Adv|gew|aanw	PronType=Dem	6	advmod	_	_
 4	gebruik	gebruik	NOUN	N|soort|ev|neut	Number=Sing	6	compound:prt	_	_
-5	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	2	aux	_	_
+5	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	2	xcomp	_	_
 6	gemaakt	maak_gebruik	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
 7	van	van	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	9	det	_	_
@@ -5506,7 +5506,7 @@
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
 2	verwachting	verwachting	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	2	cop	_	_
-4	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	11	mark	_	_
+4	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	11	iobj	_	_
 5	binnen	binnen	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 6	afzienbare	afzienbaar	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	7	amod	_	_
 7	tijd	tijd	NOUN	N|soort|ev|neut	Number=Sing	10	nmod	_	_
@@ -5514,7 +5514,7 @@
 9	CAPAS-screening	CAPAS_screening	NOUN	N|soort|ev|neut	Number=Sing	10	dobj	_	_
 10	vervangen	vervang	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	aux	_	_
 11	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	csubj	_	_
-12	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	11	aux	_	_
+12	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	11	xcomp	_	_
 13	door	door	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 14	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
 15	neonatale	neonataal	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	16	amod	_	_
@@ -5647,9 +5647,9 @@
 6	tegen	tegen	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 7	hepatitis	hepatitis	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
 8	B	B	PROPN	N|eigen|ev|neut	Number=Sing	7	appos	_	_
-9	opgenomen	neem_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
-10	moet	moet	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
-11	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	2	aux	_	_
+9	opgenomen	neem_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	10	aux	_	_
+10	moet	moet	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	ccomp	_	_
+11	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	10	xcomp	_	_
 12	in	in	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	14	det	_	_
 14	RVP	RVP	PROPN	N|eigen|ev|neut	Number=Sing	9	nmod	_	_
@@ -5699,8 +5699,8 @@
 14	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	15	det	_	_
 15	maatwerkdeel	maatwerk_deel	NOUN	N|soort|ev|neut	Number=Sing	18	nmod	_	_
 16	moeten	moet	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	aux	_	_
-17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	6	aux	_	_
-18	ondergebracht	breng_onder	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	6	aux	_	_
+17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	16	xcomp	_	_
+18	ondergebracht	breng_onder	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	aux	_	_
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
 # sent_id nl-s17
@@ -5719,8 +5719,8 @@
 12	omdat	omdat	SCONJ	Conj|onder|metfin	_	14	mark	_	_
 13	die	die	PRON	Pron|aanw|neut|zelfst	PronType=Dem	14	nsubj	_	_
 14	zou	zal	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	10	advcl	_	_
-15	kunnen	kan	AUX	V|hulp|inf	VerbForm=Inf	14	aux	_	_
-16	leiden	leid	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	14	aux	_	_
+15	kunnen	kan	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	14	xcomp	_	_
+16	leiden	leid	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	15	xcomp	_	_
 17	tot	tot	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 18	onaanvaardbare	onaanvaardbaar	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	19	amod	_	_
 19	gezondheidsrisico's	gezondheid_risico	NOUN	N|soort|mv|neut	Number=Plur	16	nmod	_	_
@@ -5778,7 +5778,7 @@
 14	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	15	det	_	_
 15	Basistakenpakket	Basistakenpakket	X	N_N|soort|ev|neut_eigen|ev|neut	Number=Sing	12	nmod	_	MWE=Basistakenpakket_Jeugdgezondheidszorg|MWEPOS=X
 16	Jeugdgezondheidszorg	Jeugdgezondheidszorg	X	X	Number=Sing	15	compound	_	_
-17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	6	aux	_	_
+17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	6	xcomp	_	_
 18	gerekend	reken	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	6	aux	_	_
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
@@ -5796,7 +5796,7 @@
 1	Dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	2	nsubj	_	_
 2	moet	moet	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	voorkomen	voorkom	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	aux	_	_
-4	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	2	aux	_	_
+4	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	2	xcomp	_	_
 5	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s22
@@ -6094,7 +6094,7 @@
 17	dossier	dossier	NOUN	N|soort|ev|neut	Number=Sing	20	dobj	_	_
 18	aan	aan	ADV	Adv|deelv	PartType=Vbp	20	compound:prt	_	_
 19	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	20	mark	_	_
-20	leggen	leg_aan	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	11	aux	_	_
+20	leggen	leg_aan	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	11	xcomp	_	_
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
 
 # sent_id nl-s37
@@ -6155,7 +6155,7 @@
 9	van	van	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 10	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
 11	activiteiten	activiteit	NOUN	N|soort|mv|neut	Number=Plur	7	nmod	_	_
-12	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	mark	_	_
+12	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	iobj	_	_
 13	min	min	DET	Num_Conj_Num	Degree=Cmp|NumType=Card|PronType=Ind	16	det:nummod	_	MWE=min_of_meer|MWEPOS=DET
 14	of	of	PRON	PRON	Degree=Cmp|NumType=Card|PronType=Ind	13	compound	_	_
 15	meer	meer	PRON	PRON	Degree=Cmp|NumType=Card|PronType=Ind	13	compound	_	_
@@ -6164,7 +6164,7 @@
 18	elk	elk	PRON	Pron|onbep|neut|attr	PronType=Ind	19	nmod	_	_
 19	kind	kind	NOUN	N|soort|ev|neut	Number=Sing	21	nmod	_	_
 20	moeten	moet	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	11	acl	_	_
-21	plaatsvinden	vind_plaats	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	20	aux	_	_
+21	plaatsvinden	vind_plaats	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	20	xcomp	_	_
 22	en	en	CONJ	Conj|neven	_	5	cc	_	_
 23	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	29	cop	_	_
 24	daarmee	daarmee	ADV	Adv|pron|aanw	PronType=Dem	29	advmod	_	_
@@ -6187,7 +6187,7 @@
 4	daarnaast	daarnaast	ADV	Adv|pron|aanw	PronType=Dem	3	advmod	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
 6	ruimte	ruimte	NOUN	N|soort|ev|neut	Number=Sing	3	dobj	_	_
-7	om	om	SCONJ	Conj|onder|metinf	_	18	mark	_	_
+7	om	om	SCONJ	Conj|onder|metinf	_	6	dobj	_	_
 8	in	in	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 9	voorkomende	voorkom	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	10	acl	_	_
 10	gevallen	geval	NOUN	N|soort|mv|neut	Number=Plur	18	nmod	_	_
@@ -6198,7 +6198,7 @@
 15	toegesneden	toegesneden	NOUN	N|soort|mv|neut	Number=Plur	16	nmod	_	_
 16	zorgplan	zorg_plan	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	18	ccomp	_	_
 17	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	18	mark	_	_
-18	registreren	registreer	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	6	aux	_	_
+18	registreren	registreer	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	7	xcomp	_	_
 19	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	3	punct	_	_
 20	zie	zie	VERB	V|trans|imp	Mood=Imp|Subcat=Tran|VerbForm=Fin	3	parataxis	_	_
 21	bij	bij	ADP	Prep|voor	AdpType=Prep	22	case	_	_
@@ -6274,28 +6274,28 @@
 # sent_id nl-s46
 # orig_file_sentence 004#46
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	Werkgroep	Werkgroep	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	4	nsubj	_	MWE=Werkgroep_Jeugdgezondheidszorg|MWEPOS=X
+2	Werkgroep	Werkgroep	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	10	nsubj	_	MWE=Werkgroep_Jeugdgezondheidszorg|MWEPOS=X
 3	Jeugdgezondheidszorg	Jeugdgezondheidszorg	PROPN	PROPN	_	2	name	_	_
-4	heeft	heb	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
+4	heeft	heb	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
 5	er	er	ADV	Adv|pron|er	AdvType=Ex	9	dobj	_	_
 6	in	in	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	haar	haar	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod	_	_
 8	advies	advies	NOUN	N|soort|ev|neut	Number=Sing	10	nmod	_	_
 9	voor	voor	ADV	Adv|deeladv	PartType=Vbp	10	dobj	_	_
-10	gekozen	kies	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	_
-11	om	om	SCONJ	Conj|onder|metinf	_	17	mark	_	_
+10	gekozen	kies	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
+11	om	om	SCONJ	Conj|onder|metinf	_	9	dobj	_	_
 12	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	17	advmod	_	_
 13	zorgverlening	zorg_verlening	NOUN	N|soort|ev|neut	Number=Sing	17	dobj	_	_
 14	op	op	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 15	maat	maat	NOUN	N|soort|ev|neut	Number=Sing	13	nmod	_	_
 16	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	17	mark	_	_
-17	rekenen	reken	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	9	aux	_	_
+17	rekenen	reken	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	11	xcomp	_	_
 18	tot	tot	ADP	Prep|voor	AdpType=Prep	20	case	_	_
 19	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	20	det	_	_
 20	productgroep	product_groep	NOUN	N|soort|ev|neut	Number=Sing	17	dobj	_	_
-21	Inschatten	schat_in	PROPN	N|eigen|ev|neut	Number=Sing	4	dep	_	_
-22	zorgbehoefte	zorgbehoefte	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	4	parataxis	_	_
-23	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+21	Inschatten	schat_in	PROPN	N|eigen|ev|neut	Number=Sing	10	dep	_	_
+22	zorgbehoefte	zorgbehoefte	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+23	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
 
 # sent_id nl-s47
 # orig_file_sentence 004#47
@@ -6306,8 +6306,8 @@
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
 6	gemeente	gemeente	NOUN	N|soort|ev|neut	Number=Sing	3	nmod	_	_
 7	zou	zal	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	0	root	_	_
-8	kunnen	kan	AUX	V|hulp|inf	VerbForm=Inf	7	aux	_	_
-9	resulteren	resulteer	AUX	V|intrans|inf	Subcat=Intr|VerbForm=Inf	7	aux	_	_
+8	kunnen	kan	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	7	xcomp	_	_
+9	resulteren	resulteer	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	8	xcomp	_	_
 10	in	in	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 11	één	één	ADJ	Adj|attr|stell|onverv	Degree=Pos	13	amod	_	_
 12	ongedeelde	ongedeeld	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	13	amod	_	_
@@ -6363,7 +6363,7 @@
 33	U2.1.3	U2.1.3	PROPN	N|eigen|ev|neut	Number=Sing	31	conj	_	_
 34	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	4	conj	_	_
 35	zorg	zorg	NOUN	N|soort|ev|neut	Number=Sing	37	dobj	_	_
-36	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	34	aux	_	_
+36	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	34	xcomp	_	_
 37	verleend	verleen	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	34	aux	_	_
 38	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
@@ -6461,7 +6461,7 @@
 8	groep	groep	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
 9	afgestemde	afgestemd	VERB	V|trans|verldw|vervneut	Case=Nom|Subcat=Tran|Tense=Past|VerbForm=Part	10	acl	_	_
 10	zorg	zorg	NOUN	N|soort|ev|neut	Number=Sing	12	dobj	_	_
-11	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	2	aux	_	_
+11	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	2	xcomp	_	_
 12	verleend	verleen	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
 13	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
@@ -6550,8 +6550,8 @@
 16	0	0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	14	nummod	_	_
 17	tot	tot	ADP	Prep|voor	AdpType=Prep	16	cc	_	_
 18	19-jarigen	19-jarigen	NOUN	N|soort|mv|neut	Number=Plur	16	conj	_	_
-19	kon	kan	AUX	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	aux	_	_
-20	formuleren	formuleer	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	4	aux	_	_
+19	kon	kan	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	4	ccomp	_	_
+20	formuleren	formuleer	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	19	xcomp	_	_
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id nl-s62
@@ -6593,11 +6593,11 @@
 6	begeleiding	begeleiding	NOUN	N|soort|ev|neut	Number=Sing	12	nsubj	_	_
 7	van	van	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	beperkte	beperkt	VERB	V|trans|verldw|vervneut	Case=Nom|Subcat=Tran|Tense=Past|VerbForm=Part	9	acl	_	_
-9	duur	duur	NOUN	N|soort|ev|neut	Number=Sing	12	aux	_	_
+9	duur	duur	NOUN	N|soort|ev|neut	Number=Sing	12	xcomp	_	_
 10	en	en	CONJ	Conj|neven	_	9	cc	_	_
 11	intensiteit	intensiteit	NOUN	N|soort|ev|neut	Number=Sing	9	conj	_	_
-12	zal	zal	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
-13	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	9	cop	_	_
+12	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	ccomp	_	_
+13	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	9	cop	_	_
 14	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id nl-s64
@@ -6611,7 +6611,7 @@
 7	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 8	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
 9	onderscheid	onderscheid	NOUN	N|soort|ev|neut	Number=Sing	11	dobj	_	_
-10	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	7	aux	_	_
+10	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	7	xcomp	_	_
 11	gemaakt	maak	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	_
 12	in	in	ADV	Adv|deeladv	PartType=Vbp	9	advmod	_	_
 13	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	7	punct	_	_
@@ -6640,12 +6640,12 @@
 5	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	6	det	_	_
 6	algemeen	algemeen	ADJ	Adj|attr|stell|onverv	Degree=Pos	8	advmod	_	_
 7	anticiperende	anticipeer	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	8	acl	_	_
-8	voorlichting	voorlichting	NOUN	N|soort|ev|neut	Number=Sing	3	aux	_	_
-9	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	8	cop	_	_
+8	voorlichting	voorlichting	NOUN	N|soort|ev|neut	Number=Sing	3	xcomp	_	_
+9	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	8	cop	_	_
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	8	punct	_	_
-11	dat	dat	X	Pron_V_V	Aspect=Imp|Mood=Ind|Person=3|PronType=Dem|Tense=Pres|VerbForm=Inf	12	mark	_	MWE=dat_wil_zeggen|MWEPOS=X
-12	wil	wil	X	X	Aspect=Imp|Mood=Ind|Person=3|PronType=Dem|Tense=Pres|VerbForm=Inf	8	compound	_	_
-13	zeggen	zeggen	X	X	Aspect=Imp|Mood=Ind|Person=3|PronType=Dem|Tense=Pres|VerbForm=Inf	12	compound	_	_
+11	dat	dat	X	Pron_V_V	Aspect=Imp|Mood=Ind|Person=3|PronType=Dem|Tense=Pres|VerbForm=Inf	8	advmod	_	MWE=dat_wil_zeggen|MWEPOS=X
+12	wil	wil	X	X	Aspect=Imp|Mood=Ind|Person=3|PronType=Dem|Tense=Pres|VerbForm=Inf	11	compound	_	_
+13	zeggen	zeggen	X	X	Aspect=Imp|Mood=Ind|Person=3|PronType=Dem|Tense=Pres|VerbForm=Inf	11	compound	_	_
 14	dat	dat	SCONJ	Conj|onder|metfin	_	21	mark	_	_
 15	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	16	det	_	_
 16	voorlichting	voorlichting	NOUN	N|soort|ev|neut	Number=Sing	21	nsubj	_	_
@@ -6653,13 +6653,13 @@
 18	primair	primair	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	19	advmod	_	_
 19	preventief	preventief	ADJ	Adj|attr|stell|onverv	Degree=Pos	20	amod	_	_
 20	karakter	karakter	NOUN	N|soort|ev|neut	Number=Sing	21	dobj	_	_
-21	heeft	heb	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+21	heeft	heb	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
 22	en	en	CONJ	Conj|neven	_	21	cc	_	_
 23	vooruitloopt	loop_vooruit	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	21	conj	_	_
 24	op	op	ADP	Prep|voor	AdpType=Prep	26	case	_	_
 25	risicovolle	risicovol	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	26	amod	_	_
 26	situaties	situatie	NOUN	N|soort|mv|neut	Number=Plur	23	dobj	_	_
-27	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	28	mark	_	_
+27	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	28	dobj	_	_
 28	inherent	inherent	ADJ	Adj|attr|stell|onverv	Degree=Pos	26	acl	_	_
 29	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	28	cop	_	_
 30	aan	aan	ADP	Prep|voor	AdpType=Prep	32	case	_	_
@@ -6688,7 +6688,7 @@
 14	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
 15	gestandaardiseerde	gestandaardiseerd	VERB	V|trans|verldw|vervneut	Case=Nom|Subcat=Tran|Tense=Past|VerbForm=Part	16	acl	_	_
 16	wijze	wijze	NOUN	N|soort|ev|neut	Number=Sing	18	nmod	_	_
-17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	9	aux	_	_
+17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	9	xcomp	_	_
 18	gegeven	geef	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	aux	_	_
 19	,	,	PUNCT	Punc|komma	PunctType=Comm	18	punct	_	_
 20	zoals	zoals	SCONJ	Conj|onder|metfin	_	22	mark	_	_
@@ -6734,9 +6734,9 @@
 7	waarvan	waarvan	ADV	Adv|pron|vrag	PronType=Int	11	mark	_	_
 8	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	9	det	_	_
 9	effect	effect	NOUN	N|soort|ev|neut	Number=Sing	10	nsubj	_	_
-10	risicoreductie	risico_reductie	NOUN	N|soort|ev|neut	Number=Sing	11	aux	_	_
+10	risicoreductie	risico_reductie	NOUN	N|soort|ev|neut	Number=Sing	11	xcomp	_	_
 11	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	6	acl	_	_
-12	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	10	cop	_	_
+12	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	10	cop	_	_
 13	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	2	punct	_	_
 
 # sent_id nl-s71
@@ -6810,15 +6810,15 @@
 3	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 4	anticiperend	anticipeer	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
 5	van	van	ADP	Prep|voor	AdpType=Prep	6	case	_	_
-6	aard	aard	NOUN	N|soort|ev|neut	Number=Sing	3	aux	_	_
-7	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	aard	aard	NOUN	N|soort|ev|neut	Number=Sing	3	ccomp	_	_
+7	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	6	cop	_	_
 8	,	,	PUNCT	Punc|komma	PunctType=Comm	6	punct	_	_
 9	maar	maar	CONJ	Conj|neven	_	6	cc	_	_
 10	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	13	advmod	_	_
 11	secundair	secundair	ADJ	Adj|attr|stell|onverv	Degree=Pos	13	advmod	_	_
 12	preventief	preventief	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
 13	gegeven	geef	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	6	aux	_	_
-14	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	6	conj	_	_
+14	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	6	conj	_	_
 15	op	op	X	Prep_N_Prep|voor_soort|ev|neut_voor	Number=Sing	13	advmod	_	MWE=op_basis_van|MWEPOS=X
 16	basis	basis	X	X	Number=Sing	15	compound	_	_
 17	van	van	X	X	Number=Sing	15	compound	_	_
@@ -6883,8 +6883,8 @@
 8	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	9	nsubj	_	_
 9	wil	wil	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	6	parataxis	_	_
 10	dus	dus	ADV	Adv|gew|aanw	PronType=Dem	11	advmod	_	_
-11	zeggen	zeg	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	9	aux	_	_
-12	afgestemd	stem_af	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	aux	_	_
+11	zeggen	zeg	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	9	xcomp	_	_
+12	afgestemd	stem_af	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	aux	_	_
 13	op	op	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 14	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	15	det	_	_
 15	behoefte	behoefte	NOUN	N|soort|ev|neut	Number=Sing	12	dobj	_	_
@@ -6901,9 +6901,9 @@
 26	dat	dat	SCONJ	Conj|onder|metfin	_	30	mark	_	_
 27	zij	zij	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	30	nsubj	_	_
 28	zeer	zeer	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	29	advmod	_	_
-29	variabel	variabel	ADJ	Adj|attr|stell|onverv	Degree=Pos	30	aux	_	_
+29	variabel	variabel	ADJ	Adj|attr|stell|onverv	Degree=Pos	30	xcomp	_	_
 30	kunnen	kan	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	22	csubj	_	_
-31	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	29	cop	_	_
+31	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	29	cop	_	_
 32	naar	naar	ADP	Prep|voor	AdpType=Prep	33	case	_	_
 33	onderwerp	onderwerp	NOUN	N|soort|ev|neut	Number=Sing	29	nmod	_	_
 34	,	,	PUNCT	Punc|komma	PunctType=Comm	33	punct	_	_
@@ -6927,12 +6927,12 @@
 11	waarop	waarop	ADV	Adv|pron|vrag	PronType=Int	18	mark	_	_
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	14	det	_	_
 13	ontwikkelingsondersteunende	ontwikkelingsondersteunende	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	14	amod	_	_
-14	voorlichting	voorlichting	NOUN	N|soort|ev|neut	Number=Sing	19	nsubj	_	_
+14	voorlichting	voorlichting	NOUN	N|soort|ev|neut	Number=Sing	18	nsubj	_	_
 15	onder	onder	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 16	andere	ander	PRON	Pron|onbep|neut|attr	PronType=Ind	19	nmod	_	_
 17	betrekking	betrekking	NOUN	N|soort|ev|neut	Number=Sing	19	compound:prt	_	_
 18	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	10	acl	_	_
-19	hebben	heb	AUX	V|trans|inf	Subcat=Tran|VerbForm=Inf	18	aux	_	_
+19	hebben	heb	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	18	xcomp	_	_
 20	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	5	punct	_	_
 
 # sent_id nl-s84

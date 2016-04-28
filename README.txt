@@ -8,6 +8,7 @@ loss of information. The first release of Universal Dependencies that includes t
 is UD v1.2 in November 2015. It is essentially the HamleDT conversion but the data is not
 identical to HamleDT 3.0 because the conversion procedure has been further improved.
 
+
 References:
 
 http://odur.let.rug.nl/~vannoord/trees/
@@ -23,6 +24,23 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
   address   = {Groningen, The Netherlands},
   url       = {http://odur.let.rug.nl/~vannoord/trees/Papers/report_ch5.pdf}
 }
+
+
+Changelog
+
+2016-05-15 v1.3
+  * Multi-word expressions that were collapsed into one node (with underscores)
+    are split again. This needs to be revisited and POS tags and MWE-internal
+    relations improved.
+  * Fixed adverbs that were attached as nmod; correct: advmod.
+  * Copulas with clausal complements are now heads.
+  * Relative pronouns are no longer treated as subordinating conjunctions.
+    More work is needed: now all are attached as 'dobj', which may not be correct;
+    noun phrases with relative determiners (welke boeken) and relative prepositional
+    phrases (bij wat) are not handled properly.
+  * Reversed relation finite auxiliary "heb" – participle.
+  * Infinitives under modal verbs are now 'xcomp', not 'aux'.
+
 
 === Machine-readable metadata =================================================
 Documentation status: stub
