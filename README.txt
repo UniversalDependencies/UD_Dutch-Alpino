@@ -49,4 +49,5 @@ Data available since: UD v1.2
 License: GNU GPL 3.0
 Genre: news
 Contributors: Zeman, Daniel; Žabokrtský, Zdeněk
+Contact: zeman@ufal.mff.cuni.cz
 ===============================================================================
