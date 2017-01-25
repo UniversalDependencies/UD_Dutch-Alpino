@@ -1,15 +1,15 @@
 # sent_id = dev-s1/nl
 # text = "Mijn basisniveau is flink omhoog gegaan."
 # orig_file_sentence 001#1
-1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	7	punct	_	SpaceAfter=No
 2	Mijn	mijn	PRON	Pron|bez|1|ev|neut|attr	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
-3	basisniveau	basis_niveau	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
-4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	basisniveau	basis_niveau	NOUN	N|soort|ev|neut	Number=Sing	7	nsubj	_	_
+4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 5	flink	flink	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	advmod	_	_
 6	omhoog	omhoog	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	7	advmod	_	_
-7	gegaan	ga	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	4	aux	_	SpaceAfter=No
-8	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	SpaceAfter=No
-9	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	4	punct	_	_
+7	gegaan	ga	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	SpaceAfter=No
+9	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	7	punct	_	_
 
 # sent_id = dev-s2/nl
 # text = De afgelopen week twijfelde ze nog of ze wel moest meedoen aan het NK.
@@ -128,7 +128,7 @@
 6	ploeggenote	ploeggenote	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	2	conj	_	_
 7	Bertine	Bertine	X	N_N|soort|ev|neut_eigen|ev|neut	Number=Sing	6	appos	_	MWE=Bertine_Spijkerman|MWEPOS=X
 8	Spijkerman	Spijkerman	X	X	Number=Sing	7	compound	_	_
-9	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+9	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	19	aux	_	_
 10	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	_
 11	Saskia	Saskia	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	19	nsubj	_	MWE=Saskia_Kaagman|MWEPOS=X
 12	Kaagman	Kaagman	PROPN	PROPN	_	11	flat	_	_
@@ -138,8 +138,8 @@
 16	van	van	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 17	Farm	Farm	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	15	nmod	_	MWE=Farm_Frites|MWEPOS=X
 18	Frites	Frites	PROPN	PROPN	_	17	flat	_	_
-19	meegesprongen	mee_spring	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	9	aux	_	SpaceAfter=No
-20	.	.	PUNCT	Punc|punt	PunctType=Peri	9	punct	_	_
+19	meegesprongen	mee_spring	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	Punc|punt	PunctType=Peri	19	punct	_	_
 
 # sent_id = dev-s9/nl
 # text = Met venijnige demarrages matte de talentvolle Kaagman de concurrentie af.
@@ -159,7 +159,7 @@
 # sent_id = dev-s10/nl
 # text = Waarmee het pad voor de rappe Van Alebeek werd geëffend.
 # orig_file_sentence 001#10
-1	Waarmee	waarmee	ADV	Adv|pron|vrag	PronType=Int	9	mark	_	_
+1	Waarmee	waarmee	ADV	Adv|pron|vrag	PronType=Int	10	mark	_	_
 2	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	3	det	_	_
 3	pad	pad	NOUN	N|soort|ev|neut	Number=Sing	10	obj	_	_
 4	voor	voor	ADP	Prep|voor	AdpType=Prep	7	case	_	_
@@ -167,9 +167,9 @@
 6	rappe	rap	NOUN	N|soort|ev|neut	Number=Sing	7	obl	_	_
 7	Van	Van	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	10	advmod	_	MWE=Van_Alebeek|MWEPOS=X
 8	Alebeek	Alebeek	PROPN	PROPN	_	7	flat	_	_
-9	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
-10	geëffend	effen	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	aux	_	SpaceAfter=No
-11	.	.	PUNCT	Punc|punt	PunctType=Peri	9	punct	_	_
+9	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	geëffend	effen	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
 
 # sent_id = dev-s11/nl
 # text = Met de finish in zicht sloegen de zenuwen toe.
@@ -579,20 +579,20 @@
 # sent_id = dev-s36/nl
 # text = "Vorig jaar ben ik voor het eerst geopereerd, aan mijn linkerpols.
 # orig_file_sentence 001#36
-1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	9	punct	_	SpaceAfter=No
 2	Vorig	vorig	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	amod	_	_
 3	jaar	jaar	NOUN	N|soort|ev|neut	Number=Sing	9	obl	_	_
-4	ben	ben	AUX	V|hulpofkopp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+4	ben	ben	AUX	V|hulpofkopp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
 5	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
 6	voor	voor	X	Prep_Art_Adj	Degree=Cmp|Gender=Neut	9	advmod	_	MWE=voor_het_eerst|MWEPOS=X
 7	het	het	X	X	Degree=Cmp|Gender=Neut	6	compound	_	_
 8	eerst	eerst	X	X	Degree=Cmp|Gender=Neut	6	compound	_	_
-9	geopereerd	opereer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	SpaceAfter=No
+9	geopereerd	opereer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	9	punct	_	_
 11	aan	aan	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 12	mijn	mijn	PRON	Pron|bez|1|ev|neut|attr	Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	nmod	_	_
 13	linkerpols	linker_pols	NOUN	N|soort|mv|neut	Number=Plur	9	obj	_	SpaceAfter=No
-14	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+14	.	.	PUNCT	Punc|punt	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s37/nl
 # text = Dat gaf me de tijd om eens na te denken over mijn instelling.
@@ -660,8 +660,8 @@
 # orig_file_sentence 001#41
 1	Het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	3	det	_	_
 2	Nederlands	Nederlands	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	amod	_	_
-3	jeugdteam	jeugd_team	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
-4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	jeugdteam	jeugd_team	NOUN	N|soort|ev|neut	Number=Sing	13	nsubj	_	_
+4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 5	roemloos	roemloos	ADJ	Adj|attr|stell|onverv	Degree=Pos	13	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	Punc|komma	PunctType=Comm	8	punct	_	_
 7	en	en	CCONJ	Conj|neven	_	8	cc	_	_
@@ -670,14 +670,14 @@
 10	ontluisterende	ontluister	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	11	acl	_	_
 11	wijze	wijze	NOUN	N|soort|ev|neut	Number=Sing	8	obl	_	SpaceAfter=No
 12	,	,	PUNCT	Punc|komma	PunctType=Comm	13	punct	_	_
-13	uitgeschakeld	schakel_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	_
+13	uitgeschakeld	schakel_uit	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 14	op	op	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 15	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	16	det	_	_
 16	wereldkampioenschap	wereldkampioenschap	NOUN	N|soort|ev|neut	Number=Sing	13	obl	_	_
 17	onder	onder	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 18	20	20	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	19	nummod	_	_
 19	jaar	jaar	NOUN	N|soort|ev|neut	Number=Sing	16	nmod	_	SpaceAfter=No
-20	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+20	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
 
 # sent_id = dev-s42/nl
 # text = De Oranje-beloften legden het gisteravond zowel in fysiek als in technisch opzicht af tegen Egypte.
@@ -775,14 +775,14 @@
 10	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	11	det	_	_
 11	toernooi	toernooi	NOUN	N|soort|ev|neut	Number=Sing	6	obl	_	_
 12	toezien	zie_toe	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	4	xcomp	_	_
-13	hoe	hoe	ADV	Adv|gew|betr	PronType=Rel	19	mark	_	_
+13	hoe	hoe	ADV	Adv|gew|betr	PronType=Rel	20	mark	_	_
 14	zijn	zijn	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod	_	_
 15	ploeg	ploeg	NOUN	N|soort|ev|neut	Number=Sing	20	obj	_	_
 16	op	op	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 17	vele	vele	DET	Num	Case=Nom|Degree=Pos|NumType=Card|PronType=Ind	18	det:nummod	_	_
 18	fronten	front	NOUN	N|soort|mv|neut	Number=Plur	20	obl	_	_
-19	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	12	ccomp	_	_
-20	afgetroefd	troef_af	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	12	aux	_	SpaceAfter=No
+19	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	20	aux	_	_
+20	afgetroefd	troef_af	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	12	ccomp	_	SpaceAfter=No
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s46/nl
@@ -972,15 +972,15 @@
 # text = De defensie werd danig beproefd door de dartele Egyptenaren.
 # orig_file_sentence 001#55
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	defensie	defensie	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
-3	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+2	defensie	defensie	NOUN	N|soort|ev|neut	Number=Sing	5	nsubj	_	_
+3	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	aux	_	_
 4	danig	danig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	advmod	_	_
-5	beproefd	beproef	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	_
+5	beproefd	beproef	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 6	door	door	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 8	dartele	dartel	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
 9	Egyptenaren	Egyptenaar	NOUN	N|soort|mv|neut	Number=Plur	5	obl	_	SpaceAfter=No
-10	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+10	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s56/nl
 # text = Nederland kon er zelden een vloeiende aanval tegenover stellen.
@@ -1080,19 +1080,19 @@
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 6	tweede	tweede	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	7	amod	_	_
 7	helft	helft	NOUN	N|soort|ev|neut	Number=Sing	3	nmod	_	_
-8	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+8	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	aux	_	_
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
 10	ajacied	Ajacied	NOUN	N|soort|ev|neut	Number=Sing	14	obj	_	_
 11	uit	uit	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 12	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	13	det	_	_
 13	veld	veld	NOUN	N|soort|ev|neut	Number=Sing	14	obl	_	_
-14	gestuurd	stuur	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	_
+14	gestuurd	stuur	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 15	door	door	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 16	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	18	det	_	_
 17	Argentijnse	Argentijns	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	18	amod	_	_
 18	scheidsrechter	scheidsrechter	NOUN	N|soort|ev|neut	Number=Sing	14	obl	_	_
 19	Martin	Martin	PROPN	N|eigen|ev|neut	Number=Sing	18	appos	_	SpaceAfter=No
-20	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
+20	.	.	PUNCT	Punc|punt	PunctType=Peri	14	punct	_	_
 
 # sent_id = dev-s60/nl
 # text = Van der Vaart werd na een onbezonnen tackle met zijn tweede gele kaart bestraft.
@@ -1209,15 +1209,15 @@
 16	invaller	invaller	NOUN	N|soort|ev|neut	Number=Sing	14	nmod	_	_
 17	Van	Van	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	16	appos	_	MWE=Van_Dieren|MWEPOS=X
 18	Dieren	Dieren	PROPN	PROPN	_	17	flat	_	_
-19	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	26	obj	_	_
+19	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	27	obj	_	_
 20	door	door	ADP	Prep|voor	AdpType=Prep	21	case	_	_
 21	Van	Van	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	27	advmod	_	MWE=Van_Gaal|MWEPOS=X
 22	Gaal	Gaal	PROPN	PROPN	_	21	flat	_	_
 23	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	27	advmod	_	_
 24	voor	voor	ADP	Prep|voor	AdpType=Prep	25	case	_	_
 25	rust	rust	NOUN	N|soort|ev|neut	Number=Sing	27	obl	_	_
-26	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	16	acl	_	_
-27	opgeroepen	roep_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	aux	_	SpaceAfter=No
+26	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	opgeroepen	roep_op	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	acl	_	SpaceAfter=No
 28	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s66/nl
@@ -1822,14 +1822,14 @@
 3	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
 4	aankomend	aankomend	VERB	V|intrans|tegdw|onverv	Subcat=Intr|Tense=Pres|VerbForm=Part	5	acl	_	_
 5	held	held	NOUN	N|soort|ev|neut	Number=Sing	1	nmod	_	_
-6	waarvoor	waarvoor	ADV	Adv|pron|vrag	PronType=Int	12	mark	_	_
+6	waarvoor	waarvoor	ADV	Adv|pron|vrag	PronType=Int	13	mark	_	_
 7	zelfs	zelfs	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	13	advmod	_	_
 8	majesteit	majesteit	NOUN	N|soort|ev|neut	Number=Sing	13	nsubj	_	_
 9	haarzelve	haarzelve	PRON	Pron|aanw|neut|attr|wzelf	PronType=Dem	8	nmod	_	_
 10	naar	naar	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 11	Papendal	Papendal	PROPN	N|eigen|ev|neut	Number=Sing	13	obl	_	_
-12	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	5	acl	_	_
-13	afgereisd	reis_af	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	5	aux	_	SpaceAfter=No
+12	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	afgereisd	reis_af	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	5	acl	_	SpaceAfter=No
 14	.	.	PUNCT	Punc|punt	PunctType=Peri	1	punct	_	_
 
 # sent_id = dev-s100/nl
@@ -2050,9 +2050,9 @@
 10	zou	zal	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	15	ccomp	_	_
 11	kunnen	kan	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	10	xcomp	_	_
 12	verliezen	verlies	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	11	xcomp	_	SpaceAfter=No
-13	,	,	PUNCT	Punc|komma	PunctType=Comm	14	punct	_	_
-14	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	1	parataxis	_	_
-15	ingecalculeerd	calculeer_in	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	1	aux	_	SpaceAfter=No
+13	,	,	PUNCT	Punc|komma	PunctType=Comm	15	punct	_	_
+14	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	ingecalculeerd	calculeer_in	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	1	parataxis	_	SpaceAfter=No
 16	,	,	PUNCT	Punc|komma	PunctType=Comm	1	punct	_	_
 17	maar	maar	CCONJ	Conj|neven	_	1	parataxis	_	_
 18	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	1	dep	_	_
@@ -2124,10 +2124,10 @@
 # orig_file_sentence 002#14
 1	Nee	nee	INTJ	Int	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Punc|komma	PunctType=Comm	1	punct	_	_
-3	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	4	nsubj	_	_
-4	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	1	parataxis	_	_
+3	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	6	nsubj	_	_
+4	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	aux	_	_
 5	geen	geen	PRON	Pron|onbep|neut|attr	PronType=Ind	6	nmod	_	_
-6	zenuwen	zenuw	NOUN	N|soort|mv|neut	Number=Plur	4	aux	_	_
+6	zenuwen	zenuw	NOUN	N|soort|mv|neut	Number=Plur	1	parataxis	_	_
 7	geweest	ben	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	6	cop	_	SpaceAfter=No
 8	.	.	PUNCT	Punc|punt	PunctType=Peri	1	punct	_	_
 
@@ -2243,15 +2243,15 @@
 5	Beerbaum	Beerbaum	PROPN	N|eigen|ev|neut	Number=Sing	7	obj	_	_
 6	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	7	mark	_	_
 7	winnen	win	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	3	csubj	_	SpaceAfter=No
-8	,	,	PUNCT	Punc|komma	PunctType=Comm	11	punct	_	_
-9	maar	maar	CCONJ	Conj|neven	_	11	cc	_	_
-10	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	11	nsubj	_	_
-11	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	3	conj	_	_
+8	,	,	PUNCT	Punc|komma	PunctType=Comm	16	punct	_	_
+9	maar	maar	CCONJ	Conj|neven	_	16	cc	_	_
+10	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	16	nsubj	_	_
+11	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
 12	me	me	PRON	Pron|per|1|ev|datofacc	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
 13	donderdag	donderdag	PROPN	N|eigen|ev|neut	Number=Sing	16	obl	_	_
 14	toch	toch	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	16	advmod	_	_
 15	maar	maar	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	16	advmod	_	_
-16	gelukt	geluk	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
+16	gelukt	geluk	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
 17	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 18	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	_
 
@@ -2260,7 +2260,7 @@
 # orig_file_sentence 002#21
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
 2	rijder	rijder	NOUN	N|soort|ev|neut	Number=Sing	18	nsubj	_	_
-3	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	13	obj	_	_
+3	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	14	obj	_	_
 4	vooral	vooral	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	14	advmod	_	_
 5	voor	voor	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 6	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	7	det	_	_
@@ -2270,8 +2270,8 @@
 10	in	in	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 11	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	12	det	_	_
 12	ploeg	ploeg	NOUN	N|soort|ev|neut	Number=Sing	14	obl	_	_
-13	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	2	acl	_	_
-14	opgenomen	neem_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	SpaceAfter=No
+13	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	opgenomen	neem_op	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	acl	_	SpaceAfter=No
 15	,	,	PUNCT	Punc|komma	PunctType=Comm	18	punct	_	_
 16	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	18	cop	_	_
 17	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	18	det	_	_
@@ -2378,12 +2378,12 @@
 8	ontlading	ontlading	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 9	van	van	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 10	iets	iets	PRON	Pron|onbep|neut|zelfst	PronType=Ind	8	nmod	_	_
-11	wat	wat	PRON	Pron|betr|neut|zelfst	PronType=Rel	15	obj	_	_
+11	wat	wat	PRON	Pron|betr|neut|zelfst	PronType=Rel	16	obj	_	_
 12	al	al	PRON	Pron|onbep|neut|attr	PronType=Ind	14	nmod	_	_
 13	die	die	PRON	Pron|aanw|neut|attr	PronType=Dem	14	nmod	_	_
 14	dagen	dag	NOUN	N|soort|mv|neut	Number=Plur	16	obl	_	_
-15	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	10	acl	_	_
-16	opgekropt	krop_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	10	aux	_	SpaceAfter=No
+15	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	opgekropt	krop_op	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	10	acl	_	SpaceAfter=No
 17	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s127/nl
@@ -2706,7 +2706,7 @@
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 6	laatste	laat	ADJ	Adj|attr|overtr|vervneut	Case=Nom|Degree=Sup	7	amod	_	_
 7	kilometers	kilometer	NOUN	N|soort|mv|neut	Number=Plur	3	obl	_	_
-8	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+8	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	17	aux	_	_
 9	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	10	det	_	_
 10	lot	lot	NOUN	N|soort|ev|neut	Number=Sing	17	obj	_	_
 11	van	van	ADP	Prep|voor	AdpType=Prep	13	case	_	_
@@ -2715,8 +2715,8 @@
 14	in	in	ADP	Prep_N|voor_soort|ev|dat	AdpType=Prep	17	advmod	_	MWE=in_feite|MWEPOS=X
 15	feite	feite	X	X	Case=Dat|Number=Sing	14	compound	_	_
 16	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	17	advmod	_	_
-17	bezegeld	bezegel	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	SpaceAfter=No
-18	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
+17	bezegeld	bezegel	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	Punc|punt	PunctType=Peri	17	punct	_	_
 
 # sent_id = dev-s148/nl
 # text = Het team ontbeert nu eenmaal een echte sprinter.
@@ -2812,17 +2812,17 @@
 # sent_id = dev-s153/nl
 # text = "Mij is alleen verteld dat ik te weinig won.
 # orig_file_sentence 002#53
-1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	SpaceAfter=No
+1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	5	punct	_	SpaceAfter=No
 2	Mij	mij	PRON	Pron|per|1|ev|datofacc	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
-3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	alleen	alleen	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	5	advmod	_	_
-5	verteld	vertel	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	_
+5	verteld	vertel	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 6	dat	dat	SCONJ	Conj|onder|metfin	_	10	mark	_	_
 7	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 8	te	te	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	9	advmod	_	_
 9	weinig	weinig	PRON	Num	Degree=Pos|NumType=Card|PronType=Ind	10	obj	_	_
 10	won	win	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
-11	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+11	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s154/nl
 # text = Ik denk dat Jan Raas nu toch moet toegeven dat hij het verkeerd heeft gezien. "
@@ -3178,14 +3178,14 @@
 # sent_id = dev-s172/nl
 # text = Rabo was daarin weliswaar met vier man vertegenwoordigd, maar Vierhouten, Löwik en Groenendaal hadden het beste van zichzelf al gegeven.
 # orig_file_sentence 002#72
-1	Rabo	Rabo	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
-2	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+1	Rabo	Rabo	PROPN	N|eigen|ev|neut	Number=Sing	8	nsubj	_	_
+2	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	aux	_	_
 3	daarin	daarin	ADV	Adv|pron|aanw	PronType=Dem	8	advmod	_	_
 4	weliswaar	weliswaar	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	8	advmod	_	_
 5	met	met	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 6	vier	vier	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	7	nummod	_	_
 7	man	man	NOUN	N|soort|ev|neut	Number=Sing	8	obl	_	_
-8	vertegenwoordigd	vertegenwoordig	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	SpaceAfter=No
+8	vertegenwoordigd	vertegenwoordig	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	Punc|komma	PunctType=Comm	22	punct	_	_
 10	maar	maar	CCONJ	Conj|neven	_	22	cc	_	_
 11	Vierhouten	Vierhouten	NOUN	N|soort|mv|neut	Number=Plur	22	nsubj	_	SpaceAfter=No
@@ -3199,8 +3199,8 @@
 19	van	van	ADP	Prep|voor	AdpType=Prep	20	case	_	_
 20	zichzelf	zichzelf	PRON	Pron|ref|3|evofmv	Number=Plur,Sing|Person=3|PronType=Prs|Reflex=Yes	18	obl	_	_
 21	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	22	advmod	_	_
-22	gegeven	geef	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	conj	_	SpaceAfter=No
-23	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+22	gegeven	geef	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	conj	_	SpaceAfter=No
+23	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s173/nl
 # text = Een 'rotsituatie' vond Boogerd, want verder reden vooral snelle mannen om hem heen: Koerts, Kemna en Van Dijk.
@@ -3343,11 +3343,11 @@
 2	Rooij	Rooij	X	X	Definite=Def|Number=Sing	1	compound	_	_
 3	wist	weet	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 4	toen	toen	ADV	Adv|gew|aanw	PronType=Dem	3	advmod	_	_
-5	dat	dat	SCONJ	Conj|onder|metfin	_	9	mark	_	_
+5	dat	dat	SCONJ	Conj|onder|metfin	_	8	mark	_	_
 6	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	7	det	_	_
-7	kalf	kalf	NOUN	N|soort|ev|neut	Number=Sing	9	nsubj	_	_
-8	verdronken	verdrink	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	aux	_	_
-9	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	3	ccomp	_	SpaceAfter=No
+7	kalf	kalf	NOUN	N|soort|ev|neut	Number=Sing	8	nsubj	_	_
+8	verdronken	verdrink	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	ccomp	_	_
+9	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
 10	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s181/nl
@@ -3359,10 +3359,10 @@
 4	heeft	heb	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	vooral	vooral	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
 6	gewacht	wacht	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
-7	totdat	totdat	SCONJ	Conj|onder|metfin	_	10	mark	_	_
-8	wij	wij	PRON	Pron|per|1|mv|nom	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
-9	uitgebloed	bloed_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	6	aux	_	_
-10	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	6	advcl	_	SpaceAfter=No
+7	totdat	totdat	SCONJ	Conj|onder|metfin	_	9	mark	_	_
+8	wij	wij	PRON	Pron|per|1|mv|nom	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	uitgebloed	bloed_uit	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	6	advcl	_	_
+10	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	SpaceAfter=No
 12	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	6	punct	_	_
 
@@ -3560,13 +3560,13 @@
 12	,	,	PUNCT	Punc|komma	PunctType=Comm	2	punct	_	_
 13	te	te	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	14	advmod	_	_
 14	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	21	advmod	_	_
-15	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	2	parataxis	_	_
+15	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	21	aux	_	_
 16	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
-17	beschouwd	beschouw	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	21	cop	_	_
+17	beschouwd	beschouw	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	21	cop	_	_
 18	als	als	SCONJ	Conj|onder|metfin	_	21	case	_	_
 19	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	21	det	_	_
 20	veredeld	veredeld	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	21	acl	_	_
-21	kermiscoureur	kermis_coureur	NOUN	N|soort|ev|neut	Number=Sing	15	aux	_	SpaceAfter=No
+21	kermiscoureur	kermis_coureur	NOUN	N|soort|ev|neut	Number=Sing	2	parataxis	_	SpaceAfter=No
 22	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s192/nl
@@ -3771,8 +3771,8 @@
 10	juli	juli	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	9	compound	_	_
 11	in	in	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 12	Colombia	Colombia	PROPN	N|eigen|ev|neut	Number=Sing	14	obl	_	_
-13	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	3	xcomp	_	_
-14	gehouden	houd	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
+13	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	14	aux	_	_
+14	gehouden	houd	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	ccomp	_	SpaceAfter=No
 15	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s203/nl
@@ -3798,13 +3798,13 @@
 # orig_file_sentence 003#4
 1	In	in	ADP	Prep|voor	AdpType=Prep	2	case	_	_
 2	Colombia	Colombia	PROPN	N|eigen|ev|neut	Number=Sing	7	obl	_	_
-3	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	aux	_	_
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	5	det	_	_
 5	situatie	situatie	NOUN	N|soort|ev|neut	Number=Sing	7	obj	_	_
 6	te	te	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	7	advmod	_	_
-7	onveilig	onveilig	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	aux	_	_
+7	onveilig	onveilig	ADJ	Adj|attr|stell|onverv	Degree=Pos	0	root	_	_
 8	geacht	acht	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	cop	_	SpaceAfter=No
-9	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+9	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s205/nl
 # text = Op een vergadering in Buenos Aires werd zaterdag echter besloten het toernooi toch in Colombia te laten spelen, maar dan later -mogelijk in januari 2002.
@@ -3815,10 +3815,10 @@
 4	in	in	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 5	Buenos	Buenos	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	3	nmod	_	MWE=Buenos_Aires|MWEPOS=X
 6	Aires	Aires	PROPN	PROPN	_	5	flat	_	_
-7	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+7	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	aux	_	_
 8	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	10	obl	_	_
 9	echter	echter	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
-10	besloten	besluit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	_
+10	besloten	besluit	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 11	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	12	det	_	_
 12	toernooi	toernooi	NOUN	N|soort|ev|neut	Number=Sing	18	obj	_	_
 13	toch	toch	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	17	advmod	_	_
@@ -3827,15 +3827,15 @@
 16	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	17	mark	_	_
 17	laten	laat	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	10	xcomp	_	_
 18	spelen	speel	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	17	xcomp	_	SpaceAfter=No
-19	,	,	PUNCT	Punc|komma	PunctType=Comm	7	punct	_	_
-20	maar	maar	X	Conj_Adv|neven_gew|aanw	PronType=Dem	7	dep	_	MWE=maar_dan|MWEPOS=X
+19	,	,	PUNCT	Punc|komma	PunctType=Comm	10	punct	_	_
+20	maar	maar	X	Conj_Adv|neven_gew|aanw	PronType=Dem	10	dep	_	MWE=maar_dan|MWEPOS=X
 21	dan	dan	X	X	PronType=Dem	20	compound	_	_
-22	later	laat	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	7	dep	_	_
-23	-mogelijk	mogelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	dep	_	_
+22	later	laat	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	10	dep	_	_
+23	-mogelijk	mogelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	dep	_	_
 24	in	in	ADP	Prep|voor	AdpType=Prep	25	case	_	_
-25	januari	januari	PROPN	N_Num	_	7	dep	_	MWE=januari_2002|MWEPOS=X
+25	januari	januari	PROPN	N_Num	_	10	dep	_	MWE=januari_2002|MWEPOS=X
 26	2002	2002	NUM	NUM	NumForm=Digit|NumType=Card	25	nummod	_	SpaceAfter=No
-27	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
+27	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
 
 # sent_id = dev-s206/nl
 # text = De directe aanleiding voor de afgelasting van het toernooi, dat nooit eerder in Colombia is georganiseerd, was de ontvoering van de vice-voorzitter van de Colombiaanse voetbalbond, Hernan Mejia.
@@ -3850,13 +3850,13 @@
 8	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	9	det	_	_
 9	toernooi	toernooi	NOUN	N|soort|ev|neut	Number=Sing	6	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	9	punct	_	_
-11	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	16	obj	_	_
+11	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	17	obj	_	_
 12	nooit	nooit	ADV	Adv|gew|onbep	PronType=Ind	17	advmod	_	_
 13	eerder	eerder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	17	advmod	_	_
 14	in	in	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 15	Colombia	Colombia	PROPN	N|eigen|ev|neut	Number=Sing	17	obl	_	_
-16	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	9	acl	_	_
-17	georganiseerd	organiseer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	aux	_	SpaceAfter=No
+16	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	georganiseerd	organiseer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	acl	_	SpaceAfter=No
 18	,	,	PUNCT	Punc|komma	PunctType=Comm	21	punct	_	_
 19	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	21	cop	_	_
 20	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	21	det	_	_
@@ -3876,11 +3876,11 @@
 # sent_id = dev-s207/nl
 # text = Hij werd 25 juni ontvoerd vlak bij Pereira, een van de beoogde speelsteden.
 # orig_file_sentence 003#7
-1	Hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+1	Hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	aux	_	_
 3	25	25	NUM	Num_N	NumForm=Digit|NumType=Card	5	advmod	_	MWE=25_juni|MWEPOS=NUM
 4	juni	juni	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	3	compound	_	_
-5	ontvoerd	ontvoer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
+5	ontvoerd	ontvoer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 6	vlak	vlak	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	5	advmod	_	_
 7	bij	bij	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 8	Pereira	Pereira	PROPN	N|eigen|ev|neut	Number=Sing	6	obl	_	SpaceAfter=No
@@ -3890,7 +3890,7 @@
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	14	det	_	_
 13	beoogde	beoogd	VERB	V|trans|verldw|vervneut	Case=Nom|Subcat=Tran|Tense=Past|VerbForm=Part	14	acl	_	_
 14	speelsteden	speelstad	NOUN	N|soort|mv|neut	Number=Plur	10	obl	_	SpaceAfter=No
-15	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+15	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s208/nl
 # text = De ontvoering van Mejia -vermoedelijk door FARC-rebellen- was de laatste in een reeks van incidenten die in verband gebracht werden met de Copa America.
@@ -3910,11 +3910,11 @@
 13	reeks	reeks	NOUN	N|soort|ev|neut	Number=Sing	10	obl	_	_
 14	van	van	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 15	incidenten	incident	NOUN	N|soort|mv|neut	Number=Plur	13	nmod	_	_
-16	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	obj	_	_
+16	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	19	obj	_	_
 17	in	in	ADP	Prep_N|voor_soort|ev|neut	AdpType=Prep	19	compound:prt	_	MWE=in_verband|MWEPOS=X
 18	verband	verband	X	X	Number=Sing	17	compound	_	_
-19	gebracht	breng	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	15	aux	_	_
-20	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	15	acl	_	_
+19	gebracht	breng	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	15	acl	_	_
+20	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	19	aux	_	_
 21	met	met	ADP	Prep|voor	AdpType=Prep	23	case	_	_
 22	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	23	det	_	_
 23	Copa	Copa	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	19	obj	_	MWE=Copa_America|MWEPOS=X
@@ -3950,8 +3950,8 @@
 5	naar	naar	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 6	Mexico	Mexico	PROPN	N|eigen|ev|neut	Number=Sing	9	obl	_	_
 7	zou	zal	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	1	ccomp	_	_
-8	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	7	xcomp	_	_
-9	verplaatst	verplaats	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	SpaceAfter=No
+8	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	9	aux	_	_
+9	verplaatst	verplaats	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	ccomp	_	SpaceAfter=No
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	13	punct	_	_
 11	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	13	cop	_	_
 12	steeds	steeds	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	13	advmod	_	_
@@ -4063,7 +4063,7 @@
 3	ontvoering	ontvoering	NOUN	N|soort|ev|neut	Number=Sing	18	obl	_	_
 4	van	van	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 5	Mejia	Mejia	PROPN	N|eigen|ev|neut	Number=Sing	3	nmod	_	_
-6	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+6	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	18	aux	_	_
 7	voor	voor	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 9	voetbalbonden	voetbalbond	NOUN	N|soort|mv|neut	Number=Plur	18	obl	_	_
@@ -4075,8 +4075,8 @@
 15	Argentinië	Argentinië	PROPN	N|eigen|ev|neut	Number=Sing	11	conj	_	_
 16	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	17	det	_	_
 17	grens	grens	NOUN	N|soort|ev|neut	Number=Sing	18	obj	_	_
-18	overschreden	overschrijd	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	6	aux	_	SpaceAfter=No
-19	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
+18	overschreden	overschrijd	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	Punc|punt	PunctType=Peri	18	punct	_	_
 
 # sent_id = dev-s217/nl
 # text = Zij hebben een machtige positie binnen de CSF en zij wilden hun elftallen niet laten spelen in Colombia.
@@ -4130,14 +4130,14 @@
 12	bekend	bekend	ADJ	Adj|attr|stell|onverv	Degree=Pos	14	compound:prt	_	_
 13	had	heb	AUX	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	aux	_	_
 14	gemaakt	maak_bekend	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
-15	,	,	PUNCT	Punc|komma	PunctType=Comm	16	punct	_	_
-16	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+15	,	,	PUNCT	Punc|komma	PunctType=Comm	18	punct	_	_
+16	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	18	aux	_	_
 17	Mejia	Mejia	PROPN	N|eigen|ev|neut	Number=Sing	18	obj	_	_
-18	vrijgelaten	laat_vrij	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	aux	_	_
+18	vrijgelaten	laat_vrij	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 19	door	door	ADP	Prep|voor	AdpType=Prep	21	case	_	_
 20	zijn	zijn	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod	_	_
 21	ontvoerders	ontvoerder	NOUN	N|soort|mv|neut	Number=Plur	18	obl	_	SpaceAfter=No
-22	.	.	PUNCT	Punc|punt	PunctType=Peri	16	punct	_	_
+22	.	.	PUNCT	Punc|punt	PunctType=Peri	18	punct	_	_
 
 # sent_id = dev-s220/nl
 # text = Hij zou 'per ongeluk' ontvoerd zijn door de FARC-rebellen.
@@ -4178,10 +4178,10 @@
 # sent_id = dev-s222/nl
 # text = Mejia werd terstond ingezet in een campagne om de Copa voor Colombia te redden.
 # orig_file_sentence 003#22
-1	Mejia	Mejia	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
-2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+1	Mejia	Mejia	PROPN	N|eigen|ev|neut	Number=Sing	4	nsubj	_	_
+2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	aux	_	_
 3	terstond	terstond	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	4	advmod	_	_
-4	ingezet	zet_in	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
+4	ingezet	zet_in	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 5	in	in	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 6	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
 7	campagne	campagne	NOUN	N|soort|ev|neut	Number=Sing	4	obl	_	_
@@ -4192,7 +4192,7 @@
 12	Colombia	Colombia	PROPN	N|eigen|ev|neut	Number=Sing	11	obj	_	_
 13	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	14	mark	_	_
 14	redden	red	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	8	xcomp	_	SpaceAfter=No
-15	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+15	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s223/nl
 # text = De ironie wil dat FARC-woordvoerder Raul Reyes in april 2000 een akkoord had gesloten met de Colombiaanse regering om de Copa te respecteren.
@@ -4465,17 +4465,17 @@
 2	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
 3	Colombiaanse	Colombiaans	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	4	amod	_	_
 4	media	medium	NOUN	N|soort|mv|neut	Number=Plur	8	obl	_	_
-5	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+5	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 6	met	met	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 7	teleurstelling	teleurstelling	NOUN	N|soort|ev|neut	Number=Sing	8	obl	_	_
-8	gereageerd	reageer	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	5	aux	_	_
+8	gereageerd	reageer	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 9	op	op	ADP	Prep|voor	AdpType=Prep	11	mark	_	_
 10	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	11	det	_	_
 11	afgelasten	gelast_af	VERB	V|trans|inf|subst	Subcat=Tran|VerbForm=Inf	8	xcomp	_	_
 12	van	van	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	14	det	_	_
 14	titeltoernooi	titel_toernooi	NOUN	N|soort|ev|neut	Number=Sing	11	obl	_	SpaceAfter=No
-15	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
+15	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s237/nl
 # text = De krant El Tiempo schat de economische schade op 100 miljoen dollar.
@@ -4514,8 +4514,8 @@
 15	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	16	det	_	_
 16	finale	finale	NOUN	N|soort|ev|neut	Number=Sing	19	obj	_	_
 17	zou	zal	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	6	acl	_	_
-18	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	17	xcomp	_	_
-19	gespeeld	speel	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	17	aux	_	SpaceAfter=No
+18	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	19	aux	_	_
+19	gespeeld	speel	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	17	ccomp	_	SpaceAfter=No
 20	,	,	PUNCT	Punc|komma	PunctType=Comm	21	punct	_	_
 21	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 22	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	23	det	_	_
@@ -4719,16 +4719,16 @@
 # sent_id = dev-s251/nl
 # text = "Ik ben aan een tweede carrière begonnen."
 # orig_file_sentence 003#51
-1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	SpaceAfter=No
-2	Ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-3	ben	ben	AUX	V|hulpofkopp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	8	punct	_	SpaceAfter=No
+2	Ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	ben	ben	AUX	V|hulpofkopp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
 4	aan	aan	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 5	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
 6	tweede	tweede	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	7	amod	_	_
 7	carrière	carrière	NOUN	N|soort|ev|neut	Number=Sing	8	obj	_	_
-8	begonnen	begin	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
-9	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	SpaceAfter=No
-10	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	_
+8	begonnen	begin	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	SpaceAfter=No
+10	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	8	punct	_	_
 
 # sent_id = dev-s252/nl
 # text = Zaterdag plaatste de meest onzichtbare vrouw van 1.89 meter zich zonder problemen voor de vierde ronde van Wimbledon.
@@ -4791,16 +4791,16 @@
 # text = En of de balans tussen stress en ontspanning niet is doorgeslagen.
 # orig_file_sentence 003#55
 1	En	en	CCONJ	Conj|neven	_	0	root	_	_
-2	of	of	SCONJ	Conj|onder|metfin	_	10	mark	_	_
+2	of	of	SCONJ	Conj|onder|metfin	_	11	mark	_	_
 3	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
-4	balans	balans	NOUN	N|soort|ev|neut	Number=Sing	10	nsubj	_	_
+4	balans	balans	NOUN	N|soort|ev|neut	Number=Sing	11	nsubj	_	_
 5	tussen	tussen	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 6	stress	stress	NOUN	N|soort|mv|neut	Number=Plur	4	nmod	_	_
 7	en	en	CCONJ	Conj|neven	_	8	cc	_	_
 8	ontspanning	ontspanning	NOUN	N|soort|ev|neut	Number=Sing	6	conj	_	_
 9	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	_
-10	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	1	advcl	_	_
-11	doorgeslagen	sla_door	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	1	aux	_	SpaceAfter=No
+10	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	doorgeslagen	sla_door	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
 12	.	.	PUNCT	Punc|punt	PunctType=Peri	1	punct	_	_
 
 # sent_id = dev-s256/nl
@@ -4919,20 +4919,20 @@
 # orig_file_sentence 003#62
 1	Haar	haar	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	_
 2	beste	goed	ADJ	Adj|attr|overtr|vervneut	Case=Nom|Degree=Sup	3	amod	_	_
-3	vriendin	vriendin	NOUN	N|soort|ev|neut	Number=Sing	11	nsubj	_	_
+3	vriendin	vriendin	NOUN	N|soort|ev|neut	Number=Sing	12	nsubj	_	_
 4	en	en	CCONJ	Conj|neven	_	6	cc	_	_
 5	voormalige	voormalig	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	6	amod	_	_
 6	dubbelpartner	dubbel_partner	NOUN	N|soort|ev|neut	Number=Sing	3	conj	_	SpaceAfter=No
 7	,	,	PUNCT	Punc|komma	PunctType=Comm	6	punct	_	_
 8	Corina	Corina	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	6	appos	_	MWE=Corina_Morariu|MWEPOS=X
 9	Morariu	Morariu	PROPN	PROPN	_	8	flat	_	SpaceAfter=No
-10	,	,	PUNCT	Punc|komma	PunctType=Comm	11	punct	_	_
-11	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
-12	getroffen	tref	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	aux	_	_
+10	,	,	PUNCT	Punc|komma	PunctType=Comm	12	punct	_	_
+11	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	12	aux	_	_
+12	getroffen	tref	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 13	door	door	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 14	acute	acuut	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	15	amod	_	_
 15	leukemie	leukemie	NOUN	N|soort|ev|neut	Number=Sing	12	obl	_	SpaceAfter=No
-16	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
+16	.	.	PUNCT	Punc|punt	PunctType=Peri	12	punct	_	_
 
 # sent_id = dev-s263/nl
 # text = "Die eerste weken had ik heel veelmoeite met mijn motivatie.
@@ -5184,20 +5184,20 @@
 # sent_id = dev-s279/nl
 # text = "Achteraf gezien was ik liever wat ouder geweest voor ik professional werd.
 # orig_file_sentence 003#79
-1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	4	punct	_	SpaceAfter=No
+1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	8	punct	_	SpaceAfter=No
 2	Achteraf	achteraf	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	3	advmod	_	_
 3	gezien	gezien	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	advcl	_	_
-4	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+4	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	aux	_	_
 5	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 6	liever	lief	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	8	advmod	_	_
 7	wat	wat	PRON	Pron|onbep|neut|attr	PronType=Ind	8	obl	_	_
-8	ouder	oud	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	4	aux	_	_
+8	ouder	oud	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	0	root	_	_
 9	geweest	ben	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	8	cop	_	_
 10	voor	voor	SCONJ	Conj|onder|metfin	_	12	mark	_	_
 11	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
 12	professional	professional	ADJ	Adj|attr|stell|onverv	Degree=Pos	8	advcl	_	_
 13	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	12	cop	_	SpaceAfter=No
-14	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+14	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s280/nl
 # text = Ik was zestien.
@@ -5241,9 +5241,9 @@
 16	van	van	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 17	mijn	mijn	PRON	Pron|bez|1|ev|neut|attr	Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	nmod	_	_
 18	carrière	carrière	NOUN	N|soort|ev|neut	Number=Sing	15	nmod	_	_
-19	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	20	mark	_	_
-20	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	12	xcomp	_	_
-21	aanbeland	aan_beland	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	12	aux	_	SpaceAfter=No
+19	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	21	mark	_	_
+20	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	21	aux	_	_
+21	aanbeland	aan_beland	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	12	ccomp	_	SpaceAfter=No
 22	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s283/nl
@@ -5384,10 +5384,10 @@
 # orig_file_sentence 003#91
 1	Wat	Wat	X	Pron_Adv|betr|neut|zelfst_gew|aanw	PronType=Dem	0	root	_	MWE=Wat_nou|MWEPOS=X
 2	nou	nou	NUM	NUM	NumType=Card	1	compound	_	_
-3	als	als	SCONJ	Conj|onder|metfin	_	5	mark	_	_
-4	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-5	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	1	advcl	_	_
-6	thuisgebleven	blijf_thuis	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	1	aux	_	SpaceAfter=No
+3	als	als	SCONJ	Conj|onder|metfin	_	6	mark	_	_
+4	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	thuisgebleven	blijf_thuis	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	1	advcl	_	SpaceAfter=No
 7	?	?	PUNCT	Punc|vraag	PunctType=Qest	1	punct	_	_
 
 # sent_id = dev-s292/nl
@@ -5694,20 +5694,20 @@
 # text = Eén deelneemster wordt uit haar congregatie gezet, een spreekster wacht vermoedelijk hetzelfde lot.
 # orig_file_sentence 004#9
 1	Eén	één	PROPN	N|eigen|ev|neut	Number=Sing	2	nmod	_	_
-2	deelneemster	deelneemster	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
-3	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+2	deelneemster	deelneemster	NOUN	N|soort|ev|neut	Number=Sing	7	nsubj	_	_
+3	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	uit	uit	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 5	haar	haar	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod	_	_
 6	congregatie	congregatie	NOUN	N|soort|ev|neut	Number=Sing	7	obl	_	_
-7	gezet	zet	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
-8	,	,	PUNCT	Punc|komma	PunctType=Comm	3	punct	_	_
+7	gezet	zet	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	Punc|komma	PunctType=Comm	7	punct	_	_
 9	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
 10	spreekster	spreekster	NOUN	N|soort|ev|neut	Number=Sing	11	nsubj	_	_
-11	wacht	wacht	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+11	wacht	wacht	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 12	vermoedelijk	vermoedelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	11	advmod	_	_
 13	hetzelfde	hetzelfde	PRON	Pron|aanw|neut|attr	PronType=Dem	14	nmod	_	_
 14	lot	lot	NOUN	N|soort|ev|neut	Number=Sing	11	obj	_	SpaceAfter=No
-15	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+15	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s310/nl
 # text = In Dublin was dit weekeinde een internationale bijeenkomst over vrouwelijk priesterschap.
@@ -5799,8 +5799,8 @@
 7	tegen	tegen	ADV	Adv|deelv	PartType=Vbp	4	compound:prt	_	SpaceAfter=No
 8	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	4	punct	_	_
 9	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
-10	non	non	NOUN	N|soort|ev|neut	Number=Sing	11	nsubj	_	_
-11	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	4	parataxis	_	_
+10	non	non	NOUN	N|soort|ev|neut	Number=Sing	20	nsubj	_	_
+11	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 12	wegens	wegens	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 13	deelname	deelname	NOUN	N|soort|ev|neut	Number=Sing	20	obl	_	_
 14	na	na	ADP	Prep|voor	AdpType=Prep	16	case	_	_
@@ -5809,7 +5809,7 @@
 17	uit	uit	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 18	haar	haar	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	_
 19	orde	orde	NOUN	N|soort|ev|neut	Number=Sing	20	obl	_	_
-20	gezet	zet	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	SpaceAfter=No
+20	gezet	zet	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s315/nl
@@ -5955,8 +5955,8 @@
 12	,	,	PUNCT	Punc|komma	PunctType=Comm	10	punct	_	_
 13	onder	onder	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 14	applaus	applaus	NOUN	N|soort|ev|neut	Number=Sing	10	obl	_	_
-15	-zij	zij	ADJ	Adj|attr|stell|onverv	Degree=Pos	16	nsubj	_	_
-16	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	10	parataxis	_	_
+15	-zij	zij	ADJ	Adj|attr|stell|onverv	Degree=Pos	26	nsubj	_	_
+16	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
 17	nu	nu	ADV	Adv|gew|aanw	PronType=Dem	26	advmod	_	SpaceAfter=No
 18	,	,	PUNCT	Punc|komma	PunctType=Comm	26	punct	_	_
 19	na	na	ADP	Prep|voor	AdpType=Prep	21	case	_	_
@@ -5966,7 +5966,7 @@
 23	uit	uit	ADP	Prep|voor	AdpType=Prep	25	case	_	_
 24	haar	haar	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	nmod	_	_
 25	congregatie	congregatie	NOUN	N|soort|ev|neut	Number=Sing	26	obl	_	_
-26	gezet	zet	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	10	aux	_	SpaceAfter=No
+26	gezet	zet	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	10	parataxis	_	SpaceAfter=No
 27	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
 
 # sent_id = dev-s322/nl
@@ -6005,9 +6005,9 @@
 14	die	die	PRON	Pron|aanw|neut|attr	PronType=Dem	15	nmod	_	_
 15	kans	kans	NOUN	N|soort|ev|neut	Number=Sing	17	obj	_	_
 16	wel	wel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	17	advmod	_	_
-17	geboden	bied	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	18	aux	_	_
+17	geboden	bied	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	18	ccomp	_	_
 18	moeten	moet	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	aux	_	_
-19	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	18	xcomp	_	SpaceAfter=No
+19	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	17	aux	_	SpaceAfter=No
 20	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s324/nl
@@ -6245,9 +6245,9 @@
 27	gesproken	spreek	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	parataxis	_	SpaceAfter=No
 28	,	,	PUNCT	Punc|komma	PunctType=Comm	3	punct	_	_
 29	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	30	det	_	_
-30	zaak	zaak	NOUN	N|soort|ev|neut	Number=Sing	31	nsubj	_	_
-31	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	3	parataxis	_	_
-32	gesloten	sluit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
+30	zaak	zaak	NOUN	N|soort|ev|neut	Number=Sing	32	nsubj	_	_
+31	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	gesloten	sluit	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	parataxis	_	SpaceAfter=No
 33	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s335/nl
@@ -6460,9 +6460,9 @@
 7	anders	anders	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	0	root	_	SpaceAfter=No
 8	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	7	punct	_	_
 9	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
-10	zij	zij	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	11	nsubj	_	_
-11	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	7	parataxis	_	_
-12	gedreigd	dreig	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	_
+10	zij	zij	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	gedreigd	dreig	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	parataxis	_	_
 13	met	met	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 14	uitzetting	uitzetting	NOUN	N|soort|ev|neut	Number=Sing	12	obj	_	_
 15	uit	uit	ADP	Prep|voor	AdpType=Prep	17	case	_	_
@@ -6853,13 +6853,13 @@
 7	Jezus	Jezus	PROPN	N|eigen|ev|neut	Number=Sing	9	nsubj	_	_
 8	vrouwen	vrouw	NOUN	N|soort|mv|neut	Number=Plur	9	obj	_	_
 9	uitsloot	sluit_uit	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	5	ccomp	_	_
-10	en	en	CCONJ	Conj|neven	_	16	cc	_	_
-11	dat	dat	SCONJ	Conj|onder|metfin	_	16	mark	_	_
-12	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	16	nsubj	_	_
+10	en	en	CCONJ	Conj|neven	_	15	cc	_	_
+11	dat	dat	SCONJ	Conj|onder|metfin	_	15	mark	_	_
+12	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	15	nsubj	_	_
 13	daarom	daarom	ADV	Adv|gew|aanw	PronType=Dem	15	advmod	_	_
 14	nooit	nooit	ADV	Adv|gew|onbep	PronType=Ind	15	advmod	_	_
-15	gewijd	wijd	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	aux	_	_
-16	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	9	conj	_	SpaceAfter=No
+15	gewijd	wijd	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	conj	_	_
+16	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	Punc|komma	PunctType=Comm	18	punct	_	_
 18	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 19	dat	dat	PRON	Pron|aanw|neut|attr	PronType=Dem	20	nmod	_	_
@@ -6929,7 +6929,7 @@
 1	Een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
 2	24-jarige	24-jarige	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	4	amod	_	_
 3	technisch	technisch	ADJ	Adj|attr|stell|onverv	Degree=Pos	4	amod	_	_
-4	medewerker	medewerker	NOUN	N|soort|ev|neut	Number=Sing	13	nsubj	_	_
+4	medewerker	medewerker	NOUN	N|soort|ev|neut	Number=Sing	26	nsubj	_	_
 5	van	van	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 6	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	8	det	_	_
 7	Achterhoekse	Achterhoekse	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	8	amod	_	_
@@ -6938,7 +6938,7 @@
 10	en	en	ADP	ADP	AdpType=Prep	12	case	_	_
 11	de	de	ADP	ADP	AdpType=Prep	12	case	_	_
 12	Voederbietels	Voederbietels	PROPN	PROPN	_	9	flat	_	_
-13	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+13	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
 14	zaterdagavond	zaterdagavond	NOUN	N|soort|ev|neut	Number=Sing	26	obl	_	_
 15	in	in	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 16	Borculo	Borculo	PROPN	N|eigen|ev|neut	Number=Sing	26	obl	_	_
@@ -6951,8 +6951,8 @@
 23	om	om	X	Prep_Art_N	Gender=Neut|Number=Sing	26	compound:prt	_	MWE=om_het_leven|MWEPOS=X
 24	het	het	X	X	Gender=Neut|Number=Sing	23	compound	_	_
 25	leven	leven	X	X	Gender=Neut|Number=Sing	23	compound	_	_
-26	gekomen	kom	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	13	aux	_	SpaceAfter=No
-27	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
+26	gekomen	kom	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+27	.	.	PUNCT	Punc|punt	PunctType=Peri	26	punct	_	_
 
 # sent_id = dev-s364/nl
 # text = Het slachtoffer stond op vijf meter hoogte in een feesttent te werken toen hij naar beneden viel en op zijn hoofd terechtkwam.
@@ -7139,17 +7139,17 @@
 1	Van	van	ADP	Prep|voor	AdpType=Prep	3	case	_	_
 2	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	3	det	_	_
 3	geld	geld	NOUN	N|soort|ev|neut	Number=Sing	8	obl	_	_
-4	worden	word	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+4	worden	word	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	aux	_	_
 5	onder	onder	X	Prep_Num	Degree=Cmp|PronType=Ind	8	advmod	_	MWE=onder_meer|MWEPOS=X
 6	meer	meer	X	X	Degree=Cmp|PronType=Ind	5	compound	_	_
 7	projecten	project	NOUN	N|soort|mv|neut	Number=Plur	8	obj	_	_
-8	ondersteund	ondersteun	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	_
+8	ondersteund	ondersteun	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 9	voor	voor	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 10	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	12	det	_	_
 11	13	13	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	12	compound	_	_
 12	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	8	advmod	_	_
 13	aidswezen	wees	NOUN	N|soort|mv|neut	Number=Plur	12	obl	_	SpaceAfter=No
-14	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+14	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s373/nl
 # text = Twee grote Nederlandse tbs-instellingen willen zedendelinquenten over enige maanden op vrijwillige basis laten meewerken aan een onderzoek met een leugendetector.
@@ -7213,8 +7213,8 @@
 32	waarmee	waarmee	ADV	Adv|pron|vrag	PronType=Int	34	mark	_	_
 33	beter	goed	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	36	advmod	_	_
 34	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	29	acl	_	_
-35	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	34	xcomp	_	_
-36	voorspeld	voorspel	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	34	aux	_	_
+35	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	36	aux	_	_
+36	voorspeld	voorspel	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	34	ccomp	_	_
 37	of	of	CCONJ	Conj|neven	_	43	mark	_	_
 38	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	39	det	_	_
 39	zedendelinquent	delinquent	NOUN	N|soort|ev|neut	Number=Sing	43	nsubj	_	_
@@ -7266,8 +7266,8 @@
 10	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
 11	tests	test	NOUN	N|soort|mv|neut	Number=Plur	14	obj	_	_
 12	moeten	moet	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	8	acl	_	_
-13	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	12	xcomp	_	_
-14	uitgevoerd	voer_uit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	12	aux	_	_
+13	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	14	aux	_	_
+14	uitgevoerd	voer_uit	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	12	ccomp	_	_
 15	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
 16	nieuwe	nieuw	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	17	amod	_	_
 17	versie	versie	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
@@ -7368,7 +7368,7 @@
 # text = Twee meisjes van 9 en 10 jaar uit Amstelveen en Duiven zijn zaterdag op een camping in Markelo naar alle waarschijnlijkheid door koolmonoxidevergifiging omgekomen.
 # orig_file_sentence 004#80
 1	Twee	twee	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	nummod	_	_
-2	meisjes	meisje	NOUN	N|soort|mv|neut	Number=Plur	12	nsubj	_	_
+2	meisjes	meisje	NOUN	N|soort|mv|neut	Number=Plur	24	nsubj	_	_
 3	van	van	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 4	9	9	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	7	nummod	_	_
 5	en	en	CCONJ	Conj|neven	_	6	cc	_	_
@@ -7378,7 +7378,7 @@
 9	Amstelveen	Amstelveen	PROPN	N|eigen|ev|neut	Number=Sing	2	nmod	_	_
 10	en	en	CCONJ	Conj|neven	_	11	cc	_	_
 11	Duiven	Duiven	PROPN	N|eigen|ev|neut	Number=Sing	9	conj	_	_
-12	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+12	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	24	aux	_	_
 13	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	24	obl	_	_
 14	op	op	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 15	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
@@ -7390,8 +7390,8 @@
 21	waarschijnlijkheid	waarschijnlijkheid	NOUN	N|soort|ev|neut	Number=Sing	24	obl	_	_
 22	door	door	ADP	Prep|voor	AdpType=Prep	23	case	_	_
 23	koolmonoxidevergifiging	koolmonoxidevergifiging	NOUN	N|soort|ev|neut	Number=Sing	24	obl	_	_
-24	omgekomen	kom_om	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	12	aux	_	SpaceAfter=No
-25	.	.	PUNCT	Punc|punt	PunctType=Peri	12	punct	_	_
+24	omgekomen	kom_om	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	Punc|punt	PunctType=Peri	24	punct	_	_
 
 # sent_id = dev-s381/nl
 # text = De twee vriendinnetjes bevonden zich in een doucheruimte bij een caravan.
@@ -7415,9 +7415,9 @@
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
 2	politie	politie	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
 3	vermoedt	vermoed	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	dat	dat	SCONJ	Conj|onder|metfin	_	16	mark	_	_
+4	dat	dat	SCONJ	Conj|onder|metfin	_	15	mark	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
-6	aanwezigheid	aanwezigheid	NOUN	N|soort|ev|neut	Number=Sing	16	nsubj	_	_
+6	aanwezigheid	aanwezigheid	NOUN	N|soort|ev|neut	Number=Sing	15	nsubj	_	_
 7	van	van	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
 9	geiser	eiser	NOUN	N|soort|ev|neut	Number=Sing	6	nmod	_	_
@@ -7426,8 +7426,8 @@
 12	ventilatie	ventilatie	NOUN	N|soort|ev|neut	Number=Sing	6	conj	_	_
 13	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	14	det	_	_
 14	meisjes	meisje	NOUN	N|soort|mv|neut	Number=Plur	15	obj	_	_
-15	fataal	fataal	ADJ	Adj|attr|stell|onverv	Degree=Pos	16	aux	_	_
-16	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	3	ccomp	_	_
+15	fataal	fataal	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	ccomp	_	_
+16	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 17	geworden	word	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	15	cop	_	SpaceAfter=No
 18	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
@@ -7478,9 +7478,9 @@
 14	bleken	blijk	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	4	conj	_	_
 15	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	16	det	_	_
 16	meisjes	meisje	NOUN	N|soort|mv|neut	Number=Plur	19	nsubj	_	_
-17	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	18	mark	_	_
-18	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	14	xcomp	_	_
-19	overleden	overlijd	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	14	aux	_	SpaceAfter=No
+17	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	19	mark	_	_
+18	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	19	aux	_	_
+19	overleden	overlijd	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	14	ccomp	_	SpaceAfter=No
 20	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s385/nl
@@ -7508,8 +7508,8 @@
 9	bij	bij	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 10	Otters	Otters	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	6	nmod	_	MWE=Otters_Weihe|MWEPOS=X
 11	Weihe	Weihe	PROPN	PROPN	_	10	flat	_	SpaceAfter=No
-12	,	,	PUNCT	Punc|komma	PunctType=Comm	13	punct	_	_
-13	zijn	ben	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	root	_	_
+12	,	,	PUNCT	Punc|komma	PunctType=Comm	37	punct	_	_
+13	zijn	ben	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	aux	_	_
 14	zaterdagavond	zaterdagavond	NOUN	N|soort|ev|neut	Number=Sing	37	obl	_	_
 15	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
 16	hoogleraar	hoogleraar	NOUN	N|soort|ev|neut	Number=Sing	37	nsubj	_	_
@@ -7533,8 +7533,8 @@
 34	om	om	X	Conj_Art_N	Gender=Neut|Number=Sing	37	compound:prt	_	MWE=om_het_leven|MWEPOS=X
 35	het	het	X	X	Gender=Neut|Number=Sing	34	compound	_	_
 36	leven	leven	X	X	Gender=Neut|Number=Sing	34	compound	_	_
-37	gekomen	kom	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	13	aux	_	SpaceAfter=No
-38	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
+37	gekomen	kom	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+38	.	.	PUNCT	Punc|punt	PunctType=Peri	37	punct	_	_
 
 # sent_id = dev-s387/nl
 # text = Drie andere inzittenden van het busje met in totaal negen personen raakten daarbij gewond, van wie één ernstig.
@@ -7585,7 +7585,7 @@
 # orig_file_sentence 004#89
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	3	det	_	_
 2	omgekomen	omgekomen	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	acl	_	_
-3	hoogleraar	hoogleraar	NOUN	N|soort|ev|neut	Number=Sing	11	nsubj	_	SpaceAfter=No
+3	hoogleraar	hoogleraar	NOUN	N|soort|ev|neut	Number=Sing	15	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	Punc|komma	PunctType=Comm	3	punct	_	_
 5	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	6	obj	_	_
 6	stuurde	stuur	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	3	acl	_	SpaceAfter=No
@@ -7593,12 +7593,12 @@
 8	en	en	CCONJ	Conj|neven	_	10	cc	_	_
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
 10	studente	student	NOUN	N|soort|ev|neut	Number=Sing	3	conj	_	_
-11	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+11	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	15	aux	_	_
 12	uit	uit	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	14	det	_	_
 14	busje	busje	NOUN	N|soort|ev|neut	Number=Sing	15	obl	_	_
-15	geslingerd	slinger	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	aux	_	SpaceAfter=No
-16	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
+15	geslingerd	slinger	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	Punc|punt	PunctType=Peri	15	punct	_	_
 
 # sent_id = dev-s390/nl
 # text = Door blikseminslag bij een paardenconcours in Den Ham in Twente zijn zaterdag veertien mensen lichtgewond geraakt.
@@ -7613,13 +7613,13 @@
 8	Ham	Ham	PROPN	PROPN	_	7	flat	_	_
 9	in	in	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 10	Twente	Twente	PROPN	N|eigen|ev|neut	Number=Sing	7	obl	_	_
-11	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+11	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	15	aux	_	_
 12	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	15	obl	_	_
 13	veertien	veertien	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	14	nummod	_	_
 14	mensen	mens	NOUN	N|soort|mv|neut	Number=Plur	15	nsubj	_	_
-15	lichtgewond	lichtgewond	VERB	V|intrans|tegdw|onverv	Subcat=Intr|Tense=Pres|VerbForm=Part	11	aux	_	_
+15	lichtgewond	lichtgewond	VERB	V|intrans|tegdw|onverv	Subcat=Intr|Tense=Pres|VerbForm=Part	0	root	_	_
 16	geraakt	raak	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	15	cop	_	SpaceAfter=No
-17	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
+17	.	.	PUNCT	Punc|punt	PunctType=Peri	15	punct	_	_
 
 # sent_id = dev-s391/nl
 # text = Het gaat om een aantal ruiters en publiek die in de openlucht aan de rand van de ring stonden.
@@ -7674,39 +7674,39 @@
 # sent_id = dev-s394/nl
 # text = Sommigen werden door de klap tegen de grond geslagen, anderen kregen last van duizeligheid en hoofdpijn.
 # orig_file_sentence 004#94
-1	Sommigen	sommig	PRON	Pron|onbep|neut|zelfst	PronType=Ind	2	nsubj	_	_
-2	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+1	Sommigen	sommig	PRON	Pron|onbep|neut|zelfst	PronType=Ind	9	nsubj	_	_
+2	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	9	aux	_	_
 3	door	door	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	5	det	_	_
 5	klap	klap	NOUN	N|soort|ev|neut	Number=Sing	9	obl	_	_
 6	tegen	tegen	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	8	det	_	_
 8	grond	grond	NOUN	N|soort|ev|neut	Number=Sing	9	obl	_	_
-9	geslagen	sla	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	SpaceAfter=No
-10	,	,	PUNCT	Punc|komma	PunctType=Comm	2	punct	_	_
+9	geslagen	sla	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	Punc|komma	PunctType=Comm	9	punct	_	_
 11	anderen	ander	PRON	Pron|onbep|neut|zelfst	PronType=Ind	12	nsubj	_	_
-12	kregen	krijg	VERB	V|trans|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+12	kregen	krijg	VERB	V|trans|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Past|VerbForm=Fin	9	parataxis	_	_
 13	last	last	NOUN	N|soort|ev|neut	Number=Sing	12	obj	_	_
 14	van	van	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 15	duizeligheid	duizeligheid	NOUN	N|soort|ev|neut	Number=Sing	13	nmod	_	_
 16	en	en	CCONJ	Conj|neven	_	17	cc	_	_
 17	hoofdpijn	hoofdpijn	NOUN	N|soort|ev|neut	Number=Sing	15	conj	_	SpaceAfter=No
-18	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+18	.	.	PUNCT	Punc|punt	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s395/nl
 # text = De slachtoffers werden door de EHBO en een arts opgevangen.
 # orig_file_sentence 004#95
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	slachtoffers	slachtoffer	NOUN	N|soort|mv|neut	Number=Plur	3	nsubj	_	_
-3	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+2	slachtoffers	slachtoffer	NOUN	N|soort|mv|neut	Number=Plur	10	nsubj	_	_
+3	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	10	aux	_	_
 4	door	door	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
 6	EHBO	EHBO	PROPN	N|eigen|ev|neut	Number=Sing	10	obl	_	_
 7	en	en	CCONJ	Conj|neven	_	9	cc	_	_
 8	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	9	det	_	_
 9	arts	arts	NOUN	N|soort|ev|neut	Number=Sing	6	conj	_	_
-10	opgevangen	vang_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
-11	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+10	opgevangen	vang_op	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
 
 # sent_id = dev-s396/nl
 # text = Iedereen kon daarna gewoon naar huis.
@@ -7748,7 +7748,7 @@
 # text = Een derde van het ongeveer één hectare grote bedrijfspand, waar fotobenodigheden werden gefabriceerd, werd verwoest.
 # orig_file_sentence 004#98
 1	Een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
-2	derde	derde	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	16	nsubj	_	_
+2	derde	derde	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	17	nsubj	_	_
 3	van	van	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 4	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	9	det	_	_
 5	ongeveer	ongeveer	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	7	advmod	_	_
@@ -7757,14 +7757,14 @@
 8	grote	groot	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
 9	bedrijfspand	pand	NOUN	N|soort|ev|neut	Number=Sing	2	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	9	punct	_	_
-11	waar	waar	ADV	Adv|gew|vrag	PronType=Int	13	mark	_	_
+11	waar	waar	ADV	Adv|gew|vrag	PronType=Int	14	mark	_	_
 12	fotobenodigheden	fotobenodigheden	NOUN	N|soort|mv|neut	Number=Plur	14	obj	_	_
-13	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	9	acl	_	_
-14	gefabriceerd	fabriceer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	aux	_	SpaceAfter=No
-15	,	,	PUNCT	Punc|komma	PunctType=Comm	16	punct	_	_
-16	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
-17	verwoest	verwoest	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	aux	_	SpaceAfter=No
-18	.	.	PUNCT	Punc|punt	PunctType=Peri	16	punct	_	_
+13	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	gefabriceerd	fabriceer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	acl	_	SpaceAfter=No
+15	,	,	PUNCT	Punc|komma	PunctType=Comm	17	punct	_	_
+16	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	17	aux	_	_
+17	verwoest	verwoest	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	Punc|punt	PunctType=Peri	17	punct	_	_
 
 # sent_id = dev-s399/nl
 # text = De bewoners van zes huizen in de omgeving moesten op last van de autoriteiten hun woningen verlaten.
@@ -7792,10 +7792,10 @@
 # text = Vier woningen in Rotterdam-Zuid zijn in de nacht van zaterdag op zondag verwoest door een grote brand.
 # orig_file_sentence 004#100
 1	Vier	vier	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	nummod	_	_
-2	woningen	woning	NOUN	N|soort|mv|neut	Number=Plur	5	nsubj	_	_
+2	woningen	woning	NOUN	N|soort|mv|neut	Number=Plur	13	nsubj	_	_
 3	in	in	ADP	Prep|voor	AdpType=Prep	4	case	_	_
 4	Rotterdam-Zuid	Zuid	PROPN	N|eigen|ev|neut	Number=Sing	2	nmod	_	_
-5	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+5	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	13	aux	_	_
 6	in	in	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	8	det	_	_
 8	nacht	nacht	NOUN	N|soort|ev|neut	Number=Sing	13	obl	_	_
@@ -7803,12 +7803,12 @@
 10	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	8	nmod	_	_
 11	op	op	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 12	zondag	zondag	PROPN	N|eigen|ev|neut	Number=Sing	8	nmod	_	_
-13	verwoest	verwoest	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	5	aux	_	_
+13	verwoest	verwoest	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 14	door	door	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 15	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	17	det	_	_
 16	grote	groot	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	17	amod	_	_
 17	brand	brand	NOUN	N|soort|ev|neut	Number=Sing	13	obl	_	SpaceAfter=No
-18	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
+18	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
 
 # sent_id = dev-s401/nl
 # text = Volgens een woordvoerder van de politie raakte niemand gewond door de vlammen.
@@ -7831,12 +7831,12 @@
 # text = De journaliste en ex-televisie-omroepster Jeanne Roos is in de nacht van vrijdag op zaterdag overleden.
 # orig_file_sentence 005#2
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	journaliste	journalist	NOUN	N|soort|ev|neut	Number=Sing	7	nsubj	_	_
+2	journaliste	journalist	NOUN	N|soort|ev|neut	Number=Sing	15	nsubj	_	_
 3	en	en	CCONJ	Conj|neven	_	4	cc	_	_
 4	ex-televisie-omroepster	ex-televisie-omroepster	NOUN	N|soort|ev|neut	Number=Sing	2	conj	_	_
 5	Jeanne	Jeanne	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	2	appos	_	MWE=Jeanne_Roos|MWEPOS=X
 6	Roos	Roos	PROPN	PROPN	_	5	flat	_	_
-7	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+7	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 8	in	in	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
 10	nacht	nacht	NOUN	N|soort|ev|neut	Number=Sing	15	obl	_	_
@@ -7844,8 +7844,8 @@
 12	vrijdag	vrijdag	PROPN	N|eigen|ev|neut	Number=Sing	10	nmod	_	_
 13	op	op	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 14	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	10	nmod	_	_
-15	overleden	overlijd	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	7	aux	_	SpaceAfter=No
-16	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
+15	overleden	overlijd	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	Punc|punt	PunctType=Peri	15	punct	_	_
 
 # sent_id = dev-s403/nl
 # text = Jeanne Roos werkte ook als regisseur en speelde in de cabaretgroep Inktvis van het Parool, samen met haar vriendin Annie M.G. Schmidt.
@@ -7878,19 +7878,19 @@
 # sent_id = dev-s404/nl
 # text = Jeanne Roos is 84 jaar geworden, zo meldde het NOS-journaal gistermiddag.
 # orig_file_sentence 005#4
-1	Jeanne	Jeanne	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	3	nsubj	_	MWE=Jeanne_Roos|MWEPOS=X
+1	Jeanne	Jeanne	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	5	nsubj	_	MWE=Jeanne_Roos|MWEPOS=X
 2	Roos	Roos	PROPN	PROPN	_	1	flat	_	_
-3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
 4	84	84	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	5	nummod	_	_
-5	jaar	jaar	NOUN	N|soort|ev|neut	Number=Sing	3	aux	_	_
+5	jaar	jaar	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 6	geworden	word	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	5	cop	_	SpaceAfter=No
-7	,	,	PUNCT	Punc|komma	PunctType=Comm	3	punct	_	_
+7	,	,	PUNCT	Punc|komma	PunctType=Comm	5	punct	_	_
 8	zo	zo	ADV	Adv|gew|aanw	PronType=Dem	9	obj	_	_
-9	meldde	meld	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+9	meldde	meld	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	5	parataxis	_	_
 10	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	11	det	_	_
 11	NOS-journaal	journaal	NOUN	N|soort|ev|neut	Number=Sing	9	nsubj	_	_
 12	gistermiddag	gistermiddag	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	9	advmod	_	SpaceAfter=No
-13	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+13	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s405/nl
 # text = In de jaren zestig en zeventig maakte Roos naam met een persoonlijk getinte human-interest-pagina.
@@ -7934,17 +7934,17 @@
 2	zijn	zijn	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	woonplaats	woonplaats	NOUN	N|soort|ev|neut	Number=Sing	12	obl	_	_
 4	Utrecht	Utrecht	PROPN	N|eigen|ev|neut	Number=Sing	3	appos	_	_
-5	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+5	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 6	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	12	obl	_	_
 7	op	op	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	82-jarige	82-jarige	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
 9	leeftijd	leeftijd	NOUN	N|soort|ev|neut	Number=Sing	12	obl	_	_
 10	Barend	Barend	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	12	nsubj	_	MWE=Barend_Schreuders|MWEPOS=X
 11	Schreuders	Schreuders	PROPN	PROPN	_	10	flat	_	_
-12	overleden	overlijd	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	5	aux	_	SpaceAfter=No
-13	,	,	PUNCT	Punc|komma	PunctType=Comm	5	punct	_	_
+12	overleden	overlijd	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	Punc|komma	PunctType=Comm	12	punct	_	_
 14	voormalig	voormalig	ADJ	Adj|attr|stell|onverv	Degree=Pos	15	amod	_	_
-15	gemeenteraadslid	gemeenteraadslid	NOUN	N|soort|ev|neut	Number=Sing	5	parataxis	_	_
+15	gemeenteraadslid	gemeenteraadslid	NOUN	N|soort|ev|neut	Number=Sing	12	parataxis	_	_
 16	en	en	CCONJ	Conj|neven	_	17	cc	_	_
 17	statenlid	lid	NOUN	N|soort|ev|neut	Number=Sing	15	conj	_	_
 18	in	in	ADP	Prep|voor	AdpType=Prep	20	case	_	_
@@ -7959,8 +7959,8 @@
 27	Nederland	Nederland	X	X	Degree=Pos|Number=Sing	24	compound	_	_
 28	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	24	punct	_	SpaceAfter=No
 29	CPN	CPN	PROPN	N|eigen|ev|neut	Number=Sing	24	obl	_	SpaceAfter=No
-30	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	5	punct	_	SpaceAfter=No
-31	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
+30	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	12	punct	_	SpaceAfter=No
+31	.	.	PUNCT	Punc|punt	PunctType=Peri	12	punct	_	_
 
 # sent_id = dev-s408/nl
 # text = Schreuders vormde tientallen jaren het gezicht van de CPN in Utrecht.
@@ -8081,7 +8081,7 @@
 1	In	in	ADP	Prep|voor	AdpType=Prep	3	case	_	_
 2	die	die	PRON	Pron|aanw|neut|attr	PronType=Dem	3	nmod	_	_
 3	functie	functie	NOUN	N|soort|ev|neut	Number=Sing	12	obl	_	_
-4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 5	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
 6	februari	februari	PROPN	N_Num	_	12	advmod	_	MWE=februari_1999|MWEPOS=X
 7	1999	1999	NUM	NUM	NumForm=Digit|NumType=Card	6	nummod	_	_
@@ -8089,8 +8089,8 @@
 9	maand	maand	NOUN	N|soort|ev|neut	Number=Sing	12	obl	_	_
 10	op	op	X	Prep_Adj|voor_attr|stell|onverv	Degree=Pos	12	compound:prt	_	MWE=op_non-actief|MWEPOS=X
 11	non-actief	non-actief	X	X	Degree=Pos	10	compound	_	_
-12	gesteld	stel	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	SpaceAfter=No
-13	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+12	gesteld	stel	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	Punc|punt	PunctType=Peri	12	punct	_	_
 
 # sent_id = dev-s416/nl
 # text = Dit was op eigen verzoek tijdens de parlementaire enquête naar de Bijlmerramp.
@@ -8121,13 +8121,13 @@
 7	B.	B.	PROPN	PROPN	_	6	flat	_	_
 8	Plesch	Plesch	PROPN	PROPN	_	6	flat	_	SpaceAfter=No
 9	,	,	PUNCT	Punc|komma	PunctType=Comm	6	punct	_	_
-10	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	15	obj	_	_
+10	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	16	iobj	_	_
 11	management-consultant	management-consultant	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	16	ccomp	_	_
 12	in	in	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	14	det	_	_
 14	bedrijfsleven	bedrijfsleven	NOUN	N|soort|ev|neut	Number=Sing	16	obl	_	_
-15	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	6	advcl	_	_
-16	geworden	word	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	6	aux	_	SpaceAfter=No
+15	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+16	geworden	word	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
 17	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s418/nl
@@ -8135,20 +8135,20 @@
 # orig_file_sentence 005#18
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	3	det	_	_
 2	legendarische	legendarisch	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	3	amod	_	_
-3	country-gitarist	gitarist	NOUN	N|soort|ev|neut	Number=Sing	6	nsubj	_	_
+3	country-gitarist	gitarist	NOUN	N|soort|ev|neut	Number=Sing	11	nsubj	_	_
 4	Chet	Chet	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	3	appos	_	MWE=Chet_Atkins|MWEPOS=X
 5	Atkins	Atkins	PROPN	PROPN	_	4	flat	_	_
-6	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+6	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 7	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	11	obl	_	_
 8	op	op	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 9	77-jarige	77-jarige	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	10	amod	_	_
 10	leeftijd	leeftijd	NOUN	N|soort|ev|neut	Number=Sing	11	obl	_	_
-11	overleden	overlijd	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	6	aux	_	_
+11	overleden	overlijd	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 12	in	in	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	zijn	zijn	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_
 14	woonplaats	woonplaats	NOUN	N|soort|ev|neut	Number=Sing	11	obl	_	_
 15	Nashville	Nashville	PROPN	N|eigen|ev|neut	Number=Sing	14	appos	_	SpaceAfter=No
-16	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
+16	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
 
 # sent_id = dev-s419/nl
 # text = Atkins was een van de pioniers van de Nashville Sound.
@@ -8183,13 +8183,13 @@
 2	won	win	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 3	meerdere	meerdere	DET	Num	Case=Nom|Degree=Cmp|NumType=Card|PronType=Ind	4	det:nummod	_	_
 4	Grammy's	Grammy's	NOUN	N|soort|mv|neut	Number=Plur	2	obj	_	_
-5	en	en	CCONJ	Conj|neven	_	6	cc	_	_
-6	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	2	conj	_	_
+5	en	en	CCONJ	Conj|neven	_	11	cc	_	_
+6	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	aux	_	_
 7	in	in	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 8	1973	1973	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	11	advmod	_	_
-9	verkozen	verkies	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	cop	_	_
+9	verkozen	verkies	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	cop	_	_
 10	als	als	SCONJ	Conj|onder|metfin	_	11	case	_	_
-11	lid	lid	NOUN	N|soort|ev|neut	Number=Sing	6	aux	_	_
+11	lid	lid	NOUN	N|soort|ev|neut	Number=Sing	2	conj	_	_
 12	van	van	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	14	det	_	_
 14	Country	Country	PROPN	N_N_N_Conj_N	_	11	nmod	_	MWE=Country_Music_Hall_of_Fame|MWEPOS=X
@@ -8298,9 +8298,9 @@
 # sent_id = dev-s427/nl
 # text = Hij werd geïnspireerd door zanger en gitarist Merle Travis en speelde als kind al gitaar.
 # orig_file_sentence 005#27
-1	Hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
-2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
-3	geïnspireerd	inspireer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
+1	Hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	geïnspireerd	inspireer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 4	door	door	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 5	zanger	zanger	NOUN	N|soort|ev|neut	Number=Sing	3	obl	_	_
 6	en	en	CCONJ	Conj|neven	_	7	cc	_	_
@@ -8308,12 +8308,12 @@
 8	Merle	Merle	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	5	appos	_	MWE=Merle_Travis|MWEPOS=X
 9	Travis	Travis	PROPN	PROPN	_	8	flat	_	_
 10	en	en	CCONJ	Conj|neven	_	11	cc	_	_
-11	speelde	speel	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	2	conj	_	_
+11	speelde	speel	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	3	conj	_	_
 12	als	als	SCONJ	Conj|onder|metfin	_	13	case	_	_
 13	kind	kind	NOUN	N|soort|ev|neut	Number=Sing	11	obl	_	_
 14	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	_
 15	gitaar	gitaar	NOUN	N|soort|ev|neut	Number=Sing	11	obj	_	SpaceAfter=No
-16	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+16	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s428/nl
 # text = Zijn eerste optreden gaf hij al jong.
@@ -8600,22 +8600,22 @@
 # orig_file_sentence 005#40
 1	Het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	3	det	_	_
 2	elektronisch	electronisch	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	amod	_	_
-3	betalingsverkeer	verkeer	NOUN	N|soort|ev|neut	Number=Sing	10	nsubj	_	_
+3	betalingsverkeer	verkeer	NOUN	N|soort|ev|neut	Number=Sing	14	nsubj	_	_
 4	in	in	ADV	Adv|deelv	PartType=Vbp	3	advmod	_	_
 5	onder	onder	X	Prep_Num	Degree=Cmp|PronType=Ind	7	nmod	_	MWE=onder_meer|MWEPOS=X
 6	meer	meer	X	X	Degree=Cmp|PronType=Ind	5	compound	_	_
 7	winkels	winkel	NOUN	N|soort|mv|neut	Number=Plur	4	obj	_	_
 8	en	en	CCONJ	Conj|neven	_	9	cc	_	_
 9	benzinestations	benzinestation	NOUN	N|soort|mv|neut	Number=Plur	7	conj	_	_
-10	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+10	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 11	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	14	obl	_	_
 12	en	en	CCONJ	Conj|neven	_	13	cc	_	_
 13	zondag	zondag	PROPN	N|eigen|ev|neut	Number=Sing	11	conj	_	_
-14	onderhevig	onderhevig	ADJ	Adj|attr|stell|onverv	Degree=Pos	10	aux	_	_
+14	onderhevig	onderhevig	ADJ	Adj|attr|stell|onverv	Degree=Pos	0	root	_	_
 15	geweest	ben	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	14	cop	_	_
 16	aan	aan	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 17	storingen	storing	NOUN	N|soort|mv|neut	Number=Plur	14	obj	_	SpaceAfter=No
-18	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
+18	.	.	PUNCT	Punc|punt	PunctType=Peri	14	punct	_	_
 
 # sent_id = dev-s441/nl
 # text = Dit als gevolg van een mankement en onderhoud aan de computers van Interpay, de onderneming van de banken die de betalingen per pinpas verzorgt.
@@ -8652,7 +8652,7 @@
 # orig_file_sentence 005#42
 1	Interpay	Interpay	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 2	schat	schat	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dat	dat	SCONJ	Conj|onder|metfin	_	15	mark	_	_
+3	dat	dat	SCONJ	Conj|onder|metfin	_	16	mark	_	_
 4	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	16	obl	_	_
 5	18000	18000	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	6	nummod	_	_
 6	mensen	mens	NOUN	N|soort|mv|neut	Number=Plur	16	obj	_	_
@@ -8664,8 +8664,8 @@
 12	door	door	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
 14	storing	storing	NOUN	N|soort|ev|neut	Number=Sing	16	obl	_	_
-15	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	2	ccomp	_	_
-16	getroffen	tref	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	SpaceAfter=No
+15	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	getroffen	tref	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	ccomp	_	SpaceAfter=No
 17	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s443/nl
@@ -8841,7 +8841,7 @@
 2	Welch	Welch	PROPN	N|eigen|ev|neut	Number=Sing	3	nsubj	_	_
 3	vindt	vind	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	echter	echter	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	3	advmod	_	_
-5	dat	dat	SCONJ	Conj|onder|metfin	_	17	mark	_	_
+5	dat	dat	SCONJ	Conj|onder|metfin	_	18	mark	_	_
 6	door	door	ADP	Prep|voor	AdpType=Prep	8	mark	_	_
 7	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	8	det	_	_
 8	afstoten	stoot	VERB	V|trans|inf|subst	Subcat=Tran|VerbForm=Inf	18	advcl	_	_
@@ -8853,8 +8853,8 @@
 14	achter	achter	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 15	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	16	det	_	_
 16	fusie	fusie	NOUN	N|soort|ev|neut	Number=Sing	13	nmod	_	_
-17	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	3	ccomp	_	_
-18	verdwenen	verdwijn	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
+17	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	verdwenen	verdwijn	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	ccomp	_	SpaceAfter=No
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s453/nl
@@ -8887,21 +8887,21 @@
 5	en	en	CCONJ	Conj|neven	_	6	cc	_	_
 6	Limburg	Limburg	PROPN	N|eigen|ev|neut	Number=Sing	4	conj	_	_
 7	na	na	ADV	Adv|deeladv	PartType=Vbp	1	fixed	_	_
-8	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+8	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 9	overal	overal	ADV	Adv|gew|onbep	PronType=Ind	11	advmod	_	_
 10	iets	iets	PRON	Pron|onbep|neut|zelfst	PronType=Ind	11	obj	_	_
-11	georganiseerd	organiseer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	SpaceAfter=No
-12	,	,	PUNCT	Punc|komma	PunctType=Comm	8	punct	_	_
-13	aldus	aldus	ADV	Adv|gew|aanw	PronType=Dem	8	dep	_	_
-14	boerenvoorman	voorman	NOUN	N|soort|ev|neut	Number=Sing	8	dep	_	_
+11	georganiseerd	organiseer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	Punc|komma	PunctType=Comm	11	punct	_	_
+13	aldus	aldus	ADV	Adv|gew|aanw	PronType=Dem	11	dep	_	_
+14	boerenvoorman	voorman	NOUN	N|soort|ev|neut	Number=Sing	11	dep	_	_
 15	J.	J.	PROPN	N_N_N_N	_	14	appos	_	MWE=J._van_'t_Hof|MWEPOS=X
 16	van	van	PROPN	PROPN	_	15	flat	_	_
 17	't	't	PROPN	PROPN	_	15	flat	_	_
 18	Hof	Hof	PROPN	PROPN	_	15	flat	_	_
 19	uit	uit	ADP	Prep|voor	AdpType=Prep	20	case	_	_
 20	Sint-Annaland	Sint-Annaland	PROPN	N|eigen|ev|neut	Number=Sing	14	nmod	_	_
-21	gistermiddag	gistermiddag	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	8	dep	_	SpaceAfter=No
-22	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
+21	gistermiddag	gistermiddag	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	dep	_	SpaceAfter=No
+22	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
 
 # sent_id = dev-s455/nl
 # text = De boeren willen met de acties protesteren tegen het landbouwbeleid van minister Brinkhorst (Landbouw).
@@ -8938,11 +8938,11 @@
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
 10	veemarkten	markt	NOUN	N|soort|mv|neut	Number=Plur	7	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	Punc|komma	PunctType=Comm	7	punct	_	_
-12	waarvoor	waarvoor	ADV	Adv|pron|vrag	PronType=Int	15	mark	_	_
+12	waarvoor	waarvoor	ADV	Adv|pron|vrag	PronType=Int	16	mark	_	_
 13	geen	geen	PRON	Pron|onbep|neut|attr	PronType=Ind	14	nmod	_	_
 14	alternatief	alternatief	NOUN	N|soort|ev|neut	Number=Sing	16	obj	_	_
-15	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	7	acl	_	_
-16	geboden	bied	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	SpaceAfter=No
+15	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	geboden	bied	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	acl	_	SpaceAfter=No
 17	,	,	PUNCT	Punc|komma	PunctType=Comm	19	punct	_	_
 18	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	19	det	_	_
 19	druppel	druppel	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
@@ -8965,15 +8965,15 @@
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 8	administratieve	administratief	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
 9	rompslomp	rompslomp	NOUN	N|soort|ev|neut	Number=Sing	4	obj	_	_
-10	waarmee	waarmee	ADV	Adv|pron|vrag	PronType=Int	17	mark	_	_
+10	waarmee	waarmee	ADV	Adv|pron|vrag	PronType=Int	18	mark	_	_
 11	boeren	boer	NOUN	N|soort|mv|neut	Number=Plur	18	obj	_	_
 12	na	na	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	14	det	_	_
 14	mond-	mond-	X	N_Conj_N	Number=Sing	18	advmod	_	MWE=mond-_en_klauwzeercrisis|MWEPOS=X
 15	en	en	ADP	ADP	AdpType=Prep	14	compound	_	_
 16	klauwzeercrisis	klauwzeercrisis	X	X	Number=Sing	14	compound	_	_
-17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	9	acl	_	_
-18	geconfronteerd	confronteer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	aux	_	_
+17	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	18	aux	_	_
+18	geconfronteerd	confronteer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	acl	_	_
 19	en	en	CCONJ	Conj|neven	_	21	cc	_	_
 20	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	21	det	_	_
 21	kosten	kost	NOUN	N|soort|mv|neut	Number=Plur	9	conj	_	_
@@ -9000,9 +9000,9 @@
 # sent_id = dev-s459/nl
 # text = Wegblokkades zijn gepland op onder meer het knooppunt van de A1 en A50 bij Apeldoorn, de A28 over de IJsselburg bij Zwolle en de A12 bij de afslagen De Meern en Woerden.
 # orig_file_sentence 005#59
-1	Wegblokkades	blokkade	NOUN	N|soort|mv|neut	Number=Plur	2	nsubj	_	_
-2	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
-3	gepland	plan	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
+1	Wegblokkades	blokkade	NOUN	N|soort|mv|neut	Number=Plur	3	nsubj	_	_
+2	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	gepland	plan	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 4	op	op	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 5	onder	onder	X	Prep_Num	Degree=Cmp|PronType=Ind	8	nmod	_	MWE=onder_meer|MWEPOS=X
 6	meer	meer	X	X	Degree=Cmp|PronType=Ind	5	compound	_	_
@@ -9033,7 +9033,7 @@
 31	Meern	Meern	PROPN	PROPN	_	29	appos	_	_
 32	en	en	CCONJ	Conj|neven	_	33	cc	_	_
 33	Woerden	Woerden	PROPN	N|eigen|ev|neut	Number=Sing	31	conj	_	SpaceAfter=No
-34	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+34	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s460/nl
 # text = In Zuid-West Nederland zijn er plannen om de A58 bij Wouw en Bergen op Zoom te blokkeren.
@@ -9063,14 +9063,14 @@
 1	In	in	ADP	Prep|voor	AdpType=Prep	2	case	_	_
 2	Den	Den	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	7	advmod	_	MWE=Den_Haag|MWEPOS=X
 3	Haag	Haag	PROPN	PROPN	_	2	flat	_	_
-4	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+4	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
 5	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
 6	petitie	petitie	NOUN	N|soort|ev|neut	Number=Sing	7	obj	_	_
-7	aangeboden	bied_aan	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	_
+7	aangeboden	bied_aan	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 8	aan	aan	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 9	minister	minister	NOUN	N|soort|ev|neut	Number=Sing	7	obj	_	_
 10	Brinkhorst	Brinkhorst	PROPN	N|eigen|ev|neut	Number=Sing	9	appos	_	SpaceAfter=No
-11	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+11	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s462/nl
 # text = Rond 700 betogers hebben gisteren in de Oostenrijkse stad Salzburg urenlang tegen globalisering gedemonstreerd.
@@ -9141,7 +9141,7 @@
 # orig_file_sentence 005#66
 1	In	in	ADP	Prep|voor	AdpType=Prep	2	case	_	_
 2	Salzburg	Salzburg	PROPN	N|eigen|ev|neut	Number=Sing	11	obl	_	_
-3	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
 4	tot	tot	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 5	dinsdag	dinsdag	PROPN	N|eigen|ev|neut	Number=Sing	11	obl	_	_
 6	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	8	det	_	_
@@ -9149,8 +9149,8 @@
 8	Weltwirtschafsforum	Weltwirtschafsforum	X	Misc_Misc|vreemd_vreemd	_	11	obj	_	MWE=Weltwirtschafsforum_Osteuropa|MWEPOS=X
 9	Osteuropa	Osteuropa	X	X	_	8	compound	_	SpaceAfter=No
 10	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	11	punct	_	_
-11	gehouden	houd	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
-12	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+11	gehouden	houd	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
 
 # sent_id = dev-s467/nl
 # text = Ongeveer 650 politici en zakenlieden uit Oostenrijk en landen in Midden- en Oost-Europa praten er over de economische ontwikkelingen in de regio en over de Europese integratie.
@@ -9264,7 +9264,7 @@
 # text = De oud-chef van de Peruaanse geheime dienst Vladimiro Montesinos is in hongerstaking gegaan.
 # orig_file_sentence 005#71
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	oud-chef	chef	NOUN	N|soort|ev|neut	Number=Sing	10	nsubj	_	_
+2	oud-chef	chef	NOUN	N|soort|ev|neut	Number=Sing	12	nsubj	_	_
 3	van	van	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 5	Peruaanse	Peruaanse	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	7	amod	_	_
@@ -9272,27 +9272,27 @@
 7	dienst	dienst	NOUN	N|soort|ev|neut	Number=Sing	2	nmod	_	_
 8	Vladimiro	Vladimiro	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	7	appos	_	MWE=Vladimiro_Montesinos|MWEPOS=X
 9	Montesinos	Montesinos	PROPN	PROPN	_	8	flat	_	_
-10	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+10	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
 11	in	in	ADP	Prep|voor	AdpType=Prep	12	case	_	_
-12	hongerstaking	hongerstaking	NOUN	N|soort|ev|neut	Number=Sing	10	aux	_	_
-13	gegaan	ga	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	12	cop	_	SpaceAfter=No
-14	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
+12	hongerstaking	hongerstaking	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
+13	gegaan	ga	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	12	cop	_	SpaceAfter=No
+14	.	.	PUNCT	Punc|punt	PunctType=Peri	12	punct	_	_
 
 # sent_id = dev-s472/nl
 # text = Hij eist dat hij van de militaire gevangenis in Callao wordt overgeplaatst naar een inrichting met een burgerregime.
 # orig_file_sentence 005#72
 1	Hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	eist	eis	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dat	dat	SCONJ	Conj|onder|metfin	_	11	mark	_	_
-4	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+3	dat	dat	SCONJ	Conj|onder|metfin	_	12	mark	_	_
+4	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 5	van	van	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 6	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	8	det	_	_
 7	militaire	militair	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	8	amod	_	_
 8	gevangenis	gevangenis	NOUN	N|soort|ev|neut	Number=Sing	12	obl	_	_
 9	in	in	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 10	Callao	Callao	PROPN	N|eigen|ev|neut	Number=Sing	8	nmod	_	_
-11	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	2	ccomp	_	_
-12	overgeplaatst	plaats_over	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
+11	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	overgeplaatst	plaats_over	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	ccomp	_	_
 13	naar	naar	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 14	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
 15	inrichting	inrichting	NOUN	N|soort|ev|neut	Number=Sing	12	obl	_	_
@@ -9322,7 +9322,7 @@
 # orig_file_sentence 005#74
 1	In	in	ADP	Prep|voor	AdpType=Prep	2	case	_	_
 2	Macedonië	Macedonië	PROPN	N|eigen|ev|neut	Number=Sing	14	obl	_	_
-3	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux	_	_
 4	gisteren	gisteren	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	14	advmod	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
 6	gevechten	gevecht	NOUN	N|soort|mv|neut	Number=Plur	14	nsubj	_	_
@@ -9333,19 +9333,19 @@
 11	Albanese	Albanees	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	12	amod	_	_
 12	rebellen	rebel	NOUN	N|soort|mv|neut	Number=Plur	9	conj	_	_
 13	weer	weer	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	14	advmod	_	_
-14	opgelaaid	laai_op	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
-15	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+14	opgelaaid	laai_op	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	Punc|punt	PunctType=Peri	14	punct	_	_
 
 # sent_id = dev-s475/nl
 # text = Daarbij is een Macedonische militair gedood.
 # orig_file_sentence 005#75
 1	Daarbij	daarbij	ADV	Adv|pron|aanw	PronType=Dem	6	advmod	_	_
-2	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+2	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
 4	Macedonische	Macedonisch	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	5	amod	_	_
 5	militair	militair	NOUN	N|soort|ev|neut	Number=Sing	6	obj	_	_
-6	gedood	dood	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	SpaceAfter=No
-7	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+6	gedood	dood	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
 # sent_id = dev-s476/nl
 # text = Rebellen bestookten posities van het leger in de buurt van Tetovo in het noord-westen van Macedonië.
@@ -9372,9 +9372,9 @@
 # text = Er werd ook gevochten ten noorden van de hoofdstad Skopje, bij het dorp Radusa dat door etnisch-Albanese rebellen is ingenomen.
 # orig_file_sentence 005#77
 1	Er	er	ADV	Adv|gew|er	AdvType=Ex	4	advmod	_	_
-2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	aux	_	_
 3	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	4	advmod	_	_
-4	gevochten	vecht	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	2	aux	_	_
+4	gevochten	vecht	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 5	ten	ten	X	Prep_N_Prep|voor_soort|ev|neut_voor	Number=Sing	4	advmod	_	MWE=ten_noorden_van|MWEPOS=X
 6	noorden	noorden	X	X	Number=Sing	5	compound	_	_
 7	van	van	X	X	Number=Sing	5	compound	_	_
@@ -9386,13 +9386,13 @@
 13	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	14	det	_	_
 14	dorp	dorp	NOUN	N|soort|ev|neut	Number=Sing	4	obl	_	_
 15	Radusa	Radusa	PROPN	N|eigen|ev|neut	Number=Sing	14	appos	_	_
-16	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	20	obj	_	_
+16	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	21	obj	_	_
 17	door	door	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 18	etnisch-Albanese	etnisch-Albanese	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	19	amod	_	_
 19	rebellen	rebel	NOUN	N|soort|mv|neut	Number=Plur	21	obl	_	_
-20	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	14	acl	_	_
-21	ingenomen	neem_in	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	14	aux	_	SpaceAfter=No
-22	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+20	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	ingenomen	neem_in	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	14	acl	_	SpaceAfter=No
+22	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s478/nl
 # text = De linkse guerrillabeweging FARC heeft zaterdag 62 agenten en militairen vrijgelaten die jarenlang waren gegijzeld.
@@ -9408,10 +9408,10 @@
 9	en	en	CCONJ	Conj|neven	_	10	cc	_	_
 10	militairen	militair	NOUN	N|soort|mv|neut	Number=Plur	8	conj	_	_
 11	vrijgelaten	laat_vrij	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
-12	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	14	obj	_	_
+12	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	15	obj	_	_
 13	jarenlang	jarenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	advmod	_	_
-14	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	8	acl	_	_
-15	gegijzeld	gijzel	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	SpaceAfter=No
+14	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	gegijzeld	gijzel	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
 16	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
 
 # sent_id = dev-s479/nl
@@ -9482,8 +9482,8 @@
 1	Meer	meer	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	4	det:nummod	_	_
 2	dan	dan	SCONJ	Conj|onder|metfin	_	3	mark	_	_
 3	240	240	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	1	advmod	_	_
-4	personen	persoon	NOUN	N|soort|mv|neut	Number=Plur	5	nsubj	_	_
-5	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+4	personen	persoon	NOUN	N|soort|mv|neut	Number=Plur	14	nsubj	_	_
+5	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux	_	_
 6	in	in	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	8	det	_	_
 8	noordoosten	noordoosten	NOUN	N|soort|ev|neut	Number=Sing	14	obl	_	_
@@ -9492,10 +9492,10 @@
 11	Democratische	Democratische	X	Adj_N_N	Degree=Pos|Number=Sing	8	nmod	_	MWE=Democratische_Republiek_Congo|MWEPOS=X
 12	Republiek	Republiek	X	X	Degree=Pos|Number=Sing	11	compound	_	_
 13	Congo	Congo	X	X	Degree=Pos|Number=Sing	11	compound	_	_
-14	vermoord	vermoord	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	5	aux	_	_
+14	vermoord	vermoord	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 15	wegens	wegens	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 16	hekserij	hekserij	NOUN	N|soort|ev|neut	Number=Sing	14	obl	_	SpaceAfter=No
-17	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
+17	.	.	PUNCT	Punc|punt	PunctType=Peri	14	punct	_	_
 
 # sent_id = dev-s483/nl
 # text = De heksenjacht begon twee weken geleden na geruchten over een heksenleger in de jungle.
@@ -9531,7 +9531,7 @@
 10	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	11	amod	_	_
 11	moordpartij	moordpartij	NOUN	N|soort|ev|neut	Number=Sing	5	nsubj	_	SpaceAfter=No
 12	,	,	PUNCT	Punc|komma	PunctType=Comm	5	punct	_	_
-13	waarna	waarna	ADV	Adv|pron|vrag	PronType=Int	24	mark	_	_
+13	waarna	waarna	ADV	Adv|pron|vrag	PronType=Int	25	mark	_	_
 14	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	25	advmod	_	_
 15	in	in	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 16	andere	ander	PRON	Pron|onbep|neut|attr	PronType=Ind	17	nmod	_	_
@@ -9542,21 +9542,21 @@
 21	om	om	X	Prep_Art_N	Gender=Neut|Number=Sing	25	compound:prt	_	MWE=om_het_leven|MWEPOS=X
 22	het	het	X	X	Gender=Neut|Number=Sing	21	compound	_	_
 23	leven	leven	X	X	Gender=Neut|Number=Sing	21	compound	_	_
-24	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	5	advcl	_	_
-25	gebracht	breng	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	5	aux	_	SpaceAfter=No
+24	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	gebracht	breng	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	5	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s485/nl
 # text = Honderden mensen zijn naar buurland Oeganda gevlucht.
 # orig_file_sentence 005#85
-1	Honderden	honderden	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	3	nsubj	_	_
+1	Honderden	honderden	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	7	nsubj	_	_
 2	mensen	mens	NOUN	N|soort|mv|neut	Number=Plur	1	obl	_	_
-3	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	aux	_	_
 4	naar	naar	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 5	buurland	buurland	NOUN	N|soort|ev|neut	Number=Sing	7	obl	_	_
 6	Oeganda	Oeganda	PROPN	N|eigen|ev|neut	Number=Sing	5	appos	_	_
-7	gevlucht	vlucht	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
-8	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+7	gevlucht	vlucht	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s486/nl
 # text = Oegandese troepen hebben in Congo bijna honderd mensen opgepakt die bij de moordpartijen betrokken zouden zijn geweest.
@@ -9574,9 +9574,9 @@
 11	bij	bij	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	13	det	_	_
 13	moordpartijen	moordpartij	NOUN	N|soort|mv|neut	Number=Plur	14	obj	_	_
-14	betrokken	betrokken	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	aux	_	_
+14	betrokken	betrokken	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	15	ccomp	_	_
 15	zouden	zal	VERB	V|hulp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Mod	8	acl	_	_
-16	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	15	xcomp	_	_
+16	zijn	ben	AUX	V|hulpofkopp|inf	VerbForm=Inf	14	aux	_	_
 17	geweest	ben	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	14	cop	_	SpaceAfter=No
 18	.	.	PUNCT	Punc|punt	PunctType=Peri	9	punct	_	_
 
@@ -9602,13 +9602,13 @@
 # text = Daardoor zijn historische gegevens en e-mails verdwenen.
 # orig_file_sentence 005#88
 1	Daardoor	daardoor	ADV	Adv|pron|aanw	PronType=Dem	7	advmod	_	_
-2	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+2	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	7	aux	_	_
 3	historische	historisch	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	4	amod	_	_
 4	gegevens	gegeven	NOUN	N|soort|mv|neut	Number=Plur	7	nsubj	_	_
 5	en	en	CCONJ	Conj|neven	_	6	cc	_	_
 6	e-mails	e-mail	NOUN	N|soort|mv|neut	Number=Plur	4	conj	_	_
-7	verdwenen	verdwijn	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	2	aux	_	SpaceAfter=No
-8	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+7	verdwenen	verdwijn	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s489/nl
 # text = De Moeders van de Plaza de Mayo eisen de waarheid over het lot van zo'n 30000 mannen en vrouwen die verdwenen onder het Argentijnse militaire regime tussen 1976 en 1983.
@@ -9789,13 +9789,13 @@
 # orig_file_sentence 005#97
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	3	det	_	_
 2	Noordierse	Noord-Iers	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	3	amod	_	_
-3	premier	premier	NOUN	N|soort|ev|neut	Number=Sing	6	nsubj	_	_
+3	premier	premier	NOUN	N|soort|ev|neut	Number=Sing	8	nsubj	_	_
 4	David	David	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	3	appos	_	MWE=David_Trimble|MWEPOS=X
 5	Trimble	Trimble	PROPN	PROPN	_	4	flat	_	_
-6	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+6	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
 7	gisterochtend	gisterochtend	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	8	advmod	_	_
-8	afgetreden	treed_af	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	6	aux	_	SpaceAfter=No
-9	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
+8	afgetreden	treed_af	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s498/nl
 # text = Hij maakte daarmee zijn dreigement waar, dat hij zou vertrekken als het Iers Republikeins Leger (Ira) vóór 1 juli niet zou beginnen met het inleveren van wapens.
@@ -9842,27 +9842,27 @@
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 6	protestantse	protestants	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	7	amod	_	_
 7	Trimble	Trimble	NOUN	N|soort|ev|neut	Number=Sing	3	obl	_	_
-8	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+8	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
 9	er	er	ADV	Adv|gew|er	AdvType=Ex	13	advmod	_	_
 10	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	12	det	_	_
 11	politieke	politiek	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	12	amod	_	_
 12	crisis	crisis	NOUN	N|soort|ev|neut	Number=Sing	13	nsubj	_	_
-13	ontstaan	ontsta	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	8	aux	_	_
+13	ontstaan	ontsta	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 14	in	in	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 15	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	17	det	_	_
 16	Britse	Brits	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	17	amod	_	_
 17	provincie	provincie	NOUN	N|soort|ev|neut	Number=Sing	13	obl	_	SpaceAfter=No
 18	,	,	PUNCT	Punc|komma	PunctType=Comm	17	punct	_	_
-19	waar	waar	ADV	Adv|gew|vrag	PronType=Int	26	mark	_	_
+19	waar	waar	ADV	Adv|gew|vrag	PronType=Int	27	mark	_	_
 20	na	na	ADP	Prep|voor	AdpType=Prep	22	case	_	_
 21	veel	veel	DET	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	22	det:nummod	_	_
 22	moeite	moeite	NOUN	N|soort|ev|neut	Number=Sing	27	obl	_	_
 23	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	25	det	_	_
 24	protestants-katholieke	protestants-katholieke	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	25	amod	_	_
 25	regering	regering	NOUN	N|soort|ev|neut	Number=Sing	27	obj	_	_
-26	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	17	acl	_	_
-27	gevormd	vorm	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	17	aux	_	SpaceAfter=No
-28	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
+26	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	27	aux	_	_
+27	gevormd	vorm	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	17	acl	_	SpaceAfter=No
+28	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
 
 # sent_id = dev-s500/nl
 # text = Dat was het directe gevolg van het akkoord dat op Goede Vrijdag 1998 was gesloten, en waarvan ontwapening van de paramilitaire groepen een belangrijk onderdeel is.
@@ -9875,13 +9875,13 @@
 6	van	van	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	8	det	_	_
 8	akkoord	akkoord	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
-9	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	14	obj	_	_
+9	dat	dat	PRON	Pron|betr|neut|zelfst	PronType=Rel	15	obj	_	_
 10	op	op	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 11	Goede	Goede	X	Adj_N	Degree=Pos|Number=Sing	15	advmod	_	MWE=Goede_Vrijdag|MWEPOS=X
 12	Vrijdag	Vrijdag	X	X	Degree=Pos|Number=Sing	11	compound	_	_
 13	1998	1998	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	11	advmod	_	_
-14	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	8	acl	_	_
-15	gesloten	sluit	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	SpaceAfter=No
+14	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	aux	_	_
+15	gesloten	sluit	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
 16	,	,	PUNCT	Punc|komma	PunctType=Comm	26	punct	_	_
 17	en	en	CCONJ	Conj|neven	_	26	cc	_	_
 18	waarvan	waarvan	ADV	Adv|pron|vrag	PronType=Int	26	mark	_	_
@@ -9892,7 +9892,7 @@
 23	groepen	groep	NOUN	N|soort|mv|neut	Number=Plur	19	nmod	_	_
 24	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	26	det	_	_
 25	belangrijk	belangrijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	26	amod	_	_
-26	onderdeel	onderdeel	NOUN	N|soort|ev|neut	Number=Sing	14	conj	_	_
+26	onderdeel	onderdeel	NOUN	N|soort|ev|neut	Number=Sing	15	conj	_	_
 27	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	SpaceAfter=No
 28	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
@@ -9916,9 +9916,9 @@
 15	Sinn	Sinn	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	13	appos	_	MWE=Sinn_Fein|MWEPOS=X
 16	Fein	Fein	PROPN	PROPN	_	15	flat	_	SpaceAfter=No
 17	,	,	PUNCT	Punc|komma	PunctType=Comm	8	punct	_	_
-18	omdat	omdat	SCONJ	Conj|onder|metfin	_	32	mark	_	_
+18	omdat	omdat	SCONJ	Conj|onder|metfin	_	33	mark	_	_
 19	zijn	zijn	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod	_	_
-20	eisen	eis	NOUN	N|soort|mv|neut	Number=Plur	32	nsubj	_	_
+20	eisen	eis	NOUN	N|soort|mv|neut	Number=Plur	33	nsubj	_	_
 21	voor	voor	ADP	Prep|voor	AdpType=Prep	22	case	_	_
 22	terugtrekking	terugtrekking	NOUN	N|soort|ev|neut	Number=Sing	20	nmod	_	_
 23	van	van	ADP	Prep|voor	AdpType=Prep	26	case	_	_
@@ -9930,8 +9930,8 @@
 29	van	van	ADP	Prep|voor	AdpType=Prep	31	case	_	_
 30	protestantse	protestants	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	31	amod	_	_
 31	politiemacht	macht	NOUN	N|soort|ev|neut	Number=Sing	28	nmod	_	_
-32	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	8	advcl	_	_
-33	genegeerd	negeer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	SpaceAfter=No
+32	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	genegeerd	negeer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
 34	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s502/nl
@@ -10289,13 +10289,13 @@
 8	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	5	punct	_	_
 9	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	11	det	_	_
 10	Libanese	Libanees	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	amod	_	_
-11	dorp	dorp	NOUN	N|soort|ev|neut	Number=Sing	14	nsubj	_	_
+11	dorp	dorp	NOUN	N|soort|ev|neut	Number=Sing	16	nsubj	_	_
 12	Kfar	Kfar	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	11	appos	_	MWE=Kfar_Sjoeba|MWEPOS=X
 13	Sjoeba	Sjoeba	PROPN	PROPN	_	12	flat	_	_
-14	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	5	parataxis	_	_
+14	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	16	aux	_	_
 15	onder	onder	ADP	Prep|voor	AdpType=Prep	16	case	_	_
-16	vuur	vuur	NOUN	N|soort|ev|neut	Number=Sing	14	aux	_	_
-17	genomen	neem	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	cop	_	SpaceAfter=No
+16	vuur	vuur	NOUN	N|soort|ev|neut	Number=Sing	5	parataxis	_	_
+17	genomen	neem	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	16	cop	_	SpaceAfter=No
 18	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s515/nl
@@ -10345,16 +10345,16 @@
 8	met	met	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 9	vuur	vuur	NOUN	N|soort|ev|neut	Number=Sing	10	obj	_	_
 10	speelt	speel	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
-11	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	16	punct	_	SpaceAfter=No
-12	,	,	PUNCT	Punc|komma	PunctType=Comm	16	punct	_	_
-13	maar	maar	CCONJ	Conj|neven	_	16	cc	_	_
+11	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	20	punct	_	SpaceAfter=No
+12	,	,	PUNCT	Punc|komma	PunctType=Comm	20	punct	_	_
+13	maar	maar	CCONJ	Conj|neven	_	20	cc	_	_
 14	uit	uit	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 15	Damascus	Damascus	PROPN	N|eigen|ev|neut	Number=Sing	20	obl	_	_
-16	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	3	conj	_	_
+16	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
 17	nog	nog	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	20	advmod	_	_
 18	geen	geen	PRON	Pron|onbep|neut|attr	PronType=Ind	19	nmod	_	_
 19	reactie	reactie	NOUN	N|soort|ev|neut	Number=Sing	20	nsubj	_	_
-20	gekomen	kom	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
+20	gekomen	kom	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s518/nl
@@ -10540,13 +10540,13 @@
 # text = De barrage was noodzakelijk geworden, toen Van Wely en Van den Doel met 6,5 punten uit negen partijen op de eerste plaats waren uitgekomen.
 # orig_file_sentence 006#27
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	barrage	barrage	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
-3	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
-4	noodzakelijk	noodzakelijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	aux	_	_
+2	barrage	barrage	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
+3	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	noodzakelijk	noodzakelijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	0	root	_	_
 5	geworden	word	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	4	cop	_	SpaceAfter=No
 6	,	,	PUNCT	Punc|komma	PunctType=Comm	4	punct	_	_
-7	toen	toen	SCONJ	Conj|onder|metfin	_	24	mark	_	_
-8	Van	Van	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	24	nsubj	_	MWE=Van_Wely|MWEPOS=X
+7	toen	toen	SCONJ	Conj|onder|metfin	_	25	mark	_	_
+8	Van	Van	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	25	nsubj	_	MWE=Van_Wely|MWEPOS=X
 9	Wely	Wely	PROPN	PROPN	_	8	flat	_	_
 10	en	en	CCONJ	Conj|neven	_	11	cc	_	_
 11	Van	Van	PROPN	N_N_N	_	8	conj	_	MWE=Van_den_Doel|MWEPOS=X
@@ -10562,26 +10562,26 @@
 21	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	23	det	_	_
 22	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	23	amod	_	_
 23	plaats	plaats	NOUN	N|soort|ev|neut	Number=Sing	25	obj	_	_
-24	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	4	advcl	_	_
-25	uitgekomen	kom_uit	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	4	aux	_	SpaceAfter=No
-26	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+24	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	uitgekomen	kom_uit	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	4	advcl	_	SpaceAfter=No
+26	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s528/nl
 # text = Zeilster Carolijn Brouwer is sterk gestart bij het WK Europe in Vilamoura.
 # orig_file_sentence 006#28
-1	Zeilster	zeil_ster	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
+1	Zeilster	zeil_ster	NOUN	N|soort|ev|neut	Number=Sing	6	nsubj	_	_
 2	Carolijn	Carolijn	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	1	appos	_	MWE=Carolijn_Brouwer|MWEPOS=X
 3	Brouwer	Brouwer	PROPN	PROPN	_	2	flat	_	_
-4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 5	sterk	sterk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
-6	gestart	start	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	4	aux	_	_
+6	gestart	start	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 7	bij	bij	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	9	det	_	_
 9	WK	WK	PROPN	N|eigen|ev|neut	Number=Sing	6	obl	_	_
 10	Europe	Europe	PROPN	N|eigen|ev|neut	Number=Sing	9	flat	_	_
 11	in	in	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 12	Vilamoura	Vilamoura	PROPN	N|eigen|ev|neut	Number=Sing	9	nmod	_	SpaceAfter=No
-13	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+13	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
 # sent_id = dev-s529/nl
 # text = In lichte omstandigheden won de tweevoudige wereldkampioene de eerste race.
@@ -10811,16 +10811,16 @@
 # text = De Verenigde Arabische Emiraten werden met 90 runs verschil verslagen.
 # orig_file_sentence 006#41
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	Verenigde	Verenigde	X	V_Adj_N	Degree=Pos|Number=Plur|Subcat=Tran|Tense=Past|VerbForm=Part	5	nsubj	_	MWE=Verenigde_Arabische_Emiraten|MWEPOS=X
+2	Verenigde	Verenigde	X	V_Adj_N	Degree=Pos|Number=Plur|Subcat=Tran|Tense=Past|VerbForm=Part	10	nsubj	_	MWE=Verenigde_Arabische_Emiraten|MWEPOS=X
 3	Arabische	Arabische	X	X	Degree=Pos|Number=Plur|Subcat=Tran|Tense=Past|VerbForm=Part	2	compound	_	_
 4	Emiraten	Emiraten	X	X	Degree=Pos|Number=Plur|Subcat=Tran|Tense=Past|VerbForm=Part	2	compound	_	_
-5	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+5	werden	word	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	10	aux	_	_
 6	met	met	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	90	90	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	8	nummod	_	_
 8	runs	run	NOUN	N|soort|mv|neut	Number=Plur	9	cop	_	_
 9	verschil	verschil	NOUN	N|soort|ev|neut	Number=Sing	10	obl	_	_
-10	verslagen	versla	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	5	aux	_	SpaceAfter=No
-11	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
+10	verslagen	versla	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	Punc|punt	PunctType=Peri	10	punct	_	_
 
 # sent_id = dev-s542/nl
 # text = De tegenstander had halverwege nog de beste papieren en gooide Nederland uit voor slechts 144 runs.
@@ -11001,7 +11001,7 @@
 3	van	van	X	X	Number=Sing	1	compound	_	_
 4	Chiel	Chiel	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	1	obj	_	MWE=Chiel_Warners|MWEPOS=X
 5	Warners	Warners	PROPN	PROPN	_	4	flat	_	_
-6	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+6	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 8	Nederlandse	Nederlands	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
 9	ploeg	ploeg	NOUN	N|soort|ev|neut	Number=Sing	14	nsubj	_	_
@@ -11009,7 +11009,7 @@
 11	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	13	det	_	_
 12	Oostenrijkse	Oostenrijks	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	13	amod	_	_
 13	Ried	Ried	NOUN	N|soort|ev|neut	Number=Sing	14	obl	_	_
-14	gepromoveerd	promoveer	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	6	aux	_	_
+14	gepromoveerd	promoveer	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 15	naar	naar	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 16	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	17	det	_	_
 17	superliga	super_liga	NOUN	N|soort|ev|neut	Number=Sing	14	obl	_	_
@@ -11018,7 +11018,7 @@
 20	Europa	Europa	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	17	nmod	_	MWE=Europa_Cup|MWEPOS=X
 21	Cup	Cup	PROPN	PROPN	_	20	flat	_	_
 22	meerkamp	meer_kamp	NOUN	N|soort|ev|neut	Number=Sing	20	appos	_	SpaceAfter=No
-23	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
+23	.	.	PUNCT	Punc|punt	PunctType=Peri	14	punct	_	_
 
 # sent_id = dev-s552/nl
 # text = Warners, Wassenaar en Valkenburg eindigden met 23.125 punten als tweede in de eerste liga achter Oostenrijk (23.654).
@@ -11179,11 +11179,11 @@
 # text = Donderdag worden de plannen gepresenteerd.
 # orig_file_sentence 006#59
 1	Donderdag	donderdag	PROPN	N|eigen|ev|neut	Number=Sing	5	obl	_	_
-2	worden	word	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+2	worden	word	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	5	aux	_	_
 3	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
 4	plannen	plan	NOUN	N|soort|mv|neut	Number=Plur	5	obj	_	_
-5	gepresenteerd	presenteer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	SpaceAfter=No
-6	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
+5	gepresenteerd	presenteer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s560/nl
 # text = Het derde professionele zwemteam, na PSV en zeer onlangs Amsterdam, moet eind augustus aan de slag kunnen in het Amersfoortse Sportfondsenbad (50-meter).
@@ -11616,15 +11616,15 @@
 5	,	,	PUNCT	Punc|komma	PunctType=Comm	3	punct	_	_
 6	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 7	fusieclub	fusie_club	NOUN	N|soort|ev|neut	Number=Sing	3	appos	_	_
-8	waaruit	waaruit	ADV	Adv|pron|vrag	PronType=Int	15	mark	_	_
+8	waaruit	waaruit	ADV	Adv|pron|vrag	PronType=Int	16	mark	_	_
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
 10	nieuwe	nieuw	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	amod	_	_
 11	KNZB-voorzitter	KNZB_voorzitter	NOUN	N|soort|ev|neut	Number=Sing	16	obj	_	_
 12	Erik	Erik	PROPN	N_N_N	_	11	appos	_	MWE=Erik_van_Heijningen|MWEPOS=X
 13	van	van	PROPN	PROPN	_	12	flat	_	_
 14	Heijningen	Heijningen	PROPN	PROPN	_	12	flat	_	_
-15	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	7	acl	_	_
-16	gerecruteerd	recruteer	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	aux	_	SpaceAfter=No
+15	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	gerecruteerd	recruteer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	7	acl	_	SpaceAfter=No
 17	,	,	PUNCT	Punc|komma	PunctType=Comm	19	punct	_	_
 18	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	19	det	_	_
 19	vierde	vierde	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	2	xcomp	_	_
@@ -12044,12 +12044,12 @@
 # orig_file_sentence 006#99
 1	Einde	einde	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 2	Masin	Masin	PROPN	N|eigen|ev|neut	Number=Sing	1	dep	_	_
-3	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	7	obj	_	_
+3	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	8	obj	_	_
 4	na	na	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 5	één	één	NOUN	N|soort|mv|neut	Number=Plur	6	nmod	_	_
 6	bal	bal	NOUN	N|soort|ev|neut	Number=Sing	8	obl	_	_
-7	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	2	acl	_	_
-8	afgelost	los_af	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	aux	_	_
+7	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	aux	_	_
+8	afgelost	los_af	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	2	acl	_	_
 9	door	door	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 10	Ginanneschi	Ginanneschi	PROPN	N|eigen|ev|neut	Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Punc|komma	PunctType=Comm	10	punct	_	_
@@ -12981,9 +12981,9 @@
 6	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	7	mark	_	_
 7	zien	zie	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	8	xcomp	_	_
 8	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	3	aux	_	_
-9	en	en	CCONJ	Conj|neven	_	11	cc	_	_
-10	bezocht	bezoek	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	_
-11	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf|VerbType=Aux,Cop	3	conj	_	_
+9	en	en	CCONJ	Conj|neven	_	10	cc	_	_
+10	bezocht	bezoek	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	conj	_	_
+11	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	10	aux	_	_
 12	door	door	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 13	ten	ten	X	Prep_Num	Case=Nom|Degree=Sup|PronType=Ind	16	nmod	_	MWE=ten_minste|MWEPOS=X
 14	minste	minste	X	X	Case=Nom|Degree=Sup|PronType=Ind	13	compound	_	_
@@ -12994,12 +12994,12 @@
 # sent_id = dev-s654/nl
 # text = Als dat aantal niet werd gehaald, volgde een boete van 2000 dolar en mogelijk geen nieuwe uitnodiging voor het World League-seizoen 2002.
 # orig_file_sentence 007#54
-1	Als	als	SCONJ	Conj|onder|metfin	_	5	mark	_	_
+1	Als	als	SCONJ	Conj|onder|metfin	_	6	mark	_	_
 2	dat	dat	PRON	Pron|aanw|neut|attr	PronType=Dem	3	nmod	_	_
-3	aantal	aantal	NOUN	N|soort|ev|neut	Number=Sing	5	nsubj	_	_
+3	aantal	aantal	NOUN	N|soort|ev|neut	Number=Sing	6	nsubj	_	_
 4	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
-5	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	8	advcl	_	_
-6	gehaald	haal	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	aux	_	SpaceAfter=No
+5	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	gehaald	haal	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	Punc|komma	PunctType=Comm	8	punct	_	_
 8	volgde	volg	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 9	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
@@ -13103,12 +13103,12 @@
 # text = De eindstrijd wordt gehouden in Brazilië.
 # orig_file_sentence 007#58
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
-2	eindstrijd	eindstrijd	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
-3	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
-4	gehouden	houd	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	_
+2	eindstrijd	eindstrijd	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
+3	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	gehouden	houd	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 5	in	in	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 6	Brazilië	Brazilië	PROPN	N|eigen|ev|neut	Number=Sing	4	obl	_	SpaceAfter=No
-7	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+7	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s659/nl
 # text = Mochten de Zuid-Amerikanen niet aan de voorwaarden voor de organisatie kunnen voldoen, dan gaat de finale naar Spanje.
@@ -13239,16 +13239,16 @@
 9	Nalbert	Nalbert	PROPN	N|eigen|ev|neut	Number=Sing	6	obj	_	_
 10	en	en	CCONJ	Conj|neven	_	11	cc	_	_
 11	Giba	Giba	PROPN	N|eigen|ev|neut	Number=Sing	9	conj	_	SpaceAfter=No
-12	,	,	PUNCT	Punc|komma	PunctType=Comm	13	punct	_	_
-13	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+12	,	,	PUNCT	Punc|komma	PunctType=Comm	20	punct	_	_
+13	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	20	aux	_	_
 14	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	15	det	_	_
 15	bonus	bonus	NOUN	N|soort|ev|neut	Number=Sing	20	obj	_	_
 16	van	van	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 17	1,25	1,25	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	18	compound	_	_
 18	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	15	nummod	_	_
 19	gulden	gulden	NOUN	N|soort|ev|neut	Number=Sing	18	obl	_	_
-20	binnengehaald	haal_binnen	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	13	aux	_	SpaceAfter=No
-21	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
+20	binnengehaald	haal_binnen	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	Punc|punt	PunctType=Peri	20	punct	_	_
 
 # sent_id = dev-s666/nl
 # text = Brazilië haalde ook nog twee individuele prijzen binnen.
@@ -13494,16 +13494,16 @@
 # sent_id = dev-s678/nl
 # text = "Het is heel anders gelopen dan ik dacht.
 # orig_file_sentence 007#78
-1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	SpaceAfter=No
-2	Het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	3	nsubj	_	_
-3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	6	punct	_	SpaceAfter=No
+2	Het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	6	nsubj	_	_
+3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
 4	heel	heel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	5	advmod	_	_
 5	anders	anders	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
-6	gelopen	loop	AUX	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	3	aux	_	_
+6	gelopen	loop	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 7	dan	dan	SCONJ	Conj|onder|metfin	_	9	mark	_	_
 8	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	dacht	denk	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	5	advcl	_	SpaceAfter=No
-10	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+10	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
 # sent_id = dev-s679/nl
 # text = We hebben na het olympisch goud bij Sydney 2000 kennelijk toch een achterstand opgelopen op de andere toplanden.
@@ -14115,12 +14115,12 @@
 # orig_file_sentence 008#6
 1	Ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	3	advmod	_	_
 2	die	die	PRON	Pron|aanw|neut|attr	PronType=Dem	3	nmod	_	_
-3	voorsprong	voorsprong	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
-4	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+3	voorsprong	voorsprong	NOUN	N|soort|ev|neut	Number=Sing	7	nsubj	_	_
+4	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	aux	_	_
 5	uit	uit	X	Prep_N|voor_soort|mv|neut	Number=Plur	7	compound:prt	_	MWE=uit_handen|MWEPOS=X
 6	handen	handen	X	X	Number=Plur	5	compound	_	_
-7	gegeven	geef	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	4	aux	_	SpaceAfter=No
-8	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
+7	gegeven	geef	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s707/nl
 # text = Katasonov scoorde tweemaal en maakte de blamage voor Hereenveen compleet.
@@ -14207,14 +14207,14 @@
 # text = Beide landen zijn niet bij de Fifa aangesloten.
 # orig_file_sentence 008#12
 1	Beide	beide	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	nummod	_	_
-2	landen	land	NOUN	N|soort|mv|neut	Number=Plur	3	nsubj	_	_
-3	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
+2	landen	land	NOUN	N|soort|mv|neut	Number=Plur	8	nsubj	_	_
+3	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	aux	_	_
 4	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	8	advmod	_	_
 5	bij	bij	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 6	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 7	Fifa	Fifa	PROPN	N|eigen|ev|neut	Number=Sing	8	obj	_	_
-8	aangesloten	sluit_aan	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	3	aux	_	SpaceAfter=No
-9	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
+8	aangesloten	sluit_aan	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
 # sent_id = dev-s713/nl
 # text = Met Shinji Ono lijkt Feyenoord een goede slag te hebben geslagen.
