@@ -15,7 +15,7 @@
     <tag name="ADJ">12878</tag><!-- groot, goed, eerste, nieuw, Nederlands, lang, tweede, belangrijk, klein, vorig -->
     <tag name="ADP">23678</tag><!-- van, in, te, op, voor, met, aan, door, bij, naar -->
     <tag name="ADV">14034</tag><!-- niet, er, ook, hoe, nog, wel, zo, waar, al, nu -->
-    <tag name="AUX">10546</tag><!-- ben, word, heb, zal, wil, blijf, heet, vind, lijk, maak -->
+    <tag name="AUX">10712</tag><!-- ben, word, heb, zal, wil, blijf, heet, vind, lijk, maak -->
     <tag name="CCONJ">4321</tag><!-- en, maar, of, want, zowel, als, doch, noch, alsmede, o -->
     <tag name="DET">21850</tag><!-- de, een, het, veel, meer, der, weinig, meest, minder, zoveel -->
     <tag name="INTJ">93</tag><!-- nee, ja, Cryptogram, hoor, uh, hè, kijk, nietwaar, och, welnu -->
@@ -26,7 +26,7 @@
     <tag name="PUNCT">22385</tag><!-- ., ,, ?, ", (, ), :, ', !, ; -->
     <tag name="SCONJ">4080</tag><!-- dat, als, om, dan, omdat, toen, of, wanneer, zoals, terwijl -->
     <tag name="SYM">345</tag><!-- -, =, /, x -->
-    <tag name="VERB">20996</tag><!-- heb, kan, kom, moet, ga, zeg, maak, doe, geef, neem -->
+    <tag name="VERB">20830</tag><!-- heb, kan, kom, moet, ga, zeg, maak, doe, geef, neem -->
     <tag name="X">4635</tag><!-- van, het, op, flo, voor, met, ten, aan, een, onder -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -94,8 +94,8 @@
     <feat name="VerbForm" value="Fin" upos="AUX,VERB,X">19182</feat><!-- is, heeft, was, zijn, werd, wordt, hebben, zal, kan, zou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB,X">5947</feat><!-- worden, zijn, kunnen, gaan, komen, hebben, maken, moeten, zien, doen -->
     <feat name="VerbForm" value="Part" upos="AUX,PUNCT,VERB,X">6605</feat><!-- geweest, gemaakt, gehouden, genoemd, genomen, gedaan, afgelopen, gezien, gegeven, gekomen -->
-    <feat name="VerbType" value="Aux,Cop" upos="AUX,X">1344</feat><!-- is, zijn, was, heet, waren, werd, heette, geweest, bleek, wordt -->
-    <feat name="VerbType" value="Mod" upos="VERB,X">2543</feat><!-- kan, kunnen, moet, heeft, moeten, kon, laten, hebben, had, moest -->
+    <feat name="VerbType" value="Aux,Cop" upos="AUX,X">1270</feat><!-- is, was, zijn, heet, werd, heette, waren, ben, bleek, geweest -->
+    <feat name="VerbType" value="Mod" upos="VERB,X">2538</feat><!-- kan, kunnen, moet, heeft, moeten, kon, laten, hebben, moest, gaan -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="32">
