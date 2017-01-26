@@ -15,7 +15,7 @@
     <tag name="ADJ">12878</tag><!-- groot, goed, eerste, nieuw, Nederlands, lang, tweede, belangrijk, klein, vorig -->
     <tag name="ADP">23678</tag><!-- van, in, te, op, voor, met, aan, door, bij, naar -->
     <tag name="ADV">14034</tag><!-- niet, er, ook, hoe, nog, wel, zo, waar, al, nu -->
-    <tag name="AUX">9423</tag><!-- ben, word, heb, blijf, heet, vind, lijk, maak, blijk, noem -->
+    <tag name="AUX">10546</tag><!-- ben, word, heb, zal, wil, blijf, heet, vind, lijk, maak -->
     <tag name="CCONJ">4321</tag><!-- en, maar, of, want, zowel, als, doch, noch, alsmede, o -->
     <tag name="DET">21850</tag><!-- de, een, het, veel, meer, der, weinig, meest, minder, zoveel -->
     <tag name="INTJ">93</tag><!-- nee, ja, Cryptogram, hoor, uh, hè, kijk, nietwaar, och, welnu -->
@@ -26,7 +26,7 @@
     <tag name="PUNCT">22385</tag><!-- ., ,, ?, ", (, ), :, ', !, ; -->
     <tag name="SCONJ">4080</tag><!-- dat, als, om, dan, omdat, toen, of, wanneer, zoals, terwijl -->
     <tag name="SYM">345</tag><!-- -, =, /, x -->
-    <tag name="VERB">22119</tag><!-- zal, heb, kan, kom, moet, ga, wil, zeg, maak, doe -->
+    <tag name="VERB">20996</tag><!-- heb, kan, kom, moet, ga, zeg, maak, doe, geef, neem -->
     <tag name="X">4635</tag><!-- van, het, op, flo, voor, met, ten, aan, een, onder -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
@@ -94,8 +94,8 @@
     <feat name="VerbForm" value="Fin" upos="AUX,VERB,X">19182</feat><!-- is, heeft, was, zijn, werd, wordt, hebben, zal, kan, zou -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB,X">5947</feat><!-- worden, zijn, kunnen, gaan, komen, hebben, maken, moeten, zien, doen -->
     <feat name="VerbForm" value="Part" upos="AUX,PUNCT,VERB,X">6605</feat><!-- geweest, gemaakt, gehouden, genoemd, genomen, gedaan, afgelopen, gezien, gegeven, gekomen -->
-    <feat name="VerbType" value="Aux,Cop" upos="AUX,X">1380</feat><!-- is, zijn, was, heet, waren, werd, blijven, heette, geweest, blijft -->
-    <feat name="VerbType" value="Mod" upos="VERB,X">3701</feat><!-- zal, zou, kan, kunnen, moet, heeft, wil, moeten, zullen, willen -->
+    <feat name="VerbType" value="Aux,Cop" upos="AUX,X">1344</feat><!-- is, zijn, was, heet, waren, werd, heette, geweest, bleek, wordt -->
+    <feat name="VerbType" value="Mod" upos="VERB,X">2543</feat><!-- kan, kunnen, moet, heeft, moeten, kon, laten, hebben, had, moest -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="32">
@@ -104,10 +104,10 @@
     <dep name="advmod">15043</dep>
     <dep name="amod">7385</dep>
     <dep name="appos">2345</dep>
-    <dep name="aux">4633</dep>
-    <dep name="case">20879</dep>
+    <dep name="aux">5780</dep>
+    <dep name="case">20881</dep>
     <dep name="cc">4256</dep>
-    <dep name="ccomp">1871</dep>
+    <dep name="ccomp">1549</dep>
     <dep name="compound">3868</dep>
     <dep name="compound:prt">1933</dep>
     <dep name="conj">4806</dep>
@@ -119,17 +119,17 @@
     <dep name="expl:pv">460</dep>
     <dep name="fixed">90</dep>
     <dep name="flat">4517</dep>
-    <dep name="iobj">576</dep>
-    <dep name="mark">7851</dep>
-    <dep name="nmod">14308</dep>
-    <dep name="nsubj">14959</dep>
+    <dep name="iobj">500</dep>
+    <dep name="mark">7849</dep>
+    <dep name="nmod">14309</dep>
+    <dep name="nsubj">14958</dep>
     <dep name="nummod">1967</dep>
-    <dep name="obj">13724</dep>
+    <dep name="obj">13796</dep>
     <dep name="obl">9708</dep>
     <dep name="orphan">33</dep>
     <dep name="parataxis">1222</dep>
     <dep name="punct">22338</dep>
     <dep name="root">13735</dep>
-    <dep name="xcomp">4133</dep>
+    <dep name="xcomp">3312</dep>
   </deps>
 </treebank>
