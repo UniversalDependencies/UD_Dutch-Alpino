@@ -17,11 +17,11 @@
     <tag name="ADV">14034</tag><!-- niet, er, ook, hoe, nog, wel, zo, waar, al, nu -->
     <tag name="AUX">10712</tag><!-- ben, word, heb, zal, wil, blijf, heet, vind, lijk, maak -->
     <tag name="CCONJ">4321</tag><!-- en, maar, of, want, zowel, als, doch, noch, alsmede, o -->
-    <tag name="DET">21850</tag><!-- de, een, het, veel, meer, der, weinig, meest, minder, zoveel -->
+    <tag name="DET">22508</tag><!-- de, een, het, veel, meer, hoeveel, weinig, minder, der, tot -->
     <tag name="INTJ">93</tag><!-- nee, ja, Cryptogram, hoor, uh, hè, kijk, nietwaar, och, welnu -->
     <tag name="NOUN">33896</tag><!-- jaar, land, mens, heer, kind, plaats, dag, week, man, minister -->
     <tag name="NUM">3859</tag><!-- twee, drie, vier, miljoen, 1, vijf, tien, beide, zes, 1969 -->
-    <tag name="PRON">17124</tag><!-- die, hij, ik, het, dat, zijn, wat, zich, dit, welk -->
+    <tag name="PRON">16466</tag><!-- die, hij, ik, het, dat, zijn, wat, zich, dit, welk -->
     <tag name="PROPN">14691</tag><!-- van, Nederland, J., Amsterdam, zaterdag, den, der, Groningen, Rotterdam, jan -->
     <tag name="PUNCT">22385</tag><!-- ., ,, ?, ", (, ), :, ', !, ; -->
     <tag name="SCONJ">4080</tag><!-- dat, als, om, dan, omdat, toen, of, wanneer, zoals, terwijl -->
@@ -43,13 +43,13 @@
     <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NUM,PRON,VERB,X">11378</feat><!-- hij, ik, we, ze, zij, nieuwe, grote, wij, Nederlandse, laatste -->
     <feat name="Definite" value="Def" upos="ADJ,DET,NUM,X">21271</feat><!-- de, het, twee, eerste, drie, flo, tweede, vier, miljoen, vijf -->
     <feat name="Definite" value="Ind" upos="DET">4493</feat><!-- een, 'n, BEPALEN, CERN, BEÏNVLOEDEN, ONTVANGEN -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,PRON,VERB,X">1513</feat><!-- meer, verder, minder, beter, later, het, eerder, jongeren, vroeger, eerst -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET,NUM,PRON,X">20009</feat><!-- niet, ook, nog, wel, al, veel, nieuwe, grote, hoeveel, toch -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADV,DET,PRON,X">563</feat><!-- laatste, grootste, beste, meest, meeste, het, belangrijkste, hoogste, minste, ten -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV,DET,VERB,X">1513</feat><!-- meer, verder, minder, beter, later, het, eerder, jongeren, vroeger, eerst -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV,DET,NUM,X">20009</feat><!-- niet, ook, nog, wel, al, veel, nieuwe, grote, hoeveel, toch -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV,DET,X">563</feat><!-- laatste, grootste, beste, meest, meeste, het, belangrijkste, hoogste, minste, ten -->
     <feat name="Foreign" value="Yes" upos="PUNCT,X">17</feat><!-- **, BCG, Bevrijding, Gedrag, Screeningen, `, aK, and, auserieux, innen -->
     <feat name="Gender" value="Com" upos="DET,X">19</feat><!-- den, duur, op, aan, dag, treure, uit -->
     <feat name="Gender" value="Fem" upos="ADP,DET">28</feat><!-- la, da, As, Das, Les, AS, Nostra, nuestra -->
-    <feat name="Gender" value="Masc" upos="ADP,DET,PRON">122</feat><!-- tot, als, al, el, los, Els, del, do, os -->
+    <feat name="Gender" value="Masc" upos="ADP,DET">122</feat><!-- tot, als, al, el, los, Els, del, do, os -->
     <feat name="Gender" value="Neut" upos="DET,X">4880</feat><!-- het, van, voor, eerst, aan, 't, op, leven, gebied, om -->
     <feat name="Mood" value="Imp" upos="AUX,VERB,X">158</feat><!-- Noem, geef, kijk, kom, zie, Doe, ga, Eet, denk, stel -->
     <feat name="Mood" value="Ind" upos="AUX,VERB,X">19008</feat><!-- is, heeft, was, zijn, werd, wordt, hebben, zal, kan, zou -->
@@ -59,7 +59,7 @@
     <feat name="Number" value="Sing" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB,X">60177</feat><!-- een, is, hij, ik, heeft, was, zijn, werd, wordt, jaar -->
     <feat name="Number[psor]" value="Plur" upos="DET">2</feat><!-- Nostra, nuestra -->
     <feat name="NumForm" value="Digit" upos="NUM">543</feat><!-- 1, 2, 12, 8, 15, 3, 5, 10, 11, 13 -->
-    <feat name="NumType" value="Card" upos="DET,NUM,PRON">4866</feat><!-- twee, veel, meer, drie, hoeveel, vier, miljoen, minder, 1, weinig -->
+    <feat name="NumType" value="Card" upos="DET,NUM">4866</feat><!-- twee, veel, meer, drie, hoeveel, vier, miljoen, minder, 1, weinig -->
     <feat name="NumType" value="Ord" upos="ADJ">536</feat><!-- eerste, tweede, derde, vierde, vijfde, zevende, 19e, dertiende, negende, zesde -->
     <feat name="PartType" value="Inf" upos="ADP">1779</feat><!-- te -->
     <feat name="PartType" value="Vbp" upos="ADV">1504</feat><!-- op, uit, aan, voor, af, mee, in, van, over, toe -->
@@ -74,7 +74,7 @@
     <feat name="PronType" value="Prs" upos="DET,PRON,X">7068</feat><!-- hij, ik, zijn, zich, ze, we, hun, zij, haar, hem -->
     <feat name="PronType" value="Rcp" upos="PRON">66</feat><!-- elkaar, elkaars -->
     <feat name="PronType" value="Rel" upos="ADV,PRON,X">2637</feat><!-- die, hoe, dat, waar, wat, wie, wanneer, waarom, hetgeen, wiens -->
-    <feat name="PronType" value="Tot" upos="DET,PRON">63</feat><!-- tot -->
+    <feat name="PronType" value="Tot" upos="DET">63</feat><!-- tot -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">620</feat><!-- ) -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">626</feat><!-- ( -->
     <feat name="PunctType" value="Brck" upos="PUNCT">1246</feat><!-- (, ) -->
@@ -101,7 +101,7 @@
   <deps unique="32">
     <dep name="acl">3432</dep>
     <dep name="advcl">1719</dep>
-    <dep name="advmod">15043</dep>
+    <dep name="advmod">11255</dep>
     <dep name="amod">7385</dep>
     <dep name="appos">2345</dep>
     <dep name="aux">5780</dep>
@@ -125,7 +125,7 @@
     <dep name="nsubj">14958</dep>
     <dep name="nummod">1967</dep>
     <dep name="obj">13796</dep>
-    <dep name="obl">9708</dep>
+    <dep name="obl">13496</dep>
     <dep name="orphan">33</dep>
     <dep name="parataxis">1222</dep>
     <dep name="punct">22338</dep>

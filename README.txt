@@ -46,6 +46,11 @@ Changelog
 
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
+  * Reconsidered PRON vs. DET.
+  * Changed advmod vs. obl distinction. This is a result of a general rule for
+    the Prague deprel 'Adv'. However, we should extend it by a Dutch-specific
+    rule for adjectives, which often act like adverbs and definitely not like
+    obliques.
 2016-05-15 v1.3
   * Multi-word expressions that were collapsed into one node (with underscores)
     are split again. This needs to be revisited and POS tags and MWE-internal

@@ -5,7 +5,7 @@
 2	Mijn	mijn	PRON	Pron|bez|1|ev|neut|attr	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	basisniveau	basis_niveau	NOUN	N|soort|ev|neut	Number=Sing	7	nsubj	_	_
 4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
-5	flink	flink	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	advmod	_	_
+5	flink	flink	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	obl	_	_
 6	omhoog	omhoog	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	7	advmod	_	_
 7	gegaan	ga	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	SpaceAfter=No
@@ -57,7 +57,7 @@
 8	moeite	moeite	NOUN	N|soort|ev|neut	Number=Sing	5	obj	_	_
 9	om	om	SCONJ	Conj|onder|metinf	_	8	obj	_	_
 10	zich	zich	PRON	Pron|ref|3|evofmv	Number=Plur,Sing|Person=3|PronType=Prs|Reflex=Yes	13	expl:pv	_	_
-11	volledig	volledig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
+11	volledig	volledig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	obl	_	_
 12	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	13	mark	_	_
 13	concentreren	concentreer	VERB	V|refl|inf	Reflex=Yes|VerbForm=Inf	9	xcomp	_	_
 14	op	op	ADP	Prep|voor	AdpType=Prep	16	case	_	_
@@ -393,7 +393,7 @@
 7	krachtpatser	krachtpatser	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
 8	Amelie	Amelie	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	7	appos	_	MWE=Amelie_Mauresmo|MWEPOS=X
 9	Mauresmo	Mauresmo	PROPN	PROPN	_	8	flat	_	_
-10	onverwacht	onverwacht	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	advmod	_	_
+10	onverwacht	onverwacht	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	obl	_	_
 11	over	over	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	13	det	_	_
 13	Thaise	Thaise	X	Adj_N	Degree=Pos|Number=Sing	4	obj	_	MWE=Thaise_Tanasugarn|MWEPOS=X
@@ -410,7 +410,7 @@
 5	zege	zege	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
 6	op	op	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
-8	mentaal	mentaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	advmod	_	_
+8	mentaal	mentaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	obl	_	_
 9	onevenwichtige	onevenwichtig	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	10	amod	_	_
 10	Rus	Rus	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	Punc|komma	PunctType=Comm	10	punct	_	_
@@ -418,7 +418,7 @@
 13	in	in	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 14	Londen	Londen	PROPN	N|eigen|ev|neut	Number=Sing	20	obl	_	_
 15	nooit	nooit	ADV	Adv|gew|onbep	PronType=Ind	20	advmod	_	_
-16	verder	ver	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	20	advmod	_	_
+16	verder	ver	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	20	obl	_	_
 17	dan	dan	SCONJ	Conj|onder|metfin	_	19	mark	_	_
 18	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	19	det	_	_
 19	kwartfinales	kwartfinale	NOUN	N|soort|mv|neut	Number=Plur	16	obl	_	_
@@ -461,8 +461,8 @@
 8	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	SpaceAfter=No
 9	Dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	10	nsubj	_	_
 10	hoort	hoor	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
-11	natuurlijk	natuurlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
-12	eigenlijk	eigenlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
+11	natuurlijk	natuurlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
+12	eigenlijk	eigenlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
 13	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	Punc|komma	PunctType=Comm	3	punct	_	_
 15	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
@@ -509,7 +509,7 @@
 1	Van	van	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 2	meer	meer	DET	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	5	det:nummod	_	_
 3	dan	dan	SCONJ	Conj|onder|metfin	_	4	mark	_	_
-4	twee	twee	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	advmod	_	_
+4	twee	twee	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	obl	_	_
 5	grastoernooien	gras_toernooi	NOUN	N|soort|mv|neut	Number=Plur	11	obl	_	_
 6	op	op	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 7	rij	rij	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
@@ -617,7 +617,7 @@
 # orig_file_sentence 001#38
 1	Ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	besloot	besluit	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
-3	serieuzer	serieus	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	7	advmod	_	_
+3	serieuzer	serieus	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	7	obl	_	_
 4	te	te	X	Prep_N|voor_soort|ev|neut	Number=Sing	7	compound:prt	_	MWE=te_werk|MWEPOS=X
 5	werk	werk	X	X	Number=Sing	4	compound	_	_
 6	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	7	mark	_	_
@@ -662,7 +662,7 @@
 2	Nederlands	Nederlands	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	amod	_	_
 3	jeugdteam	jeugd_team	NOUN	N|soort|ev|neut	Number=Sing	13	nsubj	_	_
 4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
-5	roemloos	roemloos	ADJ	Adj|attr|stell|onverv	Degree=Pos	13	advmod	_	SpaceAfter=No
+5	roemloos	roemloos	ADJ	Adj|attr|stell|onverv	Degree=Pos	13	obl	_	SpaceAfter=No
 6	,	,	PUNCT	Punc|komma	PunctType=Comm	8	punct	_	_
 7	en	en	CCONJ	Conj|neven	_	8	cc	_	_
 8	uiteindelijk	uiteindelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	conj	_	_
@@ -692,7 +692,7 @@
 8	fysiek	fysiek	ADJ	Adj|attr|stell|onverv	Degree=Pos	12	amod	_	_
 9	als	als	SCONJ	Conj|onder|metfin	_	11	cc	_	_
 10	in	in	ADP	Prep|voor	AdpType=Prep	11	case	_	_
-11	technisch	technisch	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	advmod	_	_
+11	technisch	technisch	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	obl	_	_
 12	opzicht	opzicht	NOUN	N|soort|ev|neut	Number=Sing	11	conj	_	_
 13	af	af	ADV	Adv|deelv	PartType=Vbp	3	compound:prt	_	_
 14	tegen	tegen	ADP	Prep|voor	AdpType=Prep	15	case	_	_
@@ -866,7 +866,7 @@
 1	Paraguay	Paraguay	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 2	won	win	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 3	met	met	ADP	Prep|voor	AdpType=Prep	4	case	_	_
-4	1-0	1-0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	advmod	_	_
+4	1-0	1-0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	obl	_	_
 5	van	van	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 6	Tsjechië	Tsjechië	PROPN	N|eigen|ev|neut	Number=Sing	2	obj	_	SpaceAfter=No
 7	,	,	PUNCT	Punc|komma	PunctType=Comm	2	punct	_	_
@@ -890,7 +890,7 @@
 8	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	25	obj	_	_
 9	zich	zich	PRON	Pron|ref|3|evofmv	Number=Plur,Sing|Person=3|PronType=Prs|Reflex=Yes	25	expl:pv	_	_
 10	even	even	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	_
-11	moeizaam	moeizaam	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	25	advmod	_	_
+11	moeizaam	moeizaam	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	25	obl	_	_
 12	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	25	punct	_	SpaceAfter=No
 13	met	met	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 14	vier	vier	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	15	nummod	_	_
@@ -915,7 +915,7 @@
 3	Egypte	Egypte	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 4	zelfs	zelfs	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	2	advmod	_	_
 5	met	met	ADP	Prep|voor	AdpType=Prep	6	case	_	_
-6	7-1	7-1	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	advmod	_	_
+6	7-1	7-1	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	obl	_	_
 7	van	van	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 8	Argentinië	Argentinië	PROPN	N|eigen|ev|neut	Number=Sing	2	obj	_	SpaceAfter=No
 9	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
@@ -930,7 +930,7 @@
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
 6	Egyptenaren	Egyptenaar	NOUN	N|soort|mv|neut	Number=Plur	10	nsubj	_	_
 7	echter	echter	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
-8	redelijk	redelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	advmod	_	_
+8	redelijk	redelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	obl	_	_
 9	overtuigend	overtuigend	VERB	V|intrans|tegdw|onverv	Subcat=Intr|Tense=Pres|VerbForm=Part	10	advcl	_	_
 10	afgerekend	reken_af	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 11	met	met	ADP	Prep|voor	AdpType=Prep	13	case	_	_
@@ -960,7 +960,7 @@
 13	,	,	PUNCT	Punc|komma	PunctType=Comm	5	punct	_	_
 14	waar	waar	ADV	Adv|gew|vrag	PronType=Int	20	mark	_	_
 15	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
-16	tot	tot	PRON	Prep_Adv|voor_gew|aanw	Gender=Masc|Number=Sing|PronType=Tot	21	advmod	_	MWE=tot_dusverre|MWEPOS=X
+16	tot	tot	DET	Prep_Adv|voor_gew|aanw	Gender=Masc|Number=Sing|PronType=Tot	21	advmod	_	MWE=tot_dusverre|MWEPOS=X
 17	dusverre	dusverre	X	X	PronType=Dem	16	compound	_	_
 18	met	met	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 19	drie	drie	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	21	obj	_	_
@@ -974,7 +974,7 @@
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
 2	defensie	defensie	NOUN	N|soort|ev|neut	Number=Sing	5	nsubj	_	_
 3	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	aux	_	_
-4	danig	danig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	advmod	_	_
+4	danig	danig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	obl	_	_
 5	beproefd	beproef	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 6	door	door	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
@@ -1055,8 +1055,8 @@
 17	,	,	PUNCT	Punc|komma	PunctType=Comm	22	punct	_	_
 18	maar	maar	CCONJ	Conj|neven	_	22	cc	_	_
 19	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	20	advmod	_	_
-20	veel	veel	PRON	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	21	advmod	_	_
-21	later	laat	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	22	advmod	_	_
+20	veel	veel	DET	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	21	obl	_	_
+21	later	laat	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	22	obl	_	_
 22	nam	neem	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	6	conj	_	_
 23	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	24	det	_	_
 24	duel	duel	NOUN	N|soort|ev|neut	Number=Sing	22	nsubj	_	_
@@ -1256,7 +1256,7 @@
 14	terug	terug	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	4	compound:prt	_	_
 15	voor	voor	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 16	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	19	det	_	_
-17	allerminst	min	PRON	Num	Degree=Sup|NumType=Card|PronType=Ind	18	advmod	_	_
+17	allerminst	min	DET	Num	Degree=Sup|NumType=Card|PronType=Ind	18	obl	_	_
 18	gerenommeerde	gerenommeerd	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	19	amod	_	_
 19	tegenstander	tegenstander	NOUN	N|soort|ev|neut	Number=Sing	4	obj	_	SpaceAfter=No
 20	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
@@ -1272,7 +1272,7 @@
 6	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 7	Egyptenaren	Egyptenaar	NOUN	N|soort|mv|neut	Number=Plur	5	nsubj	_	_
 8	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
-9	luid	luid	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
+9	luid	luid	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
 10	bejubelde	bejubeld	VERB	V|trans|verldw|vervneut	Case=Nom|Subcat=Tran|Tense=Past|VerbForm=Part	13	acl	_	_
 11	en	en	CCONJ	Conj|neven	_	12	cc	_	_
 12	beslissende	beslissend	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	10	conj	_	_
@@ -1321,7 +1321,7 @@
 9	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
 10	paar	paar	NOUN	N|soort|ev|neut	Number=Sing	11	nmod	_	_
 11	keer	keer	NOUN	N|soort|ev|neut	Number=Sing	7	obj	_	_
-12	gevaarlijk	gevaarlijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	7	advmod	_	_
+12	gevaarlijk	gevaarlijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	7	obl	_	_
 13	door	door	ADV	Adv|deelv	PartType=Vbp	7	compound:prt	_	SpaceAfter=No
 14	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
@@ -1408,7 +1408,7 @@
 3	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	5	det	_	_
 4	lokale	lokaal	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	5	amod	_	_
 5	favoriet	favoriet	NOUN	N|soort|ev|neut	Number=Sing	2	nsubj	_	_
-6	dieper	diep	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	2	advmod	_	SpaceAfter=No
+6	dieper	diep	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
 # sent_id = dev-s76
@@ -1513,7 +1513,7 @@
 3	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	van	van	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
-6	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	2	advmod	_	_
+6	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	2	obl	_	_
 7	naar	naar	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 8	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
 9	negende	negende	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	10	amod	_	_
@@ -1678,7 +1678,7 @@
 2	droom	droom	NOUN	N|soort|ev|neut	Number=Sing	7	nsubj	_	_
 3	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	cop	_	_
 4	wellicht	wellicht	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	7	advmod	_	_
-5	minder	min	PRON	Num	Degree=Cmp|NumType=Card|PronType=Ind	7	advmod	_	_
+5	minder	min	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	7	obl	_	_
 6	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
 7	droom	droom	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 8	van	van	ADP	Prep|voor	AdpType=Prep	9	case	_	_
@@ -1760,7 +1760,7 @@
 # sent_id = dev-s96
 # text = Natuurlijk had iedereen Van der Schans de titel zo gegund.
 # orig_file_sentence 001#96
-1	Natuurlijk	natuurlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
+1	Natuurlijk	natuurlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
 2	had	heb	AUX	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	10	aux	_	_
 3	iedereen	iedereen	PRON	Pron|onbep|neut|zelfst	PronType=Ind	10	nsubj	_	_
 4	Van	Van	PROPN	N_N_N	_	10	obj	_	MWE=Van_der_Schans|MWEPOS=X
@@ -1806,7 +1806,7 @@
 10	wilden	wil	AUX	V|hulp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	11	aux	_	_
 11	toeklappen	klap_toe	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	2	acl	_	SpaceAfter=No
 12	,	,	PUNCT	Punc|komma	PunctType=Comm	11	punct	_	_
-13	beschaafd	beschaafd	ADJ	Adj|attr|stell|onverv	Degree=Pos	11	advmod	_	_
+13	beschaafd	beschaafd	ADJ	Adj|attr|stell|onverv	Degree=Pos	11	obl	_	_
 14	zoals	zoals	SCONJ	Conj|onder|metfin	_	16	mark	_	_
 15	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	16	nsubj	_	_
 16	hoort	hoor	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	13	advcl	_	_
@@ -1938,8 +1938,8 @@
 # orig_file_sentence 002#5
 1	In	in	ADP	Prep|voor	AdpType=Prep	4	case	_	_
 2	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
-3	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	4	advmod	_	_
-4	manche	manche	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	advmod	_	_
+3	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	4	obl	_	_
+4	manche	manche	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	obl	_	_
 5	had	heb	AUX	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	aux	_	_
 6	Van	Van	PROPN	N_N_N	_	11	nsubj	_	MWE=Van_der_Schans|MWEPOS=X
 7	der	der	PROPN	PROPN	_	6	flat	_	_
@@ -1966,7 +1966,7 @@
 # orig_file_sentence 002#6
 1	In	in	ADP	Prep|voor	AdpType=Prep	4	case	_	_
 2	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
-3	tweede	tweede	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	4	advmod	_	_
+3	tweede	tweede	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	4	obl	_	_
 4	manche	manche	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	5	amod	_	_
 5	handhaafden	handhaaf	NOUN	N|soort|mv|neut	Number=Plur	0	root	_	_
 6	zij	zij	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	5	nsubj	_	_
@@ -1980,7 +1980,7 @@
 14	anderen	ander	PRON	Pron|onbep|neut|zelfst	PronType=Ind	11	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	Punc|komma	PunctType=Comm	18	punct	_	_
 16	want	want	CCONJ	Conj|neven	_	18	cc	_	_
-17	echt	echt	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	18	advmod	_	_
+17	echt	echt	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	18	obl	_	_
 18	selectief	selectief	ADJ	Adj|attr|stell|onverv	Degree=Pos	5	conj	_	_
 19	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	18	cop	_	_
 20	dat	dat	SCONJ	Conj|onder|metfin	_	21	nmod	_	_
@@ -2154,7 +2154,7 @@
 4	in	in	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 5	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	6	det	_	_
 6	begin	begin	NOUN	N|soort|ev|neut	Number=Sing	8	obl	_	_
-7	erg	erg	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	8	advmod	_	_
+7	erg	erg	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	8	obl	_	_
 8	goed	goed	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	0	root	_	_
 9	aan	aan	ADV	Adv|deelv	PartType=Vbp	8	compound:prt	_	SpaceAfter=No
 10	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
@@ -2194,7 +2194,7 @@
 29	je	je	PRON	Pron|onbep|neut|zelfst	PronType=Ind	28	nsubj	_	_
 30	tot	tot	ADP	Prep|voor	AdpType=Prep	32	case	_	_
 31	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	32	det	_	_
-32	laatst	laatst	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	28	advmod	_	_
+32	laatst	laatst	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	28	obl	_	_
 33	toe	toe	ADV	Adv|deeladv	PartType=Vbp	30	fixed	_	_
 34	mee	mee	ADV	Adv|deelv	PartType=Vbp	28	compound:prt	_	SpaceAfter=No
 35	.	.	PUNCT	Punc|punt	PunctType=Peri	1	punct	_	_
@@ -2228,7 +2228,7 @@
 9	,	,	PUNCT	Punc|komma	PunctType=Comm	8	punct	_	_
 10	waarop	waarop	ADV	Adv|pron|vrag	PronType=Int	13	mark	_	_
 11	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-12	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	advmod	_	_
+12	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	obl	_	_
 13	heb	heb	VERB	V|hulp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|VerbType=Mod	8	acl	_	_
 14	meegedaan	doe_mee	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	13	xcomp	_	SpaceAfter=No
 15	.	.	PUNCT	Punc|punt	PunctType=Peri	1	punct	_	_
@@ -2306,7 +2306,7 @@
 20	vlam	vlam	NOUN	N|soort|ev|neut	Number=Sing	24	obj	_	_
 21	der	de	DET	Art|bep|zijdofmv|gen	Case=Gen|Definite=Def|PronType=Art	22	det	_	_
 22	hoop	hoop	NOUN	N|soort|ev|neut	Number=Sing	20	nmod	_	_
-23	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	24	advmod	_	_
+23	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	24	obl	_	_
 24	brandende	brandend	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	1	parataxis	_	_
 25	voor	voor	ADP	Prep|voor	AdpType=Prep	27	case	_	_
 26	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	27	det	_	_
@@ -2342,13 +2342,13 @@
 7	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	8	det	_	_
 8	eind	eind	NOUN	N|soort|ev|neut	Number=Sing	11	obl	_	_
 9	zo	zo	ADV	Adv|gew|aanw	PronType=Dem	10	advmod	_	_
-10	ver	ver	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	11	advmod	_	_
+10	ver	ver	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	11	obl	_	_
 11	wegzakte	zak_weg	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	3	csubj	_	SpaceAfter=No
 12	,	,	PUNCT	Punc|komma	PunctType=Comm	18	punct	_	_
 13	maar	maar	CCONJ	Conj|neven	_	18	cc	_	_
 14	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
 15	ben	ben	AUX	V|hulpofkopp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	cop	_	_
-16	echt	echt	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	18	advmod	_	_
+16	echt	echt	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	18	obl	_	_
 17	wel	wel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	18	advmod	_	_
 18	tevreden	tevreden	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	conj	_	SpaceAfter=No
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
@@ -2395,7 +2395,7 @@
 4	dat	dat	SCONJ	Conj|onder|metfin	_	9	mark	_	_
 5	Corland	Corland	PROPN	N|eigen|ev|neut	Number=Sing	9	nsubj	_	_
 6	zo	zo	ADV	Adv|gew|aanw	PronType=Dem	7	advmod	_	_
-7	ver	ver	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	advmod	_	_
+7	ver	ver	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	obl	_	_
 8	zou	zal	AUX	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	9	aux	_	_
 9	komen	kom	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 10	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
@@ -2474,7 +2474,7 @@
 7	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 8	intik	tik_in	VERB	V|intrans|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin	5	acl	_	_
 9	voor	voor	ADP	Prep|voor	AdpType=Prep	10	case	_	_
-10	0	0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	8	advmod	_	_
+10	0	0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	8	obl	_	_
 11	of	of	CCONJ	Conj|neven	_	12	cc	_	_
 12	4	4	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	10	conj	_	SpaceAfter=No
 13	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
@@ -2607,7 +2607,7 @@
 # sent_id = dev-s142
 # text = Gelaten legde hij zich neer bij de ingecalculeerde nederlaag die zijn Rabo-ploeg op het NK had geleden.
 # orig_file_sentence 002#42
-1	Gelaten	gelaten	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+1	Gelaten	gelaten	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 2	legde	leg_neer	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 3	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 4	zich	zich	PRON	Pron|ref|3|evofmv	Number=Plur,Sing|Person=3|PronType=Prs|Reflex=Yes	2	expl:pv	_	_
@@ -2768,7 +2768,7 @@
 1	Koerts	Koerts	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 2	reed	rij	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 3	in	in	ADP	Prep|voor	AdpType=Prep	4	case	_	_
-4	1997	1997	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	advmod	_	_
+4	1997	1997	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	obl	_	_
 5	en	en	CCONJ	Conj|neven	_	6	cc	_	_
 6	1998	1998	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	4	conj	_	_
 7	in	in	ADP	Prep|voor	AdpType=Prep	8	case	_	_
@@ -2800,7 +2800,7 @@
 11	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 12	zich	zich	PRON	Pron|ref|3|evofmv	Number=Plur,Sing|Person=3|PronType=Prs|Reflex=Yes	15	expl:pv	_	_
 13	te	te	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	14	advmod	_	_
-14	snel	snel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	advmod	_	_
+14	snel	snel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	obl	_	_
 15	schikte	schik	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	6	acl	_	_
 16	in	in	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 17	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	18	det	_	_
@@ -2820,7 +2820,7 @@
 6	dat	dat	SCONJ	Conj|onder|metfin	_	10	mark	_	_
 7	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 8	te	te	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	9	advmod	_	_
-9	weinig	weinig	PRON	Num	Degree=Pos|NumType=Card|PronType=Ind	10	obj	_	_
+9	weinig	weinig	DET	Num	Degree=Pos|NumType=Card|PronType=Ind	10	obj	_	_
 10	won	win	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
 11	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
@@ -2839,7 +2839,7 @@
 10	dat	dat	SCONJ	Conj|onder|metfin	_	15	mark	_	_
 11	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
 12	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	15	obj	_	_
-13	verkeerd	verkeerd	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	advmod	_	_
+13	verkeerd	verkeerd	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	obl	_	_
 14	heeft	heb	AUX	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	gezien	zie	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	9	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
@@ -2904,7 +2904,7 @@
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
 2	ploeg	ploeg	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
 3	kiest	kies	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	liever	lief	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	3	advmod	_	_
+4	liever	lief	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	3	obl	_	_
 5	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	6	det	_	_
 6	offensief	offensief	NOUN	N|soort|ev|neut	Number=Sing	3	obj	_	_
 7	en	en	CCONJ	Conj|neven	_	16	cc	_	_
@@ -2944,7 +2944,7 @@
 6	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	7	det	_	_
 7	NK	NK	PROPN	N|eigen|ev|neut	Number=Sing	3	obl	_	_
 8	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	3	advmod	_	_
-9	direct	direct	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	advmod	_	_
+9	direct	direct	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	obl	_	_
 10	na	na	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 11	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	12	det	_	_
 12	start	start	NOUN	N|soort|ev|neut	Number=Sing	9	obl	_	SpaceAfter=No
@@ -3009,7 +3009,7 @@
 8	gok	gok	NOUN	N|soort|ev|neut	Number=Sing	1	parataxis	_	SpaceAfter=No
 9	,	,	PUNCT	Punc|komma	PunctType=Comm	8	punct	_	_
 10	zo	zo	ADV	Adv|gew|aanw	PronType=Dem	11	advmod	_	_
-11	vroeg	vroeg	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	8	advmod	_	_
+11	vroeg	vroeg	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	8	obl	_	_
 12	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	Punc|komma	PunctType=Comm	1	punct	_	_
 14	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
@@ -3042,7 +3042,7 @@
 19	om	om	SCONJ	Conj|onder|metinf	_	18	advmod	_	_
 20	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	21	det	_	_
 21	hergroepering	hergroepering	NOUN	N|soort|ev|neut	Number=Sing	25	obj	_	_
-22	tot	tot	PRON	Prep_N|voor_soort|ev|neut	Gender=Masc|Number=Sing|PronType=Tot	25	compound:prt	_	MWE=tot_stand|MWEPOS=X
+22	tot	tot	DET	Prep_N|voor_soort|ev|neut	Gender=Masc|Number=Sing|PronType=Tot	25	compound:prt	_	MWE=tot_stand|MWEPOS=X
 23	stand	stand	X	X	Number=Sing	22	compound	_	_
 24	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	25	mark	_	_
 25	brengen	breng	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	19	xcomp	_	SpaceAfter=No
@@ -3280,7 +3280,7 @@
 6	in	in	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	8	det	_	_
 8	peloton	peloton	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
-9	uiteindelijk	uiteindelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	advmod	_	_
+9	uiteindelijk	uiteindelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	obl	_	_
 10	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
 11	opdracht	opdracht	NOUN	N|soort|ev|neut	Number=Sing	3	obj	_	_
 12	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	13	det	_	_
@@ -3396,7 +3396,7 @@
 1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	SpaceAfter=No
 2	Het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	3	nsubj	_	_
 3	duurde	duur	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
-4	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	advmod	_	_
+4	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	obl	_	_
 5	voordat	voordat	SCONJ	Conj|onder|metfin	_	10	mark	_	_
 6	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	10	nsubj	_	_
 7	over	over	ADP	Prep|voor	AdpType=Prep	8	case	_	_
@@ -3447,7 +3447,7 @@
 2	Jeroen	Jeroen	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	7	advmod	_	MWE=Jeroen_Blijlevens|MWEPOS=X
 3	Blijlevens	Blijlevens	PROPN	PROPN	_	2	flat	_	_
 4	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	2	punct	_	SpaceAfter=No
-5	24ste	24ste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	2	advmod	_	SpaceAfter=No
+5	24ste	24ste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	2	obl	_	SpaceAfter=No
 6	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	7	punct	_	_
 7	ontwaarde	ontwaar	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 8	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
@@ -3467,7 +3467,7 @@
 3	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	1	punct	_	SpaceAfter=No
 4	Ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 5	heb	heb	AUX	V|hulp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
-6	erg	erg	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
+6	erg	erg	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
 7	naar	naar	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	dit	dit	PRON	Pron|aanw|neut|attr	PronType=Dem	9	nmod	_	_
 9	NK	NK	NOUN	N|soort|ev|neut	Number=Sing	10	obl	_	_
@@ -3494,7 +3494,7 @@
 15	het	het	PRON	Pron|onbep|neut|zelfst	PronType=Ind	20	nsubj	_	_
 16	voor	voor	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 17	mij	mij	PRON	Pron|per|1|ev|datofacc	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	20	obl	_	_
-18	veel	veel	PRON	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	19	advmod	_	_
+18	veel	veel	DET	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	19	obl	_	_
 19	te	te	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	20	advmod	_	_
 20	zwaar	zwaar	ADJ	Adj|attr|stell|onverv	Degree=Pos	12	xcomp	_	_
 21	zou	zal	AUX	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	20	aux	_	_
@@ -3532,7 +3532,7 @@
 10	getraind	train	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 11	,	,	PUNCT	Punc|komma	PunctType=Comm	10	punct	_	_
 12	heel	heel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	13	advmod	_	_
-13	veel	veel	PRON	Num	Degree=Pos|NumType=Card|PronType=Ind	10	dep	_	_
+13	veel	veel	DET	Num	Degree=Pos|NumType=Card|PronType=Ind	10	dep	_	_
 14	achter	achter	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 15	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	16	det	_	_
 16	scooter	scooter	NOUN	N|soort|ev|neut	Number=Sing	10	dep	_	_
@@ -3549,7 +3549,7 @@
 1	Koerts	Koerts	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 2	heeft	heb	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	dep	_	_
-4	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
+4	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	obl	_	_
 5	moeten	moet	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	2	aux	_	_
 6	vechten	vecht	VERB	V|intrans|inf	Subcat=Intr|VerbForm=Inf	5	xcomp	_	_
 7	voor	voor	ADP	Prep|voor	AdpType=Prep	9	case	_	_
@@ -3559,7 +3559,7 @@
 11	topsprinter	top_sprinter	NOUN	N|soort|ev|neut	Number=Sing	9	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Punc|komma	PunctType=Comm	2	punct	_	_
 13	te	te	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	14	advmod	_	_
-14	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	21	advmod	_	_
+14	lang	lang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	21	obl	_	_
 15	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	21	aux	_	_
 16	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	obj	_	_
 17	beschouwd	beschouw	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	21	cop	_	_
@@ -3575,8 +3575,8 @@
 1	Zijn	zijn	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod	_	_
 2	carrière	carrière	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
 3	verliep	verloop	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
-4	uiterst	uiterst	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	advmod	_	_
-5	grillig	grillig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	advmod	_	SpaceAfter=No
+4	uiterst	uiterst	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	obl	_	_
+5	grillig	grillig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s193
@@ -3604,7 +3604,7 @@
 20	kon	kan	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	0	root	_	_
 21	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
 22	nooit	nooit	ADV	Adv|gew|onbep	PronType=Ind	27	advmod	_	_
-23	echt	echt	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	27	advmod	_	_
+23	echt	echt	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	27	obl	_	_
 24	tot	tot	ADP	Prep|voor	AdpType=Prep	26	case	_	_
 25	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	26	det	_	_
 26	wereldtop	wereldtop	NOUN	N|soort|ev|neut	Number=Sing	27	obl	_	_
@@ -3682,7 +3682,7 @@
 10	kijkt	kijk	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
 11	ondertussen	ondertussen	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
 12	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
-13	verder	verder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	10	advmod	_	SpaceAfter=No
+13	verder	verder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	10	obl	_	SpaceAfter=No
 14	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s198
@@ -3693,7 +3693,7 @@
 3	kunnen	kan	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 4	me	me	PRON	Pron|per|1|ev|datofacc	Case=Acc,Dat|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
 5	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
-6	eindeloos	eindeloos	ADJ	Adj|attr|stell|onverv	Degree=Pos	10	advmod	_	_
+6	eindeloos	eindeloos	ADJ	Adj|attr|stell|onverv	Degree=Pos	10	obl	_	_
 7	aan	aan	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	9	det	_	_
 9	lijntje	lijntje	NOUN	N|soort|ev|neut	Number=Sing	10	obl	_	_
@@ -3763,8 +3763,8 @@
 2	toernooi	toernooi	NOUN	N|soort|ev|neut	Number=Sing	14	nsubj	_	_
 3	zou	zal	AUX	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	aux	_	_
 4	van	van	ADP	Prep|voor	AdpType=Prep	5	case	_	_
-5	11	11	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	14	advmod	_	_
-6	tot	tot	PRON	Prep_Conj_Prep|voor_neven_voor	Gender=Masc|Number=Sing|PronType=Tot	5	advmod	_	MWE=tot_en_met|MWEPOS=X
+5	11	11	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	14	obl	_	_
+6	tot	tot	DET	Prep_Conj_Prep|voor_neven_voor	Gender=Masc|Number=Sing|PronType=Tot	5	advmod	_	MWE=tot_en_met|MWEPOS=X
 7	en	en	ADP	ADP	AdpType=Prep	6	compound	_	_
 8	met	met	X	X	_	6	compound	_	_
 9	29	29	NUM	Num_N	NumForm=Digit|NumType=Card	6	obj	_	MWE=29_juli|MWEPOS=NUM
@@ -3852,7 +3852,7 @@
 10	,	,	PUNCT	Punc|komma	PunctType=Comm	9	punct	_	_
 11	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	17	obj	_	_
 12	nooit	nooit	ADV	Adv|gew|onbep	PronType=Ind	17	advmod	_	_
-13	eerder	eerder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	17	advmod	_	_
+13	eerder	eerder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	17	obl	_	_
 14	in	in	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 15	Colombia	Colombia	PROPN	N|eigen|ev|neut	Number=Sing	17	obl	_	_
 16	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
@@ -3878,7 +3878,7 @@
 # orig_file_sentence 003#7
 1	Hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 2	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	aux	_	_
-3	25	25	NUM	Num_N	NumForm=Digit|NumType=Card	5	advmod	_	MWE=25_juni|MWEPOS=NUM
+3	25	25	NUM	Num_N	NumForm=Digit|NumType=Card	5	obl	_	MWE=25_juni|MWEPOS=NUM
 4	juni	juni	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	3	compound	_	_
 5	ontvoerd	ontvoer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 6	vlak	vlak	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	5	advmod	_	_
@@ -3962,7 +3962,7 @@
 # text = Op 1 juni reisde de Colombiaanse president Pastrana naar de Paraguayaanse hoofdstad Asunción.
 # orig_file_sentence 003#11
 1	Op	op	ADP	Prep|voor	AdpType=Prep	2	case	_	_
-2	1	1	NUM	Num_N	NumForm=Digit|NumType=Card	4	advmod	_	MWE=1_juni|MWEPOS=NUM
+2	1	1	NUM	Num_N	NumForm=Digit|NumType=Card	4	obl	_	MWE=1_juni|MWEPOS=NUM
 3	juni	juni	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	2	compound	_	_
 4	reisde	reis	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
@@ -4116,7 +4116,7 @@
 # sent_id = dev-s219
 # text = Kort nadat CSF-voorzitter Leoz donderdag het besluit het toernooi te annuleren bekend had gemaakt, werd Mejia vrijgelaten door zijn ontvoerders.
 # orig_file_sentence 003#19
-1	Kort	kort	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	18	advmod	_	_
+1	Kort	kort	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	18	obl	_	_
 2	nadat	nadat	SCONJ	Conj|onder|metfin	_	1	mark	_	_
 3	CSF-voorzitter	CSF_voorzitter	NOUN	N|soort|ev|neut	Number=Sing	14	nsubj	_	_
 4	Leoz	Leoz	PROPN	N|eigen|ev|neut	Number=Sing	3	appos	_	_
@@ -4234,7 +4234,7 @@
 7	op	op	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	humanitaire	humanitair	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
 9	gronden	grond	NOUN	N|soort|mv|neut	Number=Plur	4	obl	_	_
-10	ruim	ruim	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	11	advmod	_	_
+10	ruim	ruim	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	11	obl	_	_
 11	300	300	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	13	nummod	_	_
 12	ontvoerde	ontvoerd	VERB	V|trans|verldw|vervneut	Case=Nom|Subcat=Tran|Tense=Past|VerbForm=Part	13	acl	_	_
 13	politie-agenten	politie_agent	NOUN	N|soort|mv|neut	Number=Plur	4	obj	_	_
@@ -4251,7 +4251,7 @@
 # sent_id = dev-s225
 # text = Zichtbaar geëmotioneerd en lijkbleek legde Mejia vrijdagavond in het bijzijn van president Pastrana een verklaring af voor de Colombiaanse televisie.
 # orig_file_sentence 003#25
-1	Zichtbaar	zichtbaar	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+1	Zichtbaar	zichtbaar	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 2	geëmotioneerd	geëmotioneerd	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	5	advcl	_	_
 3	en	en	CCONJ	Conj|neven	_	4	cc	_	_
 4	lijkbleek	lijkbleek	NOUN	N|soort|ev|neut	Number=Sing	2	conj	_	_
@@ -4337,7 +4337,7 @@
 8	Copa	Copa	PROPN	N|eigen|ev|neut	Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Punc|komma	PunctType=Comm	10	punct	_	_
 10	hebben	heb_op	VERB	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
-11	weinig	weinig	PRON	Num	Degree=Pos|NumType=Card|PronType=Ind	10	iobj	_	_
+11	weinig	weinig	DET	Num	Degree=Pos|NumType=Card|PronType=Ind	10	iobj	_	_
 12	op	op	ADV	Adv|deelv	PartType=Vbp	10	compound:prt	_	_
 13	met	met	ADP	Prep|voor	AdpType=Prep	15	mark	_	_
 14	ons	ons	PRON	Pron|per|1|mv|datofacc	Case=Acc,Dat|Number=Plur|Person=1|PronType=Prs	15	nmod	_	_
@@ -4367,7 +4367,7 @@
 # orig_file_sentence 003#31
 1	Hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	belde	bel	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
-3	persoonlijk	persoonlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+3	persoonlijk	persoonlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 4	met	met	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 5	regeringsleiders	regeringsleider	NOUN	N|soort|mv|neut	Number=Plur	2	obj	_	_
 6	van	van	ADP	Prep|voor	AdpType=Prep	9	case	_	_
@@ -4405,7 +4405,7 @@
 8	en	en	CCONJ	Conj|neven	_	9	cc	_	_
 9	Bolivia	Bolivia	PROPN	N|eigen|ev|neut	Number=Sing	1	conj	_	_
 10	steunden	steun	VERB	V|intrans|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
-11	uiteindelijk	uiteindelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
+11	uiteindelijk	uiteindelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	13	det	_	_
 13	kanditatuur	kanditatuur	NOUN	N|soort|ev|neut	Number=Sing	10	obj	_	_
 14	van	van	ADP	Prep|voor	AdpType=Prep	15	case	_	_
@@ -4509,7 +4509,7 @@
 10	Camping	Camping	PROPN	PROPN	_	7	flat	_	SpaceAfter=No
 11	,	,	PUNCT	Punc|komma	PunctType=Comm	6	punct	_	_
 12	waar	waar	ADV	Adv|gew|vrag	PronType=Int	19	mark	_	_
-13	29	29	NUM	Num_N	NumForm=Digit|NumType=Card	19	advmod	_	MWE=29_juli|MWEPOS=NUM
+13	29	29	NUM	Num_N	NumForm=Digit|NumType=Card	19	obl	_	MWE=29_juli|MWEPOS=NUM
 14	juli	juli	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	13	compound	_	_
 15	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	16	det	_	_
 16	finale	finale	NOUN	N|soort|ev|neut	Number=Sing	19	obj	_	_
@@ -4704,11 +4704,11 @@
 1	Lindsay	Lindsay	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	3	nsubj	_	MWE=Lindsay_Davenport|MWEPOS=X
 2	Davenport	Davenport	PROPN	PROPN	_	1	flat	_	_
 3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
-4	vast	vast	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	advmod	_	_
+4	vast	vast	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	obl	_	_
 5	van	van	X	Prep_N|voor_soort|ev|neut	Number=Sing	3	compound:prt	_	MWE=van_plan|MWEPOS=X
 6	plan	plan	X	X	Number=Sing	5	compound	_	_
 7	om	om	SCONJ	Conj|onder|metinf	_	3	obj	_	_
-8	meer	meer	PRON	Num	Degree=Cmp|NumType=Card|PronType=Ind	10	advmod	_	_
+8	meer	meer	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	10	obl	_	_
 9	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	10	mark	_	_
 10	genieten	geniet	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	7	xcomp	_	_
 11	van	van	ADP	Prep|voor	AdpType=Prep	13	case	_	_
@@ -4855,7 +4855,7 @@
 # sent_id = dev-s259
 # text = Meer dan ooit voel ik het als een privilege om hier überhaupt op de baan te mogen staan. "
 # orig_file_sentence 003#59
-1	Meer	meer	PRON	Num	Degree=Cmp|NumType=Card|PronType=Ind	9	advmod	_	_
+1	Meer	meer	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	9	obl	_	_
 2	dan	dan	SCONJ	Conj|onder|metfin	_	3	mark	_	_
 3	ooit	ooit	ADV	Adv|gew|onbep	PronType=Ind	1	advmod	_	_
 4	voel	voel	AUX	V|refl|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Reflex=Yes|Tense=Pres|VerbForm=Fin	9	cop	_	_
@@ -4903,7 +4903,7 @@
 # orig_file_sentence 003#61
 1	Ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	_
-3	maandenlang	maandenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	advmod	_	_
+3	maandenlang	maandenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	obl	_	_
 4	geblesseerd	geblesseerd	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	Punc|komma	PunctType=Comm	11	punct	_	_
 6	maar	maar	CCONJ	Conj|neven	_	11	cc	_	_
@@ -4961,7 +4961,7 @@
 # sent_id = dev-s265
 # text = Juist niet meer. "
 # orig_file_sentence 003#65
-1	Juist	juist	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+1	Juist	juist	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 2	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	0	root	_	_
 3	meer	meer	ADV	Adv|gew|geenfunc|vergr|onverv	Degree=Cmp	2	advmod	_	SpaceAfter=No
 4	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
@@ -4993,14 +4993,14 @@
 3	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
 4	voorbode	voorbode	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 5	van	van	ADP	Prep|voor	AdpType=Prep	7	case	_	_
-6	slecht	slecht	ADJ	Adj|attr|stell|onverv	Degree=Pos	7	advmod	_	_
+6	slecht	slecht	ADJ	Adj|attr|stell|onverv	Degree=Pos	7	obl	_	_
 7	weer	weer	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	4	advmod	_	SpaceAfter=No
 8	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s268
 # text = Daags voor Roland Garros kreeg ze een telefoontje van meneer Morariu.
 # orig_file_sentence 003#68
-1	Daags	daags	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	advmod	_	_
+1	Daags	daags	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	obl	_	_
 2	voor	voor	ADP	Prep|voor	AdpType=Prep	3	case	_	_
 3	Roland	Roland	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	1	advmod	_	MWE=Roland_Garros|MWEPOS=X
 4	Garros	Garros	PROPN	PROPN	_	3	flat	_	_
@@ -5044,7 +5044,7 @@
 2	het	het	X	X	Degree=Cmp|Gender=Neut	1	compound	_	_
 3	eerst	eerst	X	X	Degree=Cmp|Gender=Neut	1	compound	_	_
 4	sinds	sinds	ADP	Prep|voor	AdpType=Prep	5	case	_	_
-5	1993	1993	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	1	advmod	_	_
+5	1993	1993	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	1	obl	_	_
 6	miste	mis	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 8	consciëntieuze	consciëntieuze	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
@@ -5060,7 +5060,7 @@
 1	Officieel	officieel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	0	root	_	_
 2	omdat	omdat	SCONJ	Conj|onder|metfin	_	7	mark	_	_
 3	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	7	nsubj	_	_
-4	fysiek	fysiek	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	advmod	_	_
+4	fysiek	fysiek	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	obl	_	_
 5	nog	nog	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
 6	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	7	advmod	_	_
 7	klaar	klaar	ADJ	Adj|attr|stell|onverv	Degree=Pos	1	advcl	_	_
@@ -5189,7 +5189,7 @@
 3	gezien	gezien	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	advcl	_	_
 4	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	aux	_	_
 5	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-6	liever	lief	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	8	advmod	_	_
+6	liever	lief	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	8	obl	_	_
 7	wat	wat	PRON	Pron|onbep|neut|attr	PronType=Ind	8	obl	_	_
 8	ouder	oud	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	0	root	_	_
 9	geweest	ben	AUX	V|hulpofkopp|verldw|onverv	Tense=Past|VerbForm=Part	8	cop	_	_
@@ -5273,7 +5273,7 @@
 7	van	van	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 8	leven	leef	NOUN	N|soort|ev|neut	Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Punc|komma	PunctType=Comm	6	punct	_	_
-10	zeker	zeker	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
+10	zeker	zeker	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	obl	_	_
 11	voor	voor	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 12	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
 13	meisje	meisje	NOUN	N|soort|ev|neut	Number=Sing	10	obl	_	SpaceAfter=No
@@ -5325,7 +5325,7 @@
 3	lastig	lastig	ADJ	Adj|attr|stell|onverv	Degree=Pos	0	root	_	_
 4	voor	voor	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 5	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	6	det	_	_
-6	achttienjarige	achttienjarige	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	3	advmod	_	SpaceAfter=No
+6	achttienjarige	achttienjarige	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	3	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s288
@@ -5343,7 +5343,7 @@
 10	carrière	carrière	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	7	amod	_	_
 11	pas	pas	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	13	advmod	_	_
 12	jaren	jaar	NOUN	N|soort|mv|neut	Number=Plur	13	obl	_	_
-13	later	laat	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	15	advmod	_	_
+13	later	laat	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	15	obl	_	_
 14	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	15	mark	_	_
 15	begrijpen	begrijp	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	4	xcomp	_	SpaceAfter=No
 16	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
@@ -5363,14 +5363,14 @@
 9	kregen	krijg	VERB	V|trans|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 10	mijn	mijn	PRON	Pron|bez|1|ev|neut|attr	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod	_	_
 11	ouders	ouder	NOUN	N|soort|mv|neut	Number=Plur	9	nsubj	_	_
-12	onderling	onderling	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	advmod	_	_
+12	onderling	onderling	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	obl	_	_
 13	problemen	probleem	NOUN	N|soort|mv|neut	Number=Plur	9	obj	_	SpaceAfter=No
 14	.	.	PUNCT	Punc|punt	PunctType=Peri	9	punct	_	_
 
 # sent_id = dev-s290
 # text = Jarenlang heb ik me daarover schuldig gevoeld.
 # orig_file_sentence 003#90
-1	Jarenlang	jarenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
+1	Jarenlang	jarenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	obl	_	_
 2	heb	heb	AUX	V|hulp|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
 3	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 4	me	me	PRON	Pron|ref|1|ev	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	expl:pv	_	_
@@ -5422,7 +5422,7 @@
 # text = "Voorlopig denk ik nog niet aan stoppen.
 # orig_file_sentence 003#94
 1	"	"	PUNCT	Punc|aanhaaldubb	PunctType=Quot	3	punct	_	SpaceAfter=No
-2	Voorlopig	voorlopig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	advmod	_	_
+2	Voorlopig	voorlopig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	obl	_	_
 3	denk	denk	VERB	V|intrans|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ik	ik	PRON	Pron|per|1|ev|nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 5	nog	nog	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
@@ -5511,7 +5511,7 @@
 # orig_file_sentence 003#100
 1	Davenport	Davenport	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	8	nsubj	_	_
 2	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
-3	meer	meer	PRON	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	8	advmod	_	_
+3	meer	meer	DET	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	8	obl	_	_
 4	nog	nog	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	3	advmod	_	_
 5	dan	dan	ADV	Adv|gew|aanw	PronType=Dem	6	mark	_	_
 6	voorheen	voorheen	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	3	advmod	_	_
@@ -5551,7 +5551,7 @@
 # sent_id = dev-s302
 # text = Vrij van verwachtingen won ze ruim een week geleden bij haar rentree meteen het grastoernooi van Eastbourne.
 # orig_file_sentence 004#2
-1	Vrij	vrij	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	advmod	_	_
+1	Vrij	vrij	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	obl	_	_
 2	van	van	ADP	Prep|voor	AdpType=Prep	3	case	_	_
 3	verwachtingen	verwachting	NOUN	N|soort|mv|neut	Number=Plur	1	obj	_	_
 4	won	win	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -5583,7 +5583,7 @@
 8	als	als	SCONJ	Conj|onder|metfin	_	9	case	_	_
 9	moeders	moeder	NOUN	N|soort|mv|neut	Number=Plur	4	obl	_	SpaceAfter=No
 10	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	4	punct	_	_
-11	zoveel	zoveel	PRON	Num	Degree=Pos|NumType=Card|PronType=Ind	4	advmod	_	_
+11	zoveel	zoveel	DET	Num	Degree=Pos|NumType=Card|PronType=Ind	4	obl	_	_
 12	over	over	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	hun	hun	PRON	Pron|bez|3|mv|neut|attr	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod	_	_
 14	schoothondjes	schoot_hondje	NOUN	N|soort|mv|neut	Number=Plur	4	obj	_	SpaceAfter=No
@@ -5704,7 +5704,7 @@
 9	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	10	det	_	_
 10	spreekster	spreekster	NOUN	N|soort|ev|neut	Number=Sing	11	nsubj	_	_
 11	wacht	wacht	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
-12	vermoedelijk	vermoedelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	11	advmod	_	_
+12	vermoedelijk	vermoedelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	11	obl	_	_
 13	hetzelfde	hetzelfde	PRON	Pron|aanw|neut|attr	PronType=Dem	14	nmod	_	_
 14	lot	lot	NOUN	N|soort|ev|neut	Number=Sing	11	obj	_	SpaceAfter=No
 15	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
@@ -5897,7 +5897,7 @@
 3	kerk	kerk	NOUN	N|soort|ev|neut	Number=Sing	4	nsubj	_	_
 4	reageert	reageer	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	meestal	meestal	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	4	advmod	_	_
-6	minder	min	PRON	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	7	advmod	_	_
+6	minder	min	DET	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	7	obl	_	_
 7	ad	ad	X	Prep_N|voor_soort|ev|neut	Number=Sing	4	advmod	_	MWE=ad_rem|MWEPOS=X
 8	rem	rem	X	X	Number=Sing	7	compound	_	_
 9	op	op	ADP	Prep|voor	AdpType=Prep	10	case	_	_
@@ -6172,8 +6172,8 @@
 12	critici	criticus	NOUN	N|soort|mv|neut	Number=Plur	11	nsubj	_	_
 13	van	van	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 14	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	18	det	_	_
-15	absolute	absoluut	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	18	advmod	_	_
-16	pauselijke	pauselijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	18	advmod	_	_
+15	absolute	absoluut	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	18	obl	_	_
+16	pauselijke	pauselijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	18	obl	_	_
 17	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	18	punct	_	SpaceAfter=No
 18	nee	nee	INTJ	Int	_	12	nmod	_	SpaceAfter=No
 19	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	18	punct	_	_
@@ -6253,7 +6253,7 @@
 # sent_id = dev-s335
 # text = Hardnekkig probeert WOW de zaak te heropenen.
 # orig_file_sentence 004#35
-1	Hardnekkig	hardnekkig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+1	Hardnekkig	hardnekkig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 2	probeert	probeer	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	WOW	WOW	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	5	det	_	_
@@ -6282,7 +6282,7 @@
 # sent_id = dev-s337
 # text = Jaarlijks moet een gebedsdag het streven naar vrouwenwijding ondersteunen.
 # orig_file_sentence 004#37
-1	Jaarlijks	jaarlijks	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	advmod	_	_
+1	Jaarlijks	jaarlijks	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	obl	_	_
 2	moet	moet	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	4	det	_	_
 4	gebedsdag	gebed_dag	NOUN	N|soort|ev|neut	Number=Sing	2	nsubj	_	_
@@ -6339,7 +6339,7 @@
 8	wagen	waag	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 9	zich	zich	PRON	Pron|ref|3|evofmv	Number=Plur,Sing|Person=3|PronType=Prs|Reflex=Yes	8	expl:pv	_	_
 10	aan	aan	ADP	Prep|voor	AdpType=Prep	12	mark	_	_
-11	heilige	heilig	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	12	advmod	_	_
+11	heilige	heilig	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	12	obl	_	_
 12	dansen	dans	VERB	V|intrans|inf|subst	Subcat=Intr|VerbForm=Inf	8	xcomp	_	SpaceAfter=No
 13	,	,	PUNCT	Punc|komma	PunctType=Comm	15	punct	_	_
 14	jodinnen	jodinnen	NOUN	N|soort|mv|neut	Number=Plur	15	nsubj	_	_
@@ -6365,7 +6365,7 @@
 34	nauwelijks	nauwelijks	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	35	advmod	_	_
 35	menselijk	menselijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	32	conj	_	_
 36	en	en	CCONJ	Conj|neven	_	38	cc	_	_
-37	minder	min	PRON	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	38	advmod	_	_
+37	minder	min	DET	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	38	obl	_	_
 38	begiftigd	begiftigd	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	32	conj	_	_
 39	met	met	ADP	Prep|voor	AdpType=Prep	41	case	_	_
 40	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	41	det	_	_
@@ -6391,7 +6391,7 @@
 14	vraagt	vraag	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	12	conj	_	_
 15	om	om	SCONJ	Conj|onder|metinf	_	14	advmod	_	_
 16	niets	niets	PRON	Pron|onbep|neut|zelfst	PronType=Ind	17	obl	_	_
-17	minder	minder	PRON	Num	Degree=Cmp|NumType=Card|PronType=Ind	15	obj	_	_
+17	minder	minder	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	15	obj	_	_
 18	dan	dan	SCONJ	Conj|onder|metfin	_	21	mark	_	_
 19	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	21	det	_	_
 20	pijnlijke	pijnlijk	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	21	amod	_	_
@@ -6403,7 +6403,7 @@
 26	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	27	det	_	_
 27	slavernij	slavernij	NOUN	N|soort|ev|neut	Number=Sing	28	obj	_	_
 28	afzwoer	zweer_af	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	21	acl	_	_
-29	-op	op	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	advmod	_	_
+29	-op	op	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	obl	_	_
 30	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	31	det	_	_
 31	gevaar	gevaar	NOUN	N|soort|ev|neut	Number=Sing	29	obj	_	_
 32	af	af	ADV	Adv|deelv	PartType=Vbp	29	case	_	_
@@ -6430,7 +6430,7 @@
 8	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	9	nsubj	_	_
 9	stak	steek_uit	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	2	parataxis	_	_
 10	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	_
-11	eerder	eerder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	9	advmod	_	_
+11	eerder	eerder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	9	obl	_	_
 12	haar	haar	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	nmod	_	_
 13	nek	nek	NOUN	N|soort|ev|neut	Number=Sing	9	obj	_	_
 14	uit	uit	ADV	Adv|deelv	PartType=Vbp	9	compound:prt	_	SpaceAfter=No
@@ -6441,7 +6441,7 @@
 # orig_file_sentence 004#42
 1	Dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	2	nsubj	_	_
 2	leverde	lever_op	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
-3	tot	tot	PRON	Prep_Adv|voor_gew|aanw	Gender=Masc|Number=Sing|PronType=Tot	2	advmod	_	MWE=tot_dusver|MWEPOS=X
+3	tot	tot	DET	Prep_Adv|voor_gew|aanw	Gender=Masc|Number=Sing|PronType=Tot	2	advmod	_	MWE=tot_dusver|MWEPOS=X
 4	dusver	dusver	X	X	PronType=Dem	3	compound	_	_
 5	alleen	alleen	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	6	advmod	_	_
 6	reprimandes	reprimandes	NOUN	N|soort|mv|neut	Number=Plur	2	obj	_	_
@@ -6456,7 +6456,7 @@
 3	na	na	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 4	dit	dit	PRON	Pron|aanw|neut|attr	PronType=Dem	5	nmod	_	_
 5	weekeinde	weekeinde	NOUN	N|soort|ev|neut	Number=Sing	7	obl	_	_
-6	waarschijnlijk	waarschijnlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	advmod	_	_
+6	waarschijnlijk	waarschijnlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	obl	_	_
 7	anders	anders	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	0	root	_	SpaceAfter=No
 8	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	7	punct	_	_
 9	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
@@ -6540,7 +6540,7 @@
 15	erkent	erken	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	22	obj	_	_
 17	vrouwenwijding	vrouw_wijding	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	22	csubj	_	_
-18	hoofdzakelijk	hoofdzakelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	22	advmod	_	_
+18	hoofdzakelijk	hoofdzakelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	22	obl	_	_
 19	in	in	ADP	Prep|voor	AdpType=Prep	21	case	_	_
 20	Westerse	Westers	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	21	amod	_	_
 21	hoofden	hoofd	NOUN	N|soort|mv|neut	Number=Plur	22	obl	_	_
@@ -6864,7 +6864,7 @@
 18	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 19	dat	dat	PRON	Pron|aanw|neut|attr	PronType=Dem	20	nmod	_	_
 20	argument	argument	NOUN	N|soort|ev|neut	Number=Sing	23	obj	_	_
-21	eenvoudig	eenvoudig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	23	advmod	_	_
+21	eenvoudig	eenvoudig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	23	obl	_	_
 22	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	23	mark	_	_
 23	slopen	sloop	VERB	V|intrans|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Intr|Tense=Past|VerbForm=Fin	18	ccomp	_	SpaceAfter=No
 24	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	18	punct	_	_
@@ -6874,7 +6874,7 @@
 28	vroeger	vroeg	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	29	amod	_	_
 29	eeuwen	eeuw	NOUN	N|soort|mv|neut	Number=Plur	35	obl	_	_
 30	wel	wel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	35	advmod	_	_
-31	degelijk	degelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	30	advmod	_	_
+31	degelijk	degelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	30	obl	_	_
 32	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	34	det	_	_
 33	volledige	volledig	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	34	amod	_	_
 34	diakenwijding	diaken_wijding	NOUN	N|soort|ev|neut	Number=Sing	35	obj	_	_
@@ -6898,7 +6898,7 @@
 11	mogelijkheden	mogelijkheid	NOUN	N|soort|mv|neut	Number=Plur	3	obj	_	_
 12	dan	dan	SCONJ	Conj|onder|metfin	_	15	mark	_	_
 13	ze	ze	PRON	Pron|per|3|evofmv|nom	Case=Nom|Number=Plur,Sing|Person=3|PronType=Prs	15	nsubj	_	_
-14	plaatselijk	plaatselijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	advmod	_	_
+14	plaatselijk	plaatselijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	obl	_	_
 15	benutten	benut	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	10	advcl	_	SpaceAfter=No
 16	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
@@ -6984,7 +6984,7 @@
 # sent_id = dev-s365
 # text = Kort daarna overleed hij aan zijn verwondingen.
 # orig_file_sentence 004#65
-1	Kort	kort	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+1	Kort	kort	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 2	daarna	daarna	ADV	Adv|pron|aanw	PronType=Dem	3	advmod	_	_
 3	overleed	overlijd	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 4	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -7049,10 +7049,10 @@
 8	Rotterdam-Zuid	Zuid	PROPN	N|eigen|ev|neut	Number=Sing	6	nmod	_	_
 9	kwam	kom	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 10	rond	rond	ADP	Prep|voor	AdpType=Prep	11	case	_	_
-11	0.30	0.30	NUM	Num_N	NumForm=Digit|NumType=Card	9	advmod	_	MWE=0.30_uur|MWEPOS=NUM
+11	0.30	0.30	NUM	Num_N	NumForm=Digit|NumType=Card	9	obl	_	MWE=0.30_uur|MWEPOS=NUM
 12	uur	uur	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	11	compound	_	_
 13	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	15	det	_	_
-14	35-jarige	35-jarige	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	15	advmod	_	_
+14	35-jarige	35-jarige	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	15	obl	_	_
 15	Rotterdamse	Rotterdams	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	nsubj	_	_
 16	om	om	X	Conj_Art_N	Gender=Neut|Number=Sing	9	compound:prt	_	MWE=om_het_leven|MWEPOS=X
 17	het	het	X	X	Gender=Neut|Number=Sing	16	compound	_	_
@@ -7147,7 +7147,7 @@
 9	voor	voor	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 10	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	12	det	_	_
 11	13	13	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	12	compound	_	_
-12	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	8	advmod	_	_
+12	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	8	obl	_	_
 13	aidswezen	wees	NOUN	N|soort|mv|neut	Number=Plur	12	obl	_	SpaceAfter=No
 14	.	.	PUNCT	Punc|punt	PunctType=Peri	8	punct	_	_
 
@@ -7191,7 +7191,7 @@
 10	gezegd	zeg	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 11	dat	dat	SCONJ	Conj|onder|metfin	_	31	mark	_	_
 12	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	15	det	_	_
-13	forensisch	forensisch	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	advmod	_	_
+13	forensisch	forensisch	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	obl	_	_
 14	psychiatrisch	psychiatrisch	ADJ	Adj|attr|stell|onverv	Degree=Pos	15	amod	_	_
 15	centrum	centrum	NOUN	N|soort|ev|neut	Number=Sing	31	nsubj	_	_
 16	Veldzicht	Veldzicht	PROPN	N|eigen|ev|neut	Number=Sing	15	appos	_	_
@@ -7211,7 +7211,7 @@
 30	willen	wil	AUX	V|hulp|inf	VerbForm=Inf	31	aux	_	_
 31	opzetten	zet_op	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	10	xcomp	_	_
 32	waarmee	waarmee	ADV	Adv|pron|vrag	PronType=Int	34	mark	_	_
-33	beter	goed	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	36	advmod	_	_
+33	beter	goed	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	36	obl	_	_
 34	kan	kan	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	29	acl	_	_
 35	worden	word	AUX	V|hulpofkopp|inf	VerbForm=Inf	36	aux	_	_
 36	voorspeld	voorspel	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	34	ccomp	_	_
@@ -7317,7 +7317,7 @@
 10	hoopt	hoop	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 11	onderzoeker	onderzoeker	NOUN	N|soort|ev|neut	Number=Sing	15	nsubj	_	_
 12	Buschman	Buschman	PROPN	N|eigen|ev|neut	Number=Sing	11	appos	_	_
-13	beter	goed	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	16	advmod	_	_
+13	beter	goed	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	16	obl	_	_
 14	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	15	mark	_	_
 15	kunnen	kan	VERB	V|hulp|inf	VerbForm=Inf|VerbType=Mod	10	xcomp	_	_
 16	voorspellen	voorspel	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	15	xcomp	_	_
@@ -7347,9 +7347,9 @@
 # orig_file_sentence 004#79
 1	Nu	nu	ADV	Adv|gew|aanw	PronType=Dem	2	advmod	_	_
 2	gaan	ga	VERB	V|intrans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	meer	meer	PRON	Num	Degree=Cmp|NumType=Card|PronType=Ind	2	nsubj	_	_
+3	meer	meer	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	2	nsubj	_	_
 4	dan	dan	SCONJ	Conj|onder|metfin	_	5	mark	_	_
-5	een	een	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	3	advmod	_	_
+5	een	een	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	3	obl	_	_
 6	op	op	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 8	drie	drie	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	9	nummod	_	_
@@ -7447,7 +7447,7 @@
 11	raampje	raampje	NOUN	N|soort|ev|neut	Number=Sing	18	obl	_	_
 12	beide	beide	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	13	nummod	_	_
 13	slacht;offertjes	slachtoffertje	NOUN	N|soort|mv|neut	Number=Plur	18	nsubj	_	_
-14	bewusteloos	bewusteloos	ADJ	Adj|attr|stell|onverv	Degree=Pos	8	advmod	_	_
+14	bewusteloos	bewusteloos	ADJ	Adj|attr|stell|onverv	Degree=Pos	8	obl	_	_
 15	op	op	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 16	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	17	det	_	_
 17	grond	grond	NOUN	N|soort|ev|neut	Number=Sing	18	obl	_	_
@@ -7714,7 +7714,7 @@
 1	Iedereen	iedereen	PRON	Pron|onbep|neut|zelfst	PronType=Ind	2	nsubj	_	_
 2	kon	kan	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	0	root	_	_
 3	daarna	daarna	ADV	Adv|pron|aanw	PronType=Dem	2	advmod	_	_
-4	gewoon	gewoon	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+4	gewoon	gewoon	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 5	naar	naar	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 6	huis	huis	NOUN	N|soort|ev|neut	Number=Sing	2	obl	_	SpaceAfter=No
 7	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
@@ -7906,7 +7906,7 @@
 9	naam	naam	NOUN	N|soort|ev|neut	Number=Sing	7	compound:prt	_	_
 10	met	met	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 11	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	14	det	_	_
-12	persoonlijk	persoonlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
+12	persoonlijk	persoonlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	obl	_	_
 13	getinte	getint	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	14	amod	_	_
 14	human-interest-pagina	pagina	NOUN	N|soort|ev|neut	Number=Sing	7	obl	_	SpaceAfter=No
 15	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
@@ -8030,7 +8030,7 @@
 3	Weck	Weck	PROPN	PROPN	_	1	flat	_	_
 4	wordt	word	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
 5	vanaf	vanaf	ADP	Prep|voor	AdpType=Prep	6	case	_	_
-6	17	17	NUM	Num_N	NumForm=Digit|NumType=Card	10	advmod	_	MWE=17_september|MWEPOS=NUM
+6	17	17	NUM	Num_N	NumForm=Digit|NumType=Card	10	obl	_	MWE=17_september|MWEPOS=NUM
 7	september	september	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	6	compound	_	_
 8	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
 9	nieuwe	nieuw	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	10	amod	_	_
@@ -8186,7 +8186,7 @@
 5	en	en	CCONJ	Conj|neven	_	11	cc	_	_
 6	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	11	aux	_	_
 7	in	in	ADP	Prep|voor	AdpType=Prep	8	case	_	_
-8	1973	1973	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	11	advmod	_	_
+8	1973	1973	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	11	obl	_	_
 9	verkozen	verkies	AUX	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	11	cop	_	_
 10	als	als	SCONJ	Conj|onder|metfin	_	11	case	_	_
 11	lid	lid	NOUN	N|soort|ev|neut	Number=Sing	2	conj	_	_
@@ -8218,7 +8218,7 @@
 # orig_file_sentence 005#23
 1	Atkins	Atkins	PROPN	N|eigen|ev|neut	Number=Sing	14	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	Punc|komma	PunctType=Comm	1	punct	_	_
-3	bijgenaamd	bijgenaamd	ADJ	Adj|attr|stell|onverv	Degree=Pos	5	advmod	_	_
+3	bijgenaamd	bijgenaamd	ADJ	Adj|attr|stell|onverv	Degree=Pos	5	obl	_	_
 4	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	5	punct	_	SpaceAfter=No
 5	Mr.	Mr.	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	1	flat	_	MWE=Mr._Guitar|MWEPOS=X
 6	Guitar	Guitar	PROPN	PROPN	_	5	flat	_	SpaceAfter=No
@@ -8230,10 +8230,10 @@
 12	albums	album	NOUN	N|soort|mv|neut	Number=Plur	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	Punc|komma	PunctType=Comm	14	punct	_	_
 14	verkocht	verkoop	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
-15	meer	meer	PRON	Num	Degree=Cmp|NumType=Card|PronType=Ind	14	obj	_	_
+15	meer	meer	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	14	obj	_	_
 16	dan	dan	SCONJ	Conj|onder|metfin	_	18	mark	_	_
 17	1	1	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	18	compound	_	_
-18	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	15	advmod	_	_
+18	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	15	obl	_	_
 19	platen	plaat	NOUN	N|soort|mv|neut	Number=Plur	18	obl	_	SpaceAfter=No
 20	.	.	PUNCT	Punc|punt	PunctType=Peri	14	punct	_	_
 
@@ -8281,7 +8281,7 @@
 4	werd	word	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 5	geboren	geboren	ADJ	Adj|attr|stell|onverv	Degree=Pos	4	obj	_	_
 6	op	op	ADP	Prep|voor	AdpType=Prep	7	case	_	_
-7	20	20	NUM	Num_N_Num	NumForm=Digit|NumType=Card	5	advmod	_	MWE=20_juni_1924|MWEPOS=NUM
+7	20	20	NUM	Num_N_Num	NumForm=Digit|NumType=Card	5	obl	_	MWE=20_juni_1924|MWEPOS=NUM
 8	juni	juni	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	7	compound	_	_
 9	1924	1924	NUM	NUM	NumForm=Digit|NumType=Card	7	compound	_	_
 10	in	in	ADP	Prep|voor	AdpType=Prep	11	case	_	_
@@ -8319,12 +8319,12 @@
 # text = Zijn eerste optreden gaf hij al jong.
 # orig_file_sentence 005#28
 1	Zijn	zijn	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
-2	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	3	advmod	_	_
+2	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	3	obl	_	_
 3	optreden	optreden	VERB	V|intrans|inf|subst	Subcat=Intr|VerbForm=Inf	4	xcomp	_	_
 4	gaf	geef	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 5	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 6	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	7	advmod	_	_
-7	jong	jong	ADJ	Adj|attr|stell|onverv	Degree=Pos	4	advmod	_	SpaceAfter=No
+7	jong	jong	ADJ	Adj|attr|stell|onverv	Degree=Pos	4	obl	_	SpaceAfter=No
 8	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s429
@@ -8339,13 +8339,13 @@
 7	Guitar	Guitar	PROPN	PROPN	_	4	flat	_	SpaceAfter=No
 8	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	4	punct	_	_
 9	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	4	punct	_	SpaceAfter=No
-10	1953	1953	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	4	advmod	_	SpaceAfter=No
+10	1953	1953	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	4	obl	_	SpaceAfter=No
 11	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	12	punct	_	_
 12	schreef	schrijf	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 13	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 14	meer	meer	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	17	det:nummod	_	_
 15	dan	dan	SCONJ	Conj|onder|metfin	_	16	mark	_	_
-16	honderd	honderd	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	14	advmod	_	_
+16	honderd	honderd	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	14	obl	_	_
 17	platen	plaat	NOUN	N|soort|mv|neut	Number=Plur	12	obj	_	_
 18	op	op	ADP	Prep|voor	AdpType=Prep	20	case	_	_
 19	zijn	zijn	PRON	Pron|bez|3|ev|neut|attr	Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	nmod	_	_
@@ -8367,7 +8367,7 @@
 35	Best	Best	PROPN	PROPN	_	31	flat	_	SpaceAfter=No
 36	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	31	punct	_	_
 37	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	31	punct	_	SpaceAfter=No
-38	1967	1967	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	31	advmod	_	SpaceAfter=No
+38	1967	1967	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	31	obl	_	SpaceAfter=No
 39	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	43	punct	_	SpaceAfter=No
 40	,	,	PUNCT	Punc|komma	PunctType=Comm	43	punct	_	_
 41	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	43	punct	_	SpaceAfter=No
@@ -8378,7 +8378,7 @@
 46	Guitar	Guitar	PROPN	PROPN	_	43	flat	_	SpaceAfter=No
 47	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	49	punct	_	_
 48	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	49	punct	_	SpaceAfter=No
-49	1984	1984	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	43	advmod	_	SpaceAfter=No
+49	1984	1984	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	43	obl	_	SpaceAfter=No
 50	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	53	punct	_	_
 51	en	en	CCONJ	Conj|neven	_	53	cc	_	_
 52	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	53	punct	_	SpaceAfter=No
@@ -8386,7 +8386,7 @@
 54	Alone	Alone	X	X	Number=Sing	53	compound	_	SpaceAfter=No
 55	'	'	PUNCT	Punc|aanhaalenk	PunctType=Quot	53	punct	_	_
 56	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	53	punct	_	SpaceAfter=No
-57	1996	1996	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	53	advmod	_	SpaceAfter=No
+57	1996	1996	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	53	obl	_	SpaceAfter=No
 58	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	12	punct	_	SpaceAfter=No
 59	.	.	PUNCT	Punc|punt	PunctType=Peri	12	punct	_	_
 
@@ -8483,7 +8483,7 @@
 15	Diageo	Diageo	PROPN	N|eigen|ev|neut	Number=Sing	14	appos	_	_
 16	voor	voor	ADP	Prep|voor	AdpType=Prep	18	case	_	_
 17	45,5	45,5	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	18	compound	_	_
-18	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	5	advmod	_	_
+18	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	5	obl	_	_
 19	pond	pond	NOUN	N|soort|ev|neut	Number=Sing	18	obl	_	_
 20	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	18	punct	_	SpaceAfter=No
 21	circa	circa	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	23	advmod	_	_
@@ -8543,7 +8543,7 @@
 5	World	World	PROPN	PROPN	_	2	flat	_	_
 6	Records	Records	PROPN	PROPN	_	2	flat	_	_
 7	bereikt	bereik	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
-8	jaarlijks	jaarlijks	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	advmod	_	_
+8	jaarlijks	jaarlijks	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	7	obl	_	_
 9	70	70	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	10	compound	_	_
 10	miljoen	miljoen	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	7	obj	_	_
 11	consumenten	consument	NOUN	N|soort|mv|neut	Number=Plur	10	obl	_	_
@@ -8815,7 +8815,7 @@
 5	dat	dat	SCONJ	Conj|onder|metfin	_	9	mark	_	_
 6	dit	dit	PRON	Pron|aanw|neut|attr	PronType=Dem	7	nmod	_	_
 7	concern	concern	NOUN	N|soort|ev|neut	Number=Sing	9	nsubj	_	_
-8	minder	minder	PRON	Num	Degree=Cmp|NumType=Card|PronType=Ind	11	obj	_	_
+8	minder	minder	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	11	obj	_	_
 9	hoeft	hoef	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	2	ccomp	_	_
 10	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	11	mark	_	_
 11	betalen	betaal	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	9	xcomp	_	_
@@ -8830,7 +8830,7 @@
 20	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	21	det	_	_
 21	Europese	Europese	X	Adj_N	Degree=Pos|Number=Sing	24	nsubj	_	MWE=Europese_Commissie|MWEPOS=X
 22	Commissie	Commissie	X	X	Degree=Pos|Number=Sing	21	compound	_	_
-23	graag	graag	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	24	advmod	_	_
+23	graag	graag	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	24	obl	_	_
 24	wil	wil	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	18	advcl	_	SpaceAfter=No
 25	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
@@ -8960,7 +8960,7 @@
 2	't	't	X	X	Gender=Neut|Number=Sing	1	compound	_	_
 3	Hof	Hof	X	X	Gender=Neut|Number=Sing	1	compound	_	_
 4	wijst	wijs	VERB	V|intrans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Intr|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	verder	verder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	4	advmod	_	_
+5	verder	verder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	4	obl	_	_
 6	op	op	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 8	administratieve	administratief	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
@@ -8986,7 +8986,7 @@
 # orig_file_sentence 005#58
 1	Dat	dat	PRON	Pron|aanw|neut|zelfst	PronType=Dem	2	nsubj	_	_
 2	kost	kost	VERB	V|trans|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	honderden	honderden	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	advmod	_	_
+3	honderden	honderden	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	2	obl	_	_
 4	tot	tot	ADP	Prep|voor	AdpType=Prep	5	cc	_	_
 5	duizenden	duizenden	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	3	conj	_	_
 6	guldens	gulden	NOUN	N|soort|mv|neut	Number=Plur	3	obl	_	_
@@ -9085,7 +9085,7 @@
 8	Oostenrijkse	Oostenrijks	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	amod	_	_
 9	stad	stad	NOUN	N|soort|ev|neut	Number=Sing	14	obl	_	_
 10	Salzburg	Salzburg	PROPN	N|eigen|ev|neut	Number=Sing	9	appos	_	_
-11	urenlang	urenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	advmod	_	_
+11	urenlang	urenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	obl	_	_
 12	tegen	tegen	ADP	Prep|voor	AdpType=Prep	13	case	_	_
 13	globalisering	globalisering	NOUN	N|soort|ev|neut	Number=Sing	14	obj	_	_
 14	gedemonstreerd	demonstreer	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -9241,7 +9241,7 @@
 2	,	,	PUNCT	Punc|komma	PunctType=Comm	1	punct	_	_
 3	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	10	obj	_	_
 4	tussen	tussen	ADP	Prep|voor	AdpType=Prep	5	case	_	_
-5	1946	1946	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	10	advmod	_	_
+5	1946	1946	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	10	obl	_	_
 6	en	en	CCONJ	Conj|neven	_	7	cc	_	_
 7	1996	1996	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	5	conj	_	_
 8	in	in	ADP	Prep|voor	AdpType=Prep	9	case	_	_
@@ -9409,7 +9409,7 @@
 10	militairen	militair	NOUN	N|soort|mv|neut	Number=Plur	8	conj	_	_
 11	vrijgelaten	laat_vrij	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	_
 12	die	die	PRON	Pron|betr|neut|zelfst	PronType=Rel	15	obj	_	_
-13	jarenlang	jarenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	advmod	_	_
+13	jarenlang	jarenlang	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	obl	_	_
 14	waren	ben	AUX	V|hulpofkopp|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	15	aux	_	_
 15	gegijzeld	gijzel	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
 16	.	.	PUNCT	Punc|punt	PunctType=Peri	11	punct	_	_
@@ -9481,7 +9481,7 @@
 # orig_file_sentence 005#82
 1	Meer	meer	DET	Num	Degree=Cmp|NumType=Card|PronType=Ind	4	det:nummod	_	_
 2	dan	dan	SCONJ	Conj|onder|metfin	_	3	mark	_	_
-3	240	240	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	1	advmod	_	_
+3	240	240	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	1	obl	_	_
 4	personen	persoon	NOUN	N|soort|mv|neut	Number=Plur	14	nsubj	_	_
 5	zijn	ben	AUX	V|hulpofkopp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	14	aux	_	_
 6	in	in	ADP	Prep|voor	AdpType=Prep	8	case	_	_
@@ -9525,7 +9525,7 @@
 4	Yuku	Yuku	PROPN	N|eigen|ev|neut	Number=Sing	3	appos	_	_
 5	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Aux,Cop	0	root	_	_
 6	op	op	ADP	Prep|voor	AdpType=Prep	7	case	_	_
-7	15	15	NUM	Num_N	NumForm=Digit|NumType=Card	5	advmod	_	MWE=15_juni|MWEPOS=NUM
+7	15	15	NUM	Num_N	NumForm=Digit|NumType=Card	5	obl	_	MWE=15_juni|MWEPOS=NUM
 8	juni	juni	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	7	compound	_	_
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
 10	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	11	amod	_	_
@@ -9592,7 +9592,7 @@
 7	computers	computer	NOUN	N|soort|mv|neut	Number=Plur	5	nmod	_	_
 8	van	van	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
-10	Argentijnse	Argentijns	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	advmod	_	_
+10	Argentijnse	Argentijns	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	obl	_	_
 11	Dwaze	Dwaze	X	Adj_N	Degree=Pos|Number=Plur	7	nmod	_	MWE=Dwaze_Moeders|MWEPOS=X
 12	Moeders	Moeders	X	X	Degree=Pos|Number=Plur	11	compound	_	_
 13	vernietigd	vernietig	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
@@ -9744,7 +9744,7 @@
 13	als	als	SCONJ	Conj|onder|metfin	_	19	cc	_	SpaceAfter=No
 14	,	,	PUNCT	Punc|komma	PunctType=Comm	19	punct	_	_
 15	wanneer	wanneer	SCONJ	Conj|onder|metfin	_	16	mark	_	_
-16	nodig	nodig	ADJ	Adj|attr|stell|onverv	Degree=Pos	19	advmod	_	SpaceAfter=No
+16	nodig	nodig	ADJ	Adj|attr|stell|onverv	Degree=Pos	19	obl	_	SpaceAfter=No
 17	,	,	PUNCT	Punc|komma	PunctType=Comm	19	punct	_	_
 18	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	19	mark	_	_
 19	versnellen	versnel	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	8	conj	_	SpaceAfter=No
@@ -9762,7 +9762,7 @@
 7	60-jarige	60-jarige	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	8	amod	_	_
 8	Cheney	Cheney	PROPN	N|eigen|ev|neut	Number=Sing	13	nsubj	_	_
 9	vandaag	vandaag	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	13	advmod	_	_
-10	gewoon	gewoon	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
+10	gewoon	gewoon	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	obl	_	_
 11	van	van	X	Prep_N|voor_soort|ev|neut	Number=Sing	13	compound:prt	_	MWE=van_plan|MWEPOS=X
 12	plan	plan	X	X	Number=Sing	11	compound	_	_
 13	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Aux,Cop	3	ccomp	_	_
@@ -9879,7 +9879,7 @@
 10	op	op	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 11	Goede	Goede	X	Adj_N	Degree=Pos|Number=Sing	15	advmod	_	MWE=Goede_Vrijdag|MWEPOS=X
 12	Vrijdag	Vrijdag	X	X	Degree=Pos|Number=Sing	11	compound	_	_
-13	1998	1998	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	11	advmod	_	_
+13	1998	1998	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	11	obl	_	_
 14	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	aux	_	_
 15	gesloten	sluit	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
 16	,	,	PUNCT	Punc|komma	PunctType=Comm	26	punct	_	_
@@ -10167,7 +10167,7 @@
 4	hebben	heb	AUX	V|hulp|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	8	aux	_	_
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
 6	marsen	mars	NOUN	N|soort|mv|neut	Number=Plur	8	nsubj	_	_
-7	jaarlijks	jaarlijks	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	8	advmod	_	_
+7	jaarlijks	jaarlijks	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	8	obl	_	_
 8	gezorgd	zorg	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 9	voor	voor	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 10	oplopende	oplopend	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	11	acl	_	_
@@ -10237,7 +10237,7 @@
 7	Libanese	Libanees	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	amod	_	_
 8	en	en	CCONJ	Conj|neven	_	9	cc	_	_
 9	twee	twee	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	12	nsubj	_	_
-10	Syrische	Syrisch	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	advmod	_	_
+10	Syrische	Syrisch	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	9	obl	_	_
 11	soldaten	soldaat	NOUN	N|soort|mv|neut	Number=Plur	9	conj	_	_
 12	gewond	gewond	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	Punc|komma	PunctType=Comm	12	punct	_	_
@@ -10254,7 +10254,7 @@
 # orig_file_sentence 006#13
 1	Hezbollah	Hezbollah	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 2	antwoordde	antwoord	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
-3	onmiddellijk	onmiddellijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+3	onmiddellijk	onmiddellijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 4	gisteren	gisteren	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	2	advmod	_	_
 5	met	met	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 6	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	7	det	_	_
@@ -10285,7 +10285,7 @@
 4	daarop	daarop	ADV	Adv|pron|aanw	PronType=Dem	3	advmod	_	_
 5	kwam	kom	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 6	ook	ook	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	5	advmod	_	_
-7	snel	snel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	advmod	_	SpaceAfter=No
+7	snel	snel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	obl	_	SpaceAfter=No
 8	:	:	PUNCT	Punc|dubbpunt	PunctType=Colo	5	punct	_	_
 9	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	11	det	_	_
 10	Libanese	Libanees	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	11	amod	_	_
@@ -10533,7 +10533,7 @@
 11	den	den	PROPN	PROPN	_	9	flat	_	_
 12	Doel	Doel	PROPN	PROPN	_	9	flat	_	_
 13	met	met	ADP	Prep|voor	AdpType=Prep	14	case	_	_
-14	3-0	3-0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	7	advmod	_	SpaceAfter=No
+14	3-0	3-0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	7	obl	_	SpaceAfter=No
 15	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
 
 # sent_id = dev-s527
@@ -10573,7 +10573,7 @@
 2	Carolijn	Carolijn	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	1	appos	_	MWE=Carolijn_Brouwer|MWEPOS=X
 3	Brouwer	Brouwer	PROPN	PROPN	_	2	flat	_	_
 4	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
-5	sterk	sterk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
+5	sterk	sterk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	obl	_	_
 6	gestart	start	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	0	root	_	_
 7	bij	bij	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	9	det	_	_
@@ -10610,7 +10610,7 @@
 7	olympische	olympisch	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	8	amod	_	_
 8	kandidate	kandidate	NOUN	N|soort|ev|neut	Number=Sing	5	nsubj	_	_
 9	als	als	SCONJ	Conj|onder|metfin	_	10	case	_	_
-10	tweede	tweede	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	5	advmod	_	SpaceAfter=No
+10	tweede	tweede	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	5	obl	_	SpaceAfter=No
 11	.	.	PUNCT	Punc|punt	PunctType=Peri	5	punct	_	_
 
 # sent_id = dev-s531
@@ -10659,7 +10659,7 @@
 5	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	6	det	_	_
 6	Italianen	Italiaan	NOUN	N|soort|mv|neut	Number=Plur	4	nsubj	_	_
 7	met	met	ADP	Prep|voor	AdpType=Prep	8	case	_	_
-8	16-14	16-14	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	4	advmod	_	_
+8	16-14	16-14	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	4	obl	_	_
 9	van	van	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 10	Turkije	Turkije	PROPN	N|eigen|ev|neut	Number=Sing	4	obj	_	SpaceAfter=No
 11	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
@@ -10672,7 +10672,7 @@
 3	dat	dat	SCONJ	Conj|onder|metfin	_	7	mark	_	_
 4	IJsland	IJsland	PROPN	N|eigen|ev|neut	Number=Sing	7	obj	_	_
 5	met	met	ADP	Prep|voor	AdpType=Prep	6	case	_	_
-6	24-6	24-6	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	7	advmod	_	_
+6	24-6	24-6	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	7	obl	_	_
 7	versloeg	versla	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	1	acl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc|komma	PunctType=Comm	9	punct	_	_
 9	pakte	pak	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
@@ -10697,7 +10697,7 @@
 3	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	4	det	_	_
 4	evenement	evenement	NOUN	N|soort|ev|neut	Number=Sing	2	obj	_	_
 5	als	als	SCONJ	Conj|onder|metfin	_	6	case	_	_
-6	negende	negende	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	2	advmod	_	_
+6	negende	negende	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	2	obl	_	_
 7	af	af	ADV	Adv|deelv	PartType=Vbp	2	compound:prt	_	_
 8	en	en	CCONJ	Conj|neven	_	9	cc	_	_
 9	plaatste	plaats	VERB	V|refl|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Reflex=Yes|Tense=Past|VerbForm=Fin	2	conj	_	_
@@ -10780,7 +10780,7 @@
 11	in	in	ADV	Adv|deelv	PartType=Vbp	4	compound:prt	_	_
 12	voor	voor	ADP	Prep|voor	AdpType=Prep	14	case	_	_
 13	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	14	det	_	_
-14	50	50	NUM	Num_N	NumForm=Digit|NumType=Card	4	advmod	_	MWE=50_vrij|MWEPOS=NUM
+14	50	50	NUM	Num_N	NumForm=Digit|NumType=Card	4	obl	_	MWE=50_vrij|MWEPOS=NUM
 15	vrij	vrij	NUM	NUM	Definite=Def|Number=Sing|NumType=Card	14	compound	_	SpaceAfter=No
 16	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
@@ -10958,7 +10958,7 @@
 # text = Met 10,37 om 10,54 was de voorsprong op de kortste afstand verhoudingsgewijs het grootst.
 # orig_file_sentence 006#49
 1	Met	met	ADP	Prep|voor	AdpType=Prep	2	case	_	_
-2	10,37	10,37	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	13	advmod	_	_
+2	10,37	10,37	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	13	obl	_	_
 3	om	om	ADP	Prep|voor	AdpType=Prep	4	cc	_	_
 4	10,54	10,54	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	conj	_	_
 5	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	cop	_	_
@@ -10968,7 +10968,7 @@
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
 10	kortste	kort	ADJ	Adj|attr|overtr|vervneut	Case=Nom|Degree=Sup	11	amod	_	_
 11	afstand	afstand	NOUN	N|soort|ev|neut	Number=Sing	13	obl	_	_
-12	verhoudingsgewijs	verhoudingsgewijs	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
+12	verhoudingsgewijs	verhoudingsgewijs	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	obl	_	_
 13	het	het	X	Art_Adj	Definite=Def|Degree=Sup|Gender=Neut	0	root	_	MWE=het_grootst|MWEPOS=X
 14	grootst	grootst	X	X	Definite=Def|Degree=Sup|Gender=Neut	13	compound	_	SpaceAfter=No
 15	.	.	PUNCT	Punc|punt	PunctType=Peri	13	punct	_	_
@@ -11033,7 +11033,7 @@
 8	23.125	23.125	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	9	nummod	_	_
 9	punten	punt	NOUN	N|soort|mv|neut	Number=Plur	6	obl	_	_
 10	als	als	SCONJ	Conj|onder|metfin	_	11	case	_	_
-11	tweede	tweede	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	6	advmod	_	_
+11	tweede	tweede	ADJ	Num|rang|bep|zelfst|onverv	Definite=Def|NumType=Ord	6	obl	_	_
 12	in	in	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 13	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	15	det	_	_
 14	eerste	eerste	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	15	amod	_	_
@@ -11048,7 +11048,7 @@
 # sent_id = dev-s553
 # text = Individueel won Warners de tienkamp met 8206 punten, boven de richtprestatie voor de WK in Edmonton (8150).
 # orig_file_sentence 006#53
-1	Individueel	individueel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+1	Individueel	individueel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 2	won	win	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 3	Warners	Warners	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	5	det	_	_
@@ -11263,7 +11263,7 @@
 2	en	en	CCONJ	Conj|neven	_	3	cc	_	_
 3	DWK	DWK	PROPN	N|eigen|ev|neut	Number=Sing	1	conj	_	_
 4	leveren	lever	VERB	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	momenteel	momenteel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	advmod	_	_
+5	momenteel	momenteel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	obl	_	_
 6	acht	acht	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	7	nummod	_	_
 7	internationals	international	NOUN	N|soort|mv|neut	Number=Plur	4	obj	_	SpaceAfter=No
 8	,	,	PUNCT	Punc|komma	PunctType=Comm	12	punct	_	_
@@ -11292,7 +11292,7 @@
 11	stap	stap	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 12	om	om	SCONJ	Conj|onder|metinf	_	11	obj	_	_
 13	Nederland	Nederland	PROPN	N|eigen|ev|neut	Number=Sing	17	obj	_	_
-14	internationaal	internationaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	17	advmod	_	_
+14	internationaal	internationaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	17	obl	_	_
 15	aan	aan	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 16	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	17	det	_	_
 17	top	top	NOUN	N|soort|ev|neut	Number=Sing	12	xcomp	_	_
@@ -11434,7 +11434,7 @@
 # sent_id = dev-s571
 # text = Eigenlijk viel het idee voor de blauwdruk al te beluisteren bij de nabeschouwing van de Olympische Spelen.
 # orig_file_sentence 006#71
-1	Eigenlijk	eigenlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
+1	Eigenlijk	eigenlijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
 2	viel	val	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 3	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	4	det	_	_
 4	idee	idee	NOUN	N|soort|ev|neut	Number=Sing	10	obj	_	_
@@ -11533,7 +11533,7 @@
 52	en	en	CCONJ	Conj|neven	_	54	cc	_	_
 53	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	54	det	_	_
 54	vereniging	vereniging	NOUN	N|soort|ev|neut	Number=Sing	51	conj	_	_
-55	goed	goed	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	57	advmod	_	_
+55	goed	goed	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	57	obl	_	_
 56	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	57	mark	_	_
 57	scheiden	scheid	VERB	V|trans|inf	Subcat=Tran|VerbForm=Inf	35	xcomp	_	SpaceAfter=No
 58	.	.	PUNCT	Punc|punt	PunctType=Peri	35	punct	_	_
@@ -11555,7 +11555,7 @@
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	13	det	_	_
 13	Olympische	Olympische	PROPN	N_N|eigen|mv|neut_eigen|mv|neut	_	10	advmod	_	MWE=Olympische_Spelen|MWEPOS=X
 14	Spelen	Spelen	PROPN	PROPN	_	13	flat	_	_
-15	onafhankelijk	onafhankelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
+15	onafhankelijk	onafhankelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
 16	van	van	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 17	elkaar	elkaar	PRON	Pron|rec|neut	PronType=Rcp	15	obj	_	_
 18	hun	hun	PRON	Pron|bez|3|mv|neut|attr	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	_
@@ -11580,7 +11580,7 @@
 2	wezen	wijs	NOUN	N|soort|ev|neut	Number=Sing	0	root	_	_
 3	op	op	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	7	det	_	_
-5	juist	juist	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
+5	juist	juist	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	obl	_	_
 6	gebleken	gebleken	VERB	V|intrans|verldw|onverv	Subcat=Intr|Tense=Past|VerbForm=Part	7	acl	_	_
 7	aanpak	aanpak	NOUN	N|soort|ev|neut	Number=Sing	2	obj	_	_
 8	van	van	ADP	Prep|voor	AdpType=Prep	9	case	_	_
@@ -11694,7 +11694,7 @@
 4	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	5	det	_	_
 5	competitie	competitie	NOUN	N|soort|ev|neut	Number=Sing	2	obl	_	_
 6	op	op	ADP	Prep|voor	AdpType=Prep	7	case	_	_
-7	drie	drie	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	advmod	_	_
+7	drie	drie	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	obl	_	_
 8	uit	uit	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 9	vier	vier	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	7	compound	_	SpaceAfter=No
 10	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
@@ -11887,7 +11887,7 @@
 5	waarin	waarin	ADV	Adv|pron|vrag	PronType=Int	9	mark	_	_
 6	we	we	PRON	Pron|per|1|mv|nom	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
 7	wat	wat	PRON	Pron|onbep|neut|attr	PronType=Ind	9	nmod	_	_
-8	meer	meer	PRON	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	9	obj	_	_
+8	meer	meer	DET	Num|hoofd|onbep|attr|vergr|onverv	Degree=Cmp|NumType=Card|PronType=Ind	9	obj	_	_
 9	uitproberen	probeer_uit	NOUN	N|soort|mv|neut	Number=Plur	4	nmod	_	_
 10	en	en	CCONJ	Conj|neven	_	13	cc	_	_
 11	wat	wat	PRON	Pron|onbep|neut|attr	PronType=Ind	13	obl	_	_
@@ -11916,7 +11916,7 @@
 15	met	met	ADP	Prep|voor	AdpType=Prep	17	case	_	_
 16	14	14	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	17	nummod	_	_
 17	honkslagen	honkslagen	NOUN	N|soort|mv|neut	Number=Plur	19	obl	_	_
-18	prima	prima	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	19	advmod	_	_
+18	prima	prima	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	19	obl	_	_
 19	op	op	X	Adv_V	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	7	conj	_	MWE=op_dreef|MWEPOS=X
 20	dreef	dreef	X	X	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	19	compound	_	SpaceAfter=No
 21	.	.	PUNCT	Punc|punt	PunctType=Peri	7	punct	_	_
@@ -11927,7 +11927,7 @@
 1	Ralph	Ralph	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	9	cc	_	MWE=Ralph_Milliard|MWEPOS=X
 2	Milliard	Milliard	PROPN	PROPN	_	25	cc	_	_
 3	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	25	punct	_	SpaceAfter=No
-4	3	3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	advmod	_	_
+4	3	3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	2	obl	_	_
 5	uit	uit	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 6	3	3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	4	compound	_	SpaceAfter=No
 7	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	25	punct	_	SpaceAfter=No
@@ -11937,7 +11937,7 @@
 11	't	't	PROPN	PROPN	_	9	flat	_	_
 12	Klooster	Klooster	PROPN	PROPN	_	9	flat	_	_
 13	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	9	punct	_	SpaceAfter=No
-14	4	4	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	9	advmod	_	_
+14	4	4	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	9	obl	_	_
 15	uit	uit	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 16	5	5	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	14	compound	_	SpaceAfter=No
 17	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	19	punct	_	SpaceAfter=No
@@ -11966,7 +11966,7 @@
 2	trio	trio	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
 3	doorkruisde	doorkruisde	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 4	op	op	ADP	Prep|voor	AdpType=Prep	5	case	_	_
-5	3-3	3-3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	3	advmod	_	_
+5	3-3	3-3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	3	obl	_	_
 6	in	in	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 7	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 8	zevende	zevende	ADJ	Num|rang|bep|attr|onverv	Definite=Def|NumType=Ord	9	amod	_	_
@@ -12091,7 +12091,7 @@
 7	lopen	loop	AUX	V|intrans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Intr|Tense=Pres|VerbForm=Fin	6	cop	_	_
 8	door	door	ADP	Prep|voor	AdpType=Prep	6	advmod	_	_
 9	Isenia	Isenia	PROPN	N|eigen|ev|neut	Number=Sing	14	obj	_	_
-10	opzettelijk	opzettelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	advmod	_	_
+10	opzettelijk	opzettelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	obl	_	_
 11	vier	vier	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	12	nummod	_	_
 12	wijd	wijd	ADJ	Adj|attr|stell|onverv	Degree=Pos	14	obj	_	_
 13	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	14	mark	_	_
@@ -12162,7 +12162,7 @@
 14	knuppel	knuppel	NOUN	N|soort|ev|neut	Number=Sing	15	obl	_	_
 15	vertrekken	vertrek	NOUN	N|soort|mv|neut	Number=Plur	5	obj	_	_
 16	(	(	PUNCT	Punc|haakopen	PunctSide=Ini|PunctType=Brck	5	punct	_	SpaceAfter=No
-17	6-3	6-3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	5	advmod	_	_
+17	6-3	6-3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	5	obl	_	_
 18	door	door	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 19	Jaarsma	Jaarsma	PROPN	N|eigen|ev|neut	Number=Sing	17	obl	_	SpaceAfter=No
 20	)	)	PUNCT	Punc|haaksluit	PunctSide=Fin|PunctType=Brck	5	punct	_	_
@@ -12190,7 +12190,7 @@
 7	sprak	spreek	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 8	bondscoach	bondscoach	NOUN	N|soort|ev|neut	Number=Sing	7	nsubj	_	_
 9	Eenhoorn	Eenhoorn	PROPN	N|eigen|ev|neut	Number=Sing	8	appos	_	_
-10	zuinig	zuinig	ADJ	Adj|attr|stell|onverv	Degree=Pos	7	advmod	_	SpaceAfter=No
+10	zuinig	zuinig	ADJ	Adj|attr|stell|onverv	Degree=Pos	7	obl	_	SpaceAfter=No
 11	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s606
@@ -12285,7 +12285,7 @@
 # orig_file_sentence 007#14
 1	Een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	2	det	_	_
 2	dag	dag	NOUN	N|soort|ev|neut	Number=Sing	3	obl	_	_
-3	eerder	eerder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	9	advmod	_	_
+3	eerder	eerder	ADJ	Adj|adv|vergr|onverv	Degree=Cmp|Variant=Short	9	obl	_	_
 4	kleurde	kleur	AUX	V|refl|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Reflex=Yes|Tense=Past|VerbForm=Fin	9	cop	_	_
 5	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	6	det	_	_
 6	stadion	stadion	NOUN	N|soort|ev|neut	Number=Sing	9	nsubj	_	_
@@ -12338,7 +12338,7 @@
 14	honkbalwereld	honkbal_wereld	PROPN	N|eigen|ev|neut	Number=Sing	15	obj	_	_
 15	verraste	verras	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	8	acl	_	_
 16	met	met	ADP	Prep|voor	AdpType=Prep	17	case	_	_
-17	4-2	4-2	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	15	advmod	_	SpaceAfter=No
+17	4-2	4-2	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	15	obl	_	SpaceAfter=No
 18	.	.	PUNCT	Punc|punt	PunctType=Peri	4	punct	_	_
 
 # sent_id = dev-s618
@@ -12416,7 +12416,7 @@
 5	mee	met	ADV	Adv|deelv	PartType=Vbp	2	obj	_	_
 6	door	door	ADP	Prep|voor	AdpType=Prep	2	advmod	_	_
 7	vier	vier	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	10	nummod	_	_
-8	internationaal	internationaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	advmod	_	_
+8	internationaal	internationaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	9	obl	_	_
 9	onervaren	onervaren	ADJ	Adj|attr|stell|onverv	Degree=Pos	10	amod	_	_
 10	werpers	werper	NOUN	N|soort|mv|neut	Number=Plur	15	obj	_	_
 11	naar	naar	ADP	Prep|voor	AdpType=Prep	13	case	_	_
@@ -12468,7 +12468,7 @@
 1	De	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	2	det	_	_
 2	fans	fan	NOUN	N|soort|mv|neut	Number=Plur	3	nsubj	_	_
 3	reageerden	reageer	VERB	V|intrans|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
-4	uitzinnig	uitzinnig	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	advmod	_	SpaceAfter=No
+4	uitzinnig	uitzinnig	ADJ	Adj|attr|stell|onverv	Degree=Pos	3	obl	_	SpaceAfter=No
 5	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
 # sent_id = dev-s626
@@ -12523,12 +12523,12 @@
 # orig_file_sentence 007#28
 1	Na	na	ADP	Prep|voor	AdpType=Prep	5	case	_	_
 2	twee	twee	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	5	nummod	_	_
-3	finaal	finaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	advmod	_	_
+3	finaal	finaal	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	4	obl	_	_
 4	mislukte	mislukt	VERB	V|intrans|verldw|vervneut	Case=Nom|Subcat=Intr|Tense=Past|VerbForm=Part	5	acl	_	_
 5	trainingssessies	training_sessie	NOUN	N|soort|mv|neut	Number=Plur	6	obl	_	_
 6	kwam	kom	VERB	V|intrans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Intr|Tense=Past|VerbForm=Fin	0	root	_	_
 7	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-8	sterk	sterk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
+8	sterk	sterk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	obl	_	_
 9	voor	voor	X	Prep_Art_N	Number=Sing	6	compound:prt	_	MWE=voor_de_dag|MWEPOS=X
 10	de	de	ADP	ADP	AdpType=Prep	9	compound	_	_
 11	dag	dag	X	X	Number=Sing	9	compound	_	_
@@ -12663,7 +12663,7 @@
 8	van	van	ADP	Prep|voor	AdpType=Prep	10	case	_	_
 9	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	10	det	_	_
 10	motor	motor	NOUN	N|soort|ev|neut	Number=Sing	7	nmod	_	_
-11	duidelijk	duidelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	advmod	_	_
+11	duidelijk	duidelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	obl	_	_
 12	aan	aan	X	Prep_Art_N	Gender=Neut|Number=Sing	5	compound:prt	_	MWE=aan_het_licht|MWEPOS=X
 13	het	het	X	X	Gender=Neut|Number=Sing	12	compound	_	_
 14	licht	licht	X	X	Gender=Neut|Number=Sing	12	compound	_	SpaceAfter=No
@@ -12676,7 +12676,7 @@
 2	regen	regen	NOUN	N|soort|ev|neut	Number=Sing	3	nsubj	_	_
 3	kwam	kom	VERB	V|hulp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|VerbType=Mod	0	root	_	_
 4	te	te	ADP	Prep|voorinf	AdpType=Prep|PartType=Inf	5	advmod	_	_
-5	laat	laat	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	advmod	_	_
+5	laat	laat	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	3	obl	_	_
 6	voor	voor	ADP	Prep|voor	AdpType=Prep	7	case	_	_
 7	hem	hem	PRON	Pron|per|3|ev|datofacc	Case=Acc,Dat|Number=Sing|Person=3|PronType=Prs	3	obl	_	SpaceAfter=No
 8	,	,	PUNCT	Punc|komma	PunctType=Comm	3	punct	_	_
@@ -12689,7 +12689,7 @@
 # sent_id = dev-s638
 # text = Prompt was de race voorbij.
 # orig_file_sentence 007#38
-1	Prompt	prompt	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	advmod	_	_
+1	Prompt	prompt	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	5	obl	_	_
 2	was	ben	AUX	V|hulpofkopp|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	_
 3	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
 4	race	race	NOUN	N|soort|ev|neut	Number=Sing	5	nsubj	_	_
@@ -12831,7 +12831,7 @@
 12	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	13	det	_	_
 13	race	race	NOUN	N|soort|ev|neut	Number=Sing	11	obj	_	_
 14	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	16	det	_	_
-15	Italiaanse	Italiaans	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	16	advmod	_	_
+15	Italiaanse	Italiaans	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	16	obl	_	_
 16	duivels	duivel	ADJ	Adj|attr|stell|onverv	Degree=Pos	10	obj	_	_
 17	op	op	ADP	Prep|voor	AdpType=Prep	19	case	_	_
 18	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	19	det	_	_
@@ -12987,7 +12987,7 @@
 12	door	door	ADP	Prep|voor	AdpType=Prep	16	case	_	_
 13	ten	ten	X	Prep_Num	Case=Nom|Degree=Sup|PronType=Ind	16	nmod	_	MWE=ten_minste|MWEPOS=X
 14	minste	minste	X	X	Case=Nom|Degree=Sup|PronType=Ind	13	compound	_	_
-15	4000	4000	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	13	advmod	_	_
+15	4000	4000	NUM	Num|hoofd|bep|attr|onverv	Definite=Def|NumType=Card	13	obl	_	_
 16	toeschouwers	toeschouwer	NOUN	N|soort|mv|neut	Number=Plur	10	obl	_	SpaceAfter=No
 17	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
@@ -13033,7 +13033,7 @@
 9	in	in	ADP	Prep|voor	AdpType=Prep	11	mark	_	_
 10	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	11	det	_	_
 11	voorronde	voorronde	VERB	V|intrans|tegdw|vervneut	Case=Nom|Subcat=Intr|Tense=Pres|VerbForm=Part	13	advcl	_	_
-12	aardig	aardig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	advmod	_	_
+12	aardig	aardig	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	13	obl	_	_
 13	vol	vol	ADJ	Adj|attr|stell|onverv	Degree=Pos	25	advcl	_	_
 14	zaten	zit	AUX	V|intrans|ovt|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Intr|Tense=Past|VerbForm=Fin	13	cop	_	_
 15	-	-	SYM	Punc|liggstreep	_	13	nmod	_	_
@@ -13230,8 +13230,8 @@
 # orig_file_sentence 007#65
 1	Met	met	ADP	Prep|voor	AdpType=Prep	4	case	_	_
 2	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	4	det	_	_
-3	snelle	snel	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	4	advmod	_	_
-4	3-0	3-0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	20	advmod	_	SpaceAfter=No
+3	snelle	snel	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	4	obl	_	_
+4	3-0	3-0	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	20	obl	_	SpaceAfter=No
 5	,	,	PUNCT	Punc|komma	PunctType=Comm	4	punct	_	_
 6	onder	onder	X	Prep_N_Prep|voor_soort|ev|neut_voor	Number=Sing	4	advmod	_	MWE=onder_aanvoering_van|MWEPOS=X
 7	aanvoering	aanvoering	X	X	Number=Sing	6	compound	_	_
@@ -13424,7 +13424,7 @@
 5	Pakistan	Pakistan	PROPN	N|eigen|ev|neut	Number=Sing	3	nmod	_	_
 6	zette	zet_in	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 7	Bellaart	Bellaart	PROPN	N|eigen|ev|neut	Number=Sing	6	nsubj	_	_
-8	hoog	hoog	ADJ	Adj|attr|stell|onverv	Degree=Pos	6	advmod	_	_
+8	hoog	hoog	ADJ	Adj|attr|stell|onverv	Degree=Pos	6	obl	_	_
 9	in	in	ADV	Adv|deelv	PartType=Vbp	6	compound:prt	_	SpaceAfter=No
 10	.	.	PUNCT	Punc|punt	PunctType=Peri	6	punct	_	_
 
@@ -13443,7 +13443,7 @@
 # orig_file_sentence 007#76
 1	Na	na	ADP	Prep|voor	AdpType=Prep	3	case	_	_
 2	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	3	det	_	_
-3	2-2	2-2	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	8	advmod	_	_
+3	2-2	2-2	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	8	obl	_	_
 4	donderdag	donderdag	PROPN	N|eigen|ev|neut	Number=Sing	3	obl	_	_
 5	in	in	ADP	Prep|voor	AdpType=Prep	6	case	_	_
 6	Drachten	Drachten	PROPN	N|eigen|ev|neut	Number=Sing	3	obl	_	SpaceAfter=No
@@ -13451,9 +13451,9 @@
 8	verloor	verlies	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 9	Nederland	Nederland	PROPN	N|eigen|ev|neut	Number=Sing	8	nsubj	_	_
 10	zaterdag	zaterdag	PROPN	N|eigen|ev|neut	Number=Sing	8	obl	_	_
-11	pijnlijk	pijnlijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	8	advmod	_	_
+11	pijnlijk	pijnlijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	8	obl	_	_
 12	met	met	ADP	Prep|voor	AdpType=Prep	13	case	_	_
-13	0-3	0-3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	8	advmod	_	_
+13	0-3	0-3	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	8	obl	_	_
 14	en	en	CCONJ	Conj|neven	_	15	cc	_	_
 15	eindigde	eindig	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	8	conj	_	_
 16	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	18	det	_	_
@@ -13517,7 +13517,7 @@
 7	bij	bij	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 8	Sydney	Sydney	PROPN	N_Num	_	6	nmod	_	MWE=Sydney_2000|MWEPOS=X
 9	2000	2000	NUM	NUM	NumForm=Digit|NumType=Card	8	nummod	_	_
-10	kennelijk	kennelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	advmod	_	_
+10	kennelijk	kennelijk	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	14	obl	_	_
 11	toch	toch	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	14	advmod	_	_
 12	een	een	DET	Art|onbep|zijdofonzijd|neut	Definite=Ind|Number=Sing|PronType=Art	13	det	_	_
 13	achterstand	achterstand	NOUN	N|soort|ev|neut	Number=Sing	14	obj	_	_
@@ -13692,7 +13692,7 @@
 14	,	,	PUNCT	Punc|komma	PunctType=Comm	3	punct	_	_
 15	hield	houd_vol	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	3	parataxis	_	_
 16	hij	hij	PRON	Pron|per|3|ev|nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
-17	stug	stug	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	advmod	_	_
+17	stug	stug	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	15	obl	_	_
 18	vol	vol	ADJ	Adj|attr|stell|onverv	Degree=Pos	15	compound:prt	_	SpaceAfter=No
 19	.	.	PUNCT	Punc|punt	PunctType=Peri	3	punct	_	_
 
@@ -13703,9 +13703,9 @@
 2	Misschien	misschien	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	8	advmod	_	_
 3	is	ben	AUX	V|hulpofkopp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
 4	Pakistan	Pakistan	PROPN	N|eigen|ev|neut	Number=Sing	8	nsubj	_	_
-5	momenteel	momenteel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	8	advmod	_	_
+5	momenteel	momenteel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	8	obl	_	_
 6	wel	wel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	8	advmod	_	_
-7	veel	veel	PRON	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	8	advmod	_	_
+7	veel	veel	DET	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	8	obl	_	_
 8	sterker	sterk	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	0	root	_	_
 9	dat	dat	SCONJ	Conj|onder|metfin	_	12	mark	_	_
 10	we	we	PRON	Pron|per|1|mv|nom	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
@@ -13742,9 +13742,9 @@
 6	spelmaker	spel_maker	NOUN	N|soort|ev|neut	Number=Sing	3	nmod	_	_
 7	De	De	ADP	N_N|eigen|ev|neut_eigen|ev|neut	AdpType=Prep	8	case	_	MWE=De_Nooijer|MWEPOS=X
 8	Nooijer	Nooijer	PROPN	PROPN	_	6	appos	_	_
-9	kort	kort	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	advmod	_	_
+9	kort	kort	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	6	obl	_	_
 10	achter	achter	ADP	Prep|voor	AdpType=Prep	9	case	_	_
-11	spits	spits	ADJ	Adj|attr|stell|onverv	Degree=Pos	9	advmod	_	_
+11	spits	spits	ADJ	Adj|attr|stell|onverv	Degree=Pos	9	obl	_	_
 12	Eikelboom	Eikelboom	NOUN	N|soort|ev|neut	Number=Sing	11	appos	_	_
 13	en	en	CCONJ	Conj|neven	_	14	cc	_	_
 14	aanvoerder	aanvoerder	NOUN	N|soort|ev|neut	Number=Sing	6	conj	_	_
@@ -13787,7 +13787,7 @@
 2	speel	speel	VERB	V|trans|ott|1|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Subcat=Tran|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	zelf	zelf	PRON	Pron|aanw|neut|attr|wzelf	PronType=Dem	2	obl	_	_
 4	heel	heel	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	5	advmod	_	_
-5	graag	graag	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	advmod	_	_
+5	graag	graag	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	2	obl	_	_
 6	op	op	ADP	Prep|voor	AdpType=Prep	8	case	_	_
 7	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	8	det	_	_
 8	middenveld	middenveld	NOUN	N|soort|ev|neut	Number=Sing	2	obl	_	SpaceAfter=No
@@ -13958,7 +13958,7 @@
 8	percentage	percentage	NOUN	N|soort|ev|neut	Number=Sing	12	nsubj	_	_
 9	al	al	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	_
 10	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	11	advmod	_	_
-11	veel	veel	PRON	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	12	advmod	_	_
+11	veel	veel	DET	Num|hoofd|onbep|attr|stell|onverv	Degree=Pos|NumType=Card|PronType=Ind	12	obl	_	_
 12	beter	goed	ADJ	Adj|attr|vergr|onverv	Degree=Cmp	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	Punc|punt	PunctType=Peri	12	punct	_	_
 
@@ -14025,11 +14025,11 @@
 8	intertoto-competitie	intertoto_competitie	NOUN	N|soort|ev|neut	Number=Sing	5	nmod	_	_
 9	tegen	tegen	ADP	Prep|voor	AdpType=Prep	12	case	_	_
 10	het	het	DET	Art|bep|onzijd|neut	Definite=Def|Gender=Neut|PronType=Art	12	det	_	_
-11	Letse	Lets	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	12	advmod	_	_
+11	Letse	Lets	ADJ	Adj|attr|stell|vervneut	Case=Nom|Degree=Pos	12	obl	_	_
 12	Liepajas	Liepajas	PROPN	N_N|eigen|ev|neut_eigen|ev|neut	_	5	nmod	_	MWE=Liepajas_Metalurgs|MWEPOS=X
 13	Metalurgs	Metalurgs	PROPN	PROPN	_	12	flat	_	_
 14	met	met	ADP	Prep|voor	AdpType=Prep	15	case	_	_
-15	3-2	3-2	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	16	advmod	_	_
+15	3-2	3-2	NUM	Num|hoofd|bep|zelfst|onverv	Definite=Def|NumType=Card	16	obl	_	_
 16	verloren	verlies	VERB	V|trans|verldw|onverv	Subcat=Tran|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	Punc|punt	PunctType=Peri	16	punct	_	_
 
@@ -14094,7 +14094,7 @@
 1	Heerenveen	Heerenveen	PROPN	N|eigen|ev|neut	Number=Sing	2	nsubj	_	_
 2	zette	zet_in	VERB	V|trans|ovt|1of2of3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Subcat=Tran|Tense=Past|VerbForm=Fin	0	root	_	_
 3	opnieuw	opnieuw	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	2	advmod	_	_
-4	verdienstelijk	verdienstelijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	2	advmod	_	_
+4	verdienstelijk	verdienstelijk	ADJ	Adj|attr|stell|onverv	Degree=Pos	2	obl	_	_
 5	in	in	ADV	Adv|deelv	PartType=Vbp	2	compound:prt	_	SpaceAfter=No
 6	.	.	PUNCT	Punc|punt	PunctType=Peri	2	punct	_	_
 
@@ -14180,7 +14180,7 @@
 10	in	in	ADP	Prep|voor	AdpType=Prep	11	case	_	_
 11	Kopenhagen	Kopenhagen	PROPN	N|eigen|ev|neut	Number=Sing	9	nmod	_	_
 12	hun	hun	PRON	Pron|bez|3|mv|neut|attr	Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	nmod	_	_
-13	meerdere	meerder	PRON	Num	Case=Nom|Degree=Cmp|NumType=Card|PronType=Ind	16	obj	_	_
+13	meerdere	meerder	DET	Num	Case=Nom|Degree=Cmp|NumType=Card|PronType=Ind	16	obj	_	_
 14	in	in	ADP	Prep|voor	AdpType=Prep	15	case	_	_
 15	Groenland	Groenland	PROPN	N|eigen|ev|neut	Number=Sing	16	obj	_	_
 16	erkennen	erken	AUX	V|trans|ott|1of2of3|mv	Aspect=Imp|Mood=Ind|Number=Plur|Subcat=Tran|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
@@ -14196,7 +14196,7 @@
 3	zal	zal	VERB	V|hulp|ott|3|ev	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|VerbType=Mod	0	root	_	_
 4	overigens	overigens	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
 5	niet	niet	ADV	Adv|gew|geenfunc|stell|onverv	Degree=Pos	10	advmod	_	_
-6	officieel	officieel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	advmod	_	_
+6	officieel	officieel	ADJ	Adj|adv|stell|onverv	Degree=Pos|Variant=Short	10	obl	_	_
 7	in	in	ADP	Prep|voor	AdpType=Prep	9	case	_	_
 8	de	de	DET	Art|bep|zijdofmv|neut	Definite=Def|PronType=Art	9	det	_	_
 9	boeken	boek	NOUN	N|soort|mv|neut	Number=Plur	10	obl	_	_
