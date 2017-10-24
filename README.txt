@@ -1,11 +1,17 @@
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
 License: CC BY-SA 4.0
+Includes text: yes
 Genre: news
-Contributors: Zeman, Daniel; Žabokrtský, Zdeněk
-Contact: zeman@ufal.mff.cuni.cz
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Zeman, Daniel; Žabokrtský, Zdeněk; Bouma, Gosse; van Noord, Gertjan
+Contributing: elsewhere
+Contact: g.bouma@rug.nl
+Paragraphs to web: 5
 ===============================================================================
 
 The UD Dutch treebank is based on the Alpino treebank.
@@ -14,16 +20,15 @@ was taken and converted to the Prague dependency style as a part of HamleDT (sin
 Later versions of HamleDT added a conversion to the Stanford dependencies (2014) and to
 Universal Dependencies (HamleDT 3.0, 2015). The conversion path from the original Alpino still
 goes through the CoNLL-X format and the Prague dependencies, which may occasionally lead to
-loss of information. The first release of Universal Dependencies that includes this treebank
-is UD v1.2 in November 2015. It is essentially the HamleDT conversion but the data is not
-identical to HamleDT 3.0 because the conversion procedure has been further improved.
+loss of information. The first release of Universal Dependencies that included this treebank
+was UD v1.2 in November 2015. It was essentially the HamleDT conversion but the data was not
+identical to HamleDT 3.0 because the conversion procedure had been further improved.
 
-Alpino and the Dutch CoNLL-X data were released under the GNU GPL license, hence that license
-can be used for UD_Dutch as well. However, since GPL is more suitable for programs than for
-data (see https://github.com/UniversalDependencies/docs/issues/296 for a discussion), we asked
-for and Gertjan van Noord was kind enough to grant the permission to use the Creative Commons
-license as an alternative.
-
+The data was thoroughly revised by Gosse Bouma and Gertjan van Noord for UD 2.1 in November 2017.
+The new version was created using the same conversion script as was used for Dutch LassySmall.
+As sources, we used the (manually corrected) Alpino treebank annotation for this material as it is
+available in Groningen. Links to original files have been added. Note that tokenization may differ
+from the previous UD version.
 
 References:
 
@@ -44,6 +49,15 @@ http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and f
 
 Changelog
 
+2017-11-15 v2.1
+  * First version of thorougly revised data.
+    It was created using the same conversion script as is being used for Dutch
+    LassySmall. As sources, we used the (manually corrected) Alpino treebank
+    annotation for this material as it is available in Groningen. Links to
+    original files have been added. Issues:
+    * tokenization may differ from the previous version.
+    * some sentences are missing in the Alpino treebanks. In those cases UD 2.0
+      annotation has been preserved.
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET.
