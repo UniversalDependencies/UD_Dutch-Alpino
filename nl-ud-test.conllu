@@ -210,7 +210,7 @@
 15	nood	nood	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	22	obj	_	_
 16	in	in	ADP	VZ|init	_	18	case	_	_
 17	de	de	DET	LID|bep|stan|rest	Definite=Def	18	det	_	_
-18	Derde	drie	NUM	TW|rang|prenom|stan	_	15	nmod	_	_
+18	Derde	drie	ADJ	TW|rang|prenom|stan	_	15	nmod	_	_
 19	Wereld	wereld	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	fixed	_	_
 20	te	te	ADP	VZ|init	_	21	mark	_	_
 21	helpen	helpen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	8	acl	_	_
@@ -401,7 +401,7 @@
 8	bijdrage	bijdrage	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	_	_
 9	aan	aan	ADP	VZ|init	_	11	case	_	_
 10	de	de	DET	LID|bep|stan|rest	Definite=Def	11	det	_	_
-11	protestbeweging	protestbeweging	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	iobj	_	SpaceAfter=No
+11	protestbeweging	protestbeweging	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No
 12	.	.	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000005_WR-P-P-H-0000000005.p.7.s.3.xml
@@ -1071,7 +1071,7 @@
 13	,	,	PUNCT	LET	_	18	punct	_	_
 14	in	in	ADP	VZ|init	_	18	case	_	_
 15	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	_	_
-16	eerste	één	NUM	TW|rang|prenom|stan	_	18	nummod	_	_
+16	eerste	één	ADJ	TW|rang|prenom|stan	_	18	amod	_	_
 17	drukke	druk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	18	amod	_	_
 18	vakantieweekeinde	vakantieweekeinde	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	3	punct	_	_
@@ -1209,7 +1209,7 @@
 8	aanvaard	aanvaarden	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
 9	op	op	ADP	VZ|init	_	13	case	_	_
 10	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	_	_
-11	eerste	één	NUM	TW|rang|prenom|stan	_	13	nummod	_	_
+11	eerste	één	ADJ	TW|rang|prenom|stan	_	13	amod	_	_
 12	internationale	internationaal	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	13	amod	_	_
 13	conferentie	conferentie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	_	_
 14	van	van	ADP	VZ|init	_	15	case	_	_
@@ -2036,7 +2036,7 @@
 20	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	21	aux	_	_
 21	doorgespeeld	doorspelen	VERB	WW|vd|vrij|zonder	VerbForm=Part	14	csubj	_	_
 22	aan	aan	ADP	VZ|init	_	23	case	_	_
-23	Moskou	Moskou	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	21	iobj	_	SpaceAfter=No
+23	Moskou	Moskou	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	21	obl	_	SpaceAfter=No
 24	,	,	PUNCT	LET	_	14	punct	_	_
 25	moesten	moeten	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 26	vijfhonderd	vijfhonderd	NUM	TW|hoofd|prenom|stan	_	27	nummod	_	_
@@ -2044,7 +2044,7 @@
 28	aan	aan	ADP	VZ|init	_	31	case	_	_
 29	het	het	DET	LID|bep|stan|evon	Definite=Def	31	det	_	_
 30	technische	technisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	31	amod	_	_
-31	wondermiddel	wondermiddel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	32	iobj	_	_
+31	wondermiddel	wondermiddel	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	32	obl	_	_
 32	vertellen	vertellen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	25	xcomp	_	_
 33	of	of	SCONJ	VG|onder	_	35	mark	_	_
 34	ze	ze	PRON	VNW|pers|pron|stan|red|3|mv	Person=3|PronType=Prs	35	nsubj	_	_
@@ -2291,7 +2291,7 @@
 10	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	14	obj	_	_
 11	aan	aan	ADP	VZ|init	_	13	case	_	_
 12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	_	_
-13	leden	lid	NOUN	N|soort|mv|basis	Number=Plur	14	iobj	_	_
+13	leden	lid	NOUN	N|soort|mv|basis	Number=Plur	14	obl	_	_
 14	gevraagd	vragen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 15	.	.	PUNCT	LET	_	14	punct	_	_
 
@@ -3221,7 +3221,7 @@
 4	gegeven	geven	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	_
 5	aan	aan	ADP	VZ|init	_	7	case	_	_
 6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	_
-7	ombouwactiviteiten	ombouwactiviteit	NOUN	N|soort|mv|basis	Number=Plur	4	iobj	_	_
+7	ombouwactiviteiten	ombouwactiviteit	NOUN	N|soort|mv|basis	Number=Plur	4	obl	_	_
 8	die	die	PRON	VNW|betr|pron|stan|vol|persoon|getal	PronType=Rel	15	nsubj	_	_
 9	het	het	DET	LID|bep|stan|evon	Definite=Def	11	det	_	_
 10	noodlijdende	noodlijdend	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	_	_
@@ -3344,7 +3344,7 @@
 5	15	15	NUM	TW|hoofd|vrij	_	3	obl	_	_
 6	mei	mei	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	flat:name	_	_
 7	het	het	DET	LID|bep|stan|evon	Definite=Def	10	det	_	_
-8	eerste	één	NUM	TW|rang|prenom|stan	_	10	nummod	_	_
+8	eerste	één	ADJ	TW|rang|prenom|stan	_	10	amod	_	_
 9	omgebouwde	ombouwen	VERB	WW|vd|prenom|met-e	VerbForm=Part	10	amod	_	_
 10	filiaal	filiaal	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	nsubj	_	_
 11	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	12	det	_	_
@@ -3403,7 +3403,7 @@
 11	,	,	PUNCT	LET	_	1	punct	_	_
 12	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	16	aux	_	_
 13	de	de	DET	LID|bep|stan|rest	Definite=Def	15	det	_	_
-14	eerste	één	NUM	TW|rang|prenom|stan	_	15	nummod	_	_
+14	eerste	één	ADJ	TW|rang|prenom|stan	_	15	amod	_	_
 15	evaluatie	evaluatie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nsubj	_	_
 16	plaatsvinden	plaatsvinden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
 17	.	.	PUNCT	LET	_	16	punct	_	_
@@ -3825,7 +3825,7 @@
 5	nu	nu	ADV	BW	_	3	advmod	_	_
 6	vanaf	vanaf	ADP	VZ|init	_	9	case	_	_
 7	het	het	DET	LID|bep|stan|evon	Definite=Def	9	det	_	_
-8	eerste	één	NUM	TW|rang|prenom|stan	_	9	nummod	_	_
+8	eerste	één	ADJ	TW|rang|prenom|stan	_	9	amod	_	_
 9	begin	begin	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	obl	_	_
 10	bedrijfsbreed	bedrijfsbreed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	3	advmod	_	_
 11	met	met	ADP	VZ|init	_	12	case	_	_
@@ -4022,7 +4022,7 @@
 7	brief	brief	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obl	_	_
 8	aan	aan	ADP	VZ|init	_	10	case	_	_
 9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	_
-10	Tweede	twee	NUM	TW|rang|prenom|stan	_	7	nmod	_	_
+10	Tweede	twee	ADJ	TW|rang|prenom|stan	_	7	nmod	_	_
 11	Kamer	kamer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	fixed	_	_
 12	dat	dat	SCONJ	VG|onder	_	24	mark	_	_
 13	de	de	DET	LID|bep|stan|rest	Definite=Def	14	det	_	_
@@ -4050,7 +4050,7 @@
 7	NS	NS	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nsubj	_	_
 8	in	in	ADP	VZ|init	_	11	case	_	_
 9	het	het	DET	LID|bep|stan|evon	Definite=Def	11	det	_	_
-10	tweede	twee	NUM	TW|rang|prenom|stan	_	11	nummod	_	_
+10	tweede	twee	ADJ	TW|rang|prenom|stan	_	11	amod	_	_
 11	kwartaal	kwartaal	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	16	obl	_	_
 12	niet	niet	ADV	BW	_	16	advmod	_	_
 13	beter	goed	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	16	advmod	_	_
@@ -4061,7 +4061,7 @@
 18	opzichte	opzicht	NOUN	N|soort|ev|basis|dat	Number=Sing	17	fixed	_	_
 19	van	van	ADP	VZ|init	_	17	fixed	_	_
 20	het	het	DET	LID|bep|stan|evon	Definite=Def	22	det	_	_
-21	eerste	één	NUM	TW|rang|prenom|stan	_	22	nummod	_	_
+21	eerste	één	ADJ	TW|rang|prenom|stan	_	22	amod	_	_
 22	kwartaal	kwartaal	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	16	obj	_	_
 23	.	.	PUNCT	LET	_	4	punct	_	_
 
@@ -4152,7 +4152,7 @@
 # text = In het eerste kwartaal reed 83,3 procent van de treinen op tijd.
 1	In	in	ADP	VZ|init	_	4	case	_	_
 2	het	het	DET	LID|bep|stan|evon	Definite=Def	4	det	_	_
-3	eerste	één	NUM	TW|rang|prenom|stan	_	4	nummod	_	_
+3	eerste	één	ADJ	TW|rang|prenom|stan	_	4	amod	_	_
 4	kwartaal	kwartaal	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	5	obl	_	_
 5	reed	rijden	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	83,3	83,3	NUM	TW|hoofd|prenom|stan	_	7	nummod	_	_
@@ -4172,7 +4172,7 @@
 4	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	10	nsubj	_	_
 5	in	in	ADP	VZ|init	_	8	case	_	_
 6	het	het	DET	LID|bep|stan|evon	Definite=Def	8	det	_	_
-7	tweede	twee	NUM	TW|rang|prenom|stan	_	8	nummod	_	_
+7	tweede	twee	ADJ	TW|rang|prenom|stan	_	8	amod	_	_
 8	kwartaal	kwartaal	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	10	obl	_	_
 9	niet	niet	ADV	BW	_	10	advmod	_	_
 10	beter	goed	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	2	ccomp	_	_
@@ -4312,9 +4312,9 @@
 31	vergadering	vergadering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	39	obl	_	_
 32	van	van	ADP	VZ|init	_	34	case	_	_
 33	de	de	DET	LID|bep|stan|rest	Definite=Def	34	det	_	_
-34	Eerste	één	NUM	TW|rang|prenom|stan	_	31	nmod	_	_
+34	Eerste	één	ADJ	TW|rang|prenom|stan	_	31	nmod	_	_
 35	en	en	CCONJ	VG|neven	_	34	fixed	_	_
-36	Tweede	twee	NUM	TW|rang|prenom|stan	_	34	fixed	_	_
+36	Tweede	twee	ADJ	TW|rang|prenom|stan	_	34	fixed	_	_
 37	Kamer	kamer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	34	fixed	_	_
 38	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	39	aux:pass	_	_
 39	gehouden	houden	VERB	WW|vd|vrij|zonder	VerbForm=Part	23	acl:relcl	_	SpaceAfter=No
@@ -4530,7 +4530,7 @@
 4	vooraf	vooraf	ADV	BW	_	11	advmod	_	_
 5	aan	aan	ADP	VZ|init	_	7	case	_	_
 6	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	_
-7	voorzitter	voorzitter	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	iobj	_	_
+7	voorzitter	voorzitter	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	obl	_	_
 8	van	van	ADP	VZ|init	_	10	case	_	_
 9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	_
 10	vergadering	vergadering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nmod	_	_
@@ -4587,7 +4587,7 @@
 6	toestemmingswet	toestemmingswet	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obj	_	_
 7	aan	aan	ADP	VZ|init	_	9	case	_	_
 8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	_	_
-9	Tweede	twee	NUM	TW|rang|prenom|stan	_	12	iobj	_	_
+9	Tweede	twee	ADJ	TW|rang|prenom|stan	_	12	obl	_	_
 10	Kamer	kamer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	fixed	_	_
 11	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	12	aux	_	_
 12	gestuurd	sturen	VERB	WW|vd|vrij|zonder	VerbForm=Part	14	advcl	_	SpaceAfter=No
@@ -4973,7 +4973,7 @@
 5	zich	zich	PRON	VNW|refl|pron|obl|red|3|getal	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	13	obj	_	_
 6	gisteren	gisteren	ADV	BW	_	13	advmod	_	_
 7	als	als	ADP	VZ|init	_	9	mark	_	_
-8	eerste	één	NUM	TW|rang|prenom|stan	_	9	nummod	_	_
+8	eerste	één	ADJ	TW|rang|prenom|stan	_	9	amod	_	_
 9	landen	land	NOUN	N|soort|mv|basis	Number=Plur	13	advcl	_	_
 10	op	op	ADP	VZ|init	_	12	case	_	_
 11	het	het	DET	LID|bep|stan|evon	Definite=Def	12	det	_	_
@@ -5046,11 +5046,11 @@
 2	München	München	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	1	flat:name	_	_
 3	heeft	hebben	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	22	aux	_	_
 4	de	de	DET	LID|bep|stan|rest	Definite=Def	6	det	_	_
-5	eerste	één	NUM	TW|rang|prenom|stan	_	6	nummod	_	_
+5	eerste	één	ADJ	TW|rang|prenom|stan	_	6	amod	_	_
 6	wedstrijd	wedstrijd	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	22	obj	_	_
 7	in	in	ADP	VZ|init	_	10	case	_	_
 8	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	_
-9	tweede	twee	NUM	TW|rang|prenom|stan	_	10	nummod	_	_
+9	tweede	twee	ADJ	TW|rang|prenom|stan	_	10	amod	_	_
 10	ronde	ronde	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nmod	_	_
 11	van	van	ADP	VZ|init	_	13	case	_	_
 12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	_	_
@@ -5235,7 +5235,7 @@
 4	deze	deze	DET	VNW|aanw|det|stan|prenom|met-e|rest	_	5	det	_	_
 5	scholen	school	NOUN	N|soort|mv|basis	Number=Plur	8	obl	_	_
 6	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	_	_
-7	tweede	twee	NUM	TW|rang|prenom|stan	_	8	nummod	_	_
+7	tweede	twee	ADJ	TW|rang|prenom|stan	_	8	amod	_	_
 8	taal	taal	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	LET	_	8	punct	_	_
 
@@ -5503,7 +5503,7 @@
 3	viel	vallen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 4	in	in	ADP	VZ|init	_	7	case	_	_
 5	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	_
-6	32ste	32	NUM	TW|rang|prenom|stan	_	7	nummod	_	_
+6	32ste	32	ADJ	TW|rang|prenom|stan	_	7	amod	_	_
 7	minuut	minuut	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obl	_	_
 8	uit	uit	ADP	VZ|init	_	10	case	_	_
 9	een	een	DET	LID|onbep|stan|agr	Definite=Ind	10	det	_	_
@@ -5519,7 +5519,7 @@
 1	Het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	5	nsubj	_	_
 2	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	_
 3	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	_	_
-4	eerste	één	NUM	TW|rang|prenom|stan	_	5	nummod	_	_
+4	eerste	één	ADJ	TW|rang|prenom|stan	_	5	amod	_	_
 5	interland	interland	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	_
 6	van	van	ADP	VZ|init	_	10	case	_	_
 7	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	_
@@ -5559,14 +5559,14 @@
 2	ploeg	ploeg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj	_	_
 3	staat	staan	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	5	cop	_	_
 4	nog	nog	ADV	BW	_	5	advmod	_	_
-5	vierde	vier	NUM	TW|rang|nom|zonder-n	_	0	root	_	SpaceAfter=No
+5	vierde	vier	ADJ	TW|rang|nom|zonder-n	_	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	LET	_	7	punct	_	_
 7	maar	maar	CCONJ	VG|neven	_	5	cc	_	_
 8	inmiddels	inmiddels	ADV	BW	_	9	advmod	_	_
 9	staat	staan	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	5	conj	_	_
 10	Uruguay	Uruguay	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	nsubj	_	_
 11	(	(	PUNCT	LET	_	12	punct	_	SpaceAfter=No
-12	vijfde	vijf	NUM	TW|rang|nom|zonder-n	_	10	nummod	_	SpaceAfter=No
+12	vijfde	vijf	ADJ	TW|rang|nom|zonder-n	_	10	amod	_	SpaceAfter=No
 13	)	)	PUNCT	LET	_	12	punct	_	_
 14	in	in	ADP	VZ|init	_	15	case	_	_
 15	punten	punt	NOUN	N|soort|mv|basis	Number=Plur	9	obl	_	_
@@ -5577,7 +5577,7 @@
 # text = Alleen de eerste vier ploegen uit de Zuid-Amerikaanse poule plaatsen zich voor de eindronde.
 1	Alleen	alleen	ADV	BW	_	5	amod	_	_
 2	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	_	_
-3	eerste	één	NUM	TW|rang|prenom|stan	_	5	nummod	_	_
+3	eerste	één	ADJ	TW|rang|prenom|stan	_	5	amod	_	_
 4	vier	vier	NUM	TW|hoofd|prenom|stan	_	5	nummod	_	_
 5	ploegen	ploeg	NOUN	N|soort|mv|basis	Number=Plur	10	nsubj	_	_
 6	uit	uit	ADP	VZ|init	_	9	case	_	_
@@ -5848,7 +5848,7 @@
 4	heeft	hebben	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	15	aux	_	_
 5	in	in	ADP	VZ|init	_	8	case	_	_
 6	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	_	_
-7	eerste	één	NUM	TW|rang|prenom|stan	_	8	nummod	_	_
+7	eerste	één	ADJ	TW|rang|prenom|stan	_	8	amod	_	_
 8	helft	helft	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	obl	_	_
 9	van	van	ADP	VZ|init	_	11	case	_	_
 10	dit	dit	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	11	det	_	_
@@ -6433,7 +6433,7 @@
 2	-	-	PUNCT	LET	_	1	punct	_	_
 3	Voor	voor	ADP	VZ|init	_	14	obl	_	_
 4	het	het	DET	LID|bep|stan|evon	Definite=Def	3	fixed	_	_
-5	eerst	één	NUM	TW|rang|nom|zonder-n	_	3	fixed	_	_
+5	eerst	één	ADJ	TW|rang|nom|zonder-n	_	3	fixed	_	_
 6	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
 7	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	14	advmod	_	_
 8	op	op	ADP	VZ|init	_	9	case	_	_
@@ -6496,7 +6496,7 @@
 8	invulling	invulling	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obj	_	_
 9	aan	aan	ADP	VZ|init	_	11	case	_	_
 10	het	het	DET	LID|bep|stan|evon	Definite=Def	11	det	_	_
-11	thema	thema	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	iobj	_	_
+11	thema	thema	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	4	obl	_	_
 12	'	'	PUNCT	LET	_	13	punct	_	SpaceAfter=No
 13	Bevrijding	bevrijding	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	appos	_	SpaceAfter=No
 14	,	,	PUNCT	LET	_	15	punct	_	_
@@ -6756,7 +6756,7 @@
 4	kunnen	kunnen	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	13	aux	_	_
 5	in	in	ADP	VZ|init	_	8	case	_	_
 6	het	het	DET	LID|bep|stan|evon	Definite=Def	8	det	_	_
-7	eerste	één	NUM	TW|rang|prenom|stan	_	8	nummod	_	_
+7	eerste	één	ADJ	TW|rang|prenom|stan	_	8	amod	_	_
 8	levensjaar	levensjaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	13	obl	_	_
 9	op	op	ADP	VZ|init	_	11	case	_	_
 10	het	het	DET	LID|bep|stan|evon	Definite=Def	11	det	_	_
@@ -7000,7 +7000,7 @@
 13	momenteel	momenteel	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	17	advmod	_	_
 14	uitsluitend	uitsluitend	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	17	advmod	_	_
 15	aan	aan	ADP	VZ|init	_	16	case	_	_
-16	risicogroepen	risicogroep	NOUN	N|soort|mv|basis	Number=Plur	17	iobj	_	_
+16	risicogroepen	risicogroep	NOUN	N|soort|mv|basis	Number=Plur	17	obl	_	_
 17	gegeven	geven	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	LET	_	17	punct	_	_
 
@@ -8443,7 +8443,7 @@
 10	Nederland	Nederland	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	18	obl	_	_
 11	aan	aan	ADP	VZ|init	_	13	case	_	_
 12	alle	al	DET	VNW|onbep|det|stan|prenom|met-e|agr	_	13	det	_	_
-13	kinderen	kind	NOUN	N|soort|mv|basis	Number=Plur	18	iobj	_	_
+13	kinderen	kind	NOUN	N|soort|mv|basis	Number=Plur	18	obl	_	_
 14	op	op	ADP	VZ|init	_	16	case	_	_
 15	dezelfde	dezelfde	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	16	det	_	_
 16	wijze	wijze	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	obl	_	_
@@ -9243,7 +9243,7 @@
 7	voor	voor	ADP	VZ|fin	_	3	compound:prt	_	_
 8	aan	aan	ADP	VZ|init	_	10	case	_	_
 9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	_
-10	gemeente	gemeente	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	iobj	_	_
+10	gemeente	gemeente	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obl	_	_
 11	en	en	CCONJ	VG|neven	_	3	cc	_	_
 12	vraagt	vragen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	3	conj	_	_
 13	om	om	ADP	VZ|init	_	15	case	_	_
@@ -9488,7 +9488,7 @@
 4	worden	worden	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
 5	aan	aan	ADP	VZ|init	_	7	case	_	_
 6	ieder	ieder	DET	VNW|onbep|det|stan|prenom|zonder|evon	_	7	det	_	_
-7	kind	kind	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	iobj	_	_
+7	kind	kind	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	obl	_	_
 8	aangeboden	aanbieden	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	LET	_	8	punct	_	_
 
@@ -9516,7 +9516,7 @@
 # sent_id = LassySmall4_WR-P-P-L-0000000003_WR-P-P-L-0000000003.p.28.s.3.xml
 # text = De eerste screening is het zogenoemde hielprikje.
 1	De	de	DET	LID|bep|stan|rest	Definite=Def	3	det	_	_
-2	eerste	één	NUM	TW|rang|prenom|stan	_	3	nummod	_	_
+2	eerste	één	ADJ	TW|rang|prenom|stan	_	3	amod	_	_
 3	screening	screening	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj	_	_
 4	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	7	cop	_	_
 5	het	het	DET	LID|bep|stan|evon	Definite=Def	7	det	_	_
@@ -10063,13 +10063,13 @@
 7	aan	aan	ADP	VZ|init	_	10	case	_	_
 8	een	een	DET	LID|onbep|stan|agr	Definite=Ind	10	det	_	_
 9	jong	jong	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	10	amod	_	_
-10	gezin	gezin	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	iobj	_	_
+10	gezin	gezin	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	obl	_	_
 11	dat	dat	PRON	VNW|betr|pron|stan|vol|3|ev	Person=3|PronType=Rel	21	nsubj	_	_
 12	twee	twee	NUM	TW|hoofd|prenom|stan	_	13	nummod	_	_
 13	weken	week	NOUN	N|soort|mv|basis	Number=Plur	14	nmod	_	_
 14	geleden	geleden	ADV	BW	_	21	advmod	_	_
 15	de	de	DET	LID|bep|stan|rest	Definite=Def	17	det	_	_
-16	eerste	één	NUM	TW|rang|prenom|stan	_	17	nummod	_	_
+16	eerste	één	ADJ	TW|rang|prenom|stan	_	17	amod	_	_
 17	dochter	dochter	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	obj	_	SpaceAfter=No
 18	,	,	PUNCT	LET	_	19	punct	_	_
 19	Saartje	Saartje	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	appos	_	SpaceAfter=No
@@ -10259,7 +10259,7 @@
 1	Al	al	ADV	BW	_	5	amod	_	_
 2	sinds	sinds	ADP	VZ|init	_	5	case	_	_
 3	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|PronType=Prs	5	det	_	_
-4	eerste	één	NUM	TW|rang|prenom|stan	_	5	nummod	_	_
+4	eerste	één	ADJ	TW|rang|prenom|stan	_	5	amod	_	_
 5	verjaardag	verjaardag	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	obl	_	_
 6	worden	worden	AUX	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
 7	Harm	Harm	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	nsubj:pass	_	_
@@ -10494,7 +10494,7 @@
 14	eenmalig	eenmalig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	19	advmod	_	_
 15	bij	bij	ADP	VZ|init	_	18	case	_	_
 16	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	_	_
-17	eerste	één	NUM	TW|rang|prenom|stan	_	18	nummod	_	_
+17	eerste	één	ADJ	TW|rang|prenom|stan	_	18	amod	_	_
 18	contact	contact	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	19	obl	_	_
 19	geregistreerd	registreren	VERB	WW|vd|vrij|zonder	VerbForm=Part	20	xcomp	_	_
 20	moeten	moeten	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
@@ -11464,7 +11464,7 @@
 12	protocol	protocol	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	10	nsubj	_	_
 13	van	van	ADP	VZ|init	_	15	case	_	_
 14	de	de	DET	LID|bep|stan|rest	Definite=Def	15	det	_	_
-15	Vierde	vier	NUM	TW|rang|prenom|stan	_	12	nmod	_	_
+15	Vierde	vier	ADJ	TW|rang|prenom|stan	_	12	nmod	_	_
 16	Landelijke	landelijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	15	fixed	_	_
 17	Groeistudie	groeistudie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	fixed	_	_
 18	de	de	DET	LID|bep|stan|rest	Definite=Def	19	det	_	_
@@ -11472,7 +11472,7 @@
 20	zijn	zijn	AUX	WW|inf|vrij|zonder	VerbForm=Inf	19	cop	_	_
 21	voor	voor	ADP	VZ|init	_	23	case	_	_
 22	de	de	DET	LID|bep|stan|rest	Definite=Def	23	det	_	_
-23	vijfde	vijf	NUM	TW|rang|nom|zonder-n	_	19	nmod	_	SpaceAfter=No
+23	vijfde	vijf	ADJ	TW|rang|nom|zonder-n	_	19	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-L-0000000003_WR-P-P-L-0000000003.p.64.s.1.xml
@@ -11772,7 +11772,7 @@
 10	kabinet	kabinet	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	nsubj	_	_
 11	en	en	CCONJ	VG|neven	_	10	cc	_	_
 12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	_	_
-13	Tweede	twee	NUM	TW|rang|prenom|stan	_	10	conj	_	_
+13	Tweede	twee	ADJ	TW|rang|prenom|stan	_	10	conj	_	_
 14	Kamer	kamer	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	fixed	_	_
 15	in	in	ADP	VZ|init	_	16	case	_	_
 16	november	november	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	_	_
@@ -11883,9 +11883,9 @@
 12	factoren	factor	NOUN	N|soort|mv|basis	Number=Plur	6	nmod	_	_
 13	in	in	ADP	VZ|init	_	18	case	_	_
 14	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	_	_
-15	eerste	één	NUM	TW|rang|prenom|stan	_	18	nmod	_	_
+15	eerste	één	ADJ	TW|rang|prenom|stan	_	18	nmod	_	_
 16	en	en	CCONJ	VG|neven	_	15	cc	_	_
-17	tweede	twee	NUM	TW|rang|prenom|stan	_	15	conj	_	_
+17	tweede	twee	ADJ	TW|rang|prenom|stan	_	15	conj	_	_
 18	milieu	milieu	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	3	punct	_	_
 
@@ -12773,7 +12773,7 @@
 # text = In het eerste geval bepaalt het hebben van een bepaalde aandoening of handicap dat een individu tot een risicogroep behoort.
 1	In	in	ADP	VZ|init	_	4	case	_	_
 2	het	het	DET	LID|bep|stan|evon	Definite=Def	4	det	_	_
-3	eerste	één	NUM	TW|rang|prenom|stan	_	4	nummod	_	_
+3	eerste	één	ADJ	TW|rang|prenom|stan	_	4	amod	_	_
 4	geval	geval	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	5	obl	_	_
 5	bepaalt	bepalen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	het	het	DET	LID|bep|stan|evon	Definite=Def	7	det	_	_
@@ -12797,7 +12797,7 @@
 # text = In het tweede geval bepalen achtergrondvariabelen dat.
 1	In	in	ADP	VZ|init	_	4	case	_	_
 2	het	het	DET	LID|bep|stan|evon	Definite=Def	4	det	_	_
-3	tweede	twee	NUM	TW|rang|prenom|stan	_	4	nummod	_	_
+3	tweede	twee	ADJ	TW|rang|prenom|stan	_	4	amod	_	_
 4	geval	geval	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	5	obl	_	_
 5	bepalen	bepalen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	achtergrondvariabelen	achtergrondvariabele	NOUN	N|soort|mv|basis	Number=Plur	5	nsubj	_	_
