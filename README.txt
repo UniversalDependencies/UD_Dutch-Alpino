@@ -30,12 +30,18 @@ As sources, we used the (manually corrected) Alpino treebank annotation for this
 available in Groningen. Links to original files have been added. Note that tokenization may differ
 from the previous UD version.
 
+The conversion script can be found here: https://github.com/gossebouma/lassy2ud
+
 References:
 
 http://odur.let.rug.nl/~vannoord/trees/
 http://ufal.mff.cuni.cz/hamledt ... HamleDT
 http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
 http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
+
+Gosse Bouma and Gertjan van Noord Increasing Return on annotation investment: the automatic construction of a Universal Dependency treebank for Dutch in: Proceedings of the Universal Dependencies Workshop, Gothenburg, 22 May 2017
+http://aclweb.org/anthology/W17-0403
+
 
 @inproceedings{nl,
   author    = {Leonoor van der Beek and Bouma, Gosse and Daciuk, Jan and Gaustad, Tanja and Malouf, Robert and Gertjan van Noord and Prins, Robbert and Villada, Begoña},
