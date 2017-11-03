@@ -8,7 +8,7 @@
 6	omhoog	omhoog	ADV	BW	_	7	advmod	_	_
 7	gegaan	gaan	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	LET	_	7	punct	_	SpaceAfter=No
-9	''	''	PUNCT	LET	_	7	punct	_	SpaceAfter=No
+9	''	''	PUNCT	LET	_	7	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000105_WR-P-P-H-0000000105.p.6.s.1.xml
 # text = De afgelopen week twijfelde ze nog of ze wel moest meedoen aan het NK.
@@ -93,7 +93,7 @@
 17	te	te	ADP	VZ|init	_	18	mark	_	_
 18	houden	houden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	8	punct	_	SpaceAfter=No
-20	''	''	PUNCT	LET	_	8	punct	_	SpaceAfter=No
+20	''	''	PUNCT	LET	_	8	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000105_WR-P-P-H-0000000105.p.7.s.1.xml
 # text = Veertig kilometer voor het einde ontstond een kopgroep met zes vrouwen.
@@ -210,7 +210,7 @@
 4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	5	det	_	_
 5	twijfelaar	twijfelaar	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-7	''	''	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+7	''	''	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000105_WR-P-P-H-0000000105.p.8.s.5.xml
 # text = Gelanceerd door Spijkerman trapte ze naar de titel.
@@ -252,7 +252,7 @@
 4	een	een	DET	LID|onbep|stan|agr	Definite=Ind	5	det	_	_
 5	droom	droom	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-7	''	''	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+7	''	''	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000006_WR-P-P-H-0000000006.p.1.s.2.xml
 # text = Yevgeny Kafelnikov wist dat hij de favoriet was, in de derde-rondepartij tegen de Argentijn Guillermo Canas.
@@ -325,7 +325,7 @@
 4	me	me	PRON	VNW|pr|pron|obl|red|1|ev	Case=Acc|Person=1|PronType=Prs	3	obj	_	_
 5	verliezen	verliezen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
 6	.	.	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-7	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+7	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000006_WR-P-P-H-0000000006.p.2.s.1.xml
 # text = De uitschakeling van de nummer zeven van de plaatsingslijst (3 - 6 6 - 1 6 - 3 7 - 6) was de grootste verrassing bij de mannen dit weekeinde op Wimbledon.
@@ -350,7 +350,7 @@
 19	3	3	NUM	TW|hoofd|vrij	_	17	fixed	_	_
 20	7	7	NUM	TW|hoofd|vrij	_	11	conj	_	_
 21	-	-	PUNCT	LET	_	22	punct	_	_
-22	6	6	NUM	TW|hoofd|vrij	_	20	fixed	_	_
+22	6	6	NUM	TW|hoofd|vrij	_	20	fixed	_	SpaceAfter=No
 23	)	)	PUNCT	LET	_	11	punct	_	_
 24	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	27	cop	_	_
 25	de	de	DET	LID|bep|stan|rest	Definite=Def	27	det	_	_
@@ -450,7 +450,7 @@
 17	zover	zover	ADV	BW	_	16	parataxis	_	_
 18	op	op	ADP	VZ|init	_	19	case	_	_
 19	gras	gras	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	16	parataxis	_	SpaceAfter=No
-20	''	''	PUNCT	LET	_	10	punct	_	SpaceAfter=No
+20	''	''	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000006_WR-P-P-H-0000000006.p.4.s.1.xml
 # text = De baseliner speelde ter voorbereiding op het Grand Slam één grastoernooi.
@@ -461,7 +461,7 @@
 5	voorbereiding	voorbereiding	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	fixed	_	_
 6	op	op	ADP	VZ|init	_	4	fixed	_	_
 7	het	het	DET	LID|bep|stan|evon	Definite=Def	8	det	_	_
-8	Grand	Grand	PROPN	SPEC|deeleigen	_	3	obj	_	_
+8	Grand	Grand	PROPN	SPEC|deeleigen	_	3	obl	_	_
 9	Slam	Slam	PROPN	SPEC|deeleigen	_	8	flat:name	_	_
 10	één	één	NUM	TW|hoofd|prenom|stan	_	11	nummod	_	_
 11	grastoernooi	grastoernooi	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
@@ -621,7 +621,7 @@
 13	kan	kunnen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	aux	_	_
 14	winnen	winnen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
 15	.	.	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-16	''	''	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+16	''	''	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000012_WR-P-P-H-0000000012.p.1.s.2.xml
 # text = Het Nederlands jeugdteam is roemloos, en uiteindelijk op ontluisterende wijze, uitgeschakeld op het wereldkampioenschap onder 20 jaar.
@@ -717,7 +717,7 @@
 23	Van	Van	PROPN	SPEC|deeleigen	_	14	parataxis	_	_
 24	der	der	PROPN	SPEC|deeleigen	_	23	flat:name	_	_
 25	Vaart	Vaart	PROPN	SPEC|deeleigen	_	23	flat:name	_	_
-26	en	en	CCONJ	VG|neven	_	30	cc	_	_
+26	en	en	CCONJ	VG|neven	_	30	cc	_	SpaceAfter=No
 27	,	,	PUNCT	LET	_	26	punct	_	_
 28	in	in	ADP	VZ|init	_	30	case	_	_
 29	de	de	DET	LID|bep|stan|rest	Definite=Def	30	det	_	_
@@ -1129,10 +1129,10 @@
 1	Egypte	Egypte	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	18	nsubj	_	_
 2	had	hebben	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No
 3	,	,	PUNCT	LET	_	2	punct	_	_
-4	conform	conform	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	18	obl	_	_
+4	conform	conform	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	7	case	_	_
 5	de	de	DET	LID|bep|stan|rest	Definite=Def	7	det	_	_
 6	werkelijke	werkelijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	amod	_	_
-7	krachtsverhoudingen	krachtsverhouding	NOUN	N|soort|mv|basis	Number=Plur	18	obj	_	SpaceAfter=No
+7	krachtsverhoudingen	krachtsverhouding	NOUN	N|soort|mv|basis	Number=Plur	18	obl	_	SpaceAfter=No
 8	,	,	PUNCT	LET	_	7	punct	_	_
 9	al	al	ADV	BW	_	18	advmod	_	_
 10	in	in	ADP	VZ|init	_	13	case	_	_
@@ -1158,7 +1158,7 @@
 8	(	(	PUNCT	LET	_	9	punct	_	SpaceAfter=No
 9	1	1	NUM	TW|hoofd|vrij	_	3	obl	_	_
 10	-	-	PUNCT	LET	_	11	punct	_	_
-11	1	1	NUM	TW|hoofd|vrij	_	9	fixed	_	_
+11	1	1	NUM	TW|hoofd|vrij	_	9	fixed	_	SpaceAfter=No
 12	)	)	PUNCT	LET	_	9	punct	_	SpaceAfter=No
 13	,	,	PUNCT	LET	_	16	punct	_	_
 14	na	na	ADP	VZ|init	_	16	case	_	_
@@ -1316,7 +1316,7 @@
 18	na	na	ADP	VZ|init	_	20	case	_	_
 19	een	een	DET	LID|onbep|stan|agr	Definite=Ind	20	det	_	_
 20	overtreding	overtreding	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	obl	_	_
-21	'	'	PUNCT	LET	_	22	punct	_	_
+21	'	'	PUNCT	LET	_	22	punct	_	SpaceAfter=No
 22	rood	rood	ADJ	ADJ|nom|basis|zonder|zonder-n	Degree=Pos	24	obj	_	SpaceAfter=No
 23	'	'	PUNCT	LET	_	22	punct	_	_
 24	zag	zien	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
@@ -1534,7 +1534,7 @@
 14	te	te	ADP	VZ|init	_	15	mark	_	_
 15	houden	houden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	10	csubj	_	SpaceAfter=No
 16	.	.	PUNCT	LET	_	10	punct	_	SpaceAfter=No
-17	''	''	PUNCT	LET	_	10	punct	_	SpaceAfter=No
+17	''	''	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000020_WR-P-P-H-0000000020.p.4.s.1.xml
 # text = Van der Schans hield zich kranig na dé teleurstelling in zijn hippische carrière.
@@ -1603,7 +1603,7 @@
 4	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	5	obj	_	_
 5	verdiend	verdienen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-7	''	''	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+7	''	''	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000020_WR-P-P-H-0000000020.p.5.s.1.xml
 # text = De droom was wellicht minder de droom van Van der Schans dan van het volk dat hem de Europese sjerp al had omgehangen.
@@ -2068,7 +2068,7 @@
 8	goed	goed	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	_	_
 9	aan	aan	ADP	VZ|fin	_	8	compound:prt	_	SpaceAfter=No
 10	.	.	PUNCT	LET	_	8	punct	_	SpaceAfter=No
-11	''	''	PUNCT	LET	_	8	punct	_	SpaceAfter=No
+11	''	''	PUNCT	LET	_	8	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000020_WR-P-P-H-0000000020.p.11.s.4.xml
 # text = En ja, hij was teleurgesteld, maar toch ook tevreden: ,,Vorige week zag het ernaar uit dat ik helemaal niet kon rijden en dan doe je tot het laatst toe mee.
@@ -2159,7 +2159,7 @@
 15	maar	maar	ADV	BW	_	16	advmod	_	_
 16	gelukt	lukken	VERB	WW|vd|vrij|zonder	VerbForm=Part	3	conj	_	SpaceAfter=No
 17	.	.	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-18	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+18	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000020_WR-P-P-H-0000000020.p.12.s.1.xml
 # text = De rijder die vooral voor het jachtparcours van donderdag in de ploeg was opgenomen, werd de redder van het EK.
@@ -2191,9 +2191,9 @@
 1	Want	want	CCONJ	VG|neven	_	17	mark	_	_
 2	zonder	zonder	ADP	VZ|init	_	3	case	_	_
 3	Tops	Tops	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No
-4	,	,	PUNCT	LET	_	5	punct	_	_
-5	minus	minus	ADV	BW	_	3	conj	_	_
-6	Dubbeldam	Dubbeldam	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obj	_	_
+4	,	,	PUNCT	LET	_	6	punct	_	_
+5	minus	minus	ADV	BW	_	6	conj	_	_
+6	Dubbeldam	Dubbeldam	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	conj	_	_
 7	en	en	CCONJ	VG|neven	_	9	cc	_	_
 8	met	met	ADP	VZ|init	_	9	case	_	_
 9	Angelique	Angelique	PROPN	SPEC|deeleigen	_	3	conj	_	_
@@ -2254,7 +2254,7 @@
 17	wel	wel	ADV	BW	_	18	advmod	_	_
 18	tevreden	tevreden	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	3	conj	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-20	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+20	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000020_WR-P-P-H-0000000020.p.13.s.1.xml
 # text = Ook bondscoach Bert Romp was content.
@@ -2309,7 +2309,7 @@
 6	niet	niet	ADV	BW	_	7	advmod	_	_
 7	geselecteerd	selecteren	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	LET	_	7	punct	_	SpaceAfter=No
-9	''	''	PUNCT	LET	_	7	punct	_	SpaceAfter=No
+9	''	''	PUNCT	LET	_	7	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000020_WR-P-P-H-0000000020.p.14.s.1.xml
 # text = Romp bleef ondanks alles positief.
@@ -2458,7 +2458,7 @@
 4	woorden	woord	NOUN	N|soort|mv|basis	Number=Plur	5	nsubj	_	_
 5	nodig	nodig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-7	''	''	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+7	''	''	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.1.s.2.xml
 # text = ,,De boel was niet in de hand te houden.''
@@ -2473,7 +2473,7 @@
 9	te	te	ADP	VZ|init	_	10	mark	_	_
 10	houden	houden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	LET	_	10	punct	_	SpaceAfter=No
-12	''	''	PUNCT	LET	_	10	punct	_	SpaceAfter=No
+12	''	''	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.1.s.3.xml
 # text = Theo de Rooij stond met zijn handen in de zakken.
@@ -2715,7 +2715,7 @@
 14	heeft	hebben	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	15	aux	_	_
 15	gezien	zien	VERB	WW|vd|vrij|zonder	VerbForm=Part	9	ccomp	_	SpaceAfter=No
 16	.	.	PUNCT	LET	_	2	punct	_	SpaceAfter=No
-17	''	''	PUNCT	LET	_	2	punct	_	SpaceAfter=No
+17	''	''	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.3.s.6.xml
 # text = Koerts schonk grinnikend nog een mineraalwatertje in.
@@ -2751,7 +2751,7 @@
 19	hoger	hoog	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	10	conj	_	_
 20	liggen	liggen	AUX	WW|inf|vrij|zonder	VerbForm=Inf	19	cop	_	SpaceAfter=No
 21	.	.	PUNCT	LET	_	10	punct	_	SpaceAfter=No
-22	''	''	PUNCT	LET	_	10	punct	_	SpaceAfter=No
+22	''	''	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.4.s.1.xml
 # text = In de filosofie van de Rabobank past echter geen sprinter.
@@ -2879,7 +2879,7 @@
 15	spelletje	spel	NOUN	N|soort|ev|dim|onz|stan	Gender=Neut|Number=Sing	8	appos	_	_
 16	poker	poker	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	appos	_	SpaceAfter=No
 17	.	.	PUNCT	LET	_	8	punct	_	SpaceAfter=No
-18	''	''	PUNCT	LET	_	8	punct	_	SpaceAfter=No
+18	''	''	PUNCT	LET	_	8	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.5.s.1.xml
 # text = Een meesterzet, zo leek het, want de Bankgiroloterij-ploeg moest kilometerslang aan kop van het peloton sleuren om een hergroepering tot stand te brengen.
@@ -2888,7 +2888,7 @@
 3	,	,	PUNCT	LET	_	4	punct	_	_
 4	zo	zo	ADV	BW	_	2	acl	_	_
 5	leek	lijken	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	_
-6	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	4	nsubj	_	_
+6	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	4	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	LET	_	11	punct	_	_
 8	want	want	CCONJ	VG|neven	_	11	cc	_	_
 9	de	de	DET	LID|bep|stan|rest	Definite=Def	10	det	_	_
@@ -2992,7 +2992,7 @@
 10	hard	hard	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	5	conj	_	_
 11	genoeg	genoeg	ADV	BW	_	10	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	LET	_	6	punct	_	SpaceAfter=No
-13	''	''	PUNCT	LET	_	6	punct	_	SpaceAfter=No
+13	''	''	PUNCT	LET	_	6	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.6.s.1.xml
 # text = Boogerd zelf voelde na een korte rustperiode wel weer kruit in zijn kuiten.
@@ -3060,7 +3060,7 @@
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.7.s.1.xml
 # text = Een 'rotsituatie' vond Boogerd, want verder reden vooral snelle mannen om hem heen: Koerts, Kemna en Van Dijk.
 1	Een	een	DET	LID|onbep|stan|agr	Definite=Ind	3	det	_	_
-2	'	'	PUNCT	LET	_	3	punct	_	_
+2	'	'	PUNCT	LET	_	3	punct	_	SpaceAfter=No
 3	rotsituatie	rotsituatie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	0	root	_	SpaceAfter=No
 4	'	'	PUNCT	LET	_	3	punct	_	_
 5	vond	vinden	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	3	cop	_	_
@@ -3119,7 +3119,7 @@
 12	heeft	hebben	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	13	aux	_	_
 13	geplast	plassen	VERB	WW|vd|vrij|zonder	VerbForm=Part	3	ccomp	_	SpaceAfter=No
 14	.	.	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-15	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+15	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.8.s.1.xml
 # text = De Rooij gaf de Rabo-renners in het peloton uiteindelijk de opdracht het gat dicht te rijden.
@@ -3210,7 +3210,7 @@
 9	uitgebloed	uitbloeden	VERB	WW|vd|vrij|zonder	VerbForm=Part	6	advcl	_	_
 10	waren	zijn	AUX	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
 11	.	.	PUNCT	LET	_	6	punct	_	SpaceAfter=No
-12	''	''	PUNCT	LET	_	6	punct	_	SpaceAfter=No
+12	''	''	PUNCT	LET	_	6	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.9.s.1.xml
 # text = Boogerd leek de pure sprinters nog even te verrassen toen hij in de laatste bocht tien meter voorsprong nam.
@@ -3248,7 +3248,7 @@
 9	heen	heen	ADP	VZ|fin	_	10	compound:prt	_	_
 10	kwamen	komen	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	3	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-12	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+12	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.9.s.3.xml
 # text = Boogerd werd derde, Kemna tweede, maar Koerts was ongenaakbaar.
@@ -3378,7 +3378,7 @@
 19	te	te	ADP	VZ|init	_	20	mark	_	_
 20	krijgen	krijgen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	13	parataxis	_	SpaceAfter=No
 21	.	.	PUNCT	LET	_	10	punct	_	SpaceAfter=No
-22	''	''	PUNCT	LET	_	10	punct	_	SpaceAfter=No
+22	''	''	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.11.s.1.xml
 # text = Koerts heeft hij lang moeten vechten voor een status als topsprinter, te lang werd hij beschouwd als een veredeld kermiscoureur.
@@ -3541,7 +3541,7 @@
 8	mijn	mijn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|PronType=Prs	9	nmod:poss	_	_
 9	toekomst	toekomst	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	LET	_	4	punct	_	SpaceAfter=No
-11	''	''	PUNCT	LET	_	4	punct	_	SpaceAfter=No
+11	''	''	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000025_WR-P-P-H-0000000025.p.12.s.6.xml
 # text = Vandaag komt manager John Wordin naar Nederland om hem, en ploegleider Johan Lammerts, uitleg te verschaffen.
@@ -3592,7 +3592,7 @@
 6	tot	tot	ADP	VZ|init	_	14	obl	_	_
 7	en	en	CCONJ	VG|neven	_	6	fixed	_	_
 8	met	met	ADP	VZ|init	_	6	fixed	_	_
-9	29	29	NUM	TW|hoofd|vrij	_	14	obj	_	_
+9	29	29	NUM	TW|hoofd|vrij	_	14	obl	_	_
 10	juli	juli	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	flat:name	_	_
 11	in	in	ADP	VZ|init	_	12	case	_	_
 12	Colombia	Colombia	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	14	obl	_	_
@@ -3954,7 +3954,7 @@
 # text = Hij zou 'per ongeluk' ontvoerd zijn door de FARC-rebellen.
 1	Hij	hij	PRON	VNW|pers|pron|nomin|vol|3|ev|masc	Case=Nom|Person=3|PronType=Prs	7	nsubj:pass	_	_
 2	zou	zullen	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	7	aux	_	_
-3	'	'	PUNCT	LET	_	5	punct	_	_
+3	'	'	PUNCT	LET	_	5	punct	_	SpaceAfter=No
 4	per	per	ADP	VZ|init	_	5	case	_	_
 5	ongeluk	ongeluk	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
 6	'	'	PUNCT	LET	_	5	punct	_	_
@@ -4144,7 +4144,7 @@
 14	ons	ons	PRON	VNW|bez|det|stan|vol|1|mv|prenom|zonder|evon	Person=1|PronType=Prs	15	nmod:poss	_	_
 15	vredesproces	vredesproces	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
 16	.	.	PUNCT	LET	_	10	punct	_	SpaceAfter=No
-17	''	''	PUNCT	LET	_	10	punct	_	SpaceAfter=No
+17	''	''	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000031_WR-P-P-H-0000000031.p.10.s.1.xml
 # text = Pastrana begon een politiek offensief om de Copa voor Colombia te behouden.
@@ -4415,7 +4415,7 @@
 10	nodig	nodig	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	11	xcomp	_	_
 11	heeft	hebben	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 12	.	.	PUNCT	LET	_	11	punct	_	SpaceAfter=No
-13	''	''	PUNCT	LET	_	11	punct	_	SpaceAfter=No
+13	''	''	PUNCT	LET	_	11	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000031_WR-P-P-H-0000000031.p.15.s.1.xml
 # text = Op de vraag of ze blij is dat het toernooi in januari doorgaat, antwoordt ze schouderophalend.
@@ -4460,7 +4460,7 @@
 6	rustiger	rustig	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	2	ccomp	_	_
 7	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
 8	?	?	PUNCT	LET	_	2	punct	_	SpaceAfter=No
-9	''	''	PUNCT	LET	_	2	punct	_	SpaceAfter=No
+9	''	''	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.1.s.2.xml
 # text = De gouden C aan haar halsketting herinnert aan een belofte.
@@ -4504,7 +4504,7 @@
 7	carrière	carrière	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	_	_
 8	begonnen	beginnen	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	LET	_	8	punct	_	SpaceAfter=No
-10	''	''	PUNCT	LET	_	8	punct	_	SpaceAfter=No
+10	''	''	PUNCT	LET	_	8	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.2.s.1.xml
 # text = Zaterdag plaatste de meest onzichtbare vrouw van 1.89 meter zich zonder problemen voor de vierde ronde van Wimbledon.
@@ -4541,7 +4541,7 @@
 9	de	de	DET	LID|bep|stan|rest	Definite=Def	8	fixed	_	_
 10	persoon	persoon	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	fixed	_	_
 11	van	van	ADP	VZ|init	_	8	fixed	_	_
-12	Jelena	Jelena	PROPN	SPEC|deeleigen	_	5	obj	_	_
+12	Jelena	Jelena	PROPN	SPEC|deeleigen	_	5	obl	_	_
 13	Dokic	Dokic	PROPN	SPEC|deeleigen	_	12	flat:name	_	SpaceAfter=No
 14	.	.	PUNCT	LET	_	5	punct	_	_
 
@@ -4642,7 +4642,7 @@
 17	mogen	mogen	AUX	WW|inf|vrij|zonder	VerbForm=Inf	18	aux	_	_
 18	staan	staan	VERB	WW|inf|vrij|zonder	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	9	punct	_	SpaceAfter=No
-20	''	''	PUNCT	LET	_	9	punct	_	SpaceAfter=No
+20	''	''	PUNCT	LET	_	9	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.4.s.1.xml
 # text = Wilde speculaties deden de voorbije maanden de ronde over het mogelijke pensioen van de voormalige nummer één.
@@ -4728,7 +4728,7 @@
 2	niet	niet	ADV	BW	_	0	root	_	_
 3	meer	veel	PRON	VNW|onbep|grad|stan|vrij|zonder|comp	PronType=Ind	2	obl	_	SpaceAfter=No
 4	.	.	PUNCT	LET	_	2	punct	_	SpaceAfter=No
-5	''	''	PUNCT	LET	_	2	punct	_	SpaceAfter=No
+5	''	''	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.5.s.1.xml
 # text = Eind maart protesteerde de rechterknie van Davenport, in de kwartfinales van Miami.
@@ -4784,7 +4784,7 @@
 7	bangheid	bangheid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	nsubj	_	_
 8	inhoudt	inhouden	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
 9	.	.	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-10	''	''	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+10	''	''	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.6.s.1.xml
 # text = Davenport vloog terug naar Amerika.
@@ -4867,7 +4867,7 @@
 17	mijn	mijn	PRON	VNW|bez|det|stan|vol|1|ev|prenom|zonder|agr	Person=1|PronType=Prs	18	nmod:poss	_	_
 18	knie	knie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	obl	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	4	punct	_	SpaceAfter=No
-20	''	''	PUNCT	LET	_	4	punct	_	SpaceAfter=No
+20	''	''	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.7.s.1.xml
 # text = Terwijl Jennifer Capriati in Parijs haar tweede Slam van het jaar won, bracht Davenport de uren door in het ziekenhuis.
@@ -5004,7 +5004,7 @@
 8	nou	nou	ADV	BW	_	1	obl	_	_
 9	eenmaal	eenmaal	ADV	BW	_	8	fixed	_	SpaceAfter=No
 10	.	.	PUNCT	LET	_	1	punct	_	SpaceAfter=No
-11	''	''	PUNCT	LET	_	1	punct	_	SpaceAfter=No
+11	''	''	PUNCT	LET	_	1	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.9.s.1.xml
 # text = ,,Het is een moeilijke manier van leven, zeker voor een meisje.
@@ -5087,7 +5087,7 @@
 14	te	te	ADP	VZ|init	_	15	mark	_	_
 15	begrijpen	begrijpen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
 16	.	.	PUNCT	LET	_	15	punct	_	SpaceAfter=No
-17	''	''	PUNCT	LET	_	15	punct	_	SpaceAfter=No
+17	''	''	PUNCT	LET	_	15	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.10.s.1.xml
 # text = ,,Vlak nadat ik begon met reizen, kregen mijn ouders onderling problemen.
@@ -5151,7 +5151,7 @@
 8	manier	manier	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	_
 9	opknappen	opknappen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
 10	.	.	PUNCT	LET	_	2	punct	_	SpaceAfter=No
-11	''	''	PUNCT	LET	_	2	punct	_	SpaceAfter=No
+11	''	''	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.11.s.1.xml
 # text = ,,Voorlopig denk ik nog niet aan stoppen.
@@ -5233,7 +5233,7 @@
 8	zo'n	zo'n	DET	VNW|aanw|det|stan|prenom|zonder|agr	_	9	det	_	_
 9	leeftijd	leeftijd	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No
 10	.	.	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-11	''	''	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+11	''	''	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000039_WR-P-P-H-0000000039.p.12.s.1.xml
 # text = Davenport is meer nog dan voorheen de gewone in een abnormale wereld.
@@ -5304,7 +5304,7 @@
 4	praten	praten	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	op	op	ADP	VZ|init	_	6	case	_	_
 6	persconferenties	persconferentie	NOUN	N|soort|mv|basis	Number=Plur	4	obl	_	_
-7	'	'	PUNCT	LET	_	9	punct	_	_
+7	'	'	PUNCT	LET	_	9	punct	_	SpaceAfter=No
 8	als	als	SCONJ	VG|onder	_	9	mark	_	_
 9	moeders	moeder	NOUN	N|soort|mv|basis	Number=Plur	4	advcl	_	SpaceAfter=No
 10	'	'	PUNCT	LET	_	9	punct	_	_
@@ -5408,7 +5408,7 @@
 23	leven	leven	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	20	nmod	_	_
 24	betekent	betekenen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	14	conj	_	SpaceAfter=No
 25	.	.	PUNCT	LET	_	2	punct	_	SpaceAfter=No
-26	''	''	PUNCT	LET	_	2	punct	_	SpaceAfter=No
+26	''	''	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000048_WR-P-P-H-0000000048.p.1.s.1.xml
 # text = Eén deelneemster wordt uit haar congregatie gezet, een spreekster wacht vermoedelijk hetzelfde lot.
@@ -5552,7 +5552,7 @@
 5	vrouwen	vrouw	NOUN	N|soort|mv|basis	Number=Plur	6	obj	_	_
 6	wijden	wijden	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
 7	?	?	PUNCT	LET	_	6	punct	_	SpaceAfter=No
-8	''	''	PUNCT	LET	_	9	punct	_	SpaceAfter=No
+8	''	''	PUNCT	LET	_	9	punct	_	_
 9	riep	roepen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	6	parataxis	_	_
 10	volgens	volgens	ADP	VZ|init	_	11	case	_	_
 11	overlevering	overlevering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	obl	_	_
@@ -5735,17 +5735,17 @@
 3	kerk	kerk	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	nsubj	_	_
 4	kan	kunnen	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	21	aux	_	_
 5	het	het	DET	LID|bep|stan|evon	Definite=Def	9	det	_	_
-6	'	'	PUNCT	LET	_	9	punct	_	_
+6	'	'	PUNCT	LET	_	9	punct	_	SpaceAfter=No
 7	grievende	grieven	VERB	WW|od|prenom|met-e	VerbForm=Part	9	amod	_	_
 8	geestelijk	geestelijk	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	9	amod	_	_
 9	geweld	geweld	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	21	obj	_	_
 10	tegen	tegen	ADP	VZ|init	_	11	case	_	_
 11	vrouwen	vrouw	NOUN	N|soort|mv|basis	Number=Plur	9	nmod	_	SpaceAfter=No
-12	'	'	PUNCT	LET	_	9	punct	_	_
+12	'	'	PUNCT	LET	_	9	punct	_	SpaceAfter=No
 13	,	,	PUNCT	LET	_	9	punct	_	_
 14	ja	ja	INTJ	TSW	_	17	nmod	_	_
 15	zelfs	zelfs	ADV	BW	_	14	fixed	_	_
-16	'	'	PUNCT	LET	_	17	punct	_	_
+16	'	'	PUNCT	LET	_	17	punct	_	SpaceAfter=No
 17	misbruik	misbruik	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	21	parataxis	_	SpaceAfter=No
 18	'	'	PUNCT	LET	_	17	punct	_	_
 19	toch	toch	ADV	BW	_	21	advmod	_	_
@@ -5758,12 +5758,12 @@
 1	Dat	dat	SCONJ	VG|onder	_	12	mark	_	_
 2	we	we	PRON	VNW|pers|pron|nomin|red|1|mv	Case=Nom|Person=1|PronType=Prs	12	nsubj	_	_
 3	bij	bij	ADP	VZ|init	_	5	case	_	_
-4	'	'	PUNCT	LET	_	5	punct	_	_
+4	'	'	PUNCT	LET	_	5	punct	_	SpaceAfter=No
 5	priester	priester	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	_	SpaceAfter=No
 6	'	'	PUNCT	LET	_	5	punct	_	_
 7	meteen	meteen	ADV	BW	_	12	advmod	_	_
 8	aan	aan	ADP	VZ|init	_	10	case	_	_
-9	'	'	PUNCT	LET	_	10	punct	_	_
+9	'	'	PUNCT	LET	_	10	punct	_	SpaceAfter=No
 10	man	man	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	obl	_	SpaceAfter=No
 11	'	'	PUNCT	LET	_	10	punct	_	_
 12	denken	denken	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	14	csubj	_	SpaceAfter=No
@@ -5873,7 +5873,7 @@
 14	het	het	DET	LID|bep|stan|evon	Definite=Def	18	det	_	_
 15	absolute	absoluut	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	18	amod	_	_
 16	pauselijke	pauselijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	18	amod	_	_
-17	'	'	PUNCT	LET	_	18	punct	_	_
+17	'	'	PUNCT	LET	_	18	punct	_	SpaceAfter=No
 18	nee	nee	INTJ	TSW	_	12	nmod	_	SpaceAfter=No
 19	'	'	PUNCT	LET	_	18	punct	_	_
 20	tegen	tegen	ADP	VZ|init	_	23	case	_	_
@@ -6351,7 +6351,7 @@
 26	theologische	theologisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	27	amod	_	_
 27	argumenten	argument	NOUN	N|soort|mv|basis	Number=Plur	18	conj	_	SpaceAfter=No
 28	.	.	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-29	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+29	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000048_WR-P-P-H-0000000048.p.12.s.1.xml
 # text = Daarmee heeft Wijngaards de gevoelige plek te pakken: het argument waarmee 'de kerk' nee zegt, is op zichzelf niet inhoudelijk.
@@ -6367,7 +6367,7 @@
 10	het	het	DET	LID|bep|stan|evon	Definite=Def	11	det	_	_
 11	argument	argument	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	24	nsubj	_	_
 12	waarmee	waarmee	ADV	BW	_	18	advmod	_	_
-13	'	'	PUNCT	LET	_	15	punct	_	_
+13	'	'	PUNCT	LET	_	15	punct	_	SpaceAfter=No
 14	de	de	DET	LID|bep|stan|rest	Definite=Def	15	det	_	_
 15	kerk	kerk	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	nsubj	_	SpaceAfter=No
 16	'	'	PUNCT	LET	_	15	punct	_	_
@@ -6551,7 +6551,7 @@
 34	diakenwijding	diakenwijding	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	35	obj	_	_
 35	ontvangen	ontvangen	VERB	WW|vd|vrij|zonder	VerbForm=Part	23	parataxis	_	SpaceAfter=No
 36	.	.	PUNCT	LET	_	23	punct	_	SpaceAfter=No
-37	''	''	PUNCT	LET	_	23	punct	_	SpaceAfter=No
+37	''	''	PUNCT	LET	_	23	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000048_WR-P-P-H-0000000048.p.14.s.1.xml
 # text = Nu al hebben vrouwen volgens het rk kerkelijk recht meer mogelijkheden dan ze plaatselijk benutten.
@@ -6690,7 +6690,7 @@
 15	op	op	ADP	VZ|init	_	14	obl	_	_
 16	verdenking	verdenking	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	fixed	_	_
 17	van	van	ADP	VZ|init	_	15	fixed	_	_
-18	betrokkenheid	betrokkenheid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obj	_	_
+18	betrokkenheid	betrokkenheid	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	obl	_	_
 19	bij	bij	ADP	VZ|init	_	22	case	_	_
 20	een	een	DET	LID|onbep|stan|agr	Definite=Ind	22	det	_	_
 21	dodelijke	dodelijk	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	22	amod	_	_
@@ -6955,7 +6955,7 @@
 17	van	van	ADP	VZ|init	_	18	case	_	_
 18	transpiratie	transpiratie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-20	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+20	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000090_WR-P-P-H-0000000090.p.5.s.1.xml
 # text = Met het onderzoek naar de bruikbaarheid van de polygraaf hoopt onderzoeker Buschman beter te kunnen voorspellen in hoeverre een zedendelinquent na zijn tbs een maatschappelijk risico vormt door terug te vallen in zijn criminele gedrag.
@@ -7224,7 +7224,7 @@
 12	over	over	ADP	VZ|init	_	14	case	_	_
 13	de	de	DET	LID|bep|stan|rest	Definite=Def	14	det	_	_
 14	kop	kop	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obl	_	_
-15	sloeg	slaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+15	sloeg	slaan	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 16	.	.	PUNCT	LET	_	6	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000097_WR-P-P-H-0000000097.p.1.s.4.xml
@@ -7418,7 +7418,7 @@
 11	last	last	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	fixed	_	_
 12	van	van	ADP	VZ|init	_	10	fixed	_	_
 13	de	de	DET	LID|bep|stan|rest	Definite=Def	14	det	_	_
-14	autoriteiten	autoriteit	NOUN	N|soort|mv|basis	Number=Plur	17	obj	_	_
+14	autoriteiten	autoriteit	NOUN	N|soort|mv|basis	Number=Plur	17	obl	_	_
 15	hun	hun	PRON	VNW|bez|det|stan|vol|3|mv|prenom|zonder|agr	Person=3|PronType=Prs	16	nmod:poss	_	_
 16	woningen	woning	NOUN	N|soort|mv|basis	Number=Plur	17	obj	_	_
 17	verlaten	verlaten	VERB	WW|inf|vrij|zonder	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
@@ -7831,7 +7831,7 @@
 1	Atkins	Atkins	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	LET	_	3	punct	_	_
 3	bijgenaamd	bijgenaamd	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	1	acl	_	_
-4	'	'	PUNCT	LET	_	5	punct	_	_
+4	'	'	PUNCT	LET	_	5	punct	_	SpaceAfter=No
 5	Mr.	Mr.	PROPN	SPEC|deeleigen	_	1	xcomp	_	_
 6	Guitar	Guitar	PROPN	SPEC|deeleigen	_	5	flat:name	_	SpaceAfter=No
 7	'	'	PUNCT	LET	_	5	punct	_	_
@@ -7938,7 +7938,7 @@
 # text = Begonnen met 'Chet Atkins Gallopin Guitar' (1953) schreef hij meer dan honderd platen op zijn naam, waaronder 'Teensville' (1960), 'Chet Atkins Picks the Best' (1967), 'A Man and his Guitar' (1984) en 'Almost Alone' (1996).
 1	Begonnen	beginnen	VERB	WW|vd|vrij|zonder	VerbForm=Part	12	advcl	_	_
 2	met	met	ADP	VZ|init	_	4	case	_	_
-3	'	'	PUNCT	LET	_	4	punct	_	_
+3	'	'	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 4	Chet	Chet	PROPN	SPEC|deeleigen	_	1	obl	_	_
 5	Atkins	Atkins	PROPN	SPEC|deeleigen	_	4	flat:name	_	_
 6	Gallopin	Gallopin	PROPN	SPEC|deeleigen	_	4	flat:name	_	_
@@ -7958,14 +7958,14 @@
 20	naam	naam	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	compound:prt	_	SpaceAfter=No
 21	,	,	PUNCT	LET	_	24	punct	_	_
 22	waaronder	waaronder	ADV	BW	_	24	advmod	_	_
-23	'	'	PUNCT	LET	_	24	punct	_	_
+23	'	'	PUNCT	LET	_	24	punct	_	SpaceAfter=No
 24	Teensville	Teensville	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	acl:relcl	_	SpaceAfter=No
 25	'	'	PUNCT	LET	_	24	punct	_	_
 26	(	(	PUNCT	LET	_	27	punct	_	SpaceAfter=No
 27	1960	1960	NUM	TW|hoofd|vrij	_	24	nummod	_	SpaceAfter=No
-28	)	)	PUNCT	LET	_	27	punct	_	_
+28	)	)	PUNCT	LET	_	27	punct	_	SpaceAfter=No
 29	,	,	PUNCT	LET	_	31	punct	_	_
-30	'	'	PUNCT	LET	_	31	punct	_	_
+30	'	'	PUNCT	LET	_	31	punct	_	SpaceAfter=No
 31	Chet	Chet	PROPN	SPEC|deeleigen	_	24	conj	_	_
 32	Atkins	Atkins	PROPN	SPEC|deeleigen	_	31	flat:name	_	_
 33	Picks	Picks	PROPN	SPEC|deeleigen	_	31	flat:name	_	_
@@ -7974,9 +7974,9 @@
 36	'	'	PUNCT	LET	_	31	punct	_	_
 37	(	(	PUNCT	LET	_	38	punct	_	SpaceAfter=No
 38	1967	1967	NUM	TW|hoofd|vrij	_	31	nummod	_	SpaceAfter=No
-39	)	)	PUNCT	LET	_	38	punct	_	_
+39	)	)	PUNCT	LET	_	38	punct	_	SpaceAfter=No
 40	,	,	PUNCT	LET	_	42	punct	_	_
-41	'	'	PUNCT	LET	_	42	punct	_	_
+41	'	'	PUNCT	LET	_	42	punct	_	SpaceAfter=No
 42	A	A	SYM	SPEC|symb	_	24	conj	_	_
 43	Man	Man	PROPN	SPEC|deeleigen	_	42	flat:name	_	_
 44	and	and	PROPN	SPEC|deeleigen	_	42	flat:name	_	_
@@ -7987,13 +7987,13 @@
 49	1984	1984	NUM	TW|hoofd|vrij	_	42	nummod	_	SpaceAfter=No
 50	)	)	PUNCT	LET	_	49	punct	_	_
 51	en	en	CCONJ	VG|neven	_	53	cc	_	_
-52	'	'	PUNCT	LET	_	53	punct	_	_
+52	'	'	PUNCT	LET	_	53	punct	_	SpaceAfter=No
 53	Almost	Almost	PROPN	SPEC|deeleigen	_	24	conj	_	_
 54	Alone	Alone	PROPN	SPEC|deeleigen	_	53	flat:name	_	SpaceAfter=No
 55	'	'	PUNCT	LET	_	53	punct	_	_
 56	(	(	PUNCT	LET	_	57	punct	_	SpaceAfter=No
 57	1996	1996	NUM	TW|hoofd|vrij	_	53	nummod	_	SpaceAfter=No
-58	)	)	PUNCT	LET	_	57	punct	_	_
+58	)	)	PUNCT	LET	_	57	punct	_	SpaceAfter=No
 59	.	.	PUNCT	LET	_	12	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000021_WR-P-P-H-0000000021.p.5.s.2.xml
@@ -8037,7 +8037,7 @@
 4	op	op	ADP	VZ|init	_	5	case	_	_
 5	hits	hit	NOUN	N|soort|mv|basis	Number=Plur	2	obl	_	_
 6	als	als	SCONJ	VG|onder	_	8	mark	_	_
-7	'	'	PUNCT	LET	_	8	punct	_	_
+7	'	'	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 8	Wake	Wake	PROPN	SPEC|deeleigen	_	5	nmod	_	_
 9	up	up	X	SPEC|vreemd	Foreign=Yes	8	flat:name	_	_
 10	little	little	X	SPEC|vreemd	Foreign=Yes	8	flat:name	_	_
@@ -8091,7 +8091,7 @@
 22	164	164	NUM	TW|hoofd|prenom|stan	_	23	nummod	_	_
 23	miljoen	miljoen	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	18	nmod	_	_
 24	gulden	gulden	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	23	nmod	_	SpaceAfter=No
-25	)	)	PUNCT	LET	_	23	punct	_	_
+25	)	)	PUNCT	LET	_	23	punct	_	SpaceAfter=No
 26	.	.	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000026_WR-P-P-H-0000000026.p.1.s.3.xml
@@ -8219,7 +8219,7 @@
 3	gevolg	gevolg	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	fixed	_	_
 4	van	van	ADP	VZ|init	_	2	fixed	_	_
 5	een	een	DET	LID|onbep|stan|agr	Definite=Ind	6	det	_	_
-6	mankement	mankement	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	1	obj	_	_
+6	mankement	mankement	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	1	parataxis	_	_
 7	en	en	CCONJ	VG|neven	_	8	cc	_	_
 8	onderhoud	onderhoud	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	6	conj	_	_
 9	aan	aan	ADP	VZ|init	_	11	case	_	_
@@ -8304,16 +8304,16 @@
 4	zondag	zondag	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	conj	_	_
 5	haperde	haperen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 6	het	het	DET	LID|bep|stan|evon	Definite=Def	8	det	_	_
-7	'	'	PUNCT	LET	_	8	punct	_	_
+7	'	'	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 8	pinpasverkeer	pinpasverkeer	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
 9	'	'	PUNCT	LET	_	8	punct	_	_
 10	gedurende	gedurende	ADP	VZ|init	_	12	case	_	_
 11	enkele	enkel	DET	VNW|onbep|det|stan|prenom|met-e|rest	_	12	det	_	_
 12	kwartieren	kwartier	NOUN	N|soort|mv|basis	Number=Plur	5	obl	_	SpaceAfter=No
-13	,	,	PUNCT	LET	_	14	punct	_	_
-14	aldus	aldus	ADV	BW	_	5	parataxis	_	_
+13	,	,	PUNCT	LET	_	16	punct	_	_
+14	aldus	aldus	ADV	BW	_	16	parataxis	_	_
 15	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	_	_
-16	woordvoerster	woordvoerster	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obj	_	SpaceAfter=No
+16	woordvoerster	woordvoerster	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	parataxis	_	SpaceAfter=No
 17	.	.	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000033_WR-P-P-H-0000000033.p.1.s.2.xml
@@ -8472,9 +8472,9 @@
 9	overal	overal	ADV	VNW|onbep|adv-pron|obl|vol|3o|getal	_	11	advmod	_	_
 10	iets	iets	PRON	VNW|onbep|pron|stan|vol|3o|ev	Person=3|PronType=Ind	11	nsubj:pass	_	_
 11	georganiseerd	organiseren	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	_	SpaceAfter=No
-12	,	,	PUNCT	LET	_	13	punct	_	_
-13	aldus	aldus	ADV	BW	_	11	parataxis	_	_
-14	boerenvoorman	boerenvoorman	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	obj	_	_
+12	,	,	PUNCT	LET	_	14	punct	_	_
+13	aldus	aldus	ADV	BW	_	14	parataxis	_	_
+14	boerenvoorman	boerenvoorman	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	parataxis	_	_
 15	J.	J.	PROPN	SPEC|deeleigen	_	14	appos	_	_
 16	van	van	PROPN	SPEC|deeleigen	_	15	flat:name	_	_
 17	't	't	PROPN	SPEC|deeleigen	_	15	flat:name	_	_
@@ -8714,7 +8714,7 @@
 4	tot	tot	ADP	VZ|init	_	5	case	_	_
 5	dinsdag	dinsdag	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	obl	_	_
 6	het	het	DET	LID|bep|stan|evon	Definite=Def	8	det	_	_
-7	'	'	PUNCT	LET	_	8	punct	_	_
+7	'	'	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 8	Weltwirtschafsforum	Weltwirtschafsforum	X	SPEC|vreemd	Foreign=Yes	11	nsubj:pass	_	_
 9	Osteuropa	Osteuropa	X	SPEC|vreemd	Foreign=Yes	8	fixed	_	SpaceAfter=No
 10	'	'	PUNCT	LET	_	8	punct	_	_
@@ -8937,7 +8937,7 @@
 6	noorden	noorden	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	5	fixed	_	_
 7	van	van	ADP	VZ|init	_	5	fixed	_	_
 8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	_	_
-9	hoofdstad	hoofdstad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obj	_	_
+9	hoofdstad	hoofdstad	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	_	_
 10	Skopje	Skopje	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	9	appos	_	SpaceAfter=No
 11	,	,	PUNCT	LET	_	14	punct	_	_
 12	bij	bij	ADP	VZ|init	_	14	case	_	_
@@ -9206,7 +9206,7 @@
 11	Dick	Dick	PROPN	SPEC|deeleigen	_	10	appos	_	_
 12	Cheney	Cheney	PROPN	SPEC|deeleigen	_	11	flat:name	_	_
 13	zaterdag	zaterdag	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	19	obl	_	_
-14	'	'	PUNCT	LET	_	15	punct	_	_
+14	'	'	PUNCT	LET	_	15	punct	_	SpaceAfter=No
 15	even	even	ADV	BW	_	19	advmod	_	SpaceAfter=No
 16	'	'	PUNCT	LET	_	15	punct	_	_
 17	een	een	DET	LID|onbep|stan|agr	Definite=Ind	18	det	_	_
@@ -9272,7 +9272,7 @@
 # text = De ingebrachte 'pacemaker-plus' dient zowel om de hartslag te vertragen als, wanneer nodig, te versnellen.
 1	De	de	DET	LID|bep|stan|rest	Definite=Def	4	det	_	_
 2	ingebrachte	inbrengen	VERB	WW|vd|prenom|met-e	VerbForm=Part	4	amod	_	_
-3	'	'	PUNCT	LET	_	4	punct	_	_
+3	'	'	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 4	pacemaker-plus	pacemaker-plus	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	nsubj	_	SpaceAfter=No
 5	'	'	PUNCT	LET	_	4	punct	_	_
 6	dient	dienen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9320,8 +9320,8 @@
 3	heeft	hebben	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	er	er	ADV	VNW|aanw|adv-pron|stan|red|3|getal	_	3	obl	_	_
 5	zin	zin	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obj	_	_
-6	in	in	ADP	VZ|fin	_	4	case	_	_
-7	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+6	in	in	ADP	VZ|fin	_	4	case	_	SpaceAfter=No
+7	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000092_WR-P-P-H-0000000092.p.1.s.2.xml
 # text = De Noordierse premier David Trimble is gisterochtend afgetreden.
@@ -9483,7 +9483,7 @@
 11	zei	zeggen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	parataxis	_	_
 12	Trimble	Trimble	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	nsubj	_	_
 13	gisteren	gisteren	ADV	BW	_	11	advmod	_	_
-14	,	,	PUNCT	LET	_	25	punct	_	_
+14	,	,	PUNCT	LET	_	25	punct	_	SpaceAfter=No
 15	,,	,,	PUNCT	LET	_	25	punct	_	SpaceAfter=No
 16	maar	maar	ADV	BW	_	25	advmod	_	_
 17	alleen	alleen	ADV	BW	_	25	advmod	_	_
@@ -9496,7 +9496,7 @@
 24	ons	ons	PRON	VNW|pr|pron|obl|vol|1|mv	Case=Acc|Person=1|PronType=Prs	25	obj	_	_
 25	laten	laten	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
 26	.	.	PUNCT	LET	_	4	punct	_	SpaceAfter=No
-27	''	''	PUNCT	LET	_	4	punct	_	SpaceAfter=No
+27	''	''	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000092_WR-P-P-H-0000000092.p.3.s.2.xml
 # text = Volgens het Goede Vrijdag-akkoord heeft de regering zes weken om Trimble te vragen terug te komen óf hem te vervangen, anders komen er verkiezingen.
@@ -9534,7 +9534,7 @@
 3	menen	menen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dat	dat	SCONJ	VG|onder	_	7	mark	_	_
 5	Trimble	Trimble	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	7	nsubj	_	_
-6	erop	erop	ADV	BW	_	7	advcl	_	_
+6	erop	erop	ADV	BW	_	17	advcl	_	_
 7	gokt	gokken	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 8	dat	dat	SCONJ	VG|onder	_	17	mark	_	_
 9	het	het	DET	LID|bep|stan|evon	Definite=Def	10	det	_	_
@@ -9545,7 +9545,7 @@
 14	zo	zo	ADV	BW	_	16	advmod	_	_
 15	onder	onder	ADP	VZ|init	_	16	case	_	_
 16	druk	druk	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	17	ccomp	_	_
-17	komt	komen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+17	komt	komen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
 18	te	te	ADP	VZ|init	_	16	mark	_	_
 19	staan	staan	AUX	WW|inf|vrij|zonder	VerbForm=Inf	16	cop	_	_
 20	dat	dat	SCONJ	VG|onder	_	24	mark	_	_
@@ -9625,7 +9625,7 @@
 33	en	en	CCONJ	VG|neven	_	43	cc	_	_
 34	voor	voor	ADP	VZ|init	_	40	case	_	_
 35	een	een	DET	LID|onbep|stan|agr	Definite=Ind	40	det	_	_
-36	'	'	PUNCT	LET	_	40	punct	_	_
+36	'	'	PUNCT	LET	_	40	punct	_	SpaceAfter=No
 37	verstandiger	verstandig	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	40	nmod	_	_
 38	en	en	CCONJ	VG|neven	_	39	cc	_	_
 39	productievere	productief	ADJ	ADJ|prenom|comp|met-e|stan	Degree=Cmp	37	conj	_	_
@@ -9775,7 +9775,7 @@
 16	van	van	ADP	VZ|init	_	17	case	_	_
 17	Hezbollah	Hezbollah	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	nmod	_	_
 18	één	één	NUM	TW|hoofd|prenom|stan	_	11	nummod	_	_
-19	Israëlische	Israëlisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	_	_
+19	Israëlische	Israëlisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	11	amod	_	SpaceAfter=No
 20	.	.	PUNCT	LET	_	12	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000098_WR-P-P-H-0000000098.p.3.s.2.xml
@@ -9959,7 +9959,7 @@
 9	te	te	ADP	VZ|init	_	10	mark	_	_
 10	doen	doen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	6	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	LET	_	6	punct	_	SpaceAfter=No
-12	''	''	PUNCT	LET	_	6	punct	_	SpaceAfter=No
+12	''	''	PUNCT	LET	_	6	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000102_WR-P-P-H-0000000102.p.1.s.1.xml
 # text = CAPO D'ORLANDO - Leontien Zijlaard-Van Moorsel heeft net als vorig jaar de proloog van de Ronde van Italië voor vrouwen gewonnen.
@@ -10123,7 +10123,7 @@
 7	olympische	Olympisch	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	8	amod	_	_
 8	kandidate	kandidate	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj	_	_
 9	als	als	ADP	VZ|init	_	10	mark	_	_
-10	tweede	twee	ADJ	TW|rang|nom|zonder-n	_	5	advcl	_	_
+10	tweede	twee	ADJ	TW|rang|nom|zonder-n	_	5	advcl	_	SpaceAfter=No
 11	.	.	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000004_WR-P-P-H-0000000004.p.1.s.5.xml
@@ -10433,7 +10433,7 @@
 20	dubbele	dubbel	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	21	amod	_	_
 21	zege	zege	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	obl	_	_
 22	voor	voor	ADP	VZ|init	_	23	case	_	_
-23	Douglas	Douglas	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	nmod	_	_
+23	Douglas	Douglas	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	21	nmod	_	SpaceAfter=No
 24	.	.	PUNCT	LET	_	15	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000022_WR-P-P-H-0000000022.p.1.s.3.xml
@@ -10497,7 +10497,7 @@
 1	Onder	onder	ADP	VZ|init	_	14	obl	_	_
 2	leiding	leiding	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	fixed	_	_
 3	van	van	ADP	VZ|init	_	1	fixed	_	_
-4	Chiel	Chiel	PROPN	SPEC|deeleigen	_	14	obj	_	_
+4	Chiel	Chiel	PROPN	SPEC|deeleigen	_	14	obl	_	_
 5	Warners	Warners	PROPN	SPEC|deeleigen	_	4	flat:name	_	_
 6	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	14	aux	_	_
 7	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	_	_
@@ -10722,7 +10722,7 @@
 # sent_id = LassySmall4_WR-P-P-H-0000000035_WR-P-P-H-0000000035.p.3.s.1.xml
 # text = Het 'Veluwse zwemproject' kan op termijn plaats bieden aan zestien tot twintig gemotiveerde en getalenteerde zwemmers en zwemsters.
 1	Het	het	DET	LID|bep|stan|evon	Definite=Def	4	det	_	_
-2	'	'	PUNCT	LET	_	4	punct	_	_
+2	'	'	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 3	Veluwse	Veluws	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	4	amod	_	_
 4	zwemproject	zwemproject	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No
 5	'	'	PUNCT	LET	_	4	punct	_	_
@@ -10973,7 +10973,7 @@
 16	met	met	ADP	VZ|init	_	21	obl	_	_
 17	ingang	ingang	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	fixed	_	_
 18	van	van	ADP	VZ|init	_	16	fixed	_	_
-19	1	1	NUM	TW|hoofd|vrij	_	21	obj	_	_
+19	1	1	NUM	TW|hoofd|vrij	_	21	obl	_	_
 20	september	september	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	19	flat:name	_	_
 21	stopt	stoppen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
 22	in	in	ADP	VZ|init	_	23	case	_	_
@@ -11121,9 +11121,9 @@
 11	Rotterdam	Rotterdam	PROPN	N|eigen|ev|basis|onz|stan	Gender=Neut|Number=Sing	7	nmod	_	_
 12	op	op	ADP	VZ|init	_	13	case	_	_
 13	koers	koers	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	_	SpaceAfter=No
-14	,	,	PUNCT	LET	_	15	punct	_	_
-15	richting	richting	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nmod	_	_
-16	finale	finale	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	obj	_	SpaceAfter=No
+14	,	,	PUNCT	LET	_	16	punct	_	_
+15	richting	richting	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	16	nmod	_	_
+16	finale	finale	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	13	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000041_WR-P-P-H-0000000041.p.1.s.3.xml
@@ -11291,11 +11291,11 @@
 1	,,	,,	PUNCT	LET	_	3	punct	_	SpaceAfter=No
 2	Wij	wij	PRON	VNW|pers|pron|nomin|vol|1|mv	Case=Nom|Person=1|PronType=Prs	3	nsubj	_	_
 3	weten	weten	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
-4	''	''	PUNCT	LET	_	6	punct	_	SpaceAfter=No
-5	,	,	PUNCT	LET	_	6	punct	_	_
-6	aldus	aldus	ADV	BW	_	3	parataxis	_	_
-7	Jansen	Jansen	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	obj	_	_
-8	,	,	PUNCT	LET	_	13	punct	_	_
+4	''	''	PUNCT	LET	_	7	punct	_	SpaceAfter=No
+5	,	,	PUNCT	LET	_	7	punct	_	_
+6	aldus	aldus	ADV	BW	_	7	parataxis	_	_
+7	Jansen	Jansen	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	parataxis	_	_
+8	,	,	PUNCT	LET	_	13	punct	_	SpaceAfter=No
 9	,,	,,	PUNCT	LET	_	13	punct	_	SpaceAfter=No
 10	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	13	advmod	_	_
 11	onze	ons	PRON	VNW|bez|det|stan|vol|1|mv|prenom|met-e|rest	Person=1|PronType=Prs	12	nmod:poss	_	_
@@ -11355,7 +11355,7 @@
 12	vaker	vaak	ADJ	ADJ|vrij|comp|zonder	Degree=Cmp	13	advmod	_	_
 13	improviseren	improviseren	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
 14	.	.	PUNCT	LET	_	4	punct	_	SpaceAfter=No
-15	''	''	PUNCT	LET	_	4	punct	_	SpaceAfter=No
+15	''	''	PUNCT	LET	_	4	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000041_WR-P-P-H-0000000041.p.4.s.1.xml
 # text = Verdedigend stak Oranje tegen de Italianen uitstekend in elkaar maar ook aanvallend was Nederland met 14 honkslagen prima op dreef.
@@ -11388,8 +11388,8 @@
 3	(	(	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 4	3	3	NUM	TW|hoofd|vrij	_	1	nmod	_	_
 5	uit	uit	ADP	VZ|init	_	6	case	_	_
-6	3	3	NUM	TW|hoofd|vrij	_	4	nmod	_	_
-7	)	)	PUNCT	LET	_	4	punct	_	_
+6	3	3	NUM	TW|hoofd|vrij	_	4	nmod	_	SpaceAfter=No
+7	)	)	PUNCT	LET	_	4	punct	_	SpaceAfter=No
 8	,	,	PUNCT	LET	_	9	punct	_	_
 9	Dirk	Dirk	PROPN	SPEC|deeleigen	_	1	conj	_	_
 10	van	van	PROPN	SPEC|deeleigen	_	9	flat:name	_	_
@@ -11399,7 +11399,7 @@
 14	4	4	NUM	TW|hoofd|vrij	_	9	nmod	_	_
 15	uit	uit	ADP	VZ|init	_	16	case	_	_
 16	5	5	NUM	TW|hoofd|vrij	_	14	nmod	_	SpaceAfter=No
-17	)	)	PUNCT	LET	_	14	punct	_	_
+17	)	)	PUNCT	LET	_	14	punct	_	SpaceAfter=No
 18	,	,	PUNCT	LET	_	19	punct	_	_
 19	Balentina	Balentina	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	1	conj	_	_
 20	(	(	PUNCT	LET	_	21	punct	_	SpaceAfter=No
@@ -11632,8 +11632,8 @@
 30	(	(	PUNCT	LET	_	31	punct	_	SpaceAfter=No
 31	7	7	NUM	TW|hoofd|vrij	_	29	obl	_	_
 32	-	-	PUNCT	LET	_	33	punct	_	_
-33	3	3	NUM	TW|hoofd|vrij	_	31	fixed	_	_
-34	)	)	PUNCT	LET	_	31	punct	_	_
+33	3	3	NUM	TW|hoofd|vrij	_	31	fixed	_	SpaceAfter=No
+34	)	)	PUNCT	LET	_	31	punct	_	SpaceAfter=No
 35	.	.	PUNCT	LET	_	15	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000041_WR-P-P-H-0000000041.p.7.s.1.xml
@@ -11662,7 +11662,7 @@
 2	en	en	CCONJ	VG|neven	_	3	cc	_	_
 3	aanvallend	aanvallen	VERB	WW|od|vrij|zonder	VerbForm=Part	1	conj	_	SpaceAfter=No
 4	.	.	PUNCT	LET	_	1	punct	_	SpaceAfter=No
-5	''	''	PUNCT	LET	_	1	punct	_	SpaceAfter=No
+5	''	''	PUNCT	LET	_	1	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000041_WR-P-P-H-0000000041.p.7.s.4.xml
 # text = De Italianen produceerden 16 honkslagen maar scoorden slechts 4 keer.
@@ -11724,7 +11724,7 @@
 7	het	het	DET	LID|bep|stan|evon	Definite=Def	8	det	_	_
 8	veld	veld	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
 9	.	.	PUNCT	LET	_	5	punct	_	SpaceAfter=No
-10	''	''	PUNCT	LET	_	5	punct	_	SpaceAfter=No
+10	''	''	PUNCT	LET	_	5	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000041_WR-P-P-H-0000000041.p.8.s.1.xml
 # text = Een dag eerder kleurde het stadion van Neptunus rood.
@@ -12055,7 +12055,7 @@
 13	het	het	DET	LID|bep|stan|evon	Definite=Def	14	det	_	_
 14	podium	podium	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	obj	_	SpaceAfter=No
 15	.	.	PUNCT	LET	_	3	punct	_	SpaceAfter=No
-16	''	''	PUNCT	LET	_	3	punct	_	SpaceAfter=No
+16	''	''	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000047_WR-P-P-H-0000000047.p.4.s.2.xml
 # text = Maar 's middags om twee uur was het droog.
@@ -12179,7 +12179,7 @@
 6	mij	mij	PRON	VNW|pr|pron|obl|vol|1|ev	Case=Acc|Person=1|PronType=Prs	7	obl	_	_
 7	haalbaar	haalbaar	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	LET	_	7	punct	_	SpaceAfter=No
-9	''	''	PUNCT	LET	_	7	punct	_	SpaceAfter=No
+9	''	''	PUNCT	LET	_	7	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000047_WR-P-P-H-0000000047.p.5.s.1.xml
 # text = De strijd in de koningsklasse ging zoals verwacht tussen de Italiaanse kemphanen Rossi, Biaggi en Capirossi.
@@ -12243,9 +12243,9 @@
 8	,	,	PUNCT	LET	_	10	punct	_	_
 9	maar	maar	CCONJ	VG|neven	_	10	cc	_	_
 10	zag	zien	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	4	conj	_	_
-11	gaandeweg	gaandeweg	ADV	BW	_	10	obl	_	_
+11	gaandeweg	gaandeweg	ADV	BW	_	13	obl	_	_
 12	de	de	DET	LID|bep|stan|rest	Definite=Def	13	det	_	_
-13	race	race	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obj	_	_
+13	race	race	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	10	obl	_	_
 14	de	de	DET	LID|bep|stan|rest	Definite=Def	16	det	_	_
 15	Italiaanse	Italiaans	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	16	amod	_	_
 16	duivels	duivel	NOUN	N|soort|mv|basis	Number=Plur	10	obj	_	_
@@ -12636,7 +12636,7 @@
 8	onder	onder	ADP	VZ|init	_	4	nmod	_	_
 9	aanvoering	aanvoering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	fixed	_	_
 10	van	van	ADP	VZ|init	_	8	fixed	_	_
-11	Nalbert	Nalbert	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obj	_	_
+11	Nalbert	Nalbert	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	nmod	_	_
 12	en	en	CCONJ	VG|neven	_	13	cc	_	_
 13	Giba	Giba	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	conj	_	SpaceAfter=No
 14	,	,	PUNCT	LET	_	4	punct	_	_
@@ -12790,7 +12790,7 @@
 8	ook	ook	ADV	BW	_	10	advmod	_	_
 9	niet	niet	ADV	BW	_	10	advmod	_	_
 10	vrolijk	vrolijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	0	root	_	_
-11	van	van	ADP	VZ|fin	_	4	case	_	_
+11	van	van	ADP	VZ|fin	_	4	case	_	SpaceAfter=No
 12	''	''	PUNCT	LET	_	14	punct	_	SpaceAfter=No
 13	,	,	PUNCT	LET	_	14	punct	_	_
 14	bekende	bekennen	VERB	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	10	parataxis	_	_
@@ -12857,7 +12857,7 @@
 25	in	in	ADP	VZ|init	_	26	case	_	_
 26	2	2	NUM	TW|hoofd|vrij	_	19	obl	_	_
 27	-	-	PUNCT	LET	_	28	punct	_	_
-28	2	2	NUM	TW|hoofd|vrij	_	26	fixed	_	_
+28	2	2	NUM	TW|hoofd|vrij	_	26	fixed	_	SpaceAfter=No
 29	.	.	PUNCT	LET	_	10	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000058_WR-P-P-H-0000000058.p.3.s.1.xml
@@ -12926,13 +12926,13 @@
 2	oplossing	oplossing	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	nsubj	_	_
 3	ligt	liggen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	in	in	ADP	VZ|init	_	5	case	_	_
-5	trainen	trainen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	3	obl	_	_
+5	trainen	trainen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	3	obl	_	SpaceAfter=No
 6	,	,	PUNCT	LET	_	7	punct	_	_
 7	trainen	trainen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	5	conj	_	_
 8	en	en	CCONJ	VG|neven	_	11	cc	_	_
 9	nog	nog	ADV	BW	_	10	advmod	_	_
 10	eens	eens	ADV	BW	_	11	advmod	_	_
-11	trainen	trainen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	5	conj	_	_
+11	trainen	trainen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	5	conj	_	SpaceAfter=No
 12	.	.	PUNCT	LET	_	3	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000058_WR-P-P-H-0000000058.p.3.s.5.xml
@@ -12961,7 +12961,7 @@
 22	te	te	ADP	VZ|init	_	23	mark	_	_
 23	maken	maken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	5	advcl	_	SpaceAfter=No
 24	.	.	PUNCT	LET	_	2	punct	_	SpaceAfter=No
-25	''	''	PUNCT	LET	_	2	punct	_	SpaceAfter=No
+25	''	''	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000058_WR-P-P-H-0000000058.p.4.s.1.xml
 # text = Bellaart weigerde zich te verschuilen achter allerlei excuses.
@@ -13097,7 +13097,7 @@
 11	allemaal	allemaal	ADV	BW	_	12	advmod	_	_
 12	denken	denken	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
 13	.	.	PUNCT	LET	_	8	punct	_	SpaceAfter=No
-14	''	''	PUNCT	LET	_	8	punct	_	SpaceAfter=No
+14	''	''	PUNCT	LET	_	8	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000058_WR-P-P-H-0000000058.p.6.s.1.xml
 # text = Bellaart wil na de zomerstop 'uren maken' met zijn selectie.
@@ -13106,7 +13106,7 @@
 3	na	na	ADP	VZ|init	_	5	case	_	_
 4	de	de	DET	LID|bep|stan|rest	Definite=Def	5	det	_	_
 5	zomerstop	zomerstop	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	8	obl	_	_
-6	'	'	PUNCT	LET	_	8	punct	_	_
+6	'	'	PUNCT	LET	_	8	punct	_	SpaceAfter=No
 7	uren	uur	NOUN	N|soort|mv|basis	Number=Plur	8	obj	_	_
 8	maken	maken	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	_	SpaceAfter=No
 9	'	'	PUNCT	LET	_	8	punct	_	_
@@ -13130,7 +13130,7 @@
 11	spits	spits	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	amod	_	_
 12	Eikelboom	Eikelboom	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	appos	_	_
 13	en	en	CCONJ	VG|neven	_	14	cc	_	_
-14	aanvoerder	aanvoerder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	obj	_	_
+14	aanvoerder	aanvoerder	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	6	conj	_	_
 15	Delmee	Delmee	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	14	appos	_	_
 16	terug	terug	ADV	BW	_	19	amod	_	_
 17	in	in	ADP	VZ|init	_	19	case	_	_
@@ -13238,7 +13238,7 @@
 15	verdedigend	verdedigen	VERB	WW|od|vrij|zonder	VerbForm=Part	16	advmod	_	_
 16	overlopen	overlopen	VERB	WW|vd|vrij|zonder	VerbForm=Part	2	conj	_	SpaceAfter=No
 17	.	.	PUNCT	LET	_	2	punct	_	SpaceAfter=No
-18	''	''	PUNCT	LET	_	2	punct	_	SpaceAfter=No
+18	''	''	PUNCT	LET	_	2	punct	_	_
 
 # sent_id = LassySmall4_WR-P-P-H-0000000058_WR-P-P-H-0000000058.p.8.s.1.xml
 # text = Ronduit bedroevend was de uitvoering van de strafcorner in het eerste halfjaar van Bellaart.
@@ -13614,7 +13614,7 @@
 16	kader	kader	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	14	fixed	_	_
 17	van	van	ADP	VZ|init	_	14	fixed	_	_
 18	de	de	DET	LID|bep|stan|rest	Definite=Def	19	det	_	_
-19	Kirin	Kirin	PROPN	SPEC|deeleigen	_	10	obj	_	_
+19	Kirin	Kirin	PROPN	SPEC|deeleigen	_	10	nmod	_	_
 20	Cup	Cup	PROPN	SPEC|deeleigen	_	19	flat:name	_	SpaceAfter=No
 21	.	.	PUNCT	LET	_	7	punct	_	_
 
