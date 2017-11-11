@@ -1,49 +1,83 @@
-=== Machine-readable metadata =================================================
-Documentation status: stub
-Data source: automatic
-Data available since: UD v1.2
-License: CC BY-SA 4.0
-Genre: news
-Contributors: Zeman, Daniel; Žabokrtský, Zdeněk
-Contact: zeman@ufal.mff.cuni.cz
-===============================================================================
+ # Summary
+ 
+ This corpus consists of samples from various treebanks annotated at the University of Groningen using the Alpino annotation tools and guidelines. 
+ 
+ # Introduction
+ 
+The data consists of samples from various treebanks annotated at the University of Groningen using the Alpino annotation tools and guidelines:
 
-The UD Dutch treebank is based on the Alpino treebank.
+ * train consists of material from the original Alpino CD-ROM (file id 'cdb' 7000+ sentences from the Eindhoven corpus), questions using in a QA project (file ids with qa and wpspel), material from suites used for grammar maintenance (id: g_suite, h_suite, leuven_yellow_pages), example sentence from the Dutch reference grammar ANS (eans), and the WR-P-P-H section of the Lassy Small corpus
+ * dev consists of material from the WR-P-P-H section of the Lassy Small corpus
+ * test consists of material from the WR-P-P-H and WR-P-P-L sections of the Lassy Small corpus
+
+The data was thoroughly revised by Gosse Bouma and Gertjan van Noord for UD 2.1 in November 2017.
+The new version was created using the same conversion script as was used for Dutch LassySmall.
+As sources, we used the (manually corrected) Alpino treebank annotation for this material as it is
+available in Groningen. Links to original files have been added. Note that tokenization may differ
+from the previous UD version.
+
+The conversion script can be found here: https://github.com/gossebouma/lassy2ud
+
+ # Acknowledgements
+ 
+ # Older 
+ 
+ Description of the material as it was included in UD 1.0 and 2.0:
+ 
 The data were used in the CoNLL-X Shared Task in dependency parsing (2006); the CoNLL version
 was taken and converted to the Prague dependency style as a part of HamleDT (since 2011).
 Later versions of HamleDT added a conversion to the Stanford dependencies (2014) and to
 Universal Dependencies (HamleDT 3.0, 2015). The conversion path from the original Alpino still
 goes through the CoNLL-X format and the Prague dependencies, which may occasionally lead to
-loss of information. The first release of Universal Dependencies that includes this treebank
-is UD v1.2 in November 2015. It is essentially the HamleDT conversion but the data is not
-identical to HamleDT 3.0 because the conversion procedure has been further improved.
-
-Alpino and the Dutch CoNLL-X data were released under the GNU GPL license, hence that license
-can be used for UD_Dutch as well. However, since GPL is more suitable for programs than for
-data (see https://github.com/UniversalDependencies/docs/issues/296 for a discussion), we asked
-for and Gertjan van Noord was kind enough to grant the permission to use the Creative Commons
-license as an alternative.
+loss of information. The first release of Universal Dependencies that included this treebank
+was UD v1.2 in November 2015. It was essentially the HamleDT conversion but the data was not
+identical to HamleDT 3.0 because the conversion procedure had been further improved.
 
 
-References:
+# References:
 
-http://odur.let.rug.nl/~vannoord/trees/
-http://ufal.mff.cuni.cz/hamledt ... HamleDT
-http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
-http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
+* http://odur.let.rug.nl/~vannoord/trees/
+* http://ufal.mff.cuni.cz/hamledt ... HamleDT
+* http://ufal.mff.cuni.cz/treex ... Treex is the software used for conversion
+* http://ufal.mff.cuni.cz/interset ... Interset was used to convert POS tags and features
 
-@inproceedings{nl,
-  author    = {Leonoor van der Beek and Bouma, Gosse and Daciuk, Jan and Gaustad, Tanja and Malouf, Robert and Gertjan van Noord and Prins, Robbert and Villada, Begoña},
-  year      = {2002},
-  title     = {Chapter 5. The {Alpino} Dependency Treebank},
-  booktitle = {Algorithms for Linguistic Processing {NWO PIONIER} Progress Report},
-  address   = {Groningen, The Netherlands},
-  url       = {http://odur.let.rug.nl/~vannoord/trees/Papers/report_ch5.pdf}
-}
+* Gosse Bouma and Gertjan van Noord Increasing Return on annotation investment: the automatic construction of a Universal Dependency treebank for Dutch in: Proceedings of the Universal Dependencies Workshop, Gothenburg, 22 May 2017
+http://aclweb.org/anthology/W17-0403
+* van Noord G. et al. (2013) Large Scale Syntactic Annotation of Written Dutch: Lassy. In: Spyns P., Odijk J. (eds) Essential Speech and Language Technology for Dutch. Theory and Applications of Natural Language Processing. Springer, Berlin, Heidelberg https://doi.org/10.1007/978-3-642-30910-6_9
+* L. van der Beek, G. Bouma, R. Malouf, and G. van Noord. The alpino dependency treebank. In Computational Linguistics in the Netherlands (CLIN) 2001, Twente University, 2002. http://www.let.rug.nl/~gosse/papers/clin01c.pdf
+
+
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
+Data available since: UD v1.2
+License: CC BY-SA 4.0
+Includes text: yes
+Genre: news
+Lemmas: converted from manual
+UPOS: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
+Contributors: Zeman, Daniel; Žabokrtský, Zdeněk; Bouma, Gosse; van Noord, Gertjan
+Contributing: elsewhere
+Contact: g.bouma@rug.nl
+Paragraphs to web: 5
+===============================================================================
+
+
+
 
 
 Changelog
 
+2017-11-15 v2.1
+  * First version of thorougly revised data.
+    It was created using the same conversion script as is being used for Dutch
+    LassySmall. As sources, we used the (manually corrected) Alpino treebank
+    annotation for this material as it is available in Groningen. Links to
+    original files have been added. Issues:
+    * tokenization may differ from the previous version.
+    * some sentences are missing in the Alpino treebanks. In those cases UD 2.0
+      annotation has been preserved.
 2017-03-01 v2.0
   * Converted to UD v2 guidelines.
   * Reconsidered PRON vs. DET.
