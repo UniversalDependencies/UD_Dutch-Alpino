@@ -1,9 +1,9 @@
- # Summary
- 
- This corpus consists of samples from various treebanks annotated at the University of Groningen using the Alpino annotation tools and guidelines. 
- 
- # Introduction
- 
+# Summary
+
+This corpus consists of samples from various treebanks annotated at the University of Groningen using the Alpino annotation tools and guidelines.
+
+# Introduction
+
 The data consists of samples from various treebanks annotated at the University of Groningen using the Alpino annotation tools and guidelines:
 
  * train consists of material from the original Alpino CD-ROM (file id 'cdb' 7000+ sentences from the Eindhoven corpus), questions using in a QA project (file ids with qa and wpspel), material from suites used for grammar maintenance (id: g_suite, h_suite, leuven_yellow_pages), example sentence from the Dutch reference grammar ANS (eans), and the WR-P-P-H section of the Lassy Small corpus
@@ -18,12 +18,12 @@ from the previous UD version.
 
 The conversion script can be found here: https://github.com/gossebouma/lassy2ud
 
- # Acknowledgements
- 
- # Older 
- 
- Description of the material as it was included in UD 1.0 and 2.0:
- 
+# Acknowledgements
+
+# Older
+
+Description of the material as it was included in UD 1.0 and 2.0:
+
 The data were used in the CoNLL-X Shared Task in dependency parsing (2006); the CoNLL version
 was taken and converted to the Prague dependency style as a part of HamleDT (since 2011).
 Later versions of HamleDT added a conversion to the Stanford dependencies (2014) and to
@@ -47,6 +47,43 @@ http://aclweb.org/anthology/W17-0403
 * L. van der Beek, G. Bouma, R. Malouf, and G. van Noord. The alpino dependency treebank. In Computational Linguistics in the Netherlands (CLIN) 2001, Twente University, 2002. http://www.let.rug.nl/~gosse/papers/clin01c.pdf
 
 
+
+# Changelog
+
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Dutch to UD_Dutch-Alpino.
+* 2017-11-15 v2.1
+  * First version of thorougly revised data.
+    It was created using the same conversion script as is being used for Dutch
+    LassySmall. As sources, we used the (manually corrected) Alpino treebank
+    annotation for this material as it is available in Groningen. Links to
+    original files have been added. Issues:
+    * tokenization may differ from the previous version.
+    * some sentences are missing in the Alpino treebanks. In those cases UD 2.0
+      annotation has been preserved.
+* 2017-03-01 v2.0
+  * Converted to UD v2 guidelines.
+  * Reconsidered PRON vs. DET.
+  * Changed advmod vs. obl distinction. This is a result of a general rule for
+    the Prague deprel 'Adv'. However, we should extend it by a Dutch-specific
+    rule for adjectives, which often act like adverbs and definitely not like
+    obliques.
+* 2016-05-15 v1.3
+  * Multi-word expressions that were collapsed into one node (with underscores)
+    are split again. This needs to be revisited and POS tags and MWE-internal
+    relations improved.
+  * Fixed adverbs that were attached as nmod; correct: advmod.
+  * Copulas with clausal complements are now heads.
+  * Relative pronouns are no longer treated as subordinating conjunctions.
+    More work is needed: now all are attached as 'dobj', which may not be correct;
+    noun phrases with relative determiners (welke boeken) and relative prepositional
+    phrases (bij wat) are not handled properly.
+  * Reversed relation finite auxiliary "heb" – participle.
+  * Infinitives under modal verbs are now 'xcomp', not 'aux'.
+
+
+
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.2
 License: CC BY-SA 4.0
@@ -62,66 +99,4 @@ Contributing: elsewhere
 Contact: g.bouma@rug.nl
 Paragraphs to web: 5
 ===============================================================================
-
-
-
-
-
-Changelog
-
-2017-11-15 v2.1
-  * First version of thorougly revised data.
-    It was created using the same conversion script as is being used for Dutch
-    LassySmall. As sources, we used the (manually corrected) Alpino treebank
-    annotation for this material as it is available in Groningen. Links to
-    original files have been added. Issues:
-    * tokenization may differ from the previous version.
-    * some sentences are missing in the Alpino treebanks. In those cases UD 2.0
-      annotation has been preserved.
-2017-03-01 v2.0
-  * Converted to UD v2 guidelines.
-  * Reconsidered PRON vs. DET.
-  * Changed advmod vs. obl distinction. This is a result of a general rule for
-    the Prague deprel 'Adv'. However, we should extend it by a Dutch-specific
-    rule for adjectives, which often act like adverbs and definitely not like
-    obliques.
-2016-05-15 v1.3
-  * Multi-word expressions that were collapsed into one node (with underscores)
-    are split again. This needs to be revisited and POS tags and MWE-internal
-    relations improved.
-  * Fixed adverbs that were attached as nmod; correct: advmod.
-  * Copulas with clausal complements are now heads.
-  * Relative pronouns are no longer treated as subordinating conjunctions.
-    More work is needed: now all are attached as 'dobj', which may not be correct;
-    noun phrases with relative determiners (welke boeken) and relative prepositional
-    phrases (bij wat) are not handled properly.
-  * Reversed relation finite auxiliary "heb" – participle.
-  * Infinitives under modal verbs are now 'xcomp', not 'aux'.
-
-
-===============================================================================
-ARCHIVE: LICENSE PERMISSION, from Gertjan van Noord, 8 Sep 2016:
-Dan,
-
-it is ok to use the CreativeCommons license.
-
-The GPL came about because of the circumstance that the
-treebank was/is distributed as part of the Alpino parser distribution.
-
-GJ
-
-
-On Thu, Sep 08, 2016 at 05:32:32PM +0200, Dan Zeman wrote:
-> Dear Gertjan,
->
-> I am writing to you regarding the license of the Alpino treebank (or, better, the Dutch treebank in the CoNLL 2006 shared task, which I believe was based on Alpino). We have been playing with this data, converting it first to the Prague style in the HamleDT project (http://ufal.mff.cuni.cz/hamledt), then to Universal Dependencies (http://universaldependencies.org/).
->
-> All this happened with the GPL license in mind, which means we also attach the same license to any conversions we create. However, the vast majority of treebanks in UD are under one of the CreativeCommons licenses, and there is now a discussion about how much GPL is actually suitable for data (as opposed to software code). The discussion is here:
->
-> https://github.com/UniversalDependencies/docs/issues/296#issuecomment-245569728
->
-> Hence I was wondering whether you would mind allowing a CreativeCommons license as an alternative to GPL?
->
-> Thanks and all the best,
->
-> Dan Zeman
+</pre>
