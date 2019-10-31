@@ -41,7 +41,7 @@
 # sent_id = WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.1.s.2
 # text = Niet door luide demonstraties, maar door vasten en bidden willen de religieuzen hun solidariteit met de armen laten zien.
 # auto = ALUD2.4.0-alpha003
-1	Niet	niet	ADV	BW	_	4	cc	4:cc	_
+1	Niet	niet	CCONJ	BW	_	4	cc	4:cc	_
 2	door	door	ADP	VZ|init	_	4	case	4:case	_
 3	luide	luid	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	4	amod	4:amod	_
 4	demonstraties	demonstratie	NOUN	N|soort|mv|basis	Number=Plur	19	obl	19:obl:door	SpaceAfter=No
@@ -648,7 +648,7 @@
 # sent_id = WR-P-P-H-0000000010\WR-P-P-H-0000000010.p.4.s.3
 # text = Zo'n honderd belangstellenden zaten in de kerk op het moment dat Sterry het record brak.
 # auto = ALUD2.4.0-alpha003
-1	Zo'n	zo'n	PRON	VNW|aanw|det|stan|prenom|zonder|agr	PronType=Dem	2	amod	2:amod	_
+1	Zo'n	zo'n	ADV	VNW|aanw|det|stan|prenom|zonder|agr	_	2	amod	2:amod	_
 2	honderd	honderd	NUM	TW|hoofd|prenom|stan	_	3	nummod	3:nummod	_
 3	belangstellenden	belangstellen	VERB	WW|od|nom|met-e|mv-n	VerbForm=Part	4	nsubj	4:nsubj	_
 4	zaten	zitten	VERB	WW|pv|verl|mv	Number=Plur|Tense=Past|VerbForm=Fin	0	root	0:root	_
@@ -907,8 +907,8 @@
 1	De	de	DET	LID|bep|stan|rest	Definite=Def	2	det	2:det	_
 2	reden	reden	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	9	nsubj	9:nsubj	_
 3	van	van	ADP	VZ|init	_	6	case	6:case	_
-4	al	al	PRON	VNW|onbep|det|stan|vrij|zonder	PronType=Ind	5	amod	5:amod	_
-5	dat	dat	PRON	VNW|aanw|det|stan|prenom|zonder|evon	PronType=Dem	6	det	6:det	_
+4	al	al	ADV	VNW|onbep|det|stan|vrij|zonder	_	5	amod	5:amod	_
+5	dat	dat	DET	VNW|aanw|det|stan|prenom|zonder|evon	_	6	det	6:det	_
 6	oponthoud	oponthoud	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	nmod	2:nmod:van	_
 7	was	zijn	AUX	WW|pv|verl|ev	Number=Sing|Tense=Past|VerbForm=Fin	9	cop	9:cop	_
 8	de	de	DET	LID|bep|stan|rest	Definite=Def	9	det	9:det	_
@@ -1558,8 +1558,8 @@
 2	waarschuwt	waarschuwen	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 3	Lode	Lode	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	nsubj	2:nsubj	_
 4	voor	voor	ADP	VZ|init	_	7	case	7:case	_
-5	al	al	ADV	BW	_	6	amod	6:amod	_
-6	teveel	teveel	PRON	VNW|onbep|grad|stan|vrij|zonder|basis	PronType=Ind	7	det	7:det	_
+5	al	al	DET	BW	_	6	amod	6:amod	_
+6	teveel	teveel	DET	VNW|onbep|grad|stan|vrij|zonder|basis	_	7	det	7:det	_
 7	optimisme	optimisme	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	2	obl	2:obl:voor	SpaceAfter=No
 8	.	.	PUNCT	LET	_	2	punct	2:punct	_
 
@@ -2114,7 +2114,7 @@
 6	graag	graag	ADV	BW	_	4	advmod	4:advmod	_
 7	naartoe	naartoe	ADP	VZ|fin	_	5	case	5:case	SpaceAfter=No
 8	,	,	PUNCT	LET	_	13	punct	13:punct	_
-9	juist	juist	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	13	amod	13:amod	_
+9	juist	juist	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	13	advmod	13:advmod	_
 10	omdat	omdat	SCONJ	VG|onder	_	13	mark	13:mark	_
 11	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	13	nsubj	13:nsubj	_
 12	zo	zo	ADV	BW	_	13	advmod	13:advmod	_
@@ -2577,8 +2577,8 @@
 11	de	de	DET	LID|bep|stan|rest	Definite=Def	12	det	12:det	_
 12	aanblik	aanblik	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	20	obl	20:obl:bij	_
 13	van	van	ADP	VZ|init	_	16	case	16:case	_
-14	al	al	PRON	VNW|onbep|det|stan|vrij|zonder	PronType=Ind	15	amod	15:amod	_
-15	die	die	PRON	VNW|aanw|det|stan|prenom|zonder|rest	PronType=Dem	16	det	16:det	_
+14	al	al	ADV	VNW|onbep|det|stan|vrij|zonder	_	15	amod	15:amod	_
+15	die	die	DET	VNW|aanw|det|stan|prenom|zonder|rest	_	16	det	16:det	_
 16	snoertjes	snoer	NOUN	N|soort|mv|dim	Number=Plur	12	nmod	12:nmod:van	_
 17	een	een	DET	LID|onbep|stan|agr	Definite=Ind	18	det	18:det	_
 18	keer	keer	NOUN	N|soort|ev|basis|genus|stan	Gender=Com,Neut|Number=Sing	20	obl	20:obl	_
@@ -3381,8 +3381,8 @@
 7	de	de	DET	LID|bep|stan|rest	Definite=Def	8	det	8:det	_
 8	ombouw	ombouw	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	obj	18:obj	_
 9	van	van	ADP	VZ|init	_	13	case	13:case	_
-10	al	al	PRON	VNW|onbep|det|stan|vrij|zonder	PronType=Ind	11	amod	11:amod	_
-11	zijn	zijn	PRON	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	13	det	13:det	_
+10	al	al	ADV	VNW|onbep|det|stan|vrij|zonder	_	11	amod	11:amod	_
+11	zijn	zijn	DET	VNW|bez|det|stan|vol|3|ev|prenom|zonder|agr	_	13	det	13:det	_
 12	800	800	NUM	TW|hoofd|prenom|stan	_	13	nummod	13:nummod	_
 13	winkels	winkel	NOUN	N|soort|mv|basis	Number=Plur	8	nmod	8:nmod:van	_
 14	naar	naar	ADP	VZ|init	_	17	case	17:case	_
@@ -4031,7 +4031,7 @@
 4	kosten	kosten	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	bij	bij	ADP	VZ|init	_	6	case	6:case	_
 6	elkaar	elkaar	PRON	VNW|recip|pron|obl|vol|persoon|mv	Case=Acc|PronType=Rcp	4	obl	4:obl:bij	_
-7	meer	veel	PRON	VNW|onbep|grad|stan|prenom|zonder|agr|comp	PronType=Ind	8	det	8:det	_
+7	meer	veel	DET	VNW|onbep|grad|stan|prenom|zonder|agr|comp	_	8	det	8:det	_
 8	energie	energie	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	4	obl	4:obl	_
 9	dan	dan	SCONJ	VG|onder	_	13	mark	13:mark	_
 10	ik	ik	PRON	VNW|pers|pron|nomin|vol|1|ev	Case=Nom|Person=1|PronType=Prs	13	nsubj	13:nsubj	_
@@ -4989,7 +4989,7 @@
 # sent_id = WR-P-P-H-0000000077\WR-P-P-H-0000000077.p.6.s.1
 # text = Onmiddellijk nadat de regering de toestemmingswet aan de Tweede Kamer had gestuurd, brak een debat los over de vraag of Máxima koningin wordt of prinses.
 # auto = ALUD2.4.0-alpha003
-1	Onmiddellijk	onmiddellijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	12	amod	12:amod	_
+1	Onmiddellijk	onmiddellijk	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	12	advmod	12:advmod	_
 2	nadat	nadat	SCONJ	VG|onder	_	12	mark	12:mark	_
 3	de	de	DET	LID|bep|stan|rest	Definite=Def	4	det	4:det	_
 4	regering	regering	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	12	nsubj	12:nsubj	_
@@ -5100,7 +5100,7 @@
 17	koningin	koningin	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	18	xcomp	18:xcomp	_
 18	wordt	worden	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	SpaceAfter=No
 19	,	,	PUNCT	LET	_	26	punct	26:punct	_
-20	ook	ook	ADV	BW	_	26	amod	26:amod	_
+20	ook	ook	ADV	BW	_	26	advmod	26:advmod	_
 21	omdat	omdat	SCONJ	VG|onder	_	26	mark	26:mark	_
 22	het	het	PRON	VNW|pers|pron|stan|red|3|ev|onz	Person=3|PronType=Prs	26	expl	26:expl	_
 23	in	in	ADP	VZ|init	_	25	case	25:case	_
@@ -6746,7 +6746,7 @@
 7	teveel	teveel	ADV	VNW|onbep|grad|stan|vrij|zonder|basis	_	8	advmod	8:advmod	_
 8	gezien	zien	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
 9	als	als	ADP	VZ|init	_	11	mark	11.1:mark	_
-10	een	een	DET	LID|onbep|stan|agr	Definite=Ind	11	orphan	11.1:det	_
+10	een	een	DET	LID|onbep|stan|agr	Definite=Ind	11	det	11.1:det	_
 11	economisch	economisch	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	8	xcomp	11.1:amod	SpaceAfter=No
 11.1	project	project	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	_	_	8:xcomp	CopiedFrom=21
 12	,	,	PUNCT	LET	_	21	punct	21:punct	_
@@ -6952,7 +6952,7 @@
 # sent_id = WR-P-P-H-0000000096\WR-P-P-H-0000000096.p.4.s.1
 # text = Zowel algemeen directeur Beijer van Sparta als technisch manager Roks weigerde gisteren commentaar te geven.
 # auto = ALUD2.4.0-alpha003
-1	Zowel	zowel	ADV	BW	_	3	cc	3:cc	_
+1	Zowel	zowel	CCONJ	BW	_	3	cc	3:cc	_
 2	algemeen	algemeen	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	3	amod	3:amod	_
 3	directeur	directeur	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	11	nsubj	11:nsubj|15:nsubj:xsubj	_
 4	Beijer	Beijer	PROPN	N|eigen|ev|basis|zijd|stan	Gender=Com|Number=Sing	3	appos	3:appos	_
@@ -7714,7 +7714,7 @@
 4	van	van	ADP	VZ|init	_	5	case	5:case	_
 5	vaccinaties	vaccinatie	NOUN	N|soort|mv|basis	Number=Plur	3	nmod	3:nmod:van	SpaceAfter=No
 6	,	,	PUNCT	LET	_	13	punct	13:punct	_
-7	zowel	zowel	ADV	BW	_	13	cc	13:cc	_
+7	zowel	zowel	CCONJ	BW	_	13	cc	13:cc	_
 8	in	in	ADP	VZ|init	_	13	case	13:case	_
 9	het	het	DET	LID|bep|stan|evon	Definite=Def	8	fixed	8:fixed	_
 10	kader	kader	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	8	fixed	8:fixed	_
@@ -10043,7 +10043,7 @@
 6	jaar	jaar	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	1	nmod	1:nmod	SpaceAfter=No
 7	)	)	PUNCT	LET	_	6	punct	6:punct	_
 8	heeft	hebben	VERB	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-9	zowel	zowel	ADV	BW	_	11	cc	11:cc	_
+9	zowel	zowel	CCONJ	BW	_	11	cc	11:cc	_
 10	in	in	ADP	VZ|init	_	11	case	11:case	_
 11	lengte	lengte	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	15	nmod	15:nmod:in	_
 12	als	als	SCONJ	VG|onder	_	13	cc	13:cc	_
@@ -10382,7 +10382,7 @@
 # text = Praktisch alle kinderen krijgen bijvoorbeeld de DKTP-prikken: vaccinaties tegen difterie, kinkhoest, tetanus en polio.
 # auto = ALUD2.4.0-alpha003
 1	Praktisch	praktisch	ADJ	ADJ|vrij|basis|zonder	Degree=Pos	2	amod	2:amod	_
-2	alle	al	PRON	VNW|onbep|det|stan|prenom|met-e|agr	PronType=Ind	3	det	3:det	_
+2	alle	al	DET	VNW|onbep|det|stan|prenom|met-e|agr	_	3	det	3:det	_
 3	kinderen	kind	NOUN	N|soort|mv|basis	Number=Plur	4	nsubj	4:nsubj	_
 4	krijgen	krijgen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 5	bijvoorbeeld	bijvoorbeeld	ADV	BW	_	4	advmod	4:advmod	_
@@ -10636,7 +10636,7 @@
 # sent_id = WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.30.s.1
 # text = Zowel ouders als jongeren zelf kunnen individueel of in groepen begeleiding en advies krijgen.
 # auto = ALUD2.4.0-alpha003
-1	Zowel	zowel	ADV	BW	_	2	cc	2:cc	_
+1	Zowel	zowel	CCONJ	BW	_	2	cc	2:cc	_
 2	ouders	ouder	NOUN	N|soort|mv|basis	Number=Plur	14	nsubj	14:nsubj	_
 3	als	als	SCONJ	VG|onder	_	4	cc	4:cc	_
 4	jongeren	jong	ADJ	ADJ|nom|comp|met-e|mv-n	Degree=Cmp	2	conj	2:conj:zowel|14:nsubj	_
@@ -10651,6 +10651,42 @@
 13	advies	advies	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	11	conj	11:conj:en|14:obj	_
 14	krijgen	krijgen	VERB	WW|inf|vrij|zonder	VerbForm=Inf	0	root	0:root	SpaceAfter=No
 15	.	.	PUNCT	LET	_	14	punct	14:punct	_
+
+# source = LassySmall5/WR-P-P-L-0000000003/WR-P-P-L-0000000003.p.30.s.2.xml
+# sent_id = WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.30.s.2
+# text = Zo wordt ouders ondersteuning aangeboden bij het opvoeden en bij het bevorderen van gezond gedrag van hun kind door bijvoorbeeld voorlichting over het voorkomen van wiegendood en over gezonde voeding.
+# auto = ALUD2.4.0-alpha003
+1	Zo	zo	ADV	BW	_	5	advmod	5:advmod	_
+2	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	_
+3	ouders	ouder	NOUN	N|soort|mv|basis	Number=Plur	5	iobj	5:iobj	_
+4	ondersteuning	ondersteuning	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	nsubj:pass	5:nsubj:pass	_
+5	aangeboden	aanbieden	VERB	WW|vd|vrij|zonder	VerbForm=Part	0	root	0:root	_
+6	bij	bij	ADP	VZ|init	_	8	case	8:case	_
+7	het	het	DET	LID|bep|stan|evon	Definite=Def	8	det	8:det	_
+8	opvoeden	opvoeden	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	4	nmod	4:nmod:bij	_
+9	en	en	CCONJ	VG|neven	_	12	cc	12:cc	_
+10	bij	bij	ADP	VZ|init	_	12	case	12:case	_
+11	het	het	DET	LID|bep|stan|evon	Definite=Def	12	det	12:det	_
+12	bevorderen	bevorderen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	8	conj	4:nmod:bij|8:conj:en	_
+13	van	van	ADP	VZ|init	_	15	case	15:case	_
+14	gezond	gezond	ADJ	ADJ|prenom|basis|zonder	Degree=Pos	15	amod	15:amod	_
+15	gedrag	gedrag	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	12	nmod	12:nmod:van	_
+16	van	van	ADP	VZ|init	_	18	case	18:case	_
+17	hun	hun	PRON	VNW|bez|det|stan|vol|3|mv|prenom|zonder|agr	Person=3|Poss=Yes|PronType=Prs	18	nmod:poss	18:nmod:poss	_
+18	kind	kind	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	15	nmod	15:nmod:van	_
+19	door	door	ADP	VZ|init	_	21	case	21:case	_
+20	bijvoorbeeld	bijvoorbeeld	ADV	BW	_	21	amod	21:amod	_
+21	voorlichting	voorlichting	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	5	obl:agent	5:obl:agent	_
+22	over	over	ADP	VZ|init	_	24	case	24:case	_
+23	het	het	DET	LID|bep|stan|evon	Definite=Def	24	det	24:det	_
+24	voorkomen	voorkomen	VERB	WW|inf|nom|zonder|zonder-n	VerbForm=Inf	21	nmod	21:nmod:over	_
+25	van	van	ADP	VZ|init	_	26	case	26:case	_
+26	wiegendood	wiegendood	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	nmod	24:nmod:van	_
+27	en	en	CCONJ	VG|neven	_	30	cc	30:cc	_
+28	over	over	ADP	VZ|init	_	30	case	30:case	_
+29	gezonde	gezond	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	30	amod	30:amod	_
+30	voeding	voeding	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	conj	21:nmod:over|24:conj:en	SpaceAfter=No
+31	.	.	PUNCT	LET	_	5	punct	5:punct	_
 
 # source = LassySmall5/WR-P-P-L-0000000003/WR-P-P-L-0000000003.p.30.s.3.xml
 # sent_id = WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.30.s.3
@@ -10950,7 +10986,7 @@
 24	,	,	PUNCT	LET	_	25	punct	25:punct	_
 25	Bureau	bureau	NOUN	N|soort|ev|basis|onz|stan	Gender=Neut|Number=Sing	17	conj	13:obl:met|17:conj:enzovoort	_
 26	Jeugdzorg	jeugdzorg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	25	fixed	25:fixed	_
-27	enzovoort	enzovoort	ADV	BW	_	17	cc	17:cc	SpaceAfter=No
+27	enzovoort	enzovoort	CCONJ	BW	_	17	cc	17:cc	SpaceAfter=No
 28	.	.	PUNCT	LET	_	13	punct	13:punct	_
 
 # source = LassySmall5/WR-P-P-L-0000000003/WR-P-P-L-0000000003.p.33.s.1.xml
@@ -11072,7 +11108,7 @@
 18	waar	waar	ADV	VNW|vb|adv-pron|obl|vol|3o|getal	_	22	obj	17:ref	_
 19	de	de	DET	LID|bep|stan|rest	Definite=Def	20	det	20:det	_
 20	kleine	klein	ADJ	ADJ|nom|basis|met-e|zonder-n|stan	Degree=Pos	22	nsubj	22:nsubj	_
-21	bij	bij	ADP	VZ|init	_	18	case	18:case	_
+21	bij	bij	ADP	VZ|init	_	18	obl	18:obl	_
 22	is	zijn	VERB	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	SpaceAfter=No
 23	'	'	PUNCT	LET	_	17	punct	17:punct	_
 24	wel	wel	ADV	BW	_	26	advmod	26:advmod	_
@@ -13185,8 +13221,8 @@
 # auto = ALUD2.4.0-alpha003
 1	Daardoor	daardoor	ADV	BW	_	2	advmod	2:advmod	_
 2	krijgen	krijgen	VERB	WW|pv|tgw|mv	Number=Plur|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-3	niet	niet	ADV	BW	_	4	amod	4:amod	_
-4	alle	al	PRON	VNW|onbep|det|stan|prenom|met-e|agr	PronType=Ind	5	det	5:det	_
+3	niet	niet	DET	BW	_	4	amod	4:amod	_
+4	alle	al	DET	VNW|onbep|det|stan|prenom|met-e|agr	_	5	det	5:det	_
 5	kinderen	kind	NOUN	N|soort|mv|basis	Number=Plur	2	nsubj	2:nsubj	_
 6	optimale	optimaal	ADJ	ADJ|prenom|basis|met-e|stan	Degree=Pos	7	amod	7:amod	_
 7	zorg	zorg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	2	obj	2:obj	_
@@ -13854,7 +13890,7 @@
 26	sommige	sommig	PRON	VNW|onbep|det|stan|nom|met-e|zonder-n	PronType=Ind	21	nmod	21:nmod:van|24:nmod:van	_
 27	daarvan	daarvan	ADV	BW	_	26	amod	26:amod	SpaceAfter=No
 28	,	,	PUNCT	LET	_	33	punct	33:punct	_
-29	met	met	ADP	VZ|init	_	33	amod	33:amod	_
+29	met	met	ADP	VZ|init	_	33	obl	33:obl	_
 30	name	naam	NOUN	N|soort|ev|basis|dat	Number=Sing	29	fixed	29:fixed	_
 31	als	als	SCONJ	VG|onder	_	33	mark	33:mark	_
 32	risicogroepen	risicogroep	NOUN	N|soort|mv|basis	Number=Plur	33	nsubj:pass	33:nsubj:pass	_
