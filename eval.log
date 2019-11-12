@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Dutch-Alpino:
-commit bcf8d325e47fb023651c94d6a29a681f7d0dd91e
-Merge: 77bd4ea 757c0c4
+commit 672a362f952294dc2198a6c1fed32f6eb4f3be2d
+Merge: f056d45 527390e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 208633 of 208633 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.6811534551239.
+Size: counted 208470 of 208470 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.6795902919887.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,28 +15,43 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 123156 out of 208633 total words have one or more features.
+Features: 122857 out of 208470 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 49127 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 208633 words.
+Udapi: found 48589 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 208470 words.
 Genres: found 1 out of 17 known.
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
 *** PASSED ***
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-test.conllu
-*** PASSED ***
+[Line 13699 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.91.s.1 Node 21]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (21:is:aux --> 20:zorg:nsubj)
+Syntax errors: 1
+*** FAILED *** with 1 errors
+Exit code: 1
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 3715 Sent cdb\1088 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
+[Line 22508 Sent cdb\1776 Node 8]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (8:zouden:aux --> 15:overmorgen:orphan)
+[Line 22508 Sent cdb\1776 Node 15]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'aux'.
+[Line 34137 Sent cdb\219 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17]
+[Line 34146 Sent cdb\219 Node 17]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 9, 13, 19]
+[Line 41029 Sent cdb\2446 Node 25]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
+[Line 50294 Sent cdb\2773 Node 10]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
+[Line 50294 Sent cdb\2773 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
+[Line 50297 Sent cdb\2773 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10, 11, 12]
+...suppressing further errors regarding Syntax
+Syntax errors: 31
+*** FAILED *** with 31 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.773127667653695) = 0.198237863500947
+(weight=0.256410256410256) * (score{size}=0.773014522133038) = 0.198208851828984
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.48635004808372) * (availability=1) * (validity=1) = 0.48635004808372
-STARS = 2.5
-UD_Dutch-Alpino	0.48635004808372	2.5
+(TOTAL score=0.486321036411757) * (availability=1) * (validity=0.01) = 0.00486321036411757
+STARS = 0
+UD_Dutch-Alpino	0.00486321036411757	0
