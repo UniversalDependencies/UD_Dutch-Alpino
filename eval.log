@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Dutch-Alpino:
-commit 672a362f952294dc2198a6c1fed32f6eb4f3be2d
-Merge: f056d45 527390e
+commit 3935d6053e20fa535dba98487165b017d0c23973
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 12 16:55:28 2019 +0100
 Size: counted 208470 of 208470 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6795902919887.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 122857 out of 208470 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 48589 bugs.
+Udapi: found 48591 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 208470 words.
 Genres: found 1 out of 17 known.
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
