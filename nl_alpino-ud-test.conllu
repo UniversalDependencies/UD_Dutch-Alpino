@@ -13699,7 +13699,7 @@
 20	zorg	zorg	NOUN	N|soort|ev|basis|zijd|stan	Gender=Com|Number=Sing	24	nsubj:pass	24:nsubj:pass	_
 21	is	zijn	AUX	WW|pv|tgw|ev	Number=Sing|Tense=Pres|VerbForm=Fin	24	aux:pass	24:aux:pass	_
 22	of	of	CCONJ	VG|neven	_	23	cc	23.1:cc	_
-23	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	21	aux:pass	23.1:aux:pass	_
+23	wordt	worden	AUX	WW|pv|tgw|met-t	Number=Sing|Tense=Pres|VerbForm=Fin	24	aux:pass	23.1:aux:pass	_
 23.1	ontvangen	ontvangen	VERB	WW|vd|vrij|zonder	VerbForm=Part	_	_	21:conj:of	CopiedFrom=24
 24	ontvangen	ontvangen	VERB	WW|vd|vrij|zonder	VerbForm=Part	18	ccomp	18:ccomp	SpaceAfter=No
 25	.	.	PUNCT	LET	_	13	punct	13:punct	_
