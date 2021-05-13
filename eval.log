@@ -1,13 +1,13 @@
-Running the following version of tools/evaluate_treebank.pl:
-commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Running the following version of UD tools:
+commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Apr 21 19:02:58 2018 +0200
+Date:   Thu May 6 20:16:19 2021 +0200
 Evaluating the following revision of UD_Dutch-Alpino:
-commit e65a6013e23b8b301a8a53da4c4697a1f87c5e00
+commit ffb490d1a5a4d2a76e8ae24fd85d143cf045f7df
+Merge: 224610e 8caed75
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 17:50:50 2020 +0200
-Size: counted 208470 of 208470 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.6795902919887.
+Size: counted 169468 of 169468 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.2653282368737.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,43 +15,42 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 122857 out of 208470 total words have one or more features.
+Features: 98386 out of 169468 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 48591 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 208470 words.
+Udapi:
+               TOTAL      38292
+Udapi: found 38292 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 169468 words.
 Genres: found 1 out of 17 known.
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
 *** PASSED ***
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-test.conllu
-[Line 13699 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.91.s.1 Node 21]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (21:is:aux --> 20:zorg:nsubj)
-Syntax errors: 1
-*** FAILED *** with 1 errors
-Exit code: 1
+*** PASSED ***
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-train.conllu
 [Line 3715 Sent cdb\1088 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
-[Line 22508 Sent cdb\1776 Node 8]: [L3 Syntax leaf-aux-cop] 'aux' not expected to have children (8:zouden:aux --> 15:overmorgen:orphan)
-[Line 22508 Sent cdb\1776 Node 15]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'aux'.
-[Line 34137 Sent cdb\219 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17, 18]
-[Line 34146 Sent cdb\219 Node 17]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 9, 13, 19]
-[Line 41029 Sent cdb\2446 Node 25]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obl'.
-[Line 50294 Sent cdb\2773 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
-[Line 50297 Sent cdb\2773 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10, 11, 12]
-[Line 74031 Sent cdb\3653 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7, 18]
+[Line 34223 Sent cdb\219 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17, 18]
+[Line 34232 Sent cdb\219 Node 17]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 9, 13, 19]
+[Line 50380 Sent cdb\2773 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
+[Line 50383 Sent cdb\2773 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10, 11, 12]
+[Line 74117 Sent cdb\3653 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7, 18]
+[Line 74118 Sent cdb\3653 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6]
+[Line 74608 Sent cdb\3670 Node 18]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [25]
+[Line 77440 Sent cdb\3774 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17, 19]
 ...suppressing further errors regarding Syntax
-Syntax errors: 29
-*** FAILED *** with 29 errors
+Syntax errors: 19
+*** FAILED *** with 19 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.773014522133038) = 0.198208851828984
+(weight=0.256410256410256) * (score{size}=0.743029234699981) = 0.190520316589739
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.486321036411757) * (availability=1) * (validity=0.01) = 0.00486321036411757
+(TOTAL score=0.478632501172512) * (availability=1) * (validity=0.01) = 0.00478632501172512
 STARS = 0
-UD_Dutch-Alpino	0.00486321036411757	0
+UD_Dutch-Alpino	0.00478632501172512	0
