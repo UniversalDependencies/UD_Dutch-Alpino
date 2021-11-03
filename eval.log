@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit a9f25b62a4762a5f785e526580d83b6ed2f92a23
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 14 10:50:32 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Dutch-Alpino:
-commit 0f2b29373c8a5727997c1d8d1b8dc46c471bb0b5
-Merge: 49e5aac ad53be9
+commit c2b7fd2581e2cc68a726c620be8ce5e99a5a8baa
+Merge: ca95af4 27a5367
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 208613 of 208613 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6809617217099.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      49005
-Udapi: found 49005 bugs.
+               TOTAL      48984
+Udapi: found 48984 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 208613 words.
 Genres: found 1 out of 17 known.
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
@@ -29,20 +29,8 @@ validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-test.conllu
 *** PASSED ***
 validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-train.conllu
-[Line 3715 Sent cdb\1088 Node 8]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
-[Line 34223 Sent cdb\219 Node 8]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17, 18]
-[Line 34232 Sent cdb\219 Node 17]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8, 9, 13, 19]
-[Line 50380 Sent cdb\2773 Node 10]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [13]
-[Line 50383 Sent cdb\2773 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [10, 11, 12]
-[Line 74117 Sent cdb\3653 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7, 18]
-[Line 74118 Sent cdb\3653 Node 7]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6]
-[Line 74608 Sent cdb\3670 Node 18]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [25]
-[Line 77440 Sent cdb\3774 Node 14]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [16, 17, 19]
-...suppressing further errors regarding Syntax
-Syntax errors: 22
-*** FAILED *** with 22 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -51,6 +39,6 @@ Validity: 0.01
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.486346489589545) * (availability=1) * (validity=0.01) = 0.00486346489589545
-STARS = 0
-UD_Dutch-Alpino	0.00486346489589545	0
+(TOTAL score=0.486346489589545) * (availability=1) * (validity=1) = 0.486346489589545
+STARS = 2.5
+UD_Dutch-Alpino	0.486346489589545	2.5
