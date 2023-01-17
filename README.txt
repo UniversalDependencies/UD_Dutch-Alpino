@@ -16,7 +16,7 @@ As sources, we used the (manually corrected) Alpino treebank annotation for this
 available in Groningen. Links to original files have been added. Note that tokenization may differ
 from the previous UD version.
 
-The conversion script can be found here: https://github.com/gossebouma/lassy2ud
+The (Go and XQuery) conversion script is available for download at https://github.com/rug-compling/alud. It can be used to convert additional material annotated according to Lassy/CGN guidelines or annotated automatically using the Alpino parser.
 
 # Acknowledgements
 
@@ -43,6 +43,7 @@ identical to HamleDT 3.0 because the conversion procedure had been further impro
 
 * Gosse Bouma and Gertjan van Noord Increasing Return on annotation investment: the automatic construction of a Universal Dependency treebank for Dutch in: Proceedings of the Universal Dependencies Workshop, Gothenburg, 22 May 2017
 http://aclweb.org/anthology/W17-0403
+* Bouma, Gosse. "Comparing two methods for adding Enhanced Dependencies to UD treebanks." Proceedings of the 17th International Workshop on Treebanks and Linguistic Theories (TLT 2018), December 13–14, 2018, Oslo University, Norway. No. 155. Linköping University Electronic Press, 2018. https://ep.liu.se/ecp/155/ecp18155.pdf#page=25
 * van Noord G. et al. (2013) Large Scale Syntactic Annotation of Written Dutch: Lassy. In: Spyns P., Odijk J. (eds) Essential Speech and Language Technology for Dutch. Theory and Applications of Natural Language Processing. Springer, Berlin, Heidelberg https://doi.org/10.1007/978-3-642-30910-6_9
 * L. van der Beek, G. Bouma, R. Malouf, and G. van Noord. The alpino dependency treebank. In Computational Linguistics in the Netherlands (CLIN) 2001, Twente University, 2002. http://www.let.rug.nl/~gosse/papers/clin01c.pdf
 
