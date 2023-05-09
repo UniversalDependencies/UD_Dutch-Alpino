@@ -5,103 +5,106 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>13603</sentences><tokens>208613</tokens><words>208613</words><fused>0</fused></total>
-    <train><sentences>12289</sentences><tokens>186026</tokens><words>186026</words><fused>0</fused></train>
+    <total><sentences>13603</sentences><tokens>208613</tokens><words>208614</words><fused>1</fused></total>
+    <train><sentences>12289</sentences><tokens>186026</tokens><words>186027</words><fused>1</fused></train>
     <dev><sentences>718</sentences><tokens>11541</tokens><words>11541</words><fused>0</fused></dev>
     <test><sentences>596</sentences><tokens>11046</tokens><words>11046</words><fused>0</fused></test>
   </size>
-  <lemmas unique="22554" /><!-- de, ., ,, van, het, zijn, in, een, en, ?, dat, te, hebben, worden, " -->
-  <forms unique="27221" /><!-- de, ., ,, van, het, in, een, en, ?, is, dat, te, ", op, zijn -->
-  <fusions unique="0" /><!--  -->
+  <lemmas unique="22295" /><!-- de, ., ,, van, het, zijn, in, een, en, ?, dat, te, hebben, worden, " -->
+  <forms unique="27220" /><!-- de, ., ,, van, het, in, een, en, ?, is, dat, te, ", op, zijn -->
+  <fusions unique="1" /><!-- nogeens -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">14022</tag><!-- groot, goed, één, ander, nieuw, laat, Nederlands, heel, lang, ver -->
-    <tag name="ADP">26394</tag><!-- van, in, te, op, voor, met, aan, door, om, bij -->
-    <tag name="ADV">12706</tag><!-- niet, er, ook, hoe, nog, wel, al, zo, veel, waar -->
-    <tag name="AUX">9825</tag><!-- zijn, worden, hebben, zullen, kunnen, moeten, mogen, krijgen -->
-    <tag name="CCONJ">4474</tag><!-- en, maar, of, want, zowel, niet, doch, noch, dus, à -->
-    <tag name="DET">25260</tag><!-- de, het, een, welk, deze, geen, dit, die, al, veel -->
-    <tag name="INTJ">96</tag><!-- ja, nee, hè, hoor, uh, ach, ha, nietwaar, o, och -->
-    <tag name="NOUN">35170</tag><!-- jaar, land, mens, kind, heer, plaats, dag, man, week, flo -->
-    <tag name="NUM">3580</tag><!-- twee, drie, één, hoeveel, vier, 1, vijf, tien, zes, 2 -->
-    <tag name="PRON">13129</tag><!-- hij, die, ik, het, dat, zijn, wat, zich, ze, wie -->
-    <tag name="PROPN">14842</tag><!-- van, de, Nederland, Amsterdam, J., zaterdag, den, Jan, Rotterdam, Groningen -->
+    <tag name="ADJ">13685</tag><!-- groot, goed, één, ander, nieuw, laat, heel, lang, Nederlands, ver -->
+    <tag name="ADP">26307</tag><!-- van, in, te, op, voor, met, aan, door, om, bij -->
+    <tag name="ADV">12714</tag><!-- niet, er, ook, hoe, nog, wel, zo, al, veel, waar -->
+    <tag name="AUX">9824</tag><!-- zijn, worden, hebben, zullen, kunnen, moeten, mogen, krijgen -->
+    <tag name="CCONJ">4475</tag><!-- en, maar, of, want, zowel, tot, niet, doch, à, noch -->
+    <tag name="DET">25223</tag><!-- de, het, een, welk, deze, geen, dit, die, al, veel -->
+    <tag name="INTJ">103</tag><!-- ja, nee, hoor, hè, uh, ach, ha, nietwaar, o, och -->
+    <tag name="NOUN">34765</tag><!-- jaar, land, mens, heer, kind, plaats, dag, man, week, minister -->
+    <tag name="NUM">3542</tag><!-- twee, drie, één, hoeveel, vier, 1, vijf, tien, zes, 2 -->
+    <tag name="PRON">13143</tag><!-- hij, die, ik, het, dat, zijn, wat, zich, ze, wie -->
+    <tag name="PROPN">15374</tag><!-- van, de, Nederland, Amsterdam, J., zaterdag, den, der, Jan, Rotterdam -->
     <tag name="PUNCT">22612</tag><!-- ., ,, ?, ", (, ), :, -, ', ! -->
-    <tag name="SCONJ">3402</tag><!-- dat, als, dan, omdat, of, toen, zoals, terwijl, wanneer, nadat -->
-    <tag name="SYM">1070</tag><!-- -, fancy, ,, the, /, =, ", 1-0, km, a -->
-    <tag name="VERB">21807</tag><!-- hebben, komen, zijn, gaan, willen, zeggen, maken, worden, noemen, doen -->
-    <tag name="X">224</tag><!-- procent, onder ander, jongstleden, zogenaamd, miljoen, onder veel, Rooms-katholiek, aanstaand, nummer, etcetera -->
+    <tag name="SCONJ">3410</tag><!-- dat, als, dan, omdat, of, toen, zoals, terwijl, wanneer, nadat -->
+    <tag name="SYM">1266</tag><!-- flo, -, the, fancy, ,, /, =, ", 1-0, a -->
+    <tag name="VERB">21911</tag><!-- hebben, komen, zijn, gaan, willen, zeggen, maken, worden, noemen, doen -->
+    <tag name="X">260</tag><!-- procent, onder ander, jongstleden, zogenaamd, miljoen, onder veel, rooms-katholiek, nummer, aanstaand, bijvoorbeeld -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="31">
-    <feat name="Abbr" value="Yes" upos="X">222</feat><!-- pct., o.a., jl., o.m., pct, mln., a.s., etc., rk, v.j. -->
-    <feat name="Case" value="Acc" upos="PRON">1436</feat><!-- zich, hem, me, ons, mij, elkaar, haar, hen, je, zichzelf -->
+    <feat name="Abbr" value="Yes" upos="X">257</feat><!-- pct., o.a., jl., o.m., pct, mln., a.s., etc., rk, v.j. -->
+    <feat name="Case" value="Acc" upos="PRON">1433</feat><!-- zich, hem, me, ons, mij, elkaar, haar, hen, je, zichzelf -->
     <feat name="Case" value="Dat" upos="PRON">4</feat><!-- dien, dezen -->
-    <feat name="Case" value="Gen" upos="PRON">2</feat><!-- uwer, zijner -->
-    <feat name="Case" value="Nom" upos="PRON">4140</feat><!-- hij, ik, we, men, je, zij, wij, u, jij, ie -->
-    <feat name="Definite" value="Def" upos="DET">17402</feat><!-- de, het, der, 's, 't, des, den, dé -->
-    <feat name="Definite" value="Ind" upos="DET">4425</feat><!-- een, 'n, en -->
-    <feat name="Degree" value="Cmp" upos="ADJ">804</feat><!-- verder, beter, later, eerder, jongeren, vroeger, langer, groter, grotere, hoger -->
-    <feat name="Degree" value="Pos" upos="ADJ">12181</feat><!-- nieuwe, grote, andere, Nederlandse, goed, heel, groot, Amerikaanse, eigen, goede -->
-    <feat name="Degree" value="Sup" upos="ADJ">456</feat><!-- laatste, grootste, beste, belangrijkste, hoogste, best, jongste, voornaamste, oudste, allerminst -->
-    <feat name="Gender" value="Com" upos="NOUN,PROPN">21015</feat><!-- heer, plaats, flo, tijd, minister, stad, man, dag, week, politie -->
-    <feat name="Gender" value="Com,Neut" upos="NOUN,PROPN">923</feat><!-- keer, soort, boord, opzet, Financien, Beernink, Springer, subsidie, DFC, Interpay -->
-    <feat name="Gender" value="Neut" upos="NOUN,PROPN">11637</feat><!-- jaar, land, uur, Nederland, aantal, Amsterdam, deel, huis, procent, miljoen -->
-    <feat name="Number" value="Plur" upos="AUX,NOUN,PROPN,VERB">12262</feat><!-- zijn, hebben, waren, mensen, worden, zullen, kinderen, werden, kunnen, hadden -->
-    <feat name="Number" value="Sing" upos="AUX,NOUN,PROPN,VERB">49175</feat><!-- is, heeft, was, werd, wordt, jaar, zal, kan, zou, had -->
-    <feat name="Person" value="1" upos="PRON">2429</feat><!-- ik, we, ons, wij, me, mijn, mij, onze, mezelf, m'n -->
-    <feat name="Person" value="2" upos="PRON">621</feat><!-- je, u, jullie, jij, jou, uw, gij, jouw, ge, jezelf -->
-    <feat name="Person" value="3" upos="PRON">8326</feat><!-- hij, het, dat, zijn, wat, zich, ze, wie, men, hun -->
-    <feat name="Poss" value="Yes" upos="PRON">1544</feat><!-- zijn, hun, haar, mijn, onze, ons, je, uw, z'n, m'n -->
-    <feat name="PronType" value="Dem" upos="PRON">946</feat><!-- dat, dit, er, die, deze, zo'n, degenen, datgene, degene, d'r -->
-    <feat name="PronType" value="Ind" upos="PRON">917</feat><!-- meer, iets, niets, alles, wat, veel, iedereen, iemand, niemand, enige -->
+    <feat name="Case" value="Gen" upos="PRON">4</feat><!-- zijns, uwer, zijner -->
+    <feat name="Case" value="Nom" upos="PRON">4142</feat><!-- hij, ik, we, men, je, zij, wij, u, jij, ie -->
+    <feat name="Definite" value="Def" upos="DET">17375</feat><!-- de, het, der, 's, 't, des, den, dé -->
+    <feat name="Definite" value="Ind" upos="DET">4416</feat><!-- een, 'n, en -->
+    <feat name="Degree" value="Cmp" upos="ADJ">791</feat><!-- verder, beter, later, eerder, jongeren, vroeger, langer, groter, grotere, hoger -->
+    <feat name="Degree" value="Pos" upos="ADJ">11845</feat><!-- nieuwe, grote, andere, goed, Nederlandse, heel, groot, Amerikaanse, eigen, goede -->
+    <feat name="Degree" value="Sup" upos="ADJ">462</feat><!-- laatste, grootste, beste, belangrijkste, hoogste, best, jongste, voornaamste, allerminst, oudste -->
+    <feat name="Gender" value="Com" upos="NOUN,PROPN">20851</feat><!-- heer, plaats, tijd, minister, man, stad, dag, week, politie, trein -->
+    <feat name="Gender" value="Com,Neut" upos="NOUN,PROPN">836</feat><!-- soort, boord, Greenpeace, Beernink, opzet, subsidie, DFC, Interpay, Laurus, Mendes-France -->
+    <feat name="Gender" value="Neut" upos="NOUN,PROPN">11678</feat><!-- jaar, land, uur, Nederland, aantal, Amsterdam, deel, huis, procent, miljoen -->
+    <feat name="Number" value="Plur" upos="AUX,NOUN,PROPN,VERB">12224</feat><!-- zijn, hebben, waren, mensen, worden, zullen, kinderen, werden, kunnen, hadden -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,PROPN,VERB">48968</feat><!-- is, heeft, was, werd, wordt, jaar, zal, kan, zou, had -->
+    <feat name="Person" value="1" upos="PRON">2431</feat><!-- ik, we, ons, wij, me, mijn, mij, onze, mezelf, m'n -->
+    <feat name="Person" value="2" upos="PRON">622</feat><!-- je, u, jullie, jij, jou, uw, gij, jouw, jezelf, ge -->
+    <feat name="Person" value="3" upos="PRON">8333</feat><!-- hij, het, dat, zijn, wat, zich, ze, wie, men, hun -->
+    <feat name="Poss" value="Yes" upos="PRON">1563</feat><!-- zijn, hun, haar, mijn, onze, ons, je, uw, z'n, m'n -->
+    <feat name="PronType" value="Dem" upos="PRON">940</feat><!-- dat, dit, er, die, deze, zo'n, degenen, datgene, degene, d'r -->
+    <feat name="PronType" value="Ind" upos="PRON">917</feat><!-- meer, iets, niets, alles, wat, veel, iedereen, enige, iemand, niemand -->
     <feat name="PronType" value="Int" upos="PRON">968</feat><!-- wat, wie, welke, welk -->
-    <feat name="PronType" value="Prs" upos="PRON">8714</feat><!-- hij, ik, het, zijn, zich, ze, we, je, men, hun -->
+    <feat name="PronType" value="Prs" upos="PRON">8734</feat><!-- hij, ik, het, zijn, zich, ze, we, je, men, hun -->
     <feat name="PronType" value="Rcp" upos="PRON">67</feat><!-- elkaar -->
     <feat name="PronType" value="Rel" upos="PRON">1509</feat><!-- die, dat, hetgeen, hetgene -->
     <feat name="Reflex" value="Yes" upos="PRON">549</feat><!-- zich, zichzelf -->
-    <feat name="Tense" value="Past" upos="AUX,VERB">6521</feat><!-- was, werd, zou, had, waren, zei, werden, kwam, hadden, kon -->
-    <feat name="Tense" value="Pres" upos="AUX,VERB">12826</feat><!-- is, heeft, zijn, wordt, hebben, zal, kan, moet, komt, heb -->
-    <feat name="VerbForm" value="Fin" upos="AUX,VERB">19347</feat><!-- is, heeft, was, zijn, werd, wordt, hebben, zal, kan, zou -->
-    <feat name="VerbForm" value="Inf" upos="AUX,VERB">5826</feat><!-- worden, zijn, kunnen, hebben, komen, gaan, moeten, maken, zien, doen -->
-    <feat name="VerbForm" value="Part" upos="AUX,VERB">6459</feat><!-- geweest, gemaakt, gehouden, genoemd, genomen, gedaan, gezien, afgelopen, gegeven, gekomen -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">6523</feat><!-- was, werd, zou, had, waren, zei, werden, kwam, hadden, kon -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">12814</feat><!-- is, heeft, zijn, wordt, hebben, zal, kan, moet, komt, heb -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">19337</feat><!-- is, heeft, was, zijn, werd, wordt, hebben, zal, kan, zou -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">5809</feat><!-- worden, zijn, kunnen, hebben, komen, gaan, moeten, maken, zien, doen -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">6589</feat><!-- geweest, gemaakt, gehouden, genoemd, genomen, gedaan, gezien, afgelopen, gegeven, gekomen -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="35">
-    <dep name="acl">1140</dep>
+  <deps unique="38">
+    <dep name="acl">1152</dep>
     <dep name="acl:relcl">2022</dep>
-    <dep name="advcl">2227</dep>
-    <dep name="advmod">11829</dep>
-    <dep name="amod">10210</dep>
-    <dep name="appos">2344</dep>
-    <dep name="aux">4559</dep>
-    <dep name="aux:pass">2357</dep>
-    <dep name="case">21552</dep>
-    <dep name="cc">4092</dep>
-    <dep name="ccomp">1384</dep>
-    <dep name="compound:prt">1974</dep>
-    <dep name="conj">5009</dep>
-    <dep name="cop">2901</dep>
-    <dep name="csubj">435</dep>
-    <dep name="det">24676</dep>
+    <dep name="advcl">2304</dep>
+    <dep name="advmod">11786</dep>
+    <dep name="amod">10178</dep>
+    <dep name="appos">2341</dep>
+    <dep name="aux">4557</dep>
+    <dep name="aux:pass">2355</dep>
+    <dep name="case">21638</dep>
+    <dep name="cc">4012</dep>
+    <dep name="cc:preconj">77</dep>
+    <dep name="ccomp">1386</dep>
+    <dep name="compound:prt">1973</dep>
+    <dep name="conj">5008</dep>
+    <dep name="cop">2903</dep>
+    <dep name="csubj">423</dep>
+    <dep name="csubj:outer">12</dep>
+    <dep name="det">24661</dep>
     <dep name="expl">457</dep>
     <dep name="expl:pv">426</dep>
-    <dep name="fixed">3591</dep>
-    <dep name="flat">5299</dep>
-    <dep name="iobj">549</dep>
+    <dep name="fixed">3522</dep>
+    <dep name="flat">5358</dep>
+    <dep name="iobj">545</dep>
     <dep name="mark">6195</dep>
-    <dep name="nmod">10949</dep>
-    <dep name="nmod:poss">1633</dep>
-    <dep name="nsubj">15910</dep>
-    <dep name="nsubj:pass">2028</dep>
-    <dep name="nummod">1890</dep>
-    <dep name="obj">6961</dep>
-    <dep name="obl">12816</dep>
-    <dep name="obl:agent">322</dep>
+    <dep name="nmod">10964</dep>
+    <dep name="nmod:poss">1653</dep>
+    <dep name="nsubj">15891</dep>
+    <dep name="nsubj:outer">19</dep>
+    <dep name="nsubj:pass">2027</dep>
+    <dep name="nummod">1888</dep>
+    <dep name="obj">6888</dep>
+    <dep name="obl">12799</dep>
+    <dep name="obl:agent">339</dep>
     <dep name="orphan">73</dep>
-    <dep name="parataxis">1580</dep>
+    <dep name="parataxis">1584</dep>
     <dep name="punct">22612</dep>
     <dep name="root">13603</dep>
-    <dep name="xcomp">3008</dep>
+    <dep name="xcomp">2983</dep>
   </deps>
 </treebank>
