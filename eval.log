@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Dutch-Alpino:
-commit 4027f4c242c6b9f2d9ecc651ac3b3fbd003d0cb5
-Merge: c986e44 c5497e8
+commit 0789ea9a8d62c050957cc62111ffd64fe1ea70e3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 09:52:55 2023 +0200
 Size: counted 208614 of 208614 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6809713088172.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      49053
-Udapi: found 49053 bugs.
+               TOTAL      49022
+Udapi: found 49022 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 208614 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
@@ -29,6 +29,17 @@ Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-train.conllu
+[Line 977 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 8] 'wat * * * voor'
+[Line 7368 Sent cdb\1214 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'een * of'
+[Line 25486 Sent cdb\1895 Node 27]: [L3 Warning fixed-gap] Gaps in fixed expression [27, 29] 'zo'n * of'
+[Line 47639 Sent cdb\2683 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 27] 'een * of'
+[Line 50181 Sent cdb\276 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'een * of'
+[Line 78082 Sent cdb\3804 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 2, 4] 'Op grond * van'
+[Line 152419 Sent cdb\6542 Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 25] 'drie * * uur'
+[Line 178718 Sent cgn_exs\245 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'wat * * voor'
+[Line 178730 Sent cgn_exs\246 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 6, 7] 'wat * * * * voor een'
+...suppressing further errors regarding Warning
+Warnings: 11
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
