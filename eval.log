@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Dutch-Alpino:
-commit bef504cd89a8492faa2c2a32973fb596a7a60b07
-Merge: 03f6d8b b323b32
+commit e31907d04522d268295b3f195bf2d6afa106691c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun May 5 12:07:51 2024 +0200
 Size: counted 208614 of 208614 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6809713088172.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,22 +25,37 @@ Udapi: found 48435 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 208614 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
+[Line 2661 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.13.s.2 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:die:det --> 12:al:amod)
+[Line 2825 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.14.s.8 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:meer:det --> 2:wat:amod)
+[Line 5111 Sent WR-P-P-H-0000000031\WR-P-P-H-0000000031.p.14.s.6 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:veel:det --> 7:heel:amod)
+[Line 5498 Sent WR-P-P-H-0000000039\WR-P-P-H-0000000039.p.4.s.4 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:veel:det --> 7:heel:amod)
+[Line 7654 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.14.s.1 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:meer:det --> 15:benutten:advcl)
+[Line 10184 Sent WR-P-P-H-0000000049\WR-P-P-H-0000000049.p.1.s.2 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:geen:det --> 25:worden:advcl)
+[Line 15363 Sent WR-P-P-H-0000000058\WR-P-P-H-0000000058.p.8.s.2 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:geen:det --> 17:totaal:amod)
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-test.conllu
+[Line 945 Sent WR-P-P-H-0000000034\WR-P-P-H-0000000034.p.2.s.1 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:dat:det --> 4:al:amod)
+[Line 1623 Sent WR-P-P-H-0000000046\WR-P-P-H-0000000046.p.13.s.1 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:teveel:det --> 5:al:amod)
+[Line 2682 Sent WR-P-P-H-0000000055\WR-P-P-H-0000000055.p.5.s.4 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:die:det --> 14:al:amod)
+[Line 4204 Sent WR-P-P-H-0000000073\WR-P-P-H-0000000073.p.2.s.3 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:meer:det --> 13:ingeschat:advcl)
+[Line 10825 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.28.s.2 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:alle:det --> 1:Praktisch:amod)
+[Line 13787 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.7.s.5 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:alle:det --> 3:niet:amod)
+Warnings: 6
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-train.conllu
 [Line 1020 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 8] 'wat * * * voor'
+[Line 1083 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.3.s.1 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:meer:det --> 13:zaterdag:advcl)
+[Line 3168 Sent cdb\1061 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:meer:det --> 19:aankopen:advcl)
+[Line 3930 Sent cdb\1090 Node 29]: [L3 Warning leaf-det] 'det' not expected to have children (29:veel:det --> 28:zeer:amod)
+[Line 6223 Sent cdb\1171 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:veel:det --> 27:te:amod)
+[Line 6536 Sent cdb\117 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:minder:det --> 4:steeds:amod)
 [Line 7665 Sent cdb\1214 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'een * of'
-[Line 26532 Sent cdb\1895 Node 27]: [L3 Warning fixed-gap] Gaps in fixed expression [27, 29] 'zo'n * of'
-[Line 49556 Sent cdb\2683 Node 25]: [L3 Warning fixed-gap] Gaps in fixed expression [25, 27] 'een * of'
-[Line 52194 Sent cdb\276 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 7] 'een * of'
-[Line 81236 Sent cdb\3804 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 2, 4] 'Op grond * van'
-[Line 158587 Sent cdb\6542 Node 22]: [L3 Warning fixed-gap] Gaps in fixed expression [22, 25] 'drie * * uur'
-[Line 186030 Sent cgn_exs\245 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 4] 'wat * * voor'
-[Line 186043 Sent cgn_exs\246 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 6, 7] 'wat * * * * voor een'
-[Line 186170 Sent cgn_exs\258 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 5] 'wat * * * een'
+[Line 7929 Sent cdb\1223 Node 22]: [L3 Warning leaf-det] 'det' not expected to have children (22:meer:det --> 26:overwicht:advcl)
+[Line 8882 Sent cdb\125 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:die:det --> 3:al:amod)
+[Line 10114 Sent cdb\1305 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:veel:det --> 17:niet:amod)
 ...suppressing further errors regarding Warning
-Warnings: 11
+Warnings: 159
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
