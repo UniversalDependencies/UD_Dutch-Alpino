@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Dutch-Alpino:
-commit e31907d04522d268295b3f195bf2d6afa106691c
+commit 4e571d6c13593bd3e027cf5eb40a700460986302
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 12:07:51 2024 +0200
+Date:   Mon Nov 11 15:15:30 2024 +0100
 Size: counted 208614 of 208614 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.6809713088172.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,52 +20,98 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL      48435
-Udapi: found 48435 bugs.
+               TOTAL      48350
+Udapi: found 48350 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 208614 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
-[Line 2661 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.13.s.2 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:die:det --> 12:al:amod)
-[Line 2825 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.14.s.8 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:meer:det --> 2:wat:amod)
-[Line 5111 Sent WR-P-P-H-0000000031\WR-P-P-H-0000000031.p.14.s.6 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:veel:det --> 7:heel:amod)
-[Line 5498 Sent WR-P-P-H-0000000039\WR-P-P-H-0000000039.p.4.s.4 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:veel:det --> 7:heel:amod)
-[Line 7654 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.14.s.1 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:meer:det --> 15:benutten:advcl)
-[Line 10184 Sent WR-P-P-H-0000000049\WR-P-P-H-0000000049.p.1.s.2 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:geen:det --> 25:worden:advcl)
-[Line 15363 Sent WR-P-P-H-0000000058\WR-P-P-H-0000000058.p.8.s.2 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:geen:det --> 17:totaal:amod)
-Warnings: 7
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-test.conllu
-[Line 945 Sent WR-P-P-H-0000000034\WR-P-P-H-0000000034.p.2.s.1 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:dat:det --> 4:al:amod)
-[Line 1623 Sent WR-P-P-H-0000000046\WR-P-P-H-0000000046.p.13.s.1 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:teveel:det --> 5:al:amod)
-[Line 2682 Sent WR-P-P-H-0000000055\WR-P-P-H-0000000055.p.5.s.4 Node 15]: [L3 Warning leaf-det] 'det' not expected to have children (15:die:det --> 14:al:amod)
-[Line 4204 Sent WR-P-P-H-0000000073\WR-P-P-H-0000000073.p.2.s.3 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:meer:det --> 13:ingeschat:advcl)
-[Line 10825 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.28.s.2 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:alle:det --> 1:Praktisch:amod)
-[Line 13787 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.7.s.5 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:alle:det --> 3:niet:amod)
-Warnings: 6
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-train.conllu
-[Line 1020 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 8] 'wat * * * voor'
-[Line 1083 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.3.s.1 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:meer:det --> 13:zaterdag:advcl)
-[Line 3168 Sent cdb\1061 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:meer:det --> 19:aankopen:advcl)
-[Line 3930 Sent cdb\1090 Node 29]: [L3 Warning leaf-det] 'det' not expected to have children (29:veel:det --> 28:zeer:amod)
-[Line 6223 Sent cdb\1171 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:veel:det --> 27:te:amod)
-[Line 6536 Sent cdb\117 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:minder:det --> 4:steeds:amod)
-[Line 7665 Sent cdb\1214 Node 7]: [L3 Warning fixed-gap] Gaps in fixed expression [7, 9] 'een * of'
-[Line 7929 Sent cdb\1223 Node 22]: [L3 Warning leaf-det] 'det' not expected to have children (22:meer:det --> 26:overwicht:advcl)
-[Line 8882 Sent cdb\125 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:die:det --> 3:al:amod)
-[Line 10114 Sent cdb\1305 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:veel:det --> 17:niet:amod)
+[Line 414 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.2.s.1 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression '3 - 6' does not have the 'ExtPos' feature
+[Line 417 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.2.s.1 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression '6 - 1' does not have the 'ExtPos' feature
+[Line 420 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.2.s.1 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression '6 - 3' does not have the 'ExtPos' feature
+[Line 423 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.2.s.1 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression '7 - 6' does not have the 'ExtPos' feature
+[Line 497 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.3.s.2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Voor het eerst' does not have the 'ExtPos' feature
+[Line 497 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.3.s.2 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Voor'
+[Line 547 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.4.s.1 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'ter voorbereiding op' does not have the 'ExtPos' feature
+[Line 551 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.4.s.1 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'Grand Slam' does not have the 'ExtPos' feature
+[Line 580 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.4.s.3 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'meer dan' does not have the 'ExtPos' feature
+[Line 667 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.6.s.1 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'voor het eerst' does not have the 'ExtPos' feature
+[Line 685 Sent WR-P-P-H-0000000006\WR-P-P-H-0000000006.p.6.s.2 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'de tijd' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 159
-*** PASSED ***
-Validity: 1
+[Line 872 Sent WR-P-P-H-0000000012\WR-P-P-H-0000000012.p.3.s.1 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'voor'
+[Line 2661 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.13.s.2 Node 13]: [L3 Syntax leaf-det] 'det' not expected to have children (13:die:det --> 12:al:amod)
+[Line 2825 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.14.s.8 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:meer:det --> 2:wat:amod)
+[Line 5111 Sent WR-P-P-H-0000000031\WR-P-P-H-0000000031.p.14.s.6 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:veel:det --> 7:heel:amod)
+[Line 5498 Sent WR-P-P-H-0000000039\WR-P-P-H-0000000039.p.4.s.4 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:veel:det --> 7:heel:amod)
+[Line 5612 Sent WR-P-P-H-0000000039\WR-P-P-H-0000000039.p.6.s.2 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Voor'
+[Line 6566 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.4.s.1 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'X' word 'ad'
+[Line 7654 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.14.s.1 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:meer:det --> 15:benutten:advcl)
+[Line 10184 Sent WR-P-P-H-0000000049\WR-P-P-H-0000000049.p.1.s.2 Node 19]: [L3 Syntax leaf-det] 'det' not expected to have children (19:geen:det --> 25:worden:advcl)
+...suppressing further errors regarding Syntax
+Syntax errors: 12
+Warnings: 128
+*** FAILED *** with 12 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-test.conllu
+[Line 146 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.3.s.1 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'in het teken' does not have the 'ExtPos' feature
+[Line 194 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.3.s.2 Node 27]: [L3 Warning fixed-without-extpos] Fixed expression 'aan de orde' does not have the 'ExtPos' feature
+[Line 263 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.4.s.2 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'in staat' does not have the 'ExtPos' feature
+[Line 267 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.4.s.2 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'ten overstaan van' does not have the 'ExtPos' feature
+[Line 387 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.6.s.2 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'in verband met' does not have the 'ExtPos' feature
+[Line 420 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.7.s.1 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'in het kader van' does not have the 'ExtPos' feature
+[Line 460 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.7.s.3 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'aan de dag' does not have the 'ExtPos' feature
+[Line 563 Sent WR-P-P-H-0000000010\WR-P-P-H-0000000010.p.2.s.3 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'Guinness Book of Records' does not have the 'ExtPos' feature
+[Line 706 Sent WR-P-P-H-0000000015\WR-P-P-H-0000000015.p.1.s.2 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'Geen Kritiek' does not have the 'ExtPos' feature
+[Line 756 Sent WR-P-P-H-0000000015\WR-P-P-H-0000000015.p.2.s.1 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'Internationaal Theaterschool Festival' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 945 Sent WR-P-P-H-0000000034\WR-P-P-H-0000000034.p.2.s.1 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:dat:det --> 4:al:amod)
+[Line 1623 Sent WR-P-P-H-0000000046\WR-P-P-H-0000000046.p.13.s.1 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:teveel:det --> 5:al:amod)
+[Line 2682 Sent WR-P-P-H-0000000055\WR-P-P-H-0000000055.p.5.s.4 Node 15]: [L3 Syntax leaf-det] 'det' not expected to have children (15:die:det --> 14:al:amod)
+[Line 4204 Sent WR-P-P-H-0000000073\WR-P-P-H-0000000073.p.2.s.3 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:meer:det --> 13:ingeschat:advcl)
+[Line 8737 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.136.s.1 Node 11]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'dat'
+[Line 10825 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.28.s.2 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:alle:det --> 1:Praktisch:amod)
+[Line 13787 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.7.s.5 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:alle:det --> 3:niet:amod)
+[Line 14329 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.93.s.1 Node 7]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'dat'
+[Line 14601 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.98.s.3 Node 1]: [L3 Syntax rel-upos-mark] 'mark' should not be 'PRON' word 'Dat'
+Syntax errors: 9
+Warnings: 139
+*** FAILED *** with 9 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-train.conllu
+[Line 70 Sent WR-P-P-H-0000000094\WR-P-P-H-0000000094.p.2.s.1 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'in reactie op' does not have the 'ExtPos' feature
+[Line 605 Sent WR-P-P-H-0000000099\WR-P-P-H-0000000099.p.1.s.1 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Maar liefst' does not have the 'ExtPos' feature
+[Line 926 Sent WR-P-P-H-0000000099\WR-P-P-H-0000000099.p.4.s.3 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'meer dan' does not have the 'ExtPos' feature
+[Line 940 Sent WR-P-P-H-0000000099\WR-P-P-H-0000000099.p.4.s.4 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ter dood' does not have the 'ExtPos' feature
+[Line 968 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.1.s.2 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'in de aanloop naar' does not have the 'ExtPos' feature
+[Line 1020 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'wat voor' does not have the 'ExtPos' feature
+[Line 1020 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 8] 'wat * * * voor'
+[Line 1083 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.3.s.1 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:meer:det --> 13:zaterdag:advcl)
+[Line 1144 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.3.s.4 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'dicht bij' does not have the 'ExtPos' feature
+[Line 1144 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.3.s.4 Node 6]: [L3 Syntax rel-upos-case] 'case' should not be 'ADJ' word 'dicht'
+[Line 1233 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.4.s.3 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ter plaatse' does not have the 'ExtPos' feature
+[Line 1401 Sent cdb\0 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'in verband met' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 3168 Sent cdb\1061 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:meer:det --> 19:aankopen:advcl)
+[Line 3930 Sent cdb\1090 Node 29]: [L3 Syntax leaf-det] 'det' not expected to have children (29:veel:det --> 28:zeer:amod)
+[Line 6163 Sent cdb\1170 Node 12]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM' word '3'
+[Line 6223 Sent cdb\1171 Node 28]: [L3 Syntax leaf-det] 'det' not expected to have children (28:veel:det --> 27:te:amod)
+[Line 6536 Sent cdb\117 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:minder:det --> 4:steeds:amod)
+[Line 7263 Sent cdb\1200 Node 11]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM' word '3'
+[Line 7756 Sent cdb\1218 Node 6]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM' word '8'
+[Line 7929 Sent cdb\1223 Node 22]: [L3 Syntax leaf-det] 'det' not expected to have children (22:meer:det --> 26:overwicht:advcl)
+...suppressing further errors regarding Syntax
+Syntax errors: 209
+Warnings: 1964
+*** FAILED *** with 209 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.773114483464375) = 0.198234482939583
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.627027027027027) = 0.0482328482328482
-(TOTAL score=0.486346667522356) * (availability=1) * (validity=1) = 0.486346667522356
-STARS = 2.5
-UD_Dutch-Alpino	0.486346667522356	2.5
+(TOTAL score=0.486095284918032) * (availability=1) * (validity=0.01) = 0.00486095284918032
+STARS = 0
+UD_Dutch-Alpino	0.00486095284918032	0
