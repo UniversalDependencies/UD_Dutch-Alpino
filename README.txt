@@ -89,6 +89,7 @@ http://aclweb.org/anthology/W17-0403
 Data available since: UD v1.2
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news
 Lemmas: converted from manual
 UPOS: converted from manual
