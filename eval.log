@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Dutch-Alpino:
-commit 085062764f495e67b132a3440de38b18e13d71ef
-Merge: 95e374a d64749a
+commit 47a66b6a7661ce2b9bbe66523879dfa047657b1a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 19:17:01 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'nl_alpino'
 Language code (from CoNLL-U file name) = 'nl'
@@ -25,45 +25,73 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
-[Line 1319 Sent WR-P-P-H-0000000012\WR-P-P-H-0000000012.p.7.s.1]: [L3 Warning fixed-without-extpos] Fixed expression '1 - 0' does not have the 'ExtPos' feature
-[Line 1846 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.2.s.1]: [L3 Warning fixed-without-extpos] Fixed expression 'nog geen' does not have the 'ExtPos' feature
-[Line 2707 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.10.s.2]: [L3 Warning pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 6642 Sent WR-P-P-H-0000000039\WR-P-P-H-0000000039.p.8.s.3]: [L3 Warning fixed-without-extpos] Fixed expression 'Maar ja' does not have the 'ExtPos' feature
-[Line 6864 Sent WR-P-P-H-0000000039\WR-P-P-H-0000000039.p.10.s.3]: [L3 Warning fixed-without-extpos] Fixed expression 'Wat nou' does not have the 'ExtPos' feature
-[Line 7277 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.1.s.1]: [L3 Warning pron-det-without-prontype] The word 'hetzelfde' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 8118 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.9.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'niets minder dan' does not have the 'ExtPos' feature
-[Line 8132 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.9.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'op het gevaar af' does not have the 'ExtPos' feature
-[Line 9362 Sent WR-P-P-H-0000000093\WR-P-P-H-0000000093.p.2.s.2]: [L3 Warning pron-det-without-prontype] The word 'onvoldoende' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 10320 Sent WR-P-P-H-0000000021\WR-P-P-H-0000000021.p.2.s.1]: [L3 Warning pron-det-without-prontype] The word 'meerdere' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
+[Line 1319 Sent WR-P-P-H-0000000012\WR-P-P-H-0000000012.p.7.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression '1 - 0' does not have the 'ExtPos' feature
+[Line 1846 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.2.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 'nog geen' does not have the 'ExtPos' feature
+[Line 2707 Sent WR-P-P-H-0000000020\WR-P-P-H-0000000020.p.10.s.2]: [L3 WARNING pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6642 Sent WR-P-P-H-0000000039\WR-P-P-H-0000000039.p.8.s.3]: [L3 WARNING fixed-without-extpos] Fixed expression 'Maar ja' does not have the 'ExtPos' feature
+[Line 6864 Sent WR-P-P-H-0000000039\WR-P-P-H-0000000039.p.10.s.3]: [L3 WARNING fixed-without-extpos] Fixed expression 'Wat nou' does not have the 'ExtPos' feature
+[Line 7277 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.1.s.1]: [L3 WARNING pron-det-without-prontype] The word 'hetzelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8118 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.9.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'niets minder dan' does not have the 'ExtPos' feature
+[Line 8132 Sent WR-P-P-H-0000000048\WR-P-P-H-0000000048.p.9.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'op het gevaar af' does not have the 'ExtPos' feature
+[Line 9362 Sent WR-P-P-H-0000000093\WR-P-P-H-0000000093.p.2.s.2]: [L3 WARNING pron-det-without-prontype] The word 'onvoldoende' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10320 Sent WR-P-P-H-0000000021\WR-P-P-H-0000000021.p.2.s.1]: [L3 WARNING pron-det-without-prontype] The word 'meerdere' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10398 Sent WR-P-P-H-0000000021\WR-P-P-H-0000000021.p.3.s.2]: [L3 WARNING pron-det-without-prontype] The word 'meerdere' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10402 Sent WR-P-P-H-0000000021\WR-P-P-H-0000000021.p.3.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'rock and roll' does not have the 'ExtPos' feature
+[Line 11288 Sent WR-P-P-H-0000000038\WR-P-P-H-0000000038.p.3.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'mond- en klauwzeercrisis' does not have the 'ExtPos' feature
+[Line 13325 Sent WR-P-P-H-0000000004\WR-P-P-H-0000000004.p.1.s.5]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 13458 Sent WR-P-P-H-0000000011\WR-P-P-H-0000000011.p.1.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression '50 meter vrije slag' does not have the 'ExtPos' feature
+[Line 13524 Sent WR-P-P-H-0000000011\WR-P-P-H-0000000011.p.1.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression '50 vrij' does not have the 'ExtPos' feature
+[Line 14722 Sent WR-P-P-H-0000000041\WR-P-P-H-0000000041.p.2.s.4]: [L3 WARNING pron-det-without-prontype] The word '2/3' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 16282 Sent WR-P-P-H-0000000053\WR-P-P-H-0000000053.p.1.s.3]: [L3 WARNING pron-det-without-prontype] The word 'voldoende' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 17060 Sent WR-P-P-H-0000000058\WR-P-P-H-0000000058.p.4.s.1]: [L3 WARNING pron-det-without-prontype] The word 'allerlei' is tagged 'DET' but it lacks the 'PronType' feature
 Warnings: 20
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-test.conllu
-[Line 287 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.4.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'in staat' does not have the 'ExtPos' feature
-[Line 500 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.7.s.3]: [L3 Warning pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 781 Sent WR-P-P-H-0000000015\WR-P-P-H-0000000015.p.1.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'Geen Kritiek' does not have the 'ExtPos' feature
-[Line 1676 Sent WR-P-P-H-0000000046\WR-P-P-H-0000000046.p.10.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'oog in oog' does not have the 'ExtPos' feature
-[Line 1810 Sent WR-P-P-H-0000000046\WR-P-P-H-0000000046.p.13.s.1]: [L3 Warning pron-det-without-prontype] The word 'teveel' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 2694 Sent WR-P-P-H-0000000055\WR-P-P-H-0000000055.p.3.s.4]: [L3 Warning fixed-without-extpos] Fixed expression 'een en ander' does not have the 'ExtPos' feature
-[Line 3154 Sent WR-P-P-H-0000000062\WR-P-P-H-0000000062.p.1.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'geen van allen' does not have the 'ExtPos' feature
-[Line 5364 Sent WR-P-P-H-0000000075\WR-P-P-H-0000000075.p.1.s.5]: [L3 Warning pron-det-without-prontype] The word 'allerlei' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 7908 Sent WR-P-P-H-0000000089\WR-P-P-H-0000000089.p.9.s.2]: [L3 Warning pron-det-without-prontype] The word 'teveel' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 8439 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.102.s.1]: [L3 Warning fixed-without-extpos] Fixed expression 't / m' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
+[Line 287 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.4.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'in staat' does not have the 'ExtPos' feature
+[Line 500 Sent WR-P-P-H-0000000005\WR-P-P-H-0000000005.p.7.s.3]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 781 Sent WR-P-P-H-0000000015\WR-P-P-H-0000000015.p.1.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'Geen Kritiek' does not have the 'ExtPos' feature
+[Line 1676 Sent WR-P-P-H-0000000046\WR-P-P-H-0000000046.p.10.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'oog in oog' does not have the 'ExtPos' feature
+[Line 1810 Sent WR-P-P-H-0000000046\WR-P-P-H-0000000046.p.13.s.1]: [L3 WARNING pron-det-without-prontype] The word 'teveel' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 2694 Sent WR-P-P-H-0000000055\WR-P-P-H-0000000055.p.3.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression 'een en ander' does not have the 'ExtPos' feature
+[Line 3154 Sent WR-P-P-H-0000000062\WR-P-P-H-0000000062.p.1.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'geen van allen' does not have the 'ExtPos' feature
+[Line 5364 Sent WR-P-P-H-0000000075\WR-P-P-H-0000000075.p.1.s.5]: [L3 WARNING pron-det-without-prontype] The word 'allerlei' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 7908 Sent WR-P-P-H-0000000089\WR-P-P-H-0000000089.p.9.s.2]: [L3 WARNING pron-det-without-prontype] The word 'teveel' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 8439 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.102.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 't / m' does not have the 'ExtPos' feature
+[Line 10809 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.19.s.1]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 11712 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.24.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression 'op basis daarvan' does not have the 'ExtPos' feature
+[Line 11725 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.24.s.4]: [L3 WARNING fixed-without-extpos] Fixed expression 'op grond daarvan' does not have the 'ExtPos' feature
+[Line 11870 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.26.s.1]: [L3 WARNING fixed-without-extpos] Fixed expression 'ouders / verzorgers' does not have the 'ExtPos' feature
+[Line 11934 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.26.s.3]: [L3 WARNING fixed-without-extpos] Fixed expression 'ouders / verzorgers' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 12602 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.31.s.3]: [L3 WARNING pron-det-without-prontype] The word 'allerlei' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 15459 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.7.s.4]: [L3 WARNING pron-det-without-prontype] The word 'onvoldoende' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 15584 Sent WR-P-P-L-0000000003\WR-P-P-L-0000000003.p.7.s.9]: [L3 WARNING pron-det-without-prontype] The word 'datzelfde' is tagged 'DET' but it lacks the 'PronType' feature
 Warnings: 23
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-train.conllu
-[Line 1149 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2]: [L3 Warning fixed-without-extpos] Fixed expression 'wat voor' does not have the 'ExtPos' feature
-[Line 1149 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 8] 'wat * * * voor'
-[Line 2548 Sent cdb\1034]: [L3 Warning fixed-without-extpos] Fixed expression 'De smalle basis van de Engelse roman' does not have the 'ExtPos' feature
-[Line 2556 Sent cdb\1034]: [L3 Warning fixed-without-extpos] Fixed expression 'het zwakste' does not have the 'ExtPos' feature
-[Line 2559 Sent cdb\1034]: [L3 Warning fixed-without-extpos] Fixed expression 'het aanvechtbaarste' does not have the 'ExtPos' feature
-[Line 2958 Sent cdb\1048]: [L3 Warning fixed-without-extpos] Fixed expression 'corps diplomatique' does not have the 'ExtPos' feature
-[Line 5057 Sent cdb\1125]: [L3 Warning fixed-without-extpos] Fixed expression 'je reinste' does not have the 'ExtPos' feature
-[Line 6344 Sent cdb\1170]: [L3 Warning pron-det-without-prontype] The word '1/2' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 6347 Sent cdb\1170]: [L3 Warning fixed-without-extpos] Fixed expression 'rekeningen courant' does not have the 'ExtPos' feature
-[Line 6391 Sent cdb\1171]: [L3 Warning fixed-without-extpos] Fixed expression 'in staat' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
+[Line 1149 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2]: [L3 WARNING fixed-without-extpos] Fixed expression 'wat voor' does not have the 'ExtPos' feature
+[Line 1149 Sent WR-P-P-H-0000000105\WR-P-P-H-0000000105.p.2.s.2]: [L3 WARNING fixed-gap] Gaps in fixed expression [4, 8] 'wat * * * voor'
+[Line 2548 Sent cdb\1034]: [L3 WARNING fixed-without-extpos] Fixed expression 'De smalle basis van de Engelse roman' does not have the 'ExtPos' feature
+[Line 2556 Sent cdb\1034]: [L3 WARNING fixed-without-extpos] Fixed expression 'het zwakste' does not have the 'ExtPos' feature
+[Line 2559 Sent cdb\1034]: [L3 WARNING fixed-without-extpos] Fixed expression 'het aanvechtbaarste' does not have the 'ExtPos' feature
+[Line 2958 Sent cdb\1048]: [L3 WARNING fixed-without-extpos] Fixed expression 'corps diplomatique' does not have the 'ExtPos' feature
+[Line 5057 Sent cdb\1125]: [L3 WARNING fixed-without-extpos] Fixed expression 'je reinste' does not have the 'ExtPos' feature
+[Line 6344 Sent cdb\1170]: [L3 WARNING pron-det-without-prontype] The word '1/2' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 6347 Sent cdb\1170]: [L3 WARNING fixed-without-extpos] Fixed expression 'rekeningen courant' does not have the 'ExtPos' feature
+[Line 6391 Sent cdb\1171]: [L3 WARNING fixed-without-extpos] Fixed expression 'in staat' does not have the 'ExtPos' feature
+[Line 7419 Sent cdb\11]: [L3 WARNING fixed-without-extpos] Fixed expression 'op zoek' does not have the 'ExtPos' feature
+[Line 7444 Sent cdb\1200]: [L3 WARNING pron-det-without-prontype] The word '1/2' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 7937 Sent cdb\1218]: [L3 WARNING pron-det-without-prontype] The word '1/2' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9017 Sent cdb\1257]: [L3 WARNING pron-det-without-prontype] The word 'allerlei' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9048 Sent cdb\1259]: [L3 WARNING pron-det-without-prontype] The word 'zulke' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9548 Sent cdb\1279]: [L3 WARNING pron-det-without-prontype] The word 'wat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 10029 Sent cdb\1297]: [L3 WARNING pron-det-without-prontype] The word 'zulke' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 11851 Sent cdb\1368]: [L3 WARNING pron-det-without-prontype] The word 'allerlei' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 20314 Sent cdb\1667]: [L3 WARNING pron-det-without-prontype] The word '1/4' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 22219 Sent cdb\1733]: [L3 WARNING pron-det-without-prontype] The word 'dezelfde' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 451
 *** PASSED ***
 Validity: 1
