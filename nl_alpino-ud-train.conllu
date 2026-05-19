@@ -259929,8 +259929,7 @@
 16	je	je	PRON	VNW|pers|pron|nomin|red|2v|ev	Case=Nom|Person=2|PronType=Prs	17	nsubj	17:nsubj	_
 17	verblijft	verblijven	VERB	WW|pv|tgw|met-t	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	_
 18	kan	kunnen	AUX	WW|pv|tgw|ev	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	aux	21:aux	_
-19-20	nogeens	_	_	_	_	_	_	_	_
-19	nog	nog	ADV	BW	_	21	advmod	21:advmod	_
+19	nog	nog	ADV	BW	_	21	advmod	21:advmod	CorrectSpaceAfter=Yes|SpaceAfter=No
 20	eens	eens	ADV	BW	_	21	advmod	21:advmod	_
 21	devalueren	devalueren	VERB	WW|inf|vrij|zonder	VerbForm=Inf	4	conj	4:conj:en	_
 22	zonder	zonder	ADP	VZ|init	_	25	case	25:case	_

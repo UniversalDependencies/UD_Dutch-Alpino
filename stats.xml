@@ -12,7 +12,7 @@
   </size>
   <lemmas unique="22284" /><!-- de, ., ,, van, het, zijn, in, een, en, ?, dat, te, hebben, worden, " -->
   <forms unique="27220" /><!-- de, ., ,, van, het, in, een, en, ?, is, dat, te, ", op, zijn -->
-  <fusions unique="1" /><!-- nogeens -->
+  <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
     <tag name="ADJ">13722</tag><!-- groot, goed, één, ander, nieuw, laat, heel, lang, Nederlands, ver -->
