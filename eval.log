@@ -1,17 +1,17 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Dutch-Alpino:
-commit 47a66b6a7661ce2b9bbe66523879dfa047657b1a
+commit 26605977ad9ea7a88c70a5346a9feeb408dd30b5
+Merge: 7f0413c 78fc33e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 19:17:01 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'nl_alpino'
 Language code (from CoNLL-U file name) = 'nl'
 Found the following data files: nl_alpino-ud-dev.conllu, nl_alpino-ud-test.conllu, nl_alpino-ud-train.conllu
-Size: counted 208614 of 208614 words (nodes).
-Size: min(0, log((N/1000)**2)) = 10.6809713088172.
+Size: counted 208613 of 208613 words (nodes).
+Size: min(0, log((N/1000)**2)) = 10.6809617217099.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -19,9 +19,9 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 127118 out of 208614 total words have one or more features.
+Features: 127114 out of 208613 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 29 out of 37 found in the corpus.
+Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang nl --max-err=10 UD_Dutch-Alpino/nl_alpino-ud-dev.conllu
@@ -98,10 +98,10 @@ Validity: 1
 (weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
-(weight=0.37037037037037) * (score{size}=0.773114483464375) = 0.286338697579398
+(weight=0.37037037037037) * (score{size}=0.773113789526411) = 0.286338440565338
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.752941176470588) = 0.0836601307189542
-(weight=0.111111111111111) * (score{udeprels}=0.627027027027027) = 0.0696696696696697
-(TOTAL score=0.697693189326047) * (availability=1) * (validity=1) = 0.697693189326047
+(weight=0.111111111111111) * (score{udeprels}=0.648648648648649) = 0.0720720720720721
+(TOTAL score=0.700095334714389) * (availability=1) * (validity=1) = 0.700095334714389
 STARS = 3.5
-UD_Dutch-Alpino	0.697693189326047	3.5
+UD_Dutch-Alpino	0.700095334714389	3.5
